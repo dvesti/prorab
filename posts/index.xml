@@ -6,21 +6,21 @@
                 
             
             Alien&#39;s Notes</title>
-        <link>https://scripter.co/posts/</link>
+        <link>https://dvesti.github.io/prorab/posts/</link>
         <description>Recent content  in Posts
             on Alien&#39;s Notes</description>
         <language>ru-ru</language>
         
                 <managingEditor>dvesti@hot.ee (Dvesti)</managingEditor>
-                <webMaster>dvesti@hot.ee (Dvesti)</webMaster><lastBuildDate>Sun, 09 Aug 2020 20:49:26 +0300</lastBuildDate>
+                <webMaster>dvesti@hot.ee (Dvesti)</webMaster><lastBuildDate>Sun, 09 Aug 2020 21:18:55 +0300</lastBuildDate>
         <generator>Hugo -- gohugo.io</generator>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-            <atom:link href="https://scripter.co/posts/index.xml" rel="self" type="application/rss&#43;xml" />
+            <atom:link href="https://dvesti.github.io/prorab/posts/index.xml" rel="self" type="application/rss&#43;xml" />
         
             
             <item>
                 <title>Your car will be ready in 8000 seconds</title>
-                <link>https://scripter.co/convert-seconds-to-human-time/</link>
+                <link>https://dvesti.github.io/prorab/convert-seconds-to-human-time/</link>
                 
                 
                 <description>&lt;!-- raw HTML omitted --&gt;
@@ -351,7 +351,7 @@ fractional times with 2 decimal places included.&lt;/li&gt;
 &lt;p&gt;&lt;em&gt;Your car will be ready in 2h 13m 20s, and the simulation took 15h 3m
 47.90s in CPU time.&lt;/em&gt;&lt;/p&gt;
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://scripter.co/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://dvesti.github.io/prorab/prorab/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34;&gt;
 &lt;figure  itemprop=&#34;associatedMedia&#34;
   itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
@@ -591,9 +591,9 @@ that are 0 (unless everything is 0, in which case I print
                             
                                 
                                  
-                                    <category domain="https://scripter.co/categories/emacs">emacs</category>
+                                    <category domain="https://dvesti.github.io/prorab/categories/emacs">emacs</category>
                                  
-                                    <category domain="https://scripter.co/categories/elisp">elisp</category>
+                                    <category domain="https://dvesti.github.io/prorab/categories/elisp">elisp</category>
                                 
                             
                         
@@ -605,24 +605,24 @@ that are 0 (unless everything is 0, in which case I print
                             
                                 
                                  
-                                    <category domain="https://scripter.co/tags/time">time</category>
+                                    <category domain="https://dvesti.github.io/prorab/tags/time">time</category>
                                  
-                                    <category domain="https://scripter.co/tags/seconds">seconds</category>
+                                    <category domain="https://dvesti.github.io/prorab/tags/seconds">seconds</category>
                                  
-                                    <category domain="https://scripter.co/tags/recursion">recursion</category>
+                                    <category domain="https://dvesti.github.io/prorab/tags/recursion">recursion</category>
                                 
                             
                         
                     
                 
-                <guid>https://scripter.co/convert-seconds-to-human-time/</guid>
+                <guid>https://dvesti.github.io/prorab/convert-seconds-to-human-time/</guid>
                 <pubDate>Wed, 07 Feb 2018 18:10:00 -0500</pubDate>
             </item>
         
             
             <item>
                 <title>First Post</title>
-                <link>https://scripter.co/first-post/</link>
+                <link>https://dvesti.github.io/prorab/first-post/</link>
                 
                 
                 <description>&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: This first post was created using &lt;code&gt;octopress&lt;/code&gt;, but now I
@@ -638,7 +638,7 @@ am using &lt;a href=&#34;https://gohugo.io/&#34;&gt;&lt;code&gt;hugo&lt;/code&gt
                         
                     
                 
-                <guid>https://scripter.co/first-post/</guid>
+                <guid>https://dvesti.github.io/prorab/first-post/</guid>
                 <pubDate>Mon, 03 Mar 2014 18:21:33 -0500</pubDate>
             </item>
         

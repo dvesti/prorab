@@ -6,11 +6,11 @@
     
     
     
-            <link href="https://scripter.co/" rel="alternate" type="text/html" title="HTML" />
-            <link href="https://scripter.co/index.xml" rel="alternate" type="application/rss+xml" title="RSS" />
-            <link href="https://scripter.co/atom.xml" rel="self" type="application/atom+xml" title="Atom" />
-            <link href="https://scripter.co/jf2feed.json" rel="alternate" type="application/jf2feed+json" title="jf2feed" />
-    <updated>2020-08-09T20:49:26+03:00</updated>
+            <link href="https://dvesti.github.io/prorab/" rel="alternate" type="text/html" title="HTML" />
+            <link href="https://dvesti.github.io/prorab/index.xml" rel="alternate" type="application/rss+xml" title="RSS" />
+            <link href="https://dvesti.github.io/prorab/atom.xml" rel="self" type="application/atom+xml" title="Atom" />
+            <link href="https://dvesti.github.io/prorab/jf2feed.json" rel="alternate" type="application/jf2feed+json" title="jf2feed" />
+    <updated>2020-08-09T21:18:55+03:00</updated>
     
     
     <author>
@@ -19,15 +19,15 @@
                 <email>dvesti@hot.ee</email>
             </author>
     
-        <id>https://scripter.co/</id>
+        <id>https://dvesti.github.io/prorab/</id>
     
         
         <entry>
             <title type="html"><![CDATA[Your car will be ready in 8000 seconds]]></title>
-            <link href="https://scripter.co/convert-seconds-to-human-time/?utm_source=atom_feed" rel="alternate" type="text/html" />
+            <link href="https://dvesti.github.io/prorab/convert-seconds-to-human-time/?utm_source=atom_feed" rel="alternate" type="text/html" />
             
             
-                <id>https://scripter.co/convert-seconds-to-human-time/</id>
+                <id>https://dvesti.github.io/prorab/convert-seconds-to-human-time/</id>
             
             
                     <author>
@@ -365,7 +365,7 @@ fractional times with 2 decimal places included.</li>
 <p><em>Your car will be ready in 2h 13m 20s, and the simulation took 15h 3m
 47.90s in CPU time.</em></p>
 
-<link rel="stylesheet" href="/css/hugo-easy-gallery.css" />
+<link rel="stylesheet" href="/prorab/css/hugo-easy-gallery.css" />
 <div class="box">
 <figure  itemprop="associatedMedia"
   itemscope itemtype="http://schema.org/ImageObject" >
@@ -603,9 +603,9 @@ that are 0 (unless everything is 0, in which case I print
                         
                             
                              
-                                <category scheme="https://scripter.co/categories/emacs" term="emacs" label="emacs" />
+                                <category scheme="https://dvesti.github.io/prorab/categories/emacs" term="emacs" label="emacs" />
                              
-                                <category scheme="https://scripter.co/categories/elisp" term="elisp" label="elisp" />
+                                <category scheme="https://dvesti.github.io/prorab/categories/elisp" term="elisp" label="elisp" />
                             
                         
                     
@@ -617,11 +617,11 @@ that are 0 (unless everything is 0, in which case I print
                         
                             
                              
-                                <category scheme="https://scripter.co/tags/time" term="time" label="time" />
+                                <category scheme="https://dvesti.github.io/prorab/tags/time" term="time" label="time" />
                              
-                                <category scheme="https://scripter.co/tags/seconds" term="seconds" label="seconds" />
+                                <category scheme="https://dvesti.github.io/prorab/tags/seconds" term="seconds" label="seconds" />
                              
-                                <category scheme="https://scripter.co/tags/recursion" term="recursion" label="recursion" />
+                                <category scheme="https://dvesti.github.io/prorab/tags/recursion" term="recursion" label="recursion" />
                             
                         
                     
@@ -632,10 +632,10 @@ that are 0 (unless everything is 0, in which case I print
         
         <entry>
             <title type="html"><![CDATA[First Post]]></title>
-            <link href="https://scripter.co/first-post/?utm_source=atom_feed" rel="alternate" type="text/html" />
+            <link href="https://dvesti.github.io/prorab/first-post/?utm_source=atom_feed" rel="alternate" type="text/html" />
             
             
-                <id>https://scripter.co/first-post/</id>
+                <id>https://dvesti.github.io/prorab/first-post/</id>
             
             
             <published>2014-03-03T18:21:33-05:00</published>
