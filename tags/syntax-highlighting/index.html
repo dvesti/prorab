@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru-ru" lang="ru-ru">
+
+    <head>
+    <link href="https://gmpg.org/xfn/11" rel="profile">
+    <meta charset="utf-8">
+    
+    
+    
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
+
+    
+    <meta name="referrer" content="no-referrer">
+
+    <title>
+        
+            Syntax Highlighting ❚ Alien&#39;s Notes
+        
+    </title>
+
+    
+    
+
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+    <style>
+     
+     
+     :root {
+         --theme-color: #ac4142;
+         --theme-color-light: rgba(172, 65, 66, 0.2);
+     }
+     
+     html {
+         line-height: 1.5;
+     }
+    </style>
+
+    
+    
+
+    
+    
+    
+    
+    <link rel="stylesheet" href="/prorab/css/refined.min.50c4d148c482d847c3a64437f0e5bdd35c1678396e820bbe0b00dbb1043c61f9.css">
+    
+    <link rel="preload" href="/prorab/css/refined.min.50c4d148c482d847c3a64437f0e5bdd35c1678396e820bbe0b00dbb1043c61f9.css" as="style">
+
+    
+
+
+
+    
+        <style>
+         
+         /* Background */ .chroma { background-color: #ffffff }
+/* Error */ .chroma .err { color: #a61717; background-color: #e3d2d2 }
+/* LineTableTD */ .chroma .lntd { vertical-align: top; padding: 0; margin: 0; border: 0; }
+/* LineTable */ .chroma .lntable { border-spacing: 0; padding: 0; margin: 0; border: 0; width: auto; overflow: auto; display: block; }
+/* LineHighlight */ .chroma .hl { display: block; width: 100%;background-color: #ffffcc }
+/* LineNumbersTable */ .chroma .lnt { margin-right: 0.4em; padding: 0 0.4em 0 0.4em; }
+/* LineNumbers */ .chroma .ln { margin-right: 0.4em; padding: 0 0.4em 0 0.4em; }
+/* Keyword */ .chroma .k { color: #000000; font-weight: bold }
+/* KeywordConstant */ .chroma .kc { color: #000000; font-weight: bold }
+/* KeywordDeclaration */ .chroma .kd { color: #000000; font-weight: bold }
+/* KeywordNamespace */ .chroma .kn { color: #000000; font-weight: bold }
+/* KeywordPseudo */ .chroma .kp { color: #000000; font-weight: bold }
+/* KeywordReserved */ .chroma .kr { color: #000000; font-weight: bold }
+/* KeywordType */ .chroma .kt { color: #445588; font-weight: bold }
+/* NameAttribute */ .chroma .na { color: #008080 }
+/* NameBuiltin */ .chroma .nb { color: #0086b3 }
+/* NameBuiltinPseudo */ .chroma .bp { color: #999999 }
+/* NameClass */ .chroma .nc { color: #445588; font-weight: bold }
+/* NameConstant */ .chroma .no { color: #008080 }
+/* NameDecorator */ .chroma .nd { color: #3c5d5d; font-weight: bold }
+/* NameEntity */ .chroma .ni { color: #800080 }
+/* NameException */ .chroma .ne { color: #990000; font-weight: bold }
+/* NameFunction */ .chroma .nf { color: #990000; font-weight: bold }
+/* NameLabel */ .chroma .nl { color: #990000; font-weight: bold }
+/* NameNamespace */ .chroma .nn { color: #555555 }
+/* NameTag */ .chroma .nt { color: #000080 }
+/* NameVariable */ .chroma .nv { color: #008080 }
+/* NameVariableClass */ .chroma .vc { color: #008080 }
+/* NameVariableGlobal */ .chroma .vg { color: #008080 }
+/* NameVariableInstance */ .chroma .vi { color: #008080 }
+/* LiteralString */ .chroma .s { color: #dd1144 }
+/* LiteralStringAffix */ .chroma .sa { color: #dd1144 }
+/* LiteralStringBacktick */ .chroma .sb { color: #dd1144 }
+/* LiteralStringChar */ .chroma .sc { color: #dd1144 }
+/* LiteralStringDelimiter */ .chroma .dl { color: #dd1144 }
+/* LiteralStringDoc */ .chroma .sd { color: #dd1144 }
+/* LiteralStringDouble */ .chroma .s2 { color: #dd1144 }
+/* LiteralStringEscape */ .chroma .se { color: #dd1144 }
+/* LiteralStringHeredoc */ .chroma .sh { color: #dd1144 }
+/* LiteralStringInterpol */ .chroma .si { color: #dd1144 }
+/* LiteralStringOther */ .chroma .sx { color: #dd1144 }
+/* LiteralStringRegex */ .chroma .sr { color: #009926 }
+/* LiteralStringSingle */ .chroma .s1 { color: #dd1144 }
+/* LiteralStringSymbol */ .chroma .ss { color: #990073 }
+/* LiteralNumber */ .chroma .m { color: #009999 }
+/* LiteralNumberBin */ .chroma .mb { color: #009999 }
+/* LiteralNumberFloat */ .chroma .mf { color: #009999 }
+/* LiteralNumberHex */ .chroma .mh { color: #009999 }
+/* LiteralNumberInteger */ .chroma .mi { color: #009999 }
+/* LiteralNumberIntegerLong */ .chroma .il { color: #009999 }
+/* LiteralNumberOct */ .chroma .mo { color: #009999 }
+/* Operator */ .chroma .o { color: #000000; font-weight: bold }
+/* OperatorWord */ .chroma .ow { color: #000000; font-weight: bold }
+/* Comment */ .chroma .c { color: #999988; font-style: italic }
+/* CommentHashbang */ .chroma .ch { color: #999988; font-style: italic }
+/* CommentMultiline */ .chroma .cm { color: #999988; font-style: italic }
+/* CommentSingle */ .chroma .c1 { color: #999988; font-style: italic }
+/* CommentSpecial */ .chroma .cs { color: #999999; font-weight: bold; font-style: italic }
+/* CommentPreproc */ .chroma .cp { color: #999999; font-weight: bold; font-style: italic }
+/* CommentPreprocFile */ .chroma .cpf { color: #999999; font-weight: bold; font-style: italic }
+/* GenericDeleted */ .chroma .gd { color: #000000; background-color: #ffdddd }
+/* GenericEmph */ .chroma .ge { color: #000000; font-style: italic }
+/* GenericError */ .chroma .gr { color: #aa0000 }
+/* GenericHeading */ .chroma .gh { color: #999999 }
+/* GenericInserted */ .chroma .gi { color: #000000; background-color: #ddffdd }
+/* GenericOutput */ .chroma .go { color: #888888 }
+/* GenericPrompt */ .chroma .gp { color: #555555 }
+/* GenericStrong */ .chroma .gs { font-weight: bold }
+/* GenericSubheading */ .chroma .gu { color: #aaaaaa }
+/* GenericTraceback */ .chroma .gt { color: #aa0000 }
+/* GenericUnderline */ .chroma .gl { text-decoration: underline }
+/* TextWhitespace */ .chroma .w { color: #bbbbbb }
+
+         
+         /* Overrides on top of the theme and Chroma CSS */
+/* Chroma-based lines highlighting in code blocks */
+.chroma .hl {
+    background-color: #e8e8e8;
+    /* Extend highlight up to 100 characters (assuming that the code blocks never have more than 100 characters in a line) */
+    min-width: 100ch;
+}
+/* GenericHeading */ .chroma .gh { color: #999999; font-weight: bold }
+/* GenericSubheading */ .chroma .gu { color: #aaaaaa; font-weight: bold }
+
+         
+        </style>
+    
+
+    
+
+    
+    
+    
+
+    
+    <script src="/prorab/js/responsive-nav-orig.min.355eebd835ac8071d56b337f68ffbbddc0f6487625599895e3e0b0461e791ebb.js"></script>
+    
+    <link rel="preload" href="/prorab/js/responsive-nav-orig.min.355eebd835ac8071d56b337f68ffbbddc0f6487625599895e3e0b0461e791ebb.js" as="script">
+
+    
+    
+    <script defer src="/prorab/js/libs/fa/fontawesome-all.min.78bd3583027f40ce4330d39e1f1df56bda5f4af819aac2d0214ba529918c9e95.js"></script>
+    
+    <link rel="preload" href="/prorab/js/libs/fa/fontawesome-all.min.78bd3583027f40ce4330d39e1f1df56bda5f4af819aac2d0214ba529918c9e95.js" as="script">
+
+    
+
+    
+
+    
+    
+    
+
+    
+    
+<!-- rel="me" links for IndieAuth -->
+
+<link href="https://github.com/dvesti/" rel="me">
+
+
+    
+    
+    <link rel="authorization_endpoint" href="https://indieauth.com/auth" data-proofer-ignore>
+    
+    
+    <link rel="token_endpoint" href="https://tokens.indieauth.com/token">
+
+
+
+
+    
+ 
+<meta property="og:title" content="Syntax Highlighting" />
+<meta property="og:description"
+      content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://dvesti.github.io/prorab/tags/syntax-highlighting/" />
+
+
+    
+        <meta property="og:updated_time" content="2011-08-30T16:01:23&#43;08:00"/>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+     <meta name="twitter:card" content="summary"/><meta name="twitter:image" content="/prorab/android-chrome-256x256.6b6a18f438f95b928e9abdc148af28e6aa76c103838e39fed707b77799df0a55.png"/>
+<meta name="twitter:title" content="Syntax Highlighting"/>
+<meta name="twitter:description" content=""/>
+<meta name="twitter:site" content="@Prorab"/>
+    <meta name="twitter:creator" content="@Prorab"/>
+
+
+    
+    
+    <link rel="alternate" type="application/rss+xml" href="https://dvesti.github.io/prorab/tags/syntax-highlighting/index.xml" title="RSS for Alien's Notes" />
+    <link rel="alternate" type="application/atom+xml" href="https://dvesti.github.io/prorab/tags/syntax-highlighting/atom.xml" title="Atom for Alien's Notes" />
+    <link rel="alternate" type="application/jf2feed+json" href="https://dvesti.github.io/prorab/tags/syntax-highlighting/jf2feed.json" title="Jf2feed for Alien's Notes" />
+    
+     
+
+     
+
+
+
+
+     
+        
+        <meta name="DC.Creator" content="Dvesti"/>
+    
+
+
+
+    
+    
+    
+    <meta name="hugo-build-date" content="2020-07-13T19:02:45Z"/>
+    <meta name="hugo-commit-hash" content="15163266"/>
+    <meta name="generator" content="Hugo 0.74.1" />
+</head>
+
+
+    
+        <body lang="en">
+    
+
+        
+        <div class="border" id="home"></div>
+
+        <div class="wrapper">   
+            
+<nav id="nav" class="nav-collapse opened" aria-hidden="false">
+    <ul class="navbar">
+        <li><a class="" href="https://dvesti.github.io/prorab/">Главная</a></li>
+        
+            
+                <li><a class="" href="https://dvesti.github.io/prorab/posts/">Posts</a></li>
+            
+        
+            
+        
+        
+            <li><a class="" href="https://dvesti.github.io/prorab/search/">Search</a></li>
+        
+    </ul>
+</nav>
+
+            <div class="container">
+                <header class="masthead">
+                    <div class="masthead-title no-text-decoration">
+                        <a href="https://dvesti.github.io/prorab/">Alien&#39;s Notes</a> <span class="blinking-cursor">❚</span>
+                    </div>
+                    <div class="masthead-tagline">
+                        Заметочник вэб-прораба
+                    </div>
+                </header>
+
+                             
+
+
+
+
+
+
+
+    
+    <div class="all-terms right no-text-decoration">
+        
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+        
+    </div>
+    <div class="clear-float"></div>
+
+
+
+
+
+
+
+<section class="h-feed">
+    <header>
+        
+        <data class="u-url" value="https://dvesti.github.io/prorab/tags/syntax-highlighting/"></data>
+         
+
+     
+
+
+
+
+    
+        
+        <span class="hide">
+            &mdash; <a href="https://dvesti.github.io/prorab" class="u-author">Dvesti</a>
+        </span>
+    
+
+
+
+        
+        
+        
+
+        
+            <div class="center">
+    <div class="taxo no-text-decoration">
+         
+            
+         
+            
+         
+            
+        
+    </div>
+
+</div>
+            
+            <h1 class="p-name">Posts tagged with ‘Syntax Highlighting’ (1)</h1>
+        
+    </header>
+
+    
+        
+        <article class="summary h-entry posts">
+    <header>
+        <h2 class="post-title p-name no-text-decoration"><a class="u-url" href='https://dvesti.github.io/prorab/syntax-highlighting/'> Syntax Highlighting</a> </h2>
+        
+    <div class="taxo no-text-decoration">
+         
+            
+                <ul class="no-bullets inline categories">
+                    
+                        
+                        
+                        
+                            
+                            
+                            
+                            
+                            
+                            <li class="__syntax-highlighting__"
+                                
+                                
+                                title="This is the only post categorized in ‘Syntax Highlighting’"
+                                
+                            >
+                                <a class="p-category" href="https://dvesti.github.io/prorab/categories/syntax-highlighting/">Syntax Highlighting</a>
+                            </li>
+                        
+                    
+                        
+                        
+                        
+                            
+                            
+                            
+                            
+                            
+                            <li class="__index__"
+                                
+                                
+                                title="See all 3 posts categorized in ‘index’"
+                                
+                            >
+                                <a class="p-category" href="https://dvesti.github.io/prorab/categories/index/">index</a>
+                            </li>
+                        
+                    
+                </ul>
+            
+         
+            
+         
+            
+                <ul class="no-bullets inline tags">
+                    
+                        
+                        
+                        
+                            
+                            
+                            
+                            
+                            
+                            <li class="__preview__"
+                                
+                                
+                                title="See all 3 posts tagged with ‘preview’"
+                                
+                            >
+                                <a class="p-category" href="https://dvesti.github.io/prorab/tags/preview/">preview</a>
+                            </li>
+                        
+                    
+                        
+                        
+                        
+                            
+                            
+                            
+                            
+                            
+                            <li class="__syntax-highlighting__"
+                                
+                                
+                                title="This is the only post tagged with ‘Syntax Highlighting’"
+                                
+                            >
+                                <a class="p-category" href="https://dvesti.github.io/prorab/tags/syntax-highlighting/">Syntax Highlighting</a>
+                            </li>
+                        
+                    
+                        
+                        
+                        
+                            
+                            
+                            
+                            
+                            
+                            <li class="__tag-5__"
+                                
+                                
+                                title="This is the only post tagged with ‘tag-5’"
+                                
+                            >
+                                <a class="p-category" href="https://dvesti.github.io/prorab/tags/tag-5/">tag-5</a>
+                            </li>
+                        
+                    
+                </ul>
+            
+        
+    </div>
+
+
+        
+
+
+    
+    
+    <div class="post-date">
+        
+        <time datetime="2011-08-30T16:01:23+0800" class="dt-published">Tue Aug 30, 2011</time>
+        
+        
+            
+            <span class="dt-updated">(Updated on Wed Aug 30, 2017)</span>
+        
+    </div>
+
+
+    </header>
+
+    <div class="post p-summary" >
+        <p><p>More detail: <a href="https://gohugo.io/content-management/syntax-highlighting/">Syntax Highlighting | Hugo</a></p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="kd">function</span> <span class="nx">helloWorld</span> <span class="p">()</span> <span class="p">{</span>
+  <span class="nx">alert</span><span class="p">(</span><span class="s2">&#34;Hello, World!&#34;</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></div></p>
+
+    </div>
+
+    
+    
+    
+        <div class="readmore no-text-decoration">
+            <a href='https://dvesti.github.io/prorab/syntax-highlighting/'
+               title="Read more about Syntax Highlighting">
+                read <span class="more"> more</span>
+                <span class="screen-readers-only" > about Syntax Highlighting</span>
+            </a>
+        </div>
+    
+</article>
+
+    
+
+    
+
+
+    
+    <div class="all-terms right no-text-decoration">
+        
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+        
+    </div>
+    <div class="clear-float"></div>
+
+
+</section>
+
+
+
+                <footer>
+                    
+                    <ul class="no-bullets feed right inline">
+    
+        
+        
+            <li class="inline no-text-decoration">
+                <a href="https://dvesti.github.io/prorab/tags/syntax-highlighting/index.xml">RSS</a>
+            </li>
+        
+    
+        
+        
+            <li class="inline no-text-decoration">
+                <a href="https://dvesti.github.io/prorab/tags/syntax-highlighting/atom.xml">ATOM</a>
+            </li>
+        
+    
+        
+        
+    
+</ul>
+<div class="clear-float"></div>
+
+                </footer>
+                <hr />
+            </div>               
+
+            <footer> 
+                
+
+<ul class="social no-text-decoration">
+    
+        <li>
+            <a href="https://github.com/dvesti/" title="Github">
+                
+                
+                    
+                    
+                    
+                    <i class="fab fa-2x fa-github"></i>
+                
+            </a>
+        </li>
+    
+        <li>
+            <a href="https://twitter.com/Prorab/" title="Twitter">
+                
+                
+                    
+                    
+                    
+                    <i class="fab fa-2x fa-twitter"></i>
+                
+            </a>
+        </li>
+    
+</ul>
+
+
+
+
+
+
+
+
+
+
+ 
+    
+    
+
+
+
+<p class="generated no-text-decoration">
+    Generated using  <a href="https://gitlab.com/kaushalmodi/hugo-theme-refined"><code class="nobr">hugo-theme-refined</code></a> + <span class="nobr">Hugo <a href="https://github.com/gohugoio/hugo/commit/15163266">0.74.1</a></span>
+</p>
+
+<p>
+    
+</p>
+
+
+
+
+<div class="badges no-text-decoration">
+    
+    
+
+    
+        
+        
+        <a href="https://html5.validator.nu/?doc=https://dvesti.github.io/prorab/tags/syntax-highlighting/&amp;showsource=yes">
+            
+            <img src="/prorab/images/html5-css3-semantics-badge--scaled-optimized.0f343c79b5f793c32b308b8b872fccdc6f8f10dc328d12f3f8fba203ab3ccc6e.png"
+                 width="46" height="18" class="pixelated"
+                 alt="HTML5 Powered with CSS3 / Styling, and Semantics"
+                 title="HTML5 Powered with CSS3 / Styling, and Semantics">
+        </a>
+    
+</div>
+
+
+
+
+<script type="application/javascript">var nav=responsiveNav("#nav");</script>
+
+
+
+
+<script defer src="/prorab/js/libs/fragmentions/wrapper.min.4c511209cd3786314b251d891c8da528b47a972669aa4eea416b64d4be01eee2.js"></script>
+
+
+
+
+
+
+
+    <div class="h-card">
+        
+        
+        <a class="p-name u-url" href="https://dvesti.github.io/prorab">Dvesti</a>
+        
+            <p>
+                <a class="u-email" href="mailto:dvesti@hot.ee" rel="me">dvesti@hot.ee</a>
+            </p>
+        
+        
+            <p class="p-note">
+                Web-prorab
+            </p>
+        
+    </div>
+
+
+
+            </footer>
+        </div> 
+    </body>
+</html>

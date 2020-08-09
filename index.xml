@@ -10,10 +10,34 @@
         <language>ru-ru</language>
         
                 <managingEditor>dvesti@hot.ee (Dvesti)</managingEditor>
-                <webMaster>dvesti@hot.ee (Dvesti)</webMaster><lastBuildDate>Sun, 09 Aug 2020 21:31:41 +0300</lastBuildDate>
+                <webMaster>dvesti@hot.ee (Dvesti)</webMaster><lastBuildDate>Sun, 09 Aug 2020 23:24:26 +0300</lastBuildDate>
         <generator>Hugo -- gohugo.io</generator>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
             <atom:link href="https://dvesti.github.io/prorab/index.xml" rel="self" type="application/rss&#43;xml" />
+        
+            
+            <item>
+                <title> I write my blog posts in Markdown</title>
+                <link>https://dvesti.github.io/prorab/i-write-my-blog-posts-in-markdown/</link>
+                
+                
+                <description>&lt;p&gt;I write my blog posts in &lt;strong&gt;Markdown&lt;/strong&gt; and I use &lt;strong&gt;VSCode&lt;/strong&gt; editor for that.&lt;/p&gt;
+&lt;p&gt;Я пишу свои блог-посты в &lt;strong&gt;Markdown&lt;/strong&gt; и использую для этого редактор &lt;strong&gt;VS Code&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;И это &amp;ndash; правильно!&lt;br&gt;
+И это &amp;ndash; не только моё мнение.&lt;/p&gt;</description>
+                
+                
+                     
+                        
+                     
+                        
+                     
+                        
+                    
+                
+                <guid>https://dvesti.github.io/prorab/i-write-my-blog-posts-in-markdown/</guid>
+                <pubDate>Wed, 17 Jun 2020 12:04:31 +0300</pubDate>
+            </item>
         
             
             <item>
@@ -94,571 +118,377 @@
         
             
             <item>
-                <title>Your car will be ready in 8000 seconds</title>
-                <link>https://dvesti.github.io/prorab/convert-seconds-to-human-time/</link>
+                <title>Shortcodes Preview</title>
+                <link>https://dvesti.github.io/prorab/shortcodes-preview/</link>
                 
                 
-                <description>&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#code&#34;&gt;Code&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#tests&#34;&gt;Tests&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#test-output&#34;&gt;Test Output&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#source&#34;&gt;Source&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#closing&#34;&gt;Closing&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#appendix&#34;&gt;Appendix&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#test-output-using-format-seconds&#34;&gt;Test output using &lt;code&gt;format-seconds&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#code--revision-1&#34;&gt;Code (Revision 1)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;Well, a mechanic usually wouldn&amp;rsquo;t give you a time estimate in seconds,
-but a tool I am using prints something like this at the end:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The simulation took 54227.9 seconds in CPU time.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;That triggered me to write a &amp;ldquo;little&amp;rdquo; script to convert seconds to
-&lt;em&gt;human time&lt;/em&gt; i.e. time in &lt;em&gt;days&lt;/em&gt;, &lt;em&gt;hours&lt;/em&gt;, &lt;em&gt;minutes&lt;/em&gt; and &lt;em&gt;seconds&lt;/em&gt;.&lt;/p&gt;
-&lt;dl&gt;
-&lt;dt&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&amp;lt;2018-02-08 Thu&amp;gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/dt&gt;
-&lt;dd&gt;Updated code.&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;p&gt;Thanks to &lt;a href=&#34;https://www.reddit.com/user/xiongtx&#34;&gt;&lt;strong&gt;/u/xiongtx&lt;/strong&gt;&lt;/a&gt; from Reddit, I learned about the built-in function
-&lt;a href=&#34;https://git.savannah.gnu.org/cgit/emacs.git/tree/lisp/calendar/time-date.el?id=04c5bd5b1f1dc07994d70caa640a07da6b5a54b5#n260&#34;&gt;&lt;code&gt;format-seconds&lt;/code&gt;&lt;/a&gt; that does what I wanted to do &amp;ndash; &lt;em&gt;but not exactly in a
-way I wanted to see&lt;/em&gt;. Though, &lt;code&gt;format-seconds&lt;/code&gt; gave me an idea for a
-big optimization (code &lt;a href=&#34;https://github.com/kaushalmodi/.emacs.d/commit/db9e1a7c54a4c822e80b0308b7fc644db44fe1eb&#34;&gt;commit diff&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;Below &lt;a href=&#34;#code&#34;&gt;Code&lt;/a&gt; section is updated to reflect that. If you like, you can
-review older version of the same section at the &lt;a href=&#34;#code--revision-1&#34;&gt;end of this
-post&lt;/a&gt;. Also, at the end, you will find a &lt;a href=&#34;#test-output-using-format-seconds&#34;&gt;comparison&lt;/a&gt; between the outputs
-from &lt;code&gt;format-seconds&lt;/code&gt; and &lt;code&gt;modi/seconds-to-human-time&lt;/code&gt;.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;
-&lt;p&gt;Here&amp;rsquo;s the &lt;strong&gt;updated&lt;/strong&gt; code, and notes about that follow after that:&lt;/p&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;defun&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;modi/seconds-to-human-time&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;&amp;amp;optional&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;seconds&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-  &lt;span class=&#34;s&#34;&gt;&amp;#34;Convert SECONDS to \&amp;#34;DDd HHh MMm SSs\&amp;#34; string.
-&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;SECONDS is a non-negative integer or fractional number.
-&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;SECONDS can also be a list of such numbers, which is the case
-&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;when this function is called recursively.
-&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;When called interactively, if a region is selected SECONDS is
-&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;extracted from that, else the user is prompted to enter those.&amp;#34;&lt;/span&gt;
-  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;interactive&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;let&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;inter&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;called-interactively-p&lt;/span&gt; &lt;span class=&#34;ss&#34;&gt;&amp;#39;interactive&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)))&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;when&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;inter&lt;/span&gt;
-      &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;let&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;seconds-str&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;use-region-p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-                             &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;buffer-substring-no-properties&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;region-beginning&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;region-end&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-                           &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;read-string&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;Enter seconds: &amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))))&lt;/span&gt;
-        &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;setq&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;seconds&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;string-to-number&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;seconds-str&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))))&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;;&amp;#34;1&amp;#34; -&amp;gt; 1, &amp;#34;1.2&amp;#34; -&amp;gt; 1.2, &amp;#34;&amp;#34; -&amp;gt; 0&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;let*&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;MINUTE&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;60&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-           &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;HOUR&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;60&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;MINUTE&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-           &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;DAY&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;24&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;HOUR&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-           &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;sec&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;cond&lt;/span&gt;
-                 &lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;listp&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;seconds&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;         &lt;span class=&#34;c1&#34;&gt;;This is entered only by recursive calls&lt;/span&gt;
-                  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;car&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;last&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;seconds&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)))&lt;/span&gt;
-                 &lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;and&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;numberp&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;seconds&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;;This is entered only in the first entry&lt;/span&gt;
-                       &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;seconds&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-                  &lt;span class=&#34;nv&#34;&gt;seconds&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-                 &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;no&#34;&gt;t&lt;/span&gt;
-                  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;ne&#34;&gt;user-error&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;Invalid argument %S&amp;#34;&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;seconds&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))))&lt;/span&gt;
-           &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;gen-time-string&lt;/span&gt;
-            &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;lambda&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;time&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;inter&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-              &lt;span class=&#34;s&#34;&gt;&amp;#34;Return string representation of TIME.
-&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;TIME is of the type (DD HH MM SS), where each of those elements
-&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;are numbers.  If INTER is non-nil, echo the time string in a
-&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;well-formatted manner instead of returning it.&amp;#34;&lt;/span&gt;
-              &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;let&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;filler&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;    &amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-                    &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;str&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-                &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;dolist&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;unit&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;d&amp;#34;&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;h&amp;#34;&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;m&amp;#34;&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;s&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-                  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;let*&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;val&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;car&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;rassoc&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;unit&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;time&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)))&lt;/span&gt;
-                         &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;val-str&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;cond&lt;/span&gt;
-                                   &lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;and&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;string=&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;unit&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;s&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;;0 seconds&lt;/span&gt;
-                                         &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;val&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-                                         &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;string-match-p&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;\\&lt;/span&gt;&lt;span class=&#34;ss&#34;&gt;`\\s-*\\&amp;#39;&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;str&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-                                    &lt;span class=&#34;s&#34;&gt;&amp;#34; 0s&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-                                   &lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;and&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;string=&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;unit&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;s&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-                                         &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;val&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-                                    &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;integerp&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;val&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-                                        &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;format&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;%2d%s&amp;#34;&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;val&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;unit&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-                                      &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;format&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;%5.2f%s&amp;#34;&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;val&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;unit&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)))&lt;/span&gt;
-                                   &lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;and&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;val&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;val&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-                                    &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;format&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;%2d%s &amp;#34;&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;val&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;unit&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-                                   &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;no&#34;&gt;t&lt;/span&gt;
-                                    &lt;span class=&#34;nv&#34;&gt;filler&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))))&lt;/span&gt;
-                    &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;setq&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;str&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;concat&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;str&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;val-str&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))))&lt;/span&gt;
-                &lt;span class=&#34;c1&#34;&gt;;; (message &amp;#34;debug: %S&amp;#34; time)&lt;/span&gt;
-                &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;inter&lt;/span&gt;
-                    &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;message&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;%0.2f seconds → %s&amp;#34;&lt;/span&gt;
-                             &lt;span class=&#34;nv&#34;&gt;seconds&lt;/span&gt;
-                             &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;string-trim&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;replace-regexp-in-string&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34; +&amp;#34;&lt;/span&gt;  &lt;span class=&#34;s&#34;&gt;&amp;#34; &amp;#34;&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;str&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)))&lt;/span&gt;
-                  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;string-trim-right&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;str&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)))))&lt;/span&gt;
-           &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;time&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;cond&lt;/span&gt;
-                  &lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;sec&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;DAY&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;          &lt;span class=&#34;c1&#34;&gt;;&amp;gt; day&lt;/span&gt;
-                   &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;let*&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;days&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;/&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;floor&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;sec&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;DAY&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-                          &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;rem&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;sec&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;days&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;DAY&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))))&lt;/span&gt;
-                     &lt;span class=&#34;c1&#34;&gt;;; Note that (list rem) instead of just `rem&amp;#39; is&lt;/span&gt;
-                     &lt;span class=&#34;c1&#34;&gt;;; being passed to the recursive call to&lt;/span&gt;
-                     &lt;span class=&#34;c1&#34;&gt;;; `modi/seconds-to-human-time&amp;#39;.  This helps us&lt;/span&gt;
-                     &lt;span class=&#34;c1&#34;&gt;;; distinguish between direct and re-entrant&lt;/span&gt;
-                     &lt;span class=&#34;c1&#34;&gt;;; calls to this function.&lt;/span&gt;
-                     &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;append&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;list&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;cons&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;days&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;d&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;modi/seconds-to-human-time&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;list&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;rem&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)))))&lt;/span&gt;
-                  &lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;sec&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;HOUR&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;         &lt;span class=&#34;c1&#34;&gt;;&amp;gt; hour AND &amp;lt; day&lt;/span&gt;
-                   &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;let*&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;hours&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;/&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;floor&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;sec&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;HOUR&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-                          &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;rem&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;sec&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;hours&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;HOUR&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))))&lt;/span&gt;
-                     &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;append&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;list&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;cons&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;hours&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;h&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;modi/seconds-to-human-time&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;list&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;rem&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)))))&lt;/span&gt;
-                  &lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;sec&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;MINUTE&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;       &lt;span class=&#34;c1&#34;&gt;;&amp;gt; minute AND &amp;lt; hour&lt;/span&gt;
-                   &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;let*&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;mins&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;/&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;floor&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;sec&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;MINUTE&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-                          &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;rem&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;sec&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;mins&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;MINUTE&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))))&lt;/span&gt;
-                     &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;append&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;list&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;cons&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;mins&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;m&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;modi/seconds-to-human-time&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;list&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;rem&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)))))&lt;/span&gt;
-                  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;no&#34;&gt;t&lt;/span&gt;                    &lt;span class=&#34;c1&#34;&gt;;&amp;lt; minute&lt;/span&gt;
-                   &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;list&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;cons&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;sec&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;s&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))))))&lt;/span&gt;
-      &lt;span class=&#34;c1&#34;&gt;;; If `seconds&amp;#39; is a number and not a list, this is *not* a&lt;/span&gt;
-      &lt;span class=&#34;c1&#34;&gt;;; recursive call.  Return the time as a string only then.  For&lt;/span&gt;
-      &lt;span class=&#34;c1&#34;&gt;;; re-entrant executions, return the `time&amp;#39; list instead.&lt;/span&gt;
-      &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;numberp&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;seconds&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-          &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;funcall&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;gen-time-string&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;time&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;inter&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-        &lt;span class=&#34;nv&#34;&gt;time&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))))&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;Most of this snippet is just the day/hour/minute/second math. Apart
-from that, here are some points that I found of interest:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;I did not always want to prompt the user to enter the input
-argument. If a region was selected, the function assumes that the
-user selected a number, and skips the prompt step. So I used a plain
-&lt;code&gt;(interactive)&lt;/code&gt; form instead of using &lt;code&gt;(interactive &amp;quot;sPrompt: &amp;quot;)&lt;/code&gt; or
-&lt;code&gt;(interactive &amp;quot;r&amp;quot;)&lt;/code&gt;. See &lt;a href=&#34;https://www.gnu.org/software/emacs/manual/html%5Fnode/eintr/Interactive-Options.html&#34;&gt;&lt;em&gt;(eintr) Interactive Options&lt;/em&gt;&lt;/a&gt; and &lt;a href=&#34;https://www.gnu.org/software/emacs/manual/html%5Fnode/elisp/Interactive-Codes.html&#34;&gt;&lt;em&gt;(elisp)
-Interactive Codes&lt;/em&gt;&lt;/a&gt; to learn about &lt;code&gt;interactive&lt;/code&gt; and its codes.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Instead of in-lining a modular chunk of logic, like the one where I
-convert a list like &lt;code&gt;(1 2 3 4)&lt;/code&gt; into &lt;code&gt;&amp;quot;1d 2h 3m 4s&amp;quot;&lt;/code&gt;, I assigned it
-to a &lt;em&gt;let&lt;/em&gt;-bound symbol &lt;code&gt;gen-time-string&lt;/code&gt;. That allowed the logic to
-be more discernible when used in:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;numberp&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;seconds&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;funcall&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;gen-time-string&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;time&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;inter&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-  &lt;span class=&#34;nv&#34;&gt;time&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;Also interesting is the fact that these &lt;em&gt;let&lt;/em&gt;-bound lambdas can
-have their own doc-strings too.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;I make use of &lt;strong&gt;recursion&lt;/strong&gt; in this function! But I needed this
-function to return a string (using that &lt;code&gt;gen-time-string&lt;/code&gt; function)
-only when all the nested calls to itself were returned. So to
-distinguish between a direct call to the function, and re-entrant
-calls, when doing the latter, I make the input number a &lt;em&gt;list of
-that number&lt;/em&gt;.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;So while the function might take an input number like &lt;code&gt;7&lt;/code&gt; for a
-direct call, that same number, when needed to call to a recursive
-call, would get passed as &lt;code&gt;(list 7)&lt;/code&gt; or &lt;code&gt;&#39;(7)&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;If you glance back as that little snippet above, I return the
-&lt;code&gt;time&lt;/code&gt; as a string only if the input &lt;code&gt;seconds&lt;/code&gt; is a &lt;em&gt;number&lt;/em&gt; &amp;mdash; and
-not a list i.e. only when I am in the &amp;ldquo;direct call instance&amp;rdquo;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;The internal variable &lt;code&gt;time&lt;/code&gt; is now an alist&lt;/strong&gt; and can have up to 4
-cons elements. Each cons is of the type &lt;code&gt;(TIMEVALUE . TIMEUNIT)&lt;/code&gt;. So
-&lt;code&gt;time&lt;/code&gt; now looks like &lt;code&gt;((DAYS . &amp;quot;d&amp;quot;) (HOURS . &amp;quot;h&amp;quot;) (MINUTES . &amp;quot;m&amp;quot;) (SECONDS . &amp;quot;s&amp;quot;))&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;If the input &lt;code&gt;seconds&lt;/code&gt; is 7200 seconds i.e. 2 hours, I cannot allow
-&lt;code&gt;time&lt;/code&gt; to be just &lt;code&gt;(2)&lt;/code&gt;, because then I wouldn&amp;rsquo;t know the unit of
-that &lt;code&gt;2&lt;/code&gt; (2 days? 2 hours? ..). With the above technique to &lt;em&gt;tag&lt;/em&gt; the
-time value with its unit (inspired from &lt;code&gt;format-seconds&lt;/code&gt;), the
-&lt;code&gt;time&lt;/code&gt; value will be set as &lt;code&gt;((2 . &amp;quot;h&amp;quot;))&lt;/code&gt; instead. That way, it
-would read clearly as &lt;em&gt;2 hours, 0 minutes, and 0 seconds&lt;/em&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Back inside &lt;code&gt;gen-time-string&lt;/code&gt;, I then skip printing the time units
-that are 0 (unless everything is 0, in which case I print
-&lt;code&gt;&amp;quot;0s&amp;quot;&lt;/code&gt;).&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;and&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;val&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;val&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
- &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;format&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;%2d%s &amp;#34;&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;val&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;unit&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;no&#34;&gt;t&lt;/span&gt;
- &lt;span class=&#34;nv&#34;&gt;filler&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;                                &lt;span class=&#34;c1&#34;&gt;;`filler&amp;#39; is just white-space&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;So instead of printing &lt;code&gt;&amp;quot;1d 0h 0m 5s&amp;quot;&lt;/code&gt;, it would print &lt;code&gt;&amp;quot;1d 5s&amp;quot;&lt;/code&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;tests&#34;&gt;Tests&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;The test generator did not need to be updated, because the code
-optimization was completely internal &amp;mdash; Return values were not
-affected.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;A code isn&amp;rsquo;t complete without tests!&lt;/p&gt;
-&lt;p&gt;As much fun I had writing the above function, I had equal fun in
-writing its little tester too.&lt;/p&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;let*&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;rand-bool&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;lambda&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
-                    &lt;span class=&#34;s&#34;&gt;&amp;#34;(random 2) will return either 1 or 0, so
-&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;                    frac will be either t or nil&amp;#34;&lt;/span&gt;
-                    &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;random&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))))&lt;/span&gt;
-       &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;count&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-       &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;secs&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;60&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;61&lt;/span&gt;
-                 &lt;span class=&#34;mi&#34;&gt;3600&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;3601&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;3660&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;3661&lt;/span&gt;
-                 &lt;span class=&#34;mi&#34;&gt;86400&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;86401&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;86460&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;86461&lt;/span&gt;
-                 &lt;span class=&#34;mi&#34;&gt;90000&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;90001&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;90060&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;90061&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-       &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;len-secs&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;length&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;secs&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-       &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;secs-rand1&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;mapcar&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;lambda&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-                             &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;let&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;add-sec&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;funcall&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;rand-bool&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-                                   &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;add-min&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;funcall&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;rand-bool&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-                                   &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;add-hr&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;funcall&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;rand-bool&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-                                   &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;add-day&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;funcall&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;rand-bool&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)))&lt;/span&gt;
-                               &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;when&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;add-sec&lt;/span&gt;
-                                 &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;setq&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;s&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;s&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)))&lt;/span&gt;
-                               &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;when&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;add-min&lt;/span&gt;
-                                 &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;setq&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;s&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;s&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;60&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)))&lt;/span&gt;
-                               &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;when&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;add-hr&lt;/span&gt;
-                                 &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;setq&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;s&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;s&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;60&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;60&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))))&lt;/span&gt;
-                               &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;when&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;add-day&lt;/span&gt;
-                                 &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;setq&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;s&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;s&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;60&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;60&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;24&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))))&lt;/span&gt;
-                               &lt;span class=&#34;nv&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-                           &lt;span class=&#34;nv&#34;&gt;secs&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-       &lt;span class=&#34;nv&#34;&gt;secs-rand2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;dotimes&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;_&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;len-secs&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;let*&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;frac&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;funcall&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;rand-bool&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-           &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;sec&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;frac&lt;/span&gt;
-                    &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;/&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;random&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;100000000&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;100.00&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-                  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;random&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1000000&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))))&lt;/span&gt;
-      &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;push&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;sec&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;secs-rand2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)))&lt;/span&gt;
-  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;dolist&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;sec&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;append&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;secs&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;secs-rand1&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;secs-rand2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;message&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;%9.2f seconds → %s&amp;#34;&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;sec&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;modi/seconds-to-human-time&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;sec&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;cl-incf&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;count&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;when&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;mod&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;count&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;len-secs&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-      &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;message&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;make-string&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;40&lt;/span&gt; &lt;span class=&#34;sc&#34;&gt;?─&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)))))&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;!-- raw HTML omitted --&gt;
-&lt;ul&gt;
-&lt;li&gt;The test also makes use of a &lt;em&gt;let&lt;/em&gt;-bound lambda, for the &lt;code&gt;rand-bool&lt;/code&gt;
-function which I use to randomly return &lt;code&gt;t&lt;/code&gt; or &lt;code&gt;nil&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;The &lt;code&gt;secs&lt;/code&gt; list is a set of directed tests, in which the &lt;em&gt;day&lt;/em&gt;,
-&lt;em&gt;hour&lt;/em&gt;, &lt;em&gt;minute&lt;/em&gt; and &lt;em&gt;second&lt;/em&gt; units in &lt;code&gt;time&lt;/code&gt; get set to &lt;code&gt;1&lt;/code&gt; in all
-possible combinations. (If you are into binary numbers, think of
-&lt;code&gt;0000&lt;/code&gt;, &lt;code&gt;0001&lt;/code&gt;, .. up to &lt;code&gt;1111&lt;/code&gt;.)&lt;/li&gt;
-&lt;li&gt;The &lt;code&gt;secs-rand1&lt;/code&gt; is a partly randomized version of &lt;code&gt;secs&lt;/code&gt; where one
-or more of the above time units would get randomly added by 1.&lt;/li&gt;
-&lt;li&gt;The &lt;code&gt;secs-rand2&lt;/code&gt; is a totally randomized list of time in seconds
-where the time could be anywhere in the &lt;code&gt;[0, 1000000)&lt;/code&gt; range,
-fractional times with 2 decimal places included.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;test-output&#34;&gt;Test Output&lt;/h3&gt;
-&lt;p&gt;Upon evaluating both &lt;a href=&#34;#code-snippet--seconds-to-human-time&#34;&gt;Code Snippet 1&lt;/a&gt; and
-&lt;a href=&#34;#code-snippet--seconds-to-human-time-test&#34;&gt;Code Snippet 2&lt;/a&gt;, you will get an output like below:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;     0.00 seconds →              0s
-     1.00 seconds →              1s
-    60.00 seconds →          1m
-    61.00 seconds →          1m  1s
-  3600.00 seconds →      1h
-  3601.00 seconds →      1h      1s
-  3660.00 seconds →      1h  1m
-  3661.00 seconds →      1h  1m  1s
- 86400.00 seconds →  1d
- 86401.00 seconds →  1d          1s
- 86460.00 seconds →  1d      1m
- 86461.00 seconds →  1d      1m  1s
- 90000.00 seconds →  1d  1h
- 90001.00 seconds →  1d  1h      1s
- 90060.00 seconds →  1d  1h  1m
- 90061.00 seconds →  1d  1h  1m  1s
-────────────────────────────────────────
-    60.00 seconds →          1m
- 86402.00 seconds →  1d          2s
- 86521.00 seconds →  1d      2m  1s
-  3722.00 seconds →      1h  2m  2s
-  3661.00 seconds →      1h  1m  1s
- 90061.00 seconds →  1d  1h  1m  1s
- 90121.00 seconds →  1d  1h  2m  1s
- 93662.00 seconds →  1d  2h  1m  2s
-172861.00 seconds →  2d      1m  1s
-176462.00 seconds →  2d  1h  1m  2s
-176520.00 seconds →  2d  1h  2m
- 86521.00 seconds →  1d      2m  1s
-176460.00 seconds →  2d  1h  1m
- 90062.00 seconds →  1d  1h  1m  2s
- 93660.00 seconds →  1d  2h  1m
- 93661.00 seconds →  1d  2h  1m  1s
-────────────────────────────────────────
-429733.00 seconds →  4d 23h 22m 13s
-902957.30 seconds → 10d 10h 49m 17.30s
-684313.07 seconds →  7d 22h  5m 13.07s
- 62058.42 seconds →     17h 14m 18.42s
-799077.55 seconds →  9d  5h 57m 57.55s
-347952.39 seconds →  4d     39m 12.39s
- 31041.30 seconds →      8h 37m 21.30s
-242839.97 seconds →  2d 19h 27m 19.97s
-852518.67 seconds →  9d 20h 48m 38.67s
-160038.24 seconds →  1d 20h 27m 18.24s
-689297.00 seconds →  7d 23h 28m 17s
- 64048.00 seconds →     17h 47m 28s
-870956.98 seconds → 10d  1h 55m 56.98s
-608767.00 seconds →  7d  1h  6m  7s
-167796.00 seconds →  1d 22h 36m 36s
-114940.07 seconds →  1d  7h 55m 40.07s
-────────────────────────────────────────
-106163.46 seconds →  1d  5h 29m 23.46s
-701980.00 seconds →  8d  2h 59m 40s
-258706.73 seconds →  2d 23h 51m 46.73s
- 33609.98 seconds →      9h 20m  9.98s
-639774.63 seconds →  7d  9h 42m 54.63s
-338533.00 seconds →  3d 22h  2m 13s
-365910.00 seconds →  4d  5h 38m 30s
-140002.00 seconds →  1d 14h 53m 22s
-365024.20 seconds →  4d  5h 23m 44.20s
-497072.00 seconds →  5d 18h  4m 32s
-304307.67 seconds →  3d 12h 31m 47.67s
-337126.00 seconds →  3d 21h 38m 46s
-711862.00 seconds →  8d  5h 44m 22s
-746474.22 seconds →  8d 15h 21m 14.22s
-200503.00 seconds →  2d  7h 41m 43s
-952391.00 seconds → 11d     33m 11s
-────────────────────────────────────────
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;source&#34;&gt;Source&lt;/h2&gt;
-&lt;p&gt;You can find the latest version of this code at
-&lt;a href=&#34;https://github.com/kaushalmodi/.emacs.d/blob/master/elisp/misc/seconds-to-human-time.el&#34;&gt;&lt;code&gt;seconds-to-human-time.el&lt;/code&gt;&lt;/a&gt; (&lt;a href=&#34;https://github.com/kaushalmodi/.emacs.d/blob/d620b4afb5ff4c531e2944015646ec6708692bb9/elisp/misc/seconds-to-human-time.el&#34;&gt;&lt;em&gt;first revision&lt;/em&gt;&lt;/a&gt;).&lt;/p&gt;
-&lt;h2 id=&#34;closing&#34;&gt;Closing&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;Your car will be ready in 2h 13m 20s, and the simulation took 15h 3m
-47.90s in CPU time.&lt;/em&gt;&lt;/p&gt;
+                <description>&lt;h2 id=&#34;what-a-shortcode-is&#34;&gt;What a Shortcode is&lt;/h2&gt;
+&lt;p&gt;Hugo loves Markdown because of its simple content format, but there are times when Markdown falls short. Often, content authors are forced to add raw HTML (e.g., video &lt;code&gt;&amp;lt;iframes&amp;gt;&lt;/code&gt;) to Markdown content. We think this contradicts the beautiful simplicity of Markdown&amp;rsquo;s syntax.&lt;/p&gt;
+&lt;p&gt;Hugo created &lt;strong&gt;shortcodes&lt;/strong&gt; to circumvent these limitations.&lt;/p&gt;
+&lt;p&gt;A shortcode is a simple snippet inside a content file that Hugo will render using a predefined template. Note that shortcodes will not work in template files. If you need the type of drop-in functionality that shortcodes provide but in a template, you most likely want a [partial template][partials] instead.&lt;/p&gt;
+&lt;p&gt;In addition to cleaner Markdown, shortcodes can be updated any time to reflect new classes, techniques, or standards. At the point of site generation, Hugo shortcodes will easily merge in your changes. You avoid a possibly complicated search and replace operation.&lt;/p&gt;
+&lt;p&gt;More details: &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/&#34;&gt;https://gohugo.io/content-management/shortcodes/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;blockquotes&#34;&gt;blockquotes&lt;/h2&gt;
+&lt;p&gt;Normal quote:
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://dvesti.github.io/prorab/prorab/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34;&gt;
-&lt;figure  itemprop=&#34;associatedMedia&#34;
-  itemscope itemtype=&#34;http://schema.org/ImageObject&#34; &gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;images/seconds-to-human-time.png&#34; alt=&#34;Figure 1: Screenshot of `seconds-to-human-time.el` in Emacs&#34;/&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;images/seconds-to-human-time.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;
-          &lt;p&gt;Figure 1: Screenshot of `seconds-to-human-time.el` in Emacs&lt;/p&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a simple quote.&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;&lt;/strong&gt;
+    
+      
+        
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;p&gt;Quote with author:
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a quote with only an Author named Author2.&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;Author2&lt;/strong&gt;
+    
+      
+        
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;p&gt;Quote with author and source:
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a quote from Author3 and source &amp;ldquo;source.&amp;rdquo;&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;Author3&lt;/strong&gt;
+    
+      &lt;cite&gt;Source&lt;/cite&gt;
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;p&gt;Quote with author and link:
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+      
+      
+      
+    
+     
+      
+    
+    
+
+    
+    
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a quote from Author4 and links to &lt;a href=&#34;https://www.google.com&#34;&gt;https://www.google.com&lt;/a&gt;.&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;Author4&lt;/strong&gt;
+    
+      
+        &lt;cite&gt;
+          &lt;a href=&#34;https://www.google.com&#34; title=&#34;https://www.google.com&#34;&gt;google.com&lt;/a&gt; 
+        &lt;/cite&gt;
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;p&gt;Quote with author, link and title:
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a quote from Author5 and links to &lt;a href=&#34;https://www.google.com&#34;&gt;https://www.google.com&lt;/a&gt; with title &amp;ldquo;Google.&amp;rdquo;&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;Author5&lt;/strong&gt;
+    
+      
+        &lt;cite&gt;
+          &lt;a href=&#34;https://www.google.com&#34; title=&#34;https://www.google.com&#34;&gt;Google&lt;/a&gt; 
+        &lt;/cite&gt;
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;p&gt;Quote with author and a link longer than 32 characters, string is first cut at 32 characters then everything after the last forward slash is removed
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+      
+      
+      
+    
+     
+      
+    
+    
+
+    
+    
+         
+         
+         
+
+         
+        
+        
+        
+        
+      
+      
+    
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a quote from Author5 and links to &lt;a href=&#34;https://twitter.com/CryptoGangsta/status/716427930126196737&#34;&gt;https://twitter.com/CryptoGangsta/status/716427930126196737&lt;/a&gt; which is longer than 32 characters.
+&lt;!-- raw HTML omitted --&gt;And this is a new line in the quote with the HTML br tag.&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;Author6&lt;/strong&gt;
+    
+      
+        &lt;cite&gt;
+          &lt;a href=&#34;https://twitter.com/CryptoGangsta/status/716427930126196737&#34; title=&#34;https://twitter.com/CryptoGangsta/status/716427930126196737&#34;&gt;twitter.com/CryptoGangsta/...&lt;/a&gt; 
+        &lt;/cite&gt;
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;p&gt;Test from the Octopress blockquote page at: &lt;a href=&#34;http://octopress.org/docs/plugins/blockquote/&#34;&gt;http://octopress.org/docs/plugins/blockquote/&lt;/a&gt;
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+      
+      
+      
+    
+     
+      
+    
+    
+
+    
+    
+         
+         
+         
+
+         
+        
+        
+        
+        
+        
+        
+      
+      
+    
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;Over the past 24 hours I&amp;rsquo;ve been reflecting on my life &amp;amp; I&amp;rsquo;ve realized only one thing. I need a medieval battle axe.&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;@allanbranch&lt;/strong&gt;
+    
+      
+        &lt;cite&gt;
+          &lt;a href=&#34;https://twitter.com/allanbranch/status/90766146063712256&#34; title=&#34;https://twitter.com/allanbranch/status/90766146063712256&#34;&gt;twitter.com/allanbranch/status/...&lt;/a&gt; 
+        &lt;/cite&gt;
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;music&#34;&gt;music&lt;/h2&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;gist&#34;&gt;gist&lt;/h2&gt;
+&lt;p&gt;We can embed the gist in our content via username and gist ID pulled from the URL:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; gist spf13 7896402 &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Display:&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/spf13/7896402.js&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;expand&#34;&gt;expand&lt;/h2&gt;
+&lt;p&gt;The Expand shortcode displays an expandable/collapsible section of text on your page. Here is an example&lt;/p&gt;
+&lt;details&gt;
+  &lt;summary style=&#34;background-color:#f5f5f5;border:1px solid #ccc;padding:5px;&#34;&gt;
+    Is this learn theme rocks ?
+    
+  &lt;/summary&gt;
+  
+Yes !.
+
+&lt;/details&gt;
+
+&lt;h3 id=&#34;usage&#34;&gt;Usage&lt;/h3&gt;
+&lt;p&gt;this shortcode takes exactly one optional parameter to define the text that appears next to the expand/collapse icon. (default is “Click to expand”)&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; expand &amp;quot;Is this learn theme rocks ?&amp;quot; &amp;gt;}}
+Yes !.
+{{&amp;lt; /expand &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;youtube&#34;&gt;youtube&lt;/h2&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/w7Ft2ymGmfc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
-&lt;!-- raw HTML omitted --&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;appendix&#34;&gt;Appendix&lt;/h2&gt;
-&lt;h3 id=&#34;test-output-using-format-seconds&#34;&gt;Test output using &lt;code&gt;format-seconds&lt;/code&gt;&lt;/h3&gt;
-&lt;p&gt;Instead of using &lt;code&gt;(modi/seconds-to-human-time sec)&lt;/code&gt; in the &lt;a href=&#34;#tests&#34;&gt;test
-generator&lt;/a&gt;, if I use the below form using &lt;code&gt;format-seconds&lt;/code&gt; to get as
-close as to what I want:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;message&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;%9.2f seconds → %s&amp;#34;&lt;/span&gt;
-         &lt;span class=&#34;nv&#34;&gt;sec&lt;/span&gt;
-         &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;replace-regexp-in-string&lt;/span&gt;
-          &lt;span class=&#34;s&#34;&gt;&amp;#34; days?&amp;#34;&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;d&amp;#34;&lt;/span&gt;
-          &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;replace-regexp-in-string&lt;/span&gt;
-           &lt;span class=&#34;s&#34;&gt;&amp;#34; hours?&amp;#34;&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;h&amp;#34;&lt;/span&gt;
-           &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;replace-regexp-in-string&lt;/span&gt;
-            &lt;span class=&#34;s&#34;&gt;&amp;#34; minutes?&amp;#34;&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;m&amp;#34;&lt;/span&gt;
-            &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;replace-regexp-in-string&lt;/span&gt;
-             &lt;span class=&#34;s&#34;&gt;&amp;#34; seconds?&amp;#34;&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;s&amp;#34;&lt;/span&gt;
-             &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;format-seconds&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;%2D %2H %2M %z%2S&amp;#34;&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;sec&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))))))&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;I get the output on the &lt;em&gt;left below&lt;/em&gt;. For brevity, I have pasted only
-few snippets of the whole test for comparison:&lt;/p&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;     0.00 seconds →  0s                                     0.00 seconds →              0s
-     1.00 seconds →  1s                                     1.00 seconds →              1s
-&lt;span class=&#34;hl&#34;&gt;    60.00 seconds →  1m  0s                                60.00 seconds →          1m
-&lt;/span&gt;    61.00 seconds →  1m  1s                                61.00 seconds →          1m  1s
-&lt;span class=&#34;hl&#34;&gt;  3600.00 seconds →  1h  0m  0s                          3600.00 seconds →      1h
-&lt;/span&gt;
-  3661.00 seconds →  1h  1m  1s                          3661.00 seconds →      1h  1m  1s
-&lt;span class=&#34;hl&#34;&gt; 86400.00 seconds →  1d  0h  0m  0s                     86400.00 seconds →  1d
-&lt;/span&gt;&lt;span class=&#34;hl&#34;&gt; 86401.00 seconds →  1d  0h  0m  1s                     86401.00 seconds →  1d          1s
-&lt;/span&gt;&lt;span class=&#34;hl&#34;&gt; 86460.00 seconds →  1d  0h  1m  0s                     86460.00 seconds →  1d      1m
-&lt;/span&gt;&lt;span class=&#34;hl&#34;&gt; 86461.00 seconds →  1d  0h  1m  1s                     86461.00 seconds →  1d      1m  1s
-&lt;/span&gt;&lt;span class=&#34;hl&#34;&gt; 90000.00 seconds →  1d  1h  0m  0s                     90000.00 seconds →  1d  1h
-&lt;/span&gt;&lt;span class=&#34;hl&#34;&gt; 90001.00 seconds →  1d  1h  0m  1s                     90001.00 seconds →  1d  1h      1s
-&lt;/span&gt;&lt;span class=&#34;hl&#34;&gt; 90060.00 seconds →  1d  1h  1m  0s                     90060.00 seconds →  1d  1h  1m
-&lt;/span&gt; 90061.00 seconds →  1d  1h  1m  1s                     90061.00 seconds →  1d  1h  1m  1s
+&lt;h2 id=&#34;vimeo&#34;&gt;vimeo&lt;/h2&gt;
 
-# Below the random numbers are different on both sides, but the thing to note is the loss
-# fractional values (on the left) when seconds are not integers.
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://player.vimeo.com/video/146022717&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;vimeo video&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
 
-&lt;span class=&#34;hl&#34;&gt;288128.50 seconds →  3d  8h  2m  8s                    902957.30 seconds → 10d 10h 49m 17.30s
-&lt;/span&gt;&lt;span class=&#34;hl&#34;&gt;989679.28 seconds → 11d 10h 54m 39s                    684313.07 seconds →  7d 22h  5m 13.07s
-&lt;/span&gt;803137.00 seconds →  9d  7h  5m 37s                    347952.39 seconds →  4d     39m 12.39s
- 39361.00 seconds → 10h 56m  1s                        689297.00 seconds →  7d 23h 28m 17s&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;ul&gt;
-&lt;li&gt;Notice the redundant &lt;code&gt;0h&lt;/code&gt;, &lt;code&gt;0m&lt;/code&gt;, &lt;code&gt;0s&lt;/code&gt; on the left, and also the loss
-of seconds precision (&lt;em&gt;the latter point is not a big deal though&lt;/em&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;code--revision-1&#34;&gt;Code (Revision 1)&lt;/h3&gt;
-&lt;p&gt;Here&amp;rsquo;s the code, and notes about that follow after that:&lt;/p&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;defun&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;modi/seconds-to-human-time&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;&amp;amp;optional&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;seconds&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-  &lt;span class=&#34;s&#34;&gt;&amp;#34;Convert SECONDS to \&amp;#34;DDd HHh MMm SSs\&amp;#34; string.
-&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;SECONDS is a non-negative integer or fractional number.
-&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;SECONDS can also be a list of such numbers, which is the case
-&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;when this function is called recursively.
-&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;
-&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;When called interactively, if a region is selected SECONDS is
-&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;extracted from that, else the user is prompted to enter those.&amp;#34;&lt;/span&gt;
-  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;interactive&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;let&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;inter&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;called-interactively-p&lt;/span&gt; &lt;span class=&#34;ss&#34;&gt;&amp;#39;interactive&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)))&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;when&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;inter&lt;/span&gt;
-      &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;let&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;seconds-str&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;use-region-p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-                             &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;buffer-substring-no-properties&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;region-beginning&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;region-end&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-                           &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;read-string&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;Enter seconds: &amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))))&lt;/span&gt;
-        &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;setq&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;seconds&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;string-to-number&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;seconds-str&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))))&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;;&amp;#34;1&amp;#34; -&amp;gt; 1, &amp;#34;1.2&amp;#34; -&amp;gt; 1.2, &amp;#34;&amp;#34; -&amp;gt; 0&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;let*&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;MINUTE&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;60&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-           &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;HOUR&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;60&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;MINUTE&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-           &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;DAY&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;24&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;HOUR&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-           &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;sec&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;cond&lt;/span&gt;
-                 &lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;listp&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;seconds&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;         &lt;span class=&#34;c1&#34;&gt;;This is entered only by recursive calls&lt;/span&gt;
-                  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;car&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;last&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;seconds&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)))&lt;/span&gt;
-                 &lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;and&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;numberp&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;seconds&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;;This is entered only in the first entry&lt;/span&gt;
-                       &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;seconds&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-                  &lt;span class=&#34;nv&#34;&gt;seconds&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-                 &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;no&#34;&gt;t&lt;/span&gt;
-                  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;ne&#34;&gt;user-error&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;Invalid argument %S&amp;#34;&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;seconds&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))))&lt;/span&gt;
-           &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;gen-time-string&lt;/span&gt;
-            &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;lambda&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;time&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;inter&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-              &lt;span class=&#34;s&#34;&gt;&amp;#34;Return string representation of TIME.
-&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;TIME is of the type (DD HH MM SS), where each of those elements
-&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;are numbers.  If INTER is non-nil, echo the time string in a
-&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;well-formatted manner instead of returning it.&amp;#34;&lt;/span&gt;
-              &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;let*&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;rev-time&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;reverse&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;time&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-                     &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;sec&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;nth&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;rev-time&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-                     &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;min&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;nth&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;rev-time&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-                     &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;hr&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;nth&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;rev-time&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-                     &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;day&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;nth&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;rev-time&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-                     &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;filler&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;    &amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-                     &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;sec-str&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;cond&lt;/span&gt;
-                               &lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;sec&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-                                &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;integerp&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;sec&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-                                    &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;format&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;%2ds&amp;#34;&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;sec&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-                                  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;format&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;%5.2fs&amp;#34;&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;sec&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)))&lt;/span&gt;
-                               &lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;and&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;sec&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;null&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;min&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;null&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;hr&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;null&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;day&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;;0 seconds&lt;/span&gt;
-                                &lt;span class=&#34;s&#34;&gt;&amp;#34; 0s&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)))&lt;/span&gt;
-                     &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;min-str&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;and&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;min&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;min&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-                                  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;format&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;%2dm &amp;#34;&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;min&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-                                &lt;span class=&#34;nv&#34;&gt;filler&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-                     &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;hr-str&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;and&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;hr&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;hr&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-                                 &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;format&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;%2dh &amp;#34;&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;hr&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-                               &lt;span class=&#34;nv&#34;&gt;filler&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-                     &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;day-str&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;and&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;day&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;day&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-                                  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;format&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;%2dd &amp;#34;&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;day&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-                                &lt;span class=&#34;nv&#34;&gt;filler&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-                     &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;str&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;string-trim-right&lt;/span&gt;
-                           &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;concat&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;day-str&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;hr-str&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;min-str&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;sec-str&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))))&lt;/span&gt;
-                &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;inter&lt;/span&gt;
-                    &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;message&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;%0.2f seconds → %s&amp;#34;&lt;/span&gt;
-                             &lt;span class=&#34;nv&#34;&gt;seconds&lt;/span&gt;
-                             &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;string-trim&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;replace-regexp-in-string&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34; +&amp;#34;&lt;/span&gt;  &lt;span class=&#34;s&#34;&gt;&amp;#34; &amp;#34;&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;str&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)))&lt;/span&gt;
-                  &lt;span class=&#34;nv&#34;&gt;str&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))))&lt;/span&gt;
-           &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;time&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;cond&lt;/span&gt;
-                  &lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;sec&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;DAY&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;          &lt;span class=&#34;c1&#34;&gt;;&amp;gt; day&lt;/span&gt;
-                   &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;let*&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;days&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;/&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;floor&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;sec&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;DAY&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-                          &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;rem&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;sec&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;days&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;DAY&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))))&lt;/span&gt;
-                     &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;cond&lt;/span&gt;
-                      &lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;rem&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-                       &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;list&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;days&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-                      &lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;rem&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;MINUTE&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-                       &lt;span class=&#34;c1&#34;&gt;;; Note that (list rem) instead of just `rem&amp;#39; is being&lt;/span&gt;
-                       &lt;span class=&#34;c1&#34;&gt;;; passed to the recursive call to&lt;/span&gt;
-                       &lt;span class=&#34;c1&#34;&gt;;; `modi/seconds-to-human-time&amp;#39;.  This helps us&lt;/span&gt;
-                       &lt;span class=&#34;c1&#34;&gt;;; distinguish between direct and re-entrant calls to&lt;/span&gt;
-                       &lt;span class=&#34;c1&#34;&gt;;; this function.&lt;/span&gt;
-                       &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;append&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;list&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;days&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;modi/seconds-to-human-time&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;list&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;rem&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))))&lt;/span&gt;
-                      &lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;rem&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;HOUR&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-                       &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;append&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;list&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;days&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;modi/seconds-to-human-time&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;list&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;rem&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))))&lt;/span&gt;
-                      &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;no&#34;&gt;t&lt;/span&gt;
-                       &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;append&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;list&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;days&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;modi/seconds-to-human-time&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;list&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;rem&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)))))))&lt;/span&gt;
-                  &lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;sec&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;HOUR&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;         &lt;span class=&#34;c1&#34;&gt;;&amp;gt; hour AND &amp;lt; day&lt;/span&gt;
-                   &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;let*&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;hours&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;/&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;floor&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;sec&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;HOUR&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-                          &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;rem&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;sec&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;hours&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;HOUR&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))))&lt;/span&gt;
-                     &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;cond&lt;/span&gt;
-                      &lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;rem&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-                       &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;list&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;hours&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-                      &lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;rem&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;MINUTE&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-                       &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;append&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;list&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;hours&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;modi/seconds-to-human-time&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;list&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;rem&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))))&lt;/span&gt;
-                      &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;no&#34;&gt;t&lt;/span&gt;
-                       &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;append&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;list&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;hours&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;modi/seconds-to-human-time&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;list&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;rem&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)))))))&lt;/span&gt;
-                  &lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;sec&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;MINUTE&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;       &lt;span class=&#34;c1&#34;&gt;;&amp;gt; minute AND &amp;lt; hour&lt;/span&gt;
-                   &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;let*&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;mins&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;/&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;floor&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;sec&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;MINUTE&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-                          &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;rem&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;sec&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;mins&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;MINUTE&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))))&lt;/span&gt;
-                     &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;cond&lt;/span&gt;
-                      &lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;rem&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-                       &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;list&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;mins&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
-                      &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;no&#34;&gt;t&lt;/span&gt;
-                       &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;append&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;list&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;mins&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;modi/seconds-to-human-time&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;list&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;rem&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)))))))&lt;/span&gt;
-                  &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;no&#34;&gt;t&lt;/span&gt;                    &lt;span class=&#34;c1&#34;&gt;;&amp;lt; minute&lt;/span&gt;
-                   &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;list&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;sec&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)))))&lt;/span&gt;
-      &lt;span class=&#34;c1&#34;&gt;;; If `seconds&amp;#39; is a number and not a list, this is *not* a recursive&lt;/span&gt;
-      &lt;span class=&#34;c1&#34;&gt;;; call.  Return the time as a string only then.  For re-entrant&lt;/span&gt;
-      &lt;span class=&#34;c1&#34;&gt;;; executions, return the `time&amp;#39; list instead.&lt;/span&gt;
-      &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;numberp&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;seconds&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-          &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;funcall&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;gen-time-string&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;time&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;inter&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-        &lt;span class=&#34;nv&#34;&gt;time&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))))&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;Most of this snippet is just the day/hour/minute/second math. Apart
-from that, here are some points that I found of interest:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;I did not always want to prompt the user to enter the input
-argument. If a region was selected, the function assumes that the
-user selected a number, and skips the prompt step. So I used a plain
-&lt;code&gt;(interactive)&lt;/code&gt; form instead of using &lt;code&gt;(interactive &amp;quot;sPrompt: &amp;quot;)&lt;/code&gt; or
-&lt;code&gt;(interactive &amp;quot;r&amp;quot;)&lt;/code&gt;. See &lt;a href=&#34;https://www.gnu.org/software/emacs/manual/html%5Fnode/eintr/Interactive-Options.html&#34;&gt;&lt;em&gt;(eintr) Interactive Options&lt;/em&gt;&lt;/a&gt; and &lt;a href=&#34;https://www.gnu.org/software/emacs/manual/html%5Fnode/elisp/Interactive-Codes.html&#34;&gt;&lt;em&gt;(elisp)
-Interactive Codes&lt;/em&gt;&lt;/a&gt; to learn about &lt;code&gt;interactive&lt;/code&gt; and its codes.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Instead of in-lining a modular chunk of logic, like the one where I
-convert a list like &lt;code&gt;(1 2 3 4)&lt;/code&gt; into &lt;code&gt;&amp;quot;1d 2h 3m 4s&amp;quot;&lt;/code&gt;, I assigned it
-to a &lt;em&gt;let&lt;/em&gt;-bound symbol &lt;code&gt;gen-time-string&lt;/code&gt;. That allowed the logic to
-be more discernible when used in:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;numberp&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;seconds&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;funcall&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;gen-time-string&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;time&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;inter&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-  &lt;span class=&#34;nv&#34;&gt;time&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;Also interesting is the fact that these &lt;em&gt;let&lt;/em&gt;-bound lambdas can
-have their own doc-strings too.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;I make use of &lt;strong&gt;recursion&lt;/strong&gt; in this function! But I needed this
-function to return a string (using that &lt;code&gt;gen-time-string&lt;/code&gt; function)
-only when all the nested calls to itself were returned. So to
-distinguish between a direct call to the function, and re-entrant
-calls, when doing the latter, I make the input number a &lt;em&gt;list of
-that number&lt;/em&gt;.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;So while the function might take an input number like &lt;code&gt;7&lt;/code&gt; for a
-direct call, that same number, when needed to call to a recursive
-call, would get passed as &lt;code&gt;(list 7)&lt;/code&gt; or &lt;code&gt;&#39;(7)&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;If you glance back as that little snippet above, I return the
-&lt;code&gt;time&lt;/code&gt; as a string only if the input &lt;code&gt;seconds&lt;/code&gt; is a &lt;em&gt;number&lt;/em&gt; &amp;mdash; and
-not a list i.e. only when I am in the &amp;ldquo;direct call instance&amp;rdquo;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;The internal variable &lt;code&gt;time&lt;/code&gt; is a list and can have up to 4 number
-elements: &lt;code&gt;(DAYS HOURS MINUTES SECONDS)&lt;/code&gt;. The key was to always have
-each of those elements at their respective positions in the list.&lt;/p&gt;
-&lt;p&gt;If the input &lt;code&gt;seconds&lt;/code&gt; is 7200 seconds i.e. 2 hours, I cannot allow
-&lt;code&gt;time&lt;/code&gt; to be just &lt;code&gt;(2)&lt;/code&gt;, because then I wouldn&amp;rsquo;t know the unit of
-that &lt;code&gt;2&lt;/code&gt; (2 days? 2 hours? ..) &amp;mdash; The nested &lt;code&gt;cond&lt;/code&gt; logic for setting
-the &lt;code&gt;time&lt;/code&gt; variable ensures it gets set to &lt;code&gt;(2 0 0)&lt;/code&gt; instead. That
-way, it would read clearly as &lt;em&gt;2 hours, 0 minutes, and 0 seconds&lt;/em&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Back inside &lt;code&gt;gen-time-string&lt;/code&gt;, I then skip printing the time units
-that are 0 (unless everything is 0, in which case I print
-&lt;code&gt;&amp;quot;0s&amp;quot;&lt;/code&gt;). So instead of printing &lt;code&gt;&amp;quot;1d 0h 0m 5s&amp;quot;&lt;/code&gt;, it would print just
-&lt;code&gt;&amp;quot;1d 5s&amp;quot;&lt;/code&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;h2 id=&#34;youku&#34;&gt;youku&lt;/h2&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+    &lt;iframe src=&#34;https://player.youku.com/embed/XMzQ0ODUxMjM2NA?autoplay=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34; title=&#34;YouKu Video&#34;&gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;</description>
                 
-                        <author>Kaushal.Modi@fakeEmailToMakeValidatorHappy.com (Kaushal Modi)</author>
                 
                      
                         
@@ -666,9 +496,11 @@ that are 0 (unless everything is 0, in which case I print
                             
                                 
                                  
-                                    <category domain="https://dvesti.github.io/prorab/categories/emacs">emacs</category>
+                                    <category domain="https://dvesti.github.io/prorab/categories/docs">docs</category>
                                  
-                                    <category domain="https://dvesti.github.io/prorab/categories/elisp">elisp</category>
+                                    <category domain="https://dvesti.github.io/prorab/categories/shortcodes">shortcodes</category>
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/categories/index">index</category>
                                 
                             
                         
@@ -680,18 +512,140 @@ that are 0 (unless everything is 0, in which case I print
                             
                                 
                                  
-                                    <category domain="https://dvesti.github.io/prorab/tags/time">time</category>
+                                    <category domain="https://dvesti.github.io/prorab/tags/preview">preview</category>
                                  
-                                    <category domain="https://dvesti.github.io/prorab/tags/seconds">seconds</category>
+                                    <category domain="https://dvesti.github.io/prorab/tags/shortcodes">shortcodes</category>
                                  
-                                    <category domain="https://dvesti.github.io/prorab/tags/recursion">recursion</category>
+                                    <category domain="https://dvesti.github.io/prorab/tags/tag-6">tag-6</category>
                                 
                             
                         
                     
                 
-                <guid>https://dvesti.github.io/prorab/convert-seconds-to-human-time/</guid>
-                <pubDate>Wed, 07 Feb 2018 18:10:00 -0500</pubDate>
+                <guid>https://dvesti.github.io/prorab/shortcodes-preview/</guid>
+                <pubDate>Sun, 04 Mar 2018 16:01:23 +0800</pubDate>
+            </item>
+        
+            
+            <item>
+                <title>Shortcodes Notice Preview</title>
+                <link>https://dvesti.github.io/prorab/shortcode-notice/</link>
+                
+                
+                <description>&lt;p&gt;Не все &lt;em&gt;шорккоды&lt;/em&gt; работают корректно. Скорее всего из-за их отсутствия: будем искать и исправлять пост.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Дополнено&lt;/strong&gt;: Поменял &lt;code&gt;% %&lt;/code&gt; на &lt;code&gt;&amp;lt; &amp;gt;&lt;/code&gt; и дело пошло&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;normal-use&#34;&gt;normal use&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;Note&lt;/code&gt; example:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;{{&amp;lt; notice note &amp;gt;}}
+&amp;lt;p&amp;gt;A notice disclaimer&amp;lt;/p&amp;gt;
+{{&amp;lt; /notice &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Result:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;shortcode-notice note&#34;&gt;
+  &lt;div class=&#34;shortcode-notice-title note&#34;&gt;
+    
+      note
+    
+  &lt;/div&gt;
+  
+&lt;p&gt;A notice disclaimer&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;You could &lt;strong&gt;custom title&lt;/strong&gt; :&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;{{&amp;lt; notice note Примечание &amp;gt;}}
+&amp;lt;p&amp;gt;A notice disclaimer&amp;lt;/p&amp;gt;
+{{&amp;lt; /notice &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;shortcode-notice note&#34;&gt;
+  &lt;div class=&#34;shortcode-notice-title note&#34;&gt;
+    
+      Примечание
+    
+  &lt;/div&gt;
+  
+&lt;p&gt;A notice disclaimer&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;tip&#34;&gt;tip&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;{{&amp;lt; notice tip &amp;gt;}}
+&amp;lt;p&amp;gt;A tip disclaimer&amp;lt;/p&amp;gt;
+{{&amp;lt; /notice &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;shortcode-notice tip&#34;&gt;
+  &lt;div class=&#34;shortcode-notice-title tip&#34;&gt;
+    
+      tip
+    
+  &lt;/div&gt;
+  
+&lt;p&gt;A tip disclaimer&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;info&#34;&gt;info&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;{{&amp;lt; notice info &amp;gt;}}
+&amp;lt;p&amp;gt;A info disclaimer&amp;lt;/p&amp;gt;
+{{&amp;lt; /notice &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;shortcode-notice info&#34;&gt;
+  &lt;div class=&#34;shortcode-notice-title info&#34;&gt;
+    
+      info
+    
+  &lt;/div&gt;
+  
+&lt;p&gt;An information disclaimer&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;warning&#34;&gt;warning&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;{{&amp;lt; notice warning &amp;gt;}}
+&amp;lt;p&amp;gt;A warning disclaimer&amp;lt;/p&amp;gt;
+{{&amp;lt; /notice &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;shortcode-notice warning&#34;&gt;
+  &lt;div class=&#34;shortcode-notice-title warning&#34;&gt;
+    
+      warning
+    
+  &lt;/div&gt;
+  
+&lt;p&gt;An warning disclaimer&lt;/p&gt;
+
+&lt;/div&gt;</description>
+                
+                
+                     
+                        
+                             
+                            
+                                
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/categories/docs">docs</category>
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/categories/shortcodes">shortcodes</category>
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/categories/index">index</category>
+                                
+                            
+                        
+                     
+                        
+                     
+                        
+                             
+                            
+                                
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/tags/preview">preview</category>
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/tags/shortcodes">shortcodes</category>
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/tags/tag-6">tag-6</category>
+                                
+                            
+                        
+                    
+                
+                <guid>https://dvesti.github.io/prorab/shortcode-notice/</guid>
+                <pubDate>Sat, 03 Mar 2018 16:01:23 +0800</pubDate>
             </item>
         
             
@@ -715,6 +669,255 @@ am using &lt;a href=&#34;https://gohugo.io/&#34;&gt;&lt;code&gt;hugo&lt;/code&gt
                 
                 <guid>https://dvesti.github.io/prorab/first-post/</guid>
                 <pubDate>Mon, 03 Mar 2014 18:21:33 -0500</pubDate>
+            </item>
+        
+            
+            <item>
+                <title>Example content</title>
+                <link>https://dvesti.github.io/prorab/2014-01-01-example-content/</link>
+                
+                
+                <description>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Cum sociis natoque penatibus et magnis &lt;!-- raw HTML omitted --&gt;dis parturient montes&lt;!-- raw HTML omitted --&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt;
+&lt;h2 id=&#34;inline-html-elements&#34;&gt;Inline HTML elements&lt;/h2&gt;
+&lt;p&gt;HTML defines a long list of available inline tags, a complete list of which can be found on the &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTML/Element&#34;&gt;Mozilla Developer Network&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;To bold text&lt;/strong&gt;, use &lt;code&gt;&amp;lt;strong&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;To italicize text&lt;/em&gt;, use &lt;code&gt;&amp;lt;em&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Abbreviations, like &lt;!-- raw HTML omitted --&gt;HTML&lt;!-- raw HTML omitted --&gt; should use &lt;code&gt;&amp;lt;abbr&amp;gt;&lt;/code&gt;, with an optional &lt;code&gt;title&lt;/code&gt; attribute for the full phrase.&lt;/li&gt;
+&lt;li&gt;Citations, like &lt;!-- raw HTML omitted --&gt;— Mark otto&lt;!-- raw HTML omitted --&gt;, should use &lt;code&gt;&amp;lt;cite&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;!-- raw HTML omitted --&gt;Deleted&lt;!-- raw HTML omitted --&gt; text should use &lt;code&gt;&amp;lt;del&amp;gt;&lt;/code&gt; and &lt;!-- raw HTML omitted --&gt;inserted&lt;!-- raw HTML omitted --&gt; text should use &lt;code&gt;&amp;lt;ins&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Superscript &lt;!-- raw HTML omitted --&gt;text&lt;!-- raw HTML omitted --&gt; uses &lt;code&gt;&amp;lt;sup&amp;gt;&lt;/code&gt; and subscript &lt;!-- raw HTML omitted --&gt;text&lt;!-- raw HTML omitted --&gt; uses &lt;code&gt;&amp;lt;sub&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Most of these elements are styled by browsers with few modifications on our part.&lt;/p&gt;
+&lt;h2 id=&#34;heading&#34;&gt;Heading&lt;/h2&gt;
+&lt;p&gt;Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.&lt;/p&gt;
+&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
+&lt;p&gt;Cum sociis natoque penatibus et magnis dis &lt;code&gt;code element&lt;/code&gt; montes, nascetur ridiculus mus.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// Example can be run directly in your JavaScript console
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;// Create a function that takes two arguments and returns the sum of those arguments
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;adder&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;Function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;a&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;b&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;return a + b&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+
+&lt;span class=&#34;c1&#34;&gt;// Call the function
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;adder&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;// &amp;gt; 8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.&lt;/p&gt;
+&lt;h3 id=&#34;lists&#34;&gt;Lists&lt;/h3&gt;
+&lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Praesent commodo cursus magna, vel scelerisque nisl consectetur et.&lt;/li&gt;
+&lt;li&gt;Donec id elit non mi porta gravida at eget metus.&lt;/li&gt;
+&lt;li&gt;Nulla vitae elit libero, a pharetra augue.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Vestibulum id ligula porta felis euismod semper.&lt;/li&gt;
+&lt;li&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/li&gt;
+&lt;li&gt;Maecenas sed diam eget risus varius blandit sit amet non magna.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.&lt;/p&gt;
+&lt;h3 id=&#34;tables&#34;&gt;Tables&lt;/h3&gt;
+&lt;p&gt;Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Want to see something else added? &lt;!-- raw HTML omitted --&gt;Open an issue.&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+                
+                
+                     
+                        
+                     
+                        
+                     
+                        
+                    
+                
+                <guid>https://dvesti.github.io/prorab/2014-01-01-example-content/</guid>
+                <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+            </item>
+        
+            
+            <item>
+                <title>Syntax Highlighting</title>
+                <link>https://dvesti.github.io/prorab/syntax-highlighting/</link>
+                
+                
+                <description>&lt;p&gt;More detail: &lt;a href=&#34;https://gohugo.io/content-management/syntax-highlighting/&#34;&gt;Syntax Highlighting | Hugo&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;helloWorld&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+  &lt;span class=&#34;nx&#34;&gt;alert&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Hello, World!&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;HelloWorld&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+  &lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;[]&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;args&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;out&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Hello, World!&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
+  &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-kotlin&#34; data-lang=&#34;kotlin&#34;&gt;&lt;span class=&#34;k&#34;&gt;package&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;hello&lt;/span&gt;
+
+&lt;span class=&#34;k&#34;&gt;fun&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;args&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Array&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+  &lt;span class=&#34;n&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Hello World!&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c&#34; data-lang=&#34;c&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt; &lt;span class=&#34;cpf&#34;&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;cm&#34;&gt;/* Hello */&lt;/span&gt;
+&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;){&lt;/span&gt;
+  &lt;span class=&#34;n&#34;&gt;printf&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Hello, World!&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+  &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// &amp;#39;Hello World!&amp;#39; program
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt; &lt;span class=&#34;cpf&#34;&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
+&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(){&lt;/span&gt;
+  &lt;span class=&#34;n&#34;&gt;std&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cout&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;Hello World!&amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;std&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;endl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+  &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;&lt;span class=&#34;k&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;HelloWorld&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+  &lt;span class=&#34;k&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Main&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(){&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Console&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;WriteLine&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Hello, World!&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+  Hello, World!
+&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span class=&#34;kn&#34;&gt;package&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;main&lt;/span&gt;
+&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;fmt&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;fmt&amp;#34;&lt;/span&gt;
+
+&lt;span class=&#34;kd&#34;&gt;func&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+   &lt;span class=&#34;nx&#34;&gt;fmt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;Printf&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Hello, World!\n&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-scala&#34; data-lang=&#34;scala&#34;&gt;&lt;span class=&#34;k&#34;&gt;object&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;HelloWorld&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;with&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;Application&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+  &lt;span class=&#34;nc&#34;&gt;Console&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Hello, World!&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&amp;lt;?php&lt;/span&gt;
+  &lt;span class=&#34;k&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;Hello, World!&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;cp&#34;&gt;?&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;k&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Hello, World!&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;no-named-code-block&#34;&gt;no named code block&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;## this is a comment
+$ echo this is a command
+this is a command
+
+## edit the file
+$vi foo.md
++++
+date = &amp;quot;2014-09-28&amp;quot;
+title = &amp;quot;creating a new theme&amp;quot;
++++
+
+bah and humbug
+:wq
+
+## show it
+$ cat foo.md
++++
+date = &amp;quot;2014-09-28&amp;quot;
+title = &amp;quot;creating a new theme&amp;quot;
++++
+
+bah and humbug
+$
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;highlight-shortcode&#34;&gt;highlight shortcode&lt;/h2&gt;
+&lt;p&gt;example:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;    &lt;span class=&#34;o&#34;&gt;...&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;code&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;result:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;199
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;200
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;201
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;202
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;203
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;204
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;205
+&lt;/span&gt;&lt;span class=&#34;hl&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;206
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;207
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;208
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;209
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;210
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;211
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;212
+&lt;/span&gt;&lt;span class=&#34;hl&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;213
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;hl&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;214
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;hl&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;215
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;216
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;217
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;218
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;219
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;220
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt; &lt;span class=&#34;nx&#34;&gt;GetTitleFunc&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;returns&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;func&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;that&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;can&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;be&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;used&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;to&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;transform&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;string&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;to&lt;/span&gt;
+ &lt;span class=&#34;nx&#34;&gt;title&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;case&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;
+
+ &lt;span class=&#34;nx&#34;&gt;The&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;supported&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;styles&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;are&lt;/span&gt;
+
+ &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;Go&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;strings&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+ &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;AP&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;see&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;https&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;//www.apstylebook.com/)&amp;gt;
+&lt;/span&gt;&lt;span class=&#34;hl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;Chicago&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;see&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;http&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;//www.chicagomanualofstyle.org/home.html)&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
+ &lt;span class=&#34;nx&#34;&gt;If&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;an&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;unknown&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;or&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;empty&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;style&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;is&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;provided&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;AP&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;style&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;is&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;what&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;you&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;get&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;
+&lt;span class=&#34;kd&#34;&gt;func&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;GetTitleFunc&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;style&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;string&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;func&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;s&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;string&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;string&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+  &lt;span class=&#34;k&#34;&gt;switch&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;strings&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;ToLower&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;style&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+  &lt;span class=&#34;k&#34;&gt;case&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;go&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;strings&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Title&lt;/span&gt;
+&lt;span class=&#34;hl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;case&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;chicago&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;span class=&#34;hl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;tc&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;:=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;transform&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;NewTitleConverter&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;transform&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;ChicagoStyle&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;span class=&#34;hl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;tc&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Title&lt;/span&gt;
+&lt;/span&gt;  &lt;span class=&#34;k&#34;&gt;default&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+    &lt;span class=&#34;nx&#34;&gt;tc&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;:=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;transform&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;NewTitleConverter&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;transform&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;APStyle&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;tc&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Title&lt;/span&gt;
+  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+                
+                
+                     
+                        
+                             
+                            
+                                
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/categories/syntax-highlighting">Syntax Highlighting</category>
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/categories/index">index</category>
+                                
+                            
+                        
+                     
+                        
+                     
+                        
+                             
+                            
+                                
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/tags/preview">preview</category>
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/tags/syntax-highlighting">Syntax Highlighting</category>
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/tags/tag-5">tag-5</category>
+                                
+                            
+                        
+                    
+                
+                <guid>https://dvesti.github.io/prorab/syntax-highlighting/</guid>
+                <pubDate>Tue, 30 Aug 2011 16:01:23 +0800</pubDate>
             </item>
         
     </channel>

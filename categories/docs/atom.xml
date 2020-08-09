@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ru-ru">
+    <generator uri="https://gohugo.io/" version="0.74.1">Hugo</generator><title type="html"><![CDATA[docs on Alien's Notes]]></title>
+    
+        <subtitle type="html"><![CDATA[Заметочник вэб-прораба]]></subtitle>
+    
+    
+    
+            <link href="https://dvesti.github.io/prorab/categories/docs/" rel="alternate" type="text/html" title="HTML" />
+            <link href="https://dvesti.github.io/prorab/categories/docs/index.xml" rel="alternate" type="application/rss+xml" title="RSS" />
+            <link href="https://dvesti.github.io/prorab/categories/docs/atom.xml" rel="self" type="application/atom+xml" title="Atom" />
+            <link href="https://dvesti.github.io/prorab/categories/docs/jf2feed.json" rel="alternate" type="application/jf2feed+json" title="jf2feed" />
+    <updated>2020-08-09T23:24:26+03:00</updated>
+    
+    
+    <author>
+            <name>Dvesti</name>
+            
+                <email>dvesti@hot.ee</email>
+            </author>
+    
+        <id>https://dvesti.github.io/prorab/categories/docs/</id>
+    
+        
+        <entry>
+            <title type="html"><![CDATA[Shortcodes Preview]]></title>
+            <link href="https://dvesti.github.io/prorab/shortcodes-preview/?utm_source=atom_feed" rel="alternate" type="text/html" />
+            
+                <link href="https://dvesti.github.io/prorab/shortcode-notice/?utm_source=atom_feed" rel="related" type="text/html" title="Shortcodes Notice Preview" />
+                <link href="https://dvesti.github.io/prorab/syntax-highlighting/?utm_source=atom_feed" rel="related" type="text/html" title="Syntax Highlighting" />
+            
+                <id>https://dvesti.github.io/prorab/shortcodes-preview/</id>
+            
+            
+            <published>2018-03-04T16:01:23+08:00</published>
+            <updated>2018-03-05T16:01:23+08:00</updated>
+            
+            
+            <content type="html"><![CDATA[<h2 id="what-a-shortcode-is">What a Shortcode is</h2>
+<p>Hugo loves Markdown because of its simple content format, but there are times when Markdown falls short. Often, content authors are forced to add raw HTML (e.g., video <code>&lt;iframes&gt;</code>) to Markdown content. We think this contradicts the beautiful simplicity of Markdown&rsquo;s syntax.</p>
+<p>Hugo created <strong>shortcodes</strong> to circumvent these limitations.</p>
+<p>A shortcode is a simple snippet inside a content file that Hugo will render using a predefined template. Note that shortcodes will not work in template files. If you need the type of drop-in functionality that shortcodes provide but in a template, you most likely want a [partial template][partials] instead.</p>
+<p>In addition to cleaner Markdown, shortcodes can be updated any time to reflect new classes, techniques, or standards. At the point of site generation, Hugo shortcodes will easily merge in your changes. You avoid a possibly complicated search and replace operation.</p>
+<p>More details: <a href="https://gohugo.io/content-management/shortcodes/">https://gohugo.io/content-management/shortcodes/</a></p>
+<h2 id="blockquotes">blockquotes</h2>
+<p>Normal quote:
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<blockquote>
+  <p>This is a simple quote.</p>
+  <footer>
+    <strong></strong>
+    
+      
+        
+      
+    
+  </footer>
+</blockquote>
+</p>
+<p>Quote with author:
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+  
+
+
+<blockquote>
+  <p>This is a quote with only an Author named Author2.</p>
+  <footer>
+    <strong>Author2</strong>
+    
+      
+        
+      
+    
+  </footer>
+</blockquote>
+</p>
+<p>Quote with author and source:
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+  
+
+
+<blockquote>
+  <p>This is a quote from Author3 and source &ldquo;source.&rdquo;</p>
+  <footer>
+    <strong>Author3</strong>
+    
+      <cite>Source</cite>
+    
+  </footer>
+</blockquote>
+</p>
+<p>Quote with author and link:
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+      
+      
+      
+    
+     
+      
+    
+    
+
+    
+    
+  
+
+
+<blockquote>
+  <p>This is a quote from Author4 and links to <a href="https://www.google.com">https://www.google.com</a>.</p>
+  <footer>
+    <strong>Author4</strong>
+    
+      
+        <cite>
+          <a href="https://www.google.com" title="https://www.google.com">google.com</a> 
+        </cite>
+      
+    
+  </footer>
+</blockquote>
+</p>
+<p>Quote with author, link and title:
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+  
+
+
+<blockquote>
+  <p>This is a quote from Author5 and links to <a href="https://www.google.com">https://www.google.com</a> with title &ldquo;Google.&rdquo;</p>
+  <footer>
+    <strong>Author5</strong>
+    
+      
+        <cite>
+          <a href="https://www.google.com" title="https://www.google.com">Google</a> 
+        </cite>
+      
+    
+  </footer>
+</blockquote>
+</p>
+<p>Quote with author and a link longer than 32 characters, string is first cut at 32 characters then everything after the last forward slash is removed
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+      
+      
+      
+    
+     
+      
+    
+    
+
+    
+    
+         
+         
+         
+
+         
+        
+        
+        
+        
+      
+      
+    
+  
+
+
+<blockquote>
+  <p>This is a quote from Author5 and links to <a href="https://twitter.com/CryptoGangsta/status/716427930126196737">https://twitter.com/CryptoGangsta/status/716427930126196737</a> which is longer than 32 characters.
+<!-- raw HTML omitted -->And this is a new line in the quote with the HTML br tag.</p>
+  <footer>
+    <strong>Author6</strong>
+    
+      
+        <cite>
+          <a href="https://twitter.com/CryptoGangsta/status/716427930126196737" title="https://twitter.com/CryptoGangsta/status/716427930126196737">twitter.com/CryptoGangsta/...</a> 
+        </cite>
+      
+    
+  </footer>
+</blockquote>
+</p>
+<p>Test from the Octopress blockquote page at: <a href="http://octopress.org/docs/plugins/blockquote/">http://octopress.org/docs/plugins/blockquote/</a>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+      
+      
+      
+    
+     
+      
+    
+    
+
+    
+    
+         
+         
+         
+
+         
+        
+        
+        
+        
+        
+        
+      
+      
+    
+  
+
+
+<blockquote>
+  <p>Over the past 24 hours I&rsquo;ve been reflecting on my life &amp; I&rsquo;ve realized only one thing. I need a medieval battle axe.</p>
+  <footer>
+    <strong>@allanbranch</strong>
+    
+      
+        <cite>
+          <a href="https://twitter.com/allanbranch/status/90766146063712256" title="https://twitter.com/allanbranch/status/90766146063712256">twitter.com/allanbranch/status/...</a> 
+        </cite>
+      
+    
+  </footer>
+</blockquote>
+</p>
+<h2 id="music">music</h2>
+<!-- raw HTML omitted -->
+<h2 id="gist">gist</h2>
+<p>We can embed the gist in our content via username and gist ID pulled from the URL:</p>
+<pre><code>{{&lt; gist spf13 7896402 &gt;}}
+</code></pre><p>Display:</p>
+<script type="application/javascript" src="https://gist.github.com/spf13/7896402.js"></script>
+
+<h2 id="expand">expand</h2>
+<p>The Expand shortcode displays an expandable/collapsible section of text on your page. Here is an example</p>
+<details>
+  <summary style="background-color:#f5f5f5;border:1px solid #ccc;padding:5px;">
+    Is this learn theme rocks ?
+    
+  </summary>
+  
+Yes !.
+
+</details>
+
+<h3 id="usage">Usage</h3>
+<p>this shortcode takes exactly one optional parameter to define the text that appears next to the expand/collapse icon. (default is “Click to expand”)</p>
+<pre><code>{{&lt; expand &quot;Is this learn theme rocks ?&quot; &gt;}}
+Yes !.
+{{&lt; /expand &gt;}}
+</code></pre><h2 id="youtube">youtube</h2>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/w7Ft2ymGmfc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h2 id="vimeo">vimeo</h2>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://player.vimeo.com/video/146022717" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="vimeo video" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+ </div>
+
+<h2 id="youku">youku</h2>
+
+
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+    <iframe src="https://player.youku.com/embed/XMzQ0ODUxMjM2NA?autoplay=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0" title="YouKu Video">
+    </iframe>
+</div>]]></content>
+            
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/categories/docs" term="docs" label="docs" />
+                             
+                                <category scheme="https://dvesti.github.io/prorab/categories/shortcodes" term="shortcodes" label="shortcodes" />
+                             
+                                <category scheme="https://dvesti.github.io/prorab/categories/index" term="index" label="index" />
+                            
+                        
+                    
+                 
+                    
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/preview" term="preview" label="preview" />
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/shortcodes" term="shortcodes" label="shortcodes" />
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/tag-6" term="tag-6" label="tag-6" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        
+        <entry>
+            <title type="html"><![CDATA[Shortcodes Notice Preview]]></title>
+            <link href="https://dvesti.github.io/prorab/shortcode-notice/?utm_source=atom_feed" rel="alternate" type="text/html" />
+            
+                <link href="https://dvesti.github.io/prorab/syntax-highlighting/?utm_source=atom_feed" rel="related" type="text/html" title="Syntax Highlighting" />
+            
+                <id>https://dvesti.github.io/prorab/shortcode-notice/</id>
+            
+            
+            <published>2018-03-03T16:01:23+08:00</published>
+            <updated>2018-03-04T16:01:23+08:00</updated>
+            
+            
+            <content type="html"><![CDATA[<p>Не все <em>шорккоды</em> работают корректно. Скорее всего из-за их отсутствия: будем искать и исправлять пост.</p>
+<p><strong>Дополнено</strong>: Поменял <code>% %</code> на <code>&lt; &gt;</code> и дело пошло&hellip;</p>
+<h2 id="normal-use">normal use</h2>
+<p><code>Note</code> example:</p>
+<pre><code class="language-shortcode" data-lang="shortcode">{{&lt; notice note &gt;}}
+&lt;p&gt;A notice disclaimer&lt;/p&gt;
+{{&lt; /notice &gt;}}
+</code></pre><p><strong>Result:</strong></p>
+<div class="shortcode-notice note">
+  <div class="shortcode-notice-title note">
+    
+      note
+    
+  </div>
+  
+<p>A notice disclaimer</p>
+
+</div>
+
+<p>You could <strong>custom title</strong> :</p>
+<pre><code class="language-shortcode" data-lang="shortcode">{{&lt; notice note Примечание &gt;}}
+&lt;p&gt;A notice disclaimer&lt;/p&gt;
+{{&lt; /notice &gt;}}
+</code></pre><div class="shortcode-notice note">
+  <div class="shortcode-notice-title note">
+    
+      Примечание
+    
+  </div>
+  
+<p>A notice disclaimer</p>
+
+</div>
+
+<h2 id="tip">tip</h2>
+<pre><code class="language-shortcode" data-lang="shortcode">{{&lt; notice tip &gt;}}
+&lt;p&gt;A tip disclaimer&lt;/p&gt;
+{{&lt; /notice &gt;}}
+</code></pre><div class="shortcode-notice tip">
+  <div class="shortcode-notice-title tip">
+    
+      tip
+    
+  </div>
+  
+<p>A tip disclaimer</p>
+
+</div>
+
+<h2 id="info">info</h2>
+<pre><code class="language-shortcode" data-lang="shortcode">{{&lt; notice info &gt;}}
+&lt;p&gt;A info disclaimer&lt;/p&gt;
+{{&lt; /notice &gt;}}
+</code></pre><div class="shortcode-notice info">
+  <div class="shortcode-notice-title info">
+    
+      info
+    
+  </div>
+  
+<p>An information disclaimer</p>
+
+</div>
+
+<h2 id="warning">warning</h2>
+<pre><code class="language-shortcode" data-lang="shortcode">{{&lt; notice warning &gt;}}
+&lt;p&gt;A warning disclaimer&lt;/p&gt;
+{{&lt; /notice &gt;}}
+</code></pre><div class="shortcode-notice warning">
+  <div class="shortcode-notice-title warning">
+    
+      warning
+    
+  </div>
+  
+<p>An warning disclaimer</p>
+
+</div>]]></content>
+            
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/categories/docs" term="docs" label="docs" />
+                             
+                                <category scheme="https://dvesti.github.io/prorab/categories/shortcodes" term="shortcodes" label="shortcodes" />
+                             
+                                <category scheme="https://dvesti.github.io/prorab/categories/index" term="index" label="index" />
+                            
+                        
+                    
+                 
+                    
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/preview" term="preview" label="preview" />
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/shortcodes" term="shortcodes" label="shortcodes" />
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/tag-6" term="tag-6" label="tag-6" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+</feed>

@@ -3,13 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://dvesti.github.io/prorab/i-write-my-blog-posts-in-markdown/</loc>
+    <lastmod>2020-06-17T12:04:31+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://dvesti.github.io/prorab/</loc>
-    <lastmod>2020-06-16T02:04:31+03:00</lastmod>
+    <lastmod>2020-06-17T12:04:31+03:00</lastmod>
   </url>
   
   <url>
     <loc>https://dvesti.github.io/prorab/posts/</loc>
-    <lastmod>2020-06-16T02:04:31+03:00</lastmod>
+    <lastmod>2020-06-17T12:04:31+03:00</lastmod>
   </url>
   
   <url>
@@ -19,47 +24,82 @@
   
   <url>
     <loc>https://dvesti.github.io/prorab/categories/</loc>
-    <lastmod>2018-02-07T18:10:00-05:00</lastmod>
+    <lastmod>2018-03-05T16:01:23+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dvesti.github.io/prorab/categories/elisp/</loc>
-    <lastmod>2018-02-07T18:10:00-05:00</lastmod>
+    <loc>https://dvesti.github.io/prorab/categories/docs/</loc>
+    <lastmod>2018-03-05T16:01:23+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dvesti.github.io/prorab/categories/emacs/</loc>
-    <lastmod>2018-02-07T18:10:00-05:00</lastmod>
+    <loc>https://dvesti.github.io/prorab/categories/index/</loc>
+    <lastmod>2018-03-05T16:01:23+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dvesti.github.io/prorab/tags/recursion/</loc>
-    <lastmod>2018-02-07T18:10:00-05:00</lastmod>
+    <loc>https://dvesti.github.io/prorab/tags/preview/</loc>
+    <lastmod>2018-03-05T16:01:23+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dvesti.github.io/prorab/tags/seconds/</loc>
-    <lastmod>2018-02-07T18:10:00-05:00</lastmod>
+    <loc>https://dvesti.github.io/prorab/tags/shortcodes/</loc>
+    <lastmod>2018-03-05T16:01:23+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dvesti.github.io/prorab/categories/shortcodes/</loc>
+    <lastmod>2018-03-05T16:01:23+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dvesti.github.io/prorab/shortcodes-preview/</loc>
+    <lastmod>2018-03-05T16:01:23+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dvesti.github.io/prorab/tags/tag-6/</loc>
+    <lastmod>2018-03-05T16:01:23+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://dvesti.github.io/prorab/tags/</loc>
-    <lastmod>2018-02-07T18:10:00-05:00</lastmod>
+    <lastmod>2018-03-05T16:01:23+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dvesti.github.io/prorab/tags/time/</loc>
-    <lastmod>2018-02-07T18:10:00-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dvesti.github.io/prorab/convert-seconds-to-human-time/</loc>
-    <lastmod>2018-02-07T18:10:00-05:00</lastmod>
+    <loc>https://dvesti.github.io/prorab/shortcode-notice/</loc>
+    <lastmod>2018-03-04T16:01:23+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://dvesti.github.io/prorab/first-post/</loc>
     <lastmod>2014-03-03T18:21:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dvesti.github.io/prorab/2014-01-01-example-content/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dvesti.github.io/prorab/tags/syntax-highlighting/</loc>
+    <lastmod>2017-08-30T16:01:23+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dvesti.github.io/prorab/categories/syntax-highlighting/</loc>
+    <lastmod>2017-08-30T16:01:23+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dvesti.github.io/prorab/syntax-highlighting/</loc>
+    <lastmod>2017-08-30T16:01:23+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dvesti.github.io/prorab/tags/tag-5/</loc>
+    <lastmod>2017-08-30T16:01:23+08:00</lastmod>
   </url>
   
   <url>
