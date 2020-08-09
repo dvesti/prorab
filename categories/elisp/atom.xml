@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ru-ru">
+    <generator uri="https://gohugo.io/" version="0.74.1">Hugo</generator><title type="html"><![CDATA[elisp on Alien's Notes]]></title>
+    
+        <subtitle type="html"><![CDATA[Заметочник вэб-прораба]]></subtitle>
+    
+    
+    
+            <link href="https://scripter.co/categories/elisp/" rel="alternate" type="text/html" title="HTML" />
+            <link href="https://scripter.co/categories/elisp/index.xml" rel="alternate" type="application/rss+xml" title="RSS" />
+            <link href="https://scripter.co/categories/elisp/atom.xml" rel="self" type="application/atom+xml" title="Atom" />
+            <link href="https://scripter.co/categories/elisp/jf2feed.json" rel="alternate" type="application/jf2feed+json" title="jf2feed" />
+    <updated>2020-08-09T20:49:26+03:00</updated>
+    
+    
+    <author>
+            <name>Dvesti</name>
+            
+                <email>dvesti@hot.ee</email>
+            </author>
+    
+        <id>https://scripter.co/categories/elisp/</id>
+    
+        
+        <entry>
+            <title type="html"><![CDATA[Your car will be ready in 8000 seconds]]></title>
+            <link href="https://scripter.co/convert-seconds-to-human-time/?utm_source=atom_feed" rel="alternate" type="text/html" />
+            
+            
+                <id>https://scripter.co/convert-seconds-to-human-time/</id>
+            
+            
+                    <author>
+                        <name>Kaushal Modi</name>
+                    </author>
+            <published>2018-02-07T18:10:00-05:00</published>
+            <updated>2018-02-07T18:10:00-05:00</updated>
+            
+            
+            <content type="html"><![CDATA[<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<ul>
+<li><a href="#code">Code</a></li>
+<li><a href="#tests">Tests</a>
+<ul>
+<li><a href="#test-output">Test Output</a></li>
+</ul>
+</li>
+<li><a href="#source">Source</a></li>
+<li><a href="#closing">Closing</a></li>
+<li><a href="#appendix">Appendix</a>
+<ul>
+<li><a href="#test-output-using-format-seconds">Test output using <code>format-seconds</code></a></li>
+<li><a href="#code--revision-1">Code (Revision 1)</a></li>
+</ul>
+</li>
+</ul>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Well, a mechanic usually wouldn&rsquo;t give you a time estimate in seconds,
+but a tool I am using prints something like this at the end:</p>
+<blockquote>
+<p>The simulation took 54227.9 seconds in CPU time.</p>
+</blockquote>
+<p>That triggered me to write a &ldquo;little&rdquo; script to convert seconds to
+<em>human time</em> i.e. time in <em>days</em>, <em>hours</em>, <em>minutes</em> and <em>seconds</em>.</p>
+<dl>
+<dt><!-- raw HTML omitted --><!-- raw HTML omitted -->&lt;2018-02-08 Thu&gt;<!-- raw HTML omitted --><!-- raw HTML omitted --></dt>
+<dd>Updated code.</dd>
+</dl>
+<p>Thanks to <a href="https://www.reddit.com/user/xiongtx"><strong>/u/xiongtx</strong></a> from Reddit, I learned about the built-in function
+<a href="https://git.savannah.gnu.org/cgit/emacs.git/tree/lisp/calendar/time-date.el?id=04c5bd5b1f1dc07994d70caa640a07da6b5a54b5#n260"><code>format-seconds</code></a> that does what I wanted to do &ndash; <em>but not exactly in a
+way I wanted to see</em>. Though, <code>format-seconds</code> gave me an idea for a
+big optimization (code <a href="https://github.com/kaushalmodi/.emacs.d/commit/db9e1a7c54a4c822e80b0308b7fc644db44fe1eb">commit diff</a>).</p>
+<p>Below <a href="#code">Code</a> section is updated to reflect that. If you like, you can
+review older version of the same section at the <a href="#code--revision-1">end of this
+post</a>. Also, at the end, you will find a <a href="#test-output-using-format-seconds">comparison</a> between the outputs
+from <code>format-seconds</code> and <code>modi/seconds-to-human-time</code>.</p>
+<hr>
+<h2 id="code">Code</h2>
+<p>Here&rsquo;s the <strong>updated</strong> code, and notes about that follow after that:</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<div class="highlight"><pre class="chroma"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="p">(</span><span class="nb">defun</span> <span class="nv">modi/seconds-to-human-time</span> <span class="p">(</span><span class="kp">&amp;optional</span> <span class="nv">seconds</span><span class="p">)</span>
+  <span class="s">&#34;Convert SECONDS to \&#34;DDd HHh MMm SSs\&#34; string.
+</span><span class="s">
+</span><span class="s">SECONDS is a non-negative integer or fractional number.
+</span><span class="s">
+</span><span class="s">SECONDS can also be a list of such numbers, which is the case
+</span><span class="s">when this function is called recursively.
+</span><span class="s">
+</span><span class="s">When called interactively, if a region is selected SECONDS is
+</span><span class="s">extracted from that, else the user is prompted to enter those.&#34;</span>
+  <span class="p">(</span><span class="nb">interactive</span><span class="p">)</span>
+  <span class="p">(</span><span class="nb">let</span> <span class="p">((</span><span class="nv">inter</span> <span class="p">(</span><span class="nv">called-interactively-p</span> <span class="ss">&#39;interactive</span><span class="p">)))</span>
+    <span class="p">(</span><span class="nb">when</span> <span class="nv">inter</span>
+      <span class="p">(</span><span class="nb">let</span> <span class="p">((</span><span class="nv">seconds-str</span> <span class="p">(</span><span class="nb">if</span> <span class="p">(</span><span class="nv">use-region-p</span><span class="p">)</span>
+                             <span class="p">(</span><span class="nf">buffer-substring-no-properties</span> <span class="p">(</span><span class="nf">region-beginning</span><span class="p">)</span> <span class="p">(</span><span class="nf">region-end</span><span class="p">))</span>
+                           <span class="p">(</span><span class="nf">read-string</span> <span class="s">&#34;Enter seconds: &#34;</span><span class="p">))))</span>
+        <span class="p">(</span><span class="nb">setq</span> <span class="nv">seconds</span> <span class="p">(</span><span class="nf">string-to-number</span> <span class="nv">seconds-str</span><span class="p">))))</span> <span class="c1">;&#34;1&#34; -&gt; 1, &#34;1.2&#34; -&gt; 1.2, &#34;&#34; -&gt; 0</span>
+    <span class="p">(</span><span class="nb">let*</span> <span class="p">((</span><span class="nv">MINUTE</span> <span class="mi">60</span><span class="p">)</span>
+           <span class="p">(</span><span class="nv">HOUR</span> <span class="p">(</span><span class="nf">*</span> <span class="mi">60</span> <span class="nv">MINUTE</span><span class="p">))</span>
+           <span class="p">(</span><span class="nv">DAY</span> <span class="p">(</span><span class="nf">*</span> <span class="mi">24</span> <span class="nv">HOUR</span><span class="p">))</span>
+           <span class="p">(</span><span class="nv">sec</span> <span class="p">(</span><span class="nb">cond</span>
+                 <span class="p">((</span><span class="nf">listp</span> <span class="nv">seconds</span><span class="p">)</span>         <span class="c1">;This is entered only by recursive calls</span>
+                  <span class="p">(</span><span class="nf">car</span> <span class="p">(</span><span class="nv">last</span> <span class="nv">seconds</span><span class="p">)))</span>
+                 <span class="p">((</span><span class="nb">and</span> <span class="p">(</span><span class="nf">numberp</span> <span class="nv">seconds</span><span class="p">)</span>  <span class="c1">;This is entered only in the first entry</span>
+                       <span class="p">(</span><span class="nf">&gt;=</span> <span class="nv">seconds</span> <span class="mi">0</span><span class="p">))</span>
+                  <span class="nv">seconds</span><span class="p">)</span>
+                 <span class="p">(</span><span class="no">t</span>
+                  <span class="p">(</span><span class="ne">user-error</span> <span class="s">&#34;Invalid argument %S&#34;</span> <span class="nv">seconds</span><span class="p">))))</span>
+           <span class="p">(</span><span class="nv">gen-time-string</span>
+            <span class="p">(</span><span class="nb">lambda</span> <span class="p">(</span><span class="nv">time</span> <span class="nv">inter</span><span class="p">)</span>
+              <span class="s">&#34;Return string representation of TIME.
+</span><span class="s">TIME is of the type (DD HH MM SS), where each of those elements
+</span><span class="s">are numbers.  If INTER is non-nil, echo the time string in a
+</span><span class="s">well-formatted manner instead of returning it.&#34;</span>
+              <span class="p">(</span><span class="nb">let</span> <span class="p">((</span><span class="nv">filler</span> <span class="s">&#34;    &#34;</span><span class="p">)</span>
+                    <span class="p">(</span><span class="nv">str</span> <span class="s">&#34;&#34;</span><span class="p">))</span>
+                <span class="p">(</span><span class="nb">dolist</span> <span class="p">(</span><span class="nv">unit</span> <span class="o">&#39;</span><span class="p">(</span><span class="s">&#34;d&#34;</span> <span class="s">&#34;h&#34;</span> <span class="s">&#34;m&#34;</span> <span class="s">&#34;s&#34;</span><span class="p">))</span>
+                  <span class="p">(</span><span class="nb">let*</span> <span class="p">((</span><span class="nv">val</span> <span class="p">(</span><span class="nf">car</span> <span class="p">(</span><span class="nf">rassoc</span> <span class="nv">unit</span> <span class="nv">time</span><span class="p">)))</span>
+                         <span class="p">(</span><span class="nv">val-str</span> <span class="p">(</span><span class="nb">cond</span>
+                                   <span class="p">((</span><span class="nb">and</span> <span class="p">(</span><span class="nv">string=</span> <span class="nv">unit</span> <span class="s">&#34;s&#34;</span><span class="p">)</span> <span class="c1">;0 seconds</span>
+                                         <span class="p">(</span><span class="nf">=</span> <span class="nv">val</span> <span class="mi">0</span><span class="p">)</span>
+                                         <span class="p">(</span><span class="nv">string-match-p</span> <span class="s">&#34;\\</span><span class="ss">`\\s-*\\&#39;</span><span class="s">&#34;</span> <span class="nv">str</span><span class="p">))</span>
+                                    <span class="s">&#34; 0s&#34;</span><span class="p">)</span>
+                                   <span class="p">((</span><span class="nb">and</span> <span class="p">(</span><span class="nv">string=</span> <span class="nv">unit</span> <span class="s">&#34;s&#34;</span><span class="p">)</span>
+                                         <span class="p">(</span><span class="nf">&gt;</span> <span class="nv">val</span> <span class="mi">0</span><span class="p">))</span>
+                                    <span class="p">(</span><span class="nb">if</span> <span class="p">(</span><span class="nf">integerp</span> <span class="nv">val</span><span class="p">)</span>
+                                        <span class="p">(</span><span class="nf">format</span> <span class="s">&#34;%2d%s&#34;</span> <span class="nv">val</span> <span class="nv">unit</span><span class="p">)</span>
+                                      <span class="p">(</span><span class="nf">format</span> <span class="s">&#34;%5.2f%s&#34;</span> <span class="nv">val</span> <span class="nv">unit</span><span class="p">)))</span>
+                                   <span class="p">((</span><span class="nb">and</span> <span class="nv">val</span> <span class="p">(</span><span class="nf">&gt;</span> <span class="nv">val</span> <span class="mi">0</span><span class="p">))</span>
+                                    <span class="p">(</span><span class="nf">format</span> <span class="s">&#34;%2d%s &#34;</span> <span class="nv">val</span> <span class="nv">unit</span><span class="p">))</span>
+                                   <span class="p">(</span><span class="no">t</span>
+                                    <span class="nv">filler</span><span class="p">))))</span>
+                    <span class="p">(</span><span class="nb">setq</span> <span class="nv">str</span> <span class="p">(</span><span class="nf">concat</span> <span class="nv">str</span> <span class="nv">val-str</span><span class="p">))))</span>
+                <span class="c1">;; (message &#34;debug: %S&#34; time)</span>
+                <span class="p">(</span><span class="nb">if</span> <span class="nv">inter</span>
+                    <span class="p">(</span><span class="nf">message</span> <span class="s">&#34;%0.2f seconds → %s&#34;</span>
+                             <span class="nv">seconds</span>
+                             <span class="p">(</span><span class="nv">string-trim</span> <span class="p">(</span><span class="nv">replace-regexp-in-string</span> <span class="s">&#34; +&#34;</span>  <span class="s">&#34; &#34;</span> <span class="nv">str</span><span class="p">)))</span>
+                  <span class="p">(</span><span class="nv">string-trim-right</span> <span class="nv">str</span><span class="p">)))))</span>
+           <span class="p">(</span><span class="nv">time</span> <span class="p">(</span><span class="nb">cond</span>
+                  <span class="p">((</span><span class="nf">&gt;=</span> <span class="nv">sec</span> <span class="nv">DAY</span><span class="p">)</span>          <span class="c1">;&gt; day</span>
+                   <span class="p">(</span><span class="nb">let*</span> <span class="p">((</span><span class="nv">days</span> <span class="p">(</span><span class="nf">/</span> <span class="p">(</span><span class="nf">floor</span> <span class="nv">sec</span><span class="p">)</span> <span class="nv">DAY</span><span class="p">))</span>
+                          <span class="p">(</span><span class="nv">rem</span> <span class="p">(</span><span class="nf">-</span> <span class="nv">sec</span> <span class="p">(</span><span class="nf">*</span> <span class="nv">days</span> <span class="nv">DAY</span><span class="p">))))</span>
+                     <span class="c1">;; Note that (list rem) instead of just `rem&#39; is</span>
+                     <span class="c1">;; being passed to the recursive call to</span>
+                     <span class="c1">;; `modi/seconds-to-human-time&#39;.  This helps us</span>
+                     <span class="c1">;; distinguish between direct and re-entrant</span>
+                     <span class="c1">;; calls to this function.</span>
+                     <span class="p">(</span><span class="nf">append</span> <span class="p">(</span><span class="nf">list</span> <span class="p">(</span><span class="nf">cons</span> <span class="nv">days</span> <span class="s">&#34;d&#34;</span><span class="p">))</span> <span class="p">(</span><span class="nv">modi/seconds-to-human-time</span> <span class="p">(</span><span class="nf">list</span> <span class="nv">rem</span><span class="p">)))))</span>
+                  <span class="p">((</span><span class="nf">&gt;=</span> <span class="nv">sec</span> <span class="nv">HOUR</span><span class="p">)</span>         <span class="c1">;&gt; hour AND &lt; day</span>
+                   <span class="p">(</span><span class="nb">let*</span> <span class="p">((</span><span class="nv">hours</span> <span class="p">(</span><span class="nf">/</span> <span class="p">(</span><span class="nf">floor</span> <span class="nv">sec</span><span class="p">)</span> <span class="nv">HOUR</span><span class="p">))</span>
+                          <span class="p">(</span><span class="nv">rem</span> <span class="p">(</span><span class="nf">-</span> <span class="nv">sec</span> <span class="p">(</span><span class="nf">*</span> <span class="nv">hours</span> <span class="nv">HOUR</span><span class="p">))))</span>
+                     <span class="p">(</span><span class="nf">append</span> <span class="p">(</span><span class="nf">list</span> <span class="p">(</span><span class="nf">cons</span> <span class="nv">hours</span> <span class="s">&#34;h&#34;</span><span class="p">))</span> <span class="p">(</span><span class="nv">modi/seconds-to-human-time</span> <span class="p">(</span><span class="nf">list</span> <span class="nv">rem</span><span class="p">)))))</span>
+                  <span class="p">((</span><span class="nf">&gt;=</span> <span class="nv">sec</span> <span class="nv">MINUTE</span><span class="p">)</span>       <span class="c1">;&gt; minute AND &lt; hour</span>
+                   <span class="p">(</span><span class="nb">let*</span> <span class="p">((</span><span class="nv">mins</span> <span class="p">(</span><span class="nf">/</span> <span class="p">(</span><span class="nf">floor</span> <span class="nv">sec</span><span class="p">)</span> <span class="nv">MINUTE</span><span class="p">))</span>
+                          <span class="p">(</span><span class="nv">rem</span> <span class="p">(</span><span class="nf">-</span> <span class="nv">sec</span> <span class="p">(</span><span class="nf">*</span> <span class="nv">mins</span> <span class="nv">MINUTE</span><span class="p">))))</span>
+                     <span class="p">(</span><span class="nf">append</span> <span class="p">(</span><span class="nf">list</span> <span class="p">(</span><span class="nf">cons</span> <span class="nv">mins</span> <span class="s">&#34;m&#34;</span><span class="p">))</span> <span class="p">(</span><span class="nv">modi/seconds-to-human-time</span> <span class="p">(</span><span class="nf">list</span> <span class="nv">rem</span><span class="p">)))))</span>
+                  <span class="p">(</span><span class="no">t</span>                    <span class="c1">;&lt; minute</span>
+                   <span class="p">(</span><span class="nf">list</span> <span class="p">(</span><span class="nf">cons</span> <span class="nv">sec</span> <span class="s">&#34;s&#34;</span><span class="p">))))))</span>
+      <span class="c1">;; If `seconds&#39; is a number and not a list, this is *not* a</span>
+      <span class="c1">;; recursive call.  Return the time as a string only then.  For</span>
+      <span class="c1">;; re-entrant executions, return the `time&#39; list instead.</span>
+      <span class="p">(</span><span class="nb">if</span> <span class="p">(</span><span class="nf">numberp</span> <span class="nv">seconds</span><span class="p">)</span>
+          <span class="p">(</span><span class="nf">funcall</span> <span class="nv">gen-time-string</span> <span class="nv">time</span> <span class="nv">inter</span><span class="p">)</span>
+        <span class="nv">time</span><span class="p">))))</span>
+</code></pre></div><!-- raw HTML omitted -->
+<p>Most of this snippet is just the day/hour/minute/second math. Apart
+from that, here are some points that I found of interest:</p>
+<ul>
+<li>
+<p>I did not always want to prompt the user to enter the input
+argument. If a region was selected, the function assumes that the
+user selected a number, and skips the prompt step. So I used a plain
+<code>(interactive)</code> form instead of using <code>(interactive &quot;sPrompt: &quot;)</code> or
+<code>(interactive &quot;r&quot;)</code>. See <a href="https://www.gnu.org/software/emacs/manual/html%5Fnode/eintr/Interactive-Options.html"><em>(eintr) Interactive Options</em></a> and <a href="https://www.gnu.org/software/emacs/manual/html%5Fnode/elisp/Interactive-Codes.html"><em>(elisp)
+Interactive Codes</em></a> to learn about <code>interactive</code> and its codes.</p>
+</li>
+<li>
+<p>Instead of in-lining a modular chunk of logic, like the one where I
+convert a list like <code>(1 2 3 4)</code> into <code>&quot;1d 2h 3m 4s&quot;</code>, I assigned it
+to a <em>let</em>-bound symbol <code>gen-time-string</code>. That allowed the logic to
+be more discernible when used in:</p>
+<div class="highlight"><pre class="chroma"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="p">(</span><span class="nb">if</span> <span class="p">(</span><span class="nf">numberp</span> <span class="nv">seconds</span><span class="p">)</span>
+    <span class="p">(</span><span class="nf">funcall</span> <span class="nv">gen-time-string</span> <span class="nv">time</span> <span class="nv">inter</span><span class="p">)</span>
+  <span class="nv">time</span><span class="p">)</span>
+</code></pre></div><ul>
+<li>Also interesting is the fact that these <em>let</em>-bound lambdas can
+have their own doc-strings too.</li>
+</ul>
+</li>
+<li>
+<p>I make use of <strong>recursion</strong> in this function! But I needed this
+function to return a string (using that <code>gen-time-string</code> function)
+only when all the nested calls to itself were returned. So to
+distinguish between a direct call to the function, and re-entrant
+calls, when doing the latter, I make the input number a <em>list of
+that number</em>.</p>
+<ul>
+<li>So while the function might take an input number like <code>7</code> for a
+direct call, that same number, when needed to call to a recursive
+call, would get passed as <code>(list 7)</code> or <code>'(7)</code>.</li>
+<li>If you glance back as that little snippet above, I return the
+<code>time</code> as a string only if the input <code>seconds</code> is a <em>number</em> &mdash; and
+not a list i.e. only when I am in the &ldquo;direct call instance&rdquo;.</li>
+</ul>
+</li>
+<li>
+<p><strong>The internal variable <code>time</code> is now an alist</strong> and can have up to 4
+cons elements. Each cons is of the type <code>(TIMEVALUE . TIMEUNIT)</code>. So
+<code>time</code> now looks like <code>((DAYS . &quot;d&quot;) (HOURS . &quot;h&quot;) (MINUTES . &quot;m&quot;) (SECONDS . &quot;s&quot;))</code>.</p>
+<p>If the input <code>seconds</code> is 7200 seconds i.e. 2 hours, I cannot allow
+<code>time</code> to be just <code>(2)</code>, because then I wouldn&rsquo;t know the unit of
+that <code>2</code> (2 days? 2 hours? ..). With the above technique to <em>tag</em> the
+time value with its unit (inspired from <code>format-seconds</code>), the
+<code>time</code> value will be set as <code>((2 . &quot;h&quot;))</code> instead. That way, it
+would read clearly as <em>2 hours, 0 minutes, and 0 seconds</em>.</p>
+</li>
+<li>
+<p>Back inside <code>gen-time-string</code>, I then skip printing the time units
+that are 0 (unless everything is 0, in which case I print
+<code>&quot;0s&quot;</code>).</p>
+<div class="highlight"><pre class="chroma"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="p">((</span><span class="nb">and</span> <span class="nv">val</span> <span class="p">(</span><span class="nf">&gt;</span> <span class="nv">val</span> <span class="mi">0</span><span class="p">))</span>
+ <span class="p">(</span><span class="nf">format</span> <span class="s">&#34;%2d%s &#34;</span> <span class="nv">val</span> <span class="nv">unit</span><span class="p">))</span>
+<span class="p">(</span><span class="no">t</span>
+ <span class="nv">filler</span><span class="p">)</span>                                <span class="c1">;`filler&#39; is just white-space</span>
+</code></pre></div><p>So instead of printing <code>&quot;1d 0h 0m 5s&quot;</code>, it would print <code>&quot;1d 5s&quot;</code>.</p>
+</li>
+</ul>
+<h2 id="tests">Tests</h2>
+<p><em>The test generator did not need to be updated, because the code
+optimization was completely internal &mdash; Return values were not
+affected.</em></p>
+<p>A code isn&rsquo;t complete without tests!</p>
+<p>As much fun I had writing the above function, I had equal fun in
+writing its little tester too.</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<div class="highlight"><pre class="chroma"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="p">(</span><span class="nb">let*</span> <span class="p">((</span><span class="nv">rand-bool</span> <span class="p">(</span><span class="nb">lambda</span><span class="p">()</span>
+                    <span class="s">&#34;(random 2) will return either 1 or 0, so
+</span><span class="s">                    frac will be either t or nil&#34;</span>
+                    <span class="p">(</span><span class="nf">=</span> <span class="mi">1</span> <span class="p">(</span><span class="nf">random</span> <span class="mi">2</span><span class="p">))))</span>
+       <span class="p">(</span><span class="nv">count</span> <span class="mi">0</span><span class="p">)</span>
+       <span class="p">(</span><span class="nv">secs</span> <span class="o">&#39;</span><span class="p">(</span><span class="mi">0</span> <span class="mi">1</span> <span class="mi">60</span> <span class="mi">61</span>
+                 <span class="mi">3600</span> <span class="mi">3601</span> <span class="mi">3660</span> <span class="mi">3661</span>
+                 <span class="mi">86400</span> <span class="mi">86401</span> <span class="mi">86460</span> <span class="mi">86461</span>
+                 <span class="mi">90000</span> <span class="mi">90001</span> <span class="mi">90060</span> <span class="mi">90061</span><span class="p">))</span>
+       <span class="p">(</span><span class="nv">len-secs</span> <span class="p">(</span><span class="nf">length</span> <span class="nv">secs</span><span class="p">))</span>
+       <span class="p">(</span><span class="nv">secs-rand1</span> <span class="p">(</span><span class="nf">mapcar</span> <span class="p">(</span><span class="nb">lambda</span> <span class="p">(</span><span class="nv">s</span><span class="p">)</span>
+                             <span class="p">(</span><span class="nb">let</span> <span class="p">((</span><span class="nv">add-sec</span> <span class="p">(</span><span class="nf">funcall</span> <span class="nv">rand-bool</span><span class="p">))</span>
+                                   <span class="p">(</span><span class="nv">add-min</span> <span class="p">(</span><span class="nf">funcall</span> <span class="nv">rand-bool</span><span class="p">))</span>
+                                   <span class="p">(</span><span class="nv">add-hr</span> <span class="p">(</span><span class="nf">funcall</span> <span class="nv">rand-bool</span><span class="p">))</span>
+                                   <span class="p">(</span><span class="nv">add-day</span> <span class="p">(</span><span class="nf">funcall</span> <span class="nv">rand-bool</span><span class="p">)))</span>
+                               <span class="p">(</span><span class="nb">when</span> <span class="nv">add-sec</span>
+                                 <span class="p">(</span><span class="nb">setq</span> <span class="nv">s</span> <span class="p">(</span><span class="nf">+</span> <span class="nv">s</span> <span class="mi">1</span><span class="p">)))</span>
+                               <span class="p">(</span><span class="nb">when</span> <span class="nv">add-min</span>
+                                 <span class="p">(</span><span class="nb">setq</span> <span class="nv">s</span> <span class="p">(</span><span class="nf">+</span> <span class="nv">s</span> <span class="mi">60</span><span class="p">)))</span>
+                               <span class="p">(</span><span class="nb">when</span> <span class="nv">add-hr</span>
+                                 <span class="p">(</span><span class="nb">setq</span> <span class="nv">s</span> <span class="p">(</span><span class="nf">+</span> <span class="nv">s</span> <span class="p">(</span><span class="nf">*</span> <span class="mi">60</span> <span class="mi">60</span><span class="p">))))</span>
+                               <span class="p">(</span><span class="nb">when</span> <span class="nv">add-day</span>
+                                 <span class="p">(</span><span class="nb">setq</span> <span class="nv">s</span> <span class="p">(</span><span class="nf">+</span> <span class="nv">s</span> <span class="p">(</span><span class="nf">*</span> <span class="mi">60</span> <span class="mi">60</span> <span class="mi">24</span><span class="p">))))</span>
+                               <span class="nv">s</span><span class="p">))</span>
+                           <span class="nv">secs</span><span class="p">))</span>
+       <span class="nv">secs-rand2</span><span class="p">)</span>
+  <span class="p">(</span><span class="nb">dotimes</span> <span class="p">(</span><span class="nv">_</span> <span class="p">(</span><span class="nf">*</span> <span class="mi">2</span> <span class="nv">len-secs</span><span class="p">))</span>
+    <span class="p">(</span><span class="nb">let*</span> <span class="p">((</span><span class="nv">frac</span> <span class="p">(</span><span class="nf">funcall</span> <span class="nv">rand-bool</span><span class="p">))</span>
+           <span class="p">(</span><span class="nv">sec</span> <span class="p">(</span><span class="nb">if</span> <span class="nv">frac</span>
+                    <span class="p">(</span><span class="nf">/</span> <span class="p">(</span><span class="nf">random</span> <span class="mi">100000000</span><span class="p">)</span> <span class="mf">100.00</span><span class="p">)</span>
+                  <span class="p">(</span><span class="nf">random</span> <span class="mi">1000000</span><span class="p">))))</span>
+      <span class="p">(</span><span class="nb">push</span> <span class="nv">sec</span> <span class="nv">secs-rand2</span><span class="p">)))</span>
+  <span class="p">(</span><span class="nb">dolist</span> <span class="p">(</span><span class="nv">sec</span> <span class="p">(</span><span class="nf">append</span> <span class="nv">secs</span> <span class="nv">secs-rand1</span> <span class="nv">secs-rand2</span><span class="p">))</span>
+    <span class="p">(</span><span class="nf">message</span> <span class="s">&#34;%9.2f seconds → %s&#34;</span> <span class="nv">sec</span> <span class="p">(</span><span class="nv">modi/seconds-to-human-time</span> <span class="nv">sec</span><span class="p">))</span>
+    <span class="p">(</span><span class="nb">cl-incf</span> <span class="nv">count</span><span class="p">)</span>
+    <span class="p">(</span><span class="nb">when</span> <span class="p">(</span><span class="nf">=</span> <span class="mi">0</span> <span class="p">(</span><span class="nf">mod</span> <span class="nv">count</span> <span class="nv">len-secs</span><span class="p">))</span>
+      <span class="p">(</span><span class="nf">message</span> <span class="p">(</span><span class="nf">make-string</span> <span class="mi">40</span> <span class="sc">?─</span><span class="p">)))))</span>
+</code></pre></div><!-- raw HTML omitted -->
+<ul>
+<li>The test also makes use of a <em>let</em>-bound lambda, for the <code>rand-bool</code>
+function which I use to randomly return <code>t</code> or <code>nil</code>.</li>
+<li>The <code>secs</code> list is a set of directed tests, in which the <em>day</em>,
+<em>hour</em>, <em>minute</em> and <em>second</em> units in <code>time</code> get set to <code>1</code> in all
+possible combinations. (If you are into binary numbers, think of
+<code>0000</code>, <code>0001</code>, .. up to <code>1111</code>.)</li>
+<li>The <code>secs-rand1</code> is a partly randomized version of <code>secs</code> where one
+or more of the above time units would get randomly added by 1.</li>
+<li>The <code>secs-rand2</code> is a totally randomized list of time in seconds
+where the time could be anywhere in the <code>[0, 1000000)</code> range,
+fractional times with 2 decimal places included.</li>
+</ul>
+<h3 id="test-output">Test Output</h3>
+<p>Upon evaluating both <a href="#code-snippet--seconds-to-human-time">Code Snippet 1</a> and
+<a href="#code-snippet--seconds-to-human-time-test">Code Snippet 2</a>, you will get an output like below:</p>
+<div class="highlight"><pre class="chroma"><code class="language-text" data-lang="text">     0.00 seconds →              0s
+     1.00 seconds →              1s
+    60.00 seconds →          1m
+    61.00 seconds →          1m  1s
+  3600.00 seconds →      1h
+  3601.00 seconds →      1h      1s
+  3660.00 seconds →      1h  1m
+  3661.00 seconds →      1h  1m  1s
+ 86400.00 seconds →  1d
+ 86401.00 seconds →  1d          1s
+ 86460.00 seconds →  1d      1m
+ 86461.00 seconds →  1d      1m  1s
+ 90000.00 seconds →  1d  1h
+ 90001.00 seconds →  1d  1h      1s
+ 90060.00 seconds →  1d  1h  1m
+ 90061.00 seconds →  1d  1h  1m  1s
+────────────────────────────────────────
+    60.00 seconds →          1m
+ 86402.00 seconds →  1d          2s
+ 86521.00 seconds →  1d      2m  1s
+  3722.00 seconds →      1h  2m  2s
+  3661.00 seconds →      1h  1m  1s
+ 90061.00 seconds →  1d  1h  1m  1s
+ 90121.00 seconds →  1d  1h  2m  1s
+ 93662.00 seconds →  1d  2h  1m  2s
+172861.00 seconds →  2d      1m  1s
+176462.00 seconds →  2d  1h  1m  2s
+176520.00 seconds →  2d  1h  2m
+ 86521.00 seconds →  1d      2m  1s
+176460.00 seconds →  2d  1h  1m
+ 90062.00 seconds →  1d  1h  1m  2s
+ 93660.00 seconds →  1d  2h  1m
+ 93661.00 seconds →  1d  2h  1m  1s
+────────────────────────────────────────
+429733.00 seconds →  4d 23h 22m 13s
+902957.30 seconds → 10d 10h 49m 17.30s
+684313.07 seconds →  7d 22h  5m 13.07s
+ 62058.42 seconds →     17h 14m 18.42s
+799077.55 seconds →  9d  5h 57m 57.55s
+347952.39 seconds →  4d     39m 12.39s
+ 31041.30 seconds →      8h 37m 21.30s
+242839.97 seconds →  2d 19h 27m 19.97s
+852518.67 seconds →  9d 20h 48m 38.67s
+160038.24 seconds →  1d 20h 27m 18.24s
+689297.00 seconds →  7d 23h 28m 17s
+ 64048.00 seconds →     17h 47m 28s
+870956.98 seconds → 10d  1h 55m 56.98s
+608767.00 seconds →  7d  1h  6m  7s
+167796.00 seconds →  1d 22h 36m 36s
+114940.07 seconds →  1d  7h 55m 40.07s
+────────────────────────────────────────
+106163.46 seconds →  1d  5h 29m 23.46s
+701980.00 seconds →  8d  2h 59m 40s
+258706.73 seconds →  2d 23h 51m 46.73s
+ 33609.98 seconds →      9h 20m  9.98s
+639774.63 seconds →  7d  9h 42m 54.63s
+338533.00 seconds →  3d 22h  2m 13s
+365910.00 seconds →  4d  5h 38m 30s
+140002.00 seconds →  1d 14h 53m 22s
+365024.20 seconds →  4d  5h 23m 44.20s
+497072.00 seconds →  5d 18h  4m 32s
+304307.67 seconds →  3d 12h 31m 47.67s
+337126.00 seconds →  3d 21h 38m 46s
+711862.00 seconds →  8d  5h 44m 22s
+746474.22 seconds →  8d 15h 21m 14.22s
+200503.00 seconds →  2d  7h 41m 43s
+952391.00 seconds → 11d     33m 11s
+────────────────────────────────────────
+</code></pre></div><h2 id="source">Source</h2>
+<p>You can find the latest version of this code at
+<a href="https://github.com/kaushalmodi/.emacs.d/blob/master/elisp/misc/seconds-to-human-time.el"><code>seconds-to-human-time.el</code></a> (<a href="https://github.com/kaushalmodi/.emacs.d/blob/d620b4afb5ff4c531e2944015646ec6708692bb9/elisp/misc/seconds-to-human-time.el"><em>first revision</em></a>).</p>
+<h2 id="closing">Closing</h2>
+<p><em>Your car will be ready in 2h 13m 20s, and the simulation took 15h 3m
+47.90s in CPU time.</em></p>
+
+<link rel="stylesheet" href="/css/hugo-easy-gallery.css" />
+<div class="box">
+<figure  itemprop="associatedMedia"
+  itemscope itemtype="http://schema.org/ImageObject" >
+    <div class="img">
+      <img itemprop="thumbnail" src="images/seconds-to-human-time.png" alt="Figure 1: Screenshot of `seconds-to-human-time.el` in Emacs"/>
+    </div>
+    <a href="images/seconds-to-human-time.png" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Figure 1: Screenshot of `seconds-to-human-time.el` in Emacs</p>
+      </figcaption>
+  </figure>
+</div>
+
+<!-- raw HTML omitted -->
+<hr>
+<h2 id="appendix">Appendix</h2>
+<h3 id="test-output-using-format-seconds">Test output using <code>format-seconds</code></h3>
+<p>Instead of using <code>(modi/seconds-to-human-time sec)</code> in the <a href="#tests">test
+generator</a>, if I use the below form using <code>format-seconds</code> to get as
+close as to what I want:</p>
+<div class="highlight"><pre class="chroma"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="p">(</span><span class="nf">message</span> <span class="s">&#34;%9.2f seconds → %s&#34;</span>
+         <span class="nv">sec</span>
+         <span class="p">(</span><span class="nv">replace-regexp-in-string</span>
+          <span class="s">&#34; days?&#34;</span> <span class="s">&#34;d&#34;</span>
+          <span class="p">(</span><span class="nv">replace-regexp-in-string</span>
+           <span class="s">&#34; hours?&#34;</span> <span class="s">&#34;h&#34;</span>
+           <span class="p">(</span><span class="nv">replace-regexp-in-string</span>
+            <span class="s">&#34; minutes?&#34;</span> <span class="s">&#34;m&#34;</span>
+            <span class="p">(</span><span class="nv">replace-regexp-in-string</span>
+             <span class="s">&#34; seconds?&#34;</span> <span class="s">&#34;s&#34;</span>
+             <span class="p">(</span><span class="nv">format-seconds</span> <span class="s">&#34;%2D %2H %2M %z%2S&#34;</span> <span class="nv">sec</span><span class="p">))))))</span>
+</code></pre></div><p>I get the output on the <em>left below</em>. For brevity, I have pasted only
+few snippets of the whole test for comparison:</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted -->
+<div class="highlight"><pre class="chroma"><code class="language-text" data-lang="text">     0.00 seconds →  0s                                     0.00 seconds →              0s
+     1.00 seconds →  1s                                     1.00 seconds →              1s
+<span class="hl">    60.00 seconds →  1m  0s                                60.00 seconds →          1m
+</span>    61.00 seconds →  1m  1s                                61.00 seconds →          1m  1s
+<span class="hl">  3600.00 seconds →  1h  0m  0s                          3600.00 seconds →      1h
+</span>
+  3661.00 seconds →  1h  1m  1s                          3661.00 seconds →      1h  1m  1s
+<span class="hl"> 86400.00 seconds →  1d  0h  0m  0s                     86400.00 seconds →  1d
+</span><span class="hl"> 86401.00 seconds →  1d  0h  0m  1s                     86401.00 seconds →  1d          1s
+</span><span class="hl"> 86460.00 seconds →  1d  0h  1m  0s                     86460.00 seconds →  1d      1m
+</span><span class="hl"> 86461.00 seconds →  1d  0h  1m  1s                     86461.00 seconds →  1d      1m  1s
+</span><span class="hl"> 90000.00 seconds →  1d  1h  0m  0s                     90000.00 seconds →  1d  1h
+</span><span class="hl"> 90001.00 seconds →  1d  1h  0m  1s                     90001.00 seconds →  1d  1h      1s
+</span><span class="hl"> 90060.00 seconds →  1d  1h  1m  0s                     90060.00 seconds →  1d  1h  1m
+</span> 90061.00 seconds →  1d  1h  1m  1s                     90061.00 seconds →  1d  1h  1m  1s
+
+# Below the random numbers are different on both sides, but the thing to note is the loss
+# fractional values (on the left) when seconds are not integers.
+
+<span class="hl">288128.50 seconds →  3d  8h  2m  8s                    902957.30 seconds → 10d 10h 49m 17.30s
+</span><span class="hl">989679.28 seconds → 11d 10h 54m 39s                    684313.07 seconds →  7d 22h  5m 13.07s
+</span>803137.00 seconds →  9d  7h  5m 37s                    347952.39 seconds →  4d     39m 12.39s
+ 39361.00 seconds → 10h 56m  1s                        689297.00 seconds →  7d 23h 28m 17s</code></pre></div></p>
+<!-- raw HTML omitted -->
+<ul>
+<li>Notice the redundant <code>0h</code>, <code>0m</code>, <code>0s</code> on the left, and also the loss
+of seconds precision (<em>the latter point is not a big deal though</em>).</li>
+</ul>
+<h3 id="code--revision-1">Code (Revision 1)</h3>
+<p>Here&rsquo;s the code, and notes about that follow after that:</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<div class="highlight"><pre class="chroma"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="p">(</span><span class="nb">defun</span> <span class="nv">modi/seconds-to-human-time</span> <span class="p">(</span><span class="kp">&amp;optional</span> <span class="nv">seconds</span><span class="p">)</span>
+  <span class="s">&#34;Convert SECONDS to \&#34;DDd HHh MMm SSs\&#34; string.
+</span><span class="s">
+</span><span class="s">SECONDS is a non-negative integer or fractional number.
+</span><span class="s">
+</span><span class="s">SECONDS can also be a list of such numbers, which is the case
+</span><span class="s">when this function is called recursively.
+</span><span class="s">
+</span><span class="s">When called interactively, if a region is selected SECONDS is
+</span><span class="s">extracted from that, else the user is prompted to enter those.&#34;</span>
+  <span class="p">(</span><span class="nb">interactive</span><span class="p">)</span>
+  <span class="p">(</span><span class="nb">let</span> <span class="p">((</span><span class="nv">inter</span> <span class="p">(</span><span class="nv">called-interactively-p</span> <span class="ss">&#39;interactive</span><span class="p">)))</span>
+    <span class="p">(</span><span class="nb">when</span> <span class="nv">inter</span>
+      <span class="p">(</span><span class="nb">let</span> <span class="p">((</span><span class="nv">seconds-str</span> <span class="p">(</span><span class="nb">if</span> <span class="p">(</span><span class="nv">use-region-p</span><span class="p">)</span>
+                             <span class="p">(</span><span class="nf">buffer-substring-no-properties</span> <span class="p">(</span><span class="nf">region-beginning</span><span class="p">)</span> <span class="p">(</span><span class="nf">region-end</span><span class="p">))</span>
+                           <span class="p">(</span><span class="nf">read-string</span> <span class="s">&#34;Enter seconds: &#34;</span><span class="p">))))</span>
+        <span class="p">(</span><span class="nb">setq</span> <span class="nv">seconds</span> <span class="p">(</span><span class="nf">string-to-number</span> <span class="nv">seconds-str</span><span class="p">))))</span> <span class="c1">;&#34;1&#34; -&gt; 1, &#34;1.2&#34; -&gt; 1.2, &#34;&#34; -&gt; 0</span>
+    <span class="p">(</span><span class="nb">let*</span> <span class="p">((</span><span class="nv">MINUTE</span> <span class="mi">60</span><span class="p">)</span>
+           <span class="p">(</span><span class="nv">HOUR</span> <span class="p">(</span><span class="nf">*</span> <span class="mi">60</span> <span class="nv">MINUTE</span><span class="p">))</span>
+           <span class="p">(</span><span class="nv">DAY</span> <span class="p">(</span><span class="nf">*</span> <span class="mi">24</span> <span class="nv">HOUR</span><span class="p">))</span>
+           <span class="p">(</span><span class="nv">sec</span> <span class="p">(</span><span class="nb">cond</span>
+                 <span class="p">((</span><span class="nf">listp</span> <span class="nv">seconds</span><span class="p">)</span>         <span class="c1">;This is entered only by recursive calls</span>
+                  <span class="p">(</span><span class="nf">car</span> <span class="p">(</span><span class="nv">last</span> <span class="nv">seconds</span><span class="p">)))</span>
+                 <span class="p">((</span><span class="nb">and</span> <span class="p">(</span><span class="nf">numberp</span> <span class="nv">seconds</span><span class="p">)</span>  <span class="c1">;This is entered only in the first entry</span>
+                       <span class="p">(</span><span class="nf">&gt;=</span> <span class="nv">seconds</span> <span class="mi">0</span><span class="p">))</span>
+                  <span class="nv">seconds</span><span class="p">)</span>
+                 <span class="p">(</span><span class="no">t</span>
+                  <span class="p">(</span><span class="ne">user-error</span> <span class="s">&#34;Invalid argument %S&#34;</span> <span class="nv">seconds</span><span class="p">))))</span>
+           <span class="p">(</span><span class="nv">gen-time-string</span>
+            <span class="p">(</span><span class="nb">lambda</span> <span class="p">(</span><span class="nv">time</span> <span class="nv">inter</span><span class="p">)</span>
+              <span class="s">&#34;Return string representation of TIME.
+</span><span class="s">TIME is of the type (DD HH MM SS), where each of those elements
+</span><span class="s">are numbers.  If INTER is non-nil, echo the time string in a
+</span><span class="s">well-formatted manner instead of returning it.&#34;</span>
+              <span class="p">(</span><span class="nb">let*</span> <span class="p">((</span><span class="nv">rev-time</span> <span class="p">(</span><span class="nf">reverse</span> <span class="nv">time</span><span class="p">))</span>
+                     <span class="p">(</span><span class="nv">sec</span> <span class="p">(</span><span class="nf">nth</span> <span class="mi">0</span> <span class="nv">rev-time</span><span class="p">))</span>
+                     <span class="p">(</span><span class="nf">min</span> <span class="p">(</span><span class="nf">nth</span> <span class="mi">1</span> <span class="nv">rev-time</span><span class="p">))</span>
+                     <span class="p">(</span><span class="nv">hr</span> <span class="p">(</span><span class="nf">nth</span> <span class="mi">2</span> <span class="nv">rev-time</span><span class="p">))</span>
+                     <span class="p">(</span><span class="nv">day</span> <span class="p">(</span><span class="nf">nth</span> <span class="mi">3</span> <span class="nv">rev-time</span><span class="p">))</span>
+                     <span class="p">(</span><span class="nv">filler</span> <span class="s">&#34;    &#34;</span><span class="p">)</span>
+                     <span class="p">(</span><span class="nv">sec-str</span> <span class="p">(</span><span class="nb">cond</span>
+                               <span class="p">((</span><span class="nf">&gt;</span> <span class="nv">sec</span> <span class="mi">0</span><span class="p">)</span>
+                                <span class="p">(</span><span class="nb">if</span> <span class="p">(</span><span class="nf">integerp</span> <span class="nv">sec</span><span class="p">)</span>
+                                    <span class="p">(</span><span class="nf">format</span> <span class="s">&#34;%2ds&#34;</span> <span class="nv">sec</span><span class="p">)</span>
+                                  <span class="p">(</span><span class="nf">format</span> <span class="s">&#34;%5.2fs&#34;</span> <span class="nv">sec</span><span class="p">)))</span>
+                               <span class="p">((</span><span class="nb">and</span> <span class="p">(</span><span class="nf">=</span> <span class="nv">sec</span> <span class="mi">0</span><span class="p">)</span> <span class="p">(</span><span class="nf">null</span> <span class="nf">min</span><span class="p">)</span> <span class="p">(</span><span class="nf">null</span> <span class="nv">hr</span><span class="p">)</span> <span class="p">(</span><span class="nf">null</span> <span class="nv">day</span><span class="p">))</span> <span class="c1">;0 seconds</span>
+                                <span class="s">&#34; 0s&#34;</span><span class="p">)))</span>
+                     <span class="p">(</span><span class="nv">min-str</span> <span class="p">(</span><span class="nb">if</span> <span class="p">(</span><span class="nb">and</span> <span class="nf">min</span> <span class="p">(</span><span class="nf">&gt;</span> <span class="nf">min</span> <span class="mi">0</span><span class="p">))</span>
+                                  <span class="p">(</span><span class="nf">format</span> <span class="s">&#34;%2dm &#34;</span> <span class="nf">min</span><span class="p">)</span>
+                                <span class="nv">filler</span><span class="p">))</span>
+                     <span class="p">(</span><span class="nv">hr-str</span> <span class="p">(</span><span class="nb">if</span> <span class="p">(</span><span class="nb">and</span> <span class="nv">hr</span> <span class="p">(</span><span class="nf">&gt;</span> <span class="nv">hr</span> <span class="mi">0</span><span class="p">))</span>
+                                 <span class="p">(</span><span class="nf">format</span> <span class="s">&#34;%2dh &#34;</span> <span class="nv">hr</span><span class="p">)</span>
+                               <span class="nv">filler</span><span class="p">))</span>
+                     <span class="p">(</span><span class="nv">day-str</span> <span class="p">(</span><span class="nb">if</span> <span class="p">(</span><span class="nb">and</span> <span class="nv">day</span> <span class="p">(</span><span class="nf">&gt;</span> <span class="nv">day</span> <span class="mi">0</span><span class="p">))</span>
+                                  <span class="p">(</span><span class="nf">format</span> <span class="s">&#34;%2dd &#34;</span> <span class="nv">day</span><span class="p">)</span>
+                                <span class="nv">filler</span><span class="p">))</span>
+                     <span class="p">(</span><span class="nv">str</span> <span class="p">(</span><span class="nv">string-trim-right</span>
+                           <span class="p">(</span><span class="nf">concat</span> <span class="nv">day-str</span> <span class="nv">hr-str</span> <span class="nv">min-str</span> <span class="nv">sec-str</span><span class="p">))))</span>
+                <span class="p">(</span><span class="nb">if</span> <span class="nv">inter</span>
+                    <span class="p">(</span><span class="nf">message</span> <span class="s">&#34;%0.2f seconds → %s&#34;</span>
+                             <span class="nv">seconds</span>
+                             <span class="p">(</span><span class="nv">string-trim</span> <span class="p">(</span><span class="nv">replace-regexp-in-string</span> <span class="s">&#34; +&#34;</span>  <span class="s">&#34; &#34;</span> <span class="nv">str</span><span class="p">)))</span>
+                  <span class="nv">str</span><span class="p">))))</span>
+           <span class="p">(</span><span class="nv">time</span> <span class="p">(</span><span class="nb">cond</span>
+                  <span class="p">((</span><span class="nf">&gt;=</span> <span class="nv">sec</span> <span class="nv">DAY</span><span class="p">)</span>          <span class="c1">;&gt; day</span>
+                   <span class="p">(</span><span class="nb">let*</span> <span class="p">((</span><span class="nv">days</span> <span class="p">(</span><span class="nf">/</span> <span class="p">(</span><span class="nf">floor</span> <span class="nv">sec</span><span class="p">)</span> <span class="nv">DAY</span><span class="p">))</span>
+                          <span class="p">(</span><span class="nv">rem</span> <span class="p">(</span><span class="nf">-</span> <span class="nv">sec</span> <span class="p">(</span><span class="nf">*</span> <span class="nv">days</span> <span class="nv">DAY</span><span class="p">))))</span>
+                     <span class="p">(</span><span class="nb">cond</span>
+                      <span class="p">((</span><span class="nf">=</span> <span class="nv">rem</span> <span class="mi">0</span><span class="p">)</span>
+                       <span class="p">(</span><span class="nf">list</span> <span class="nv">days</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">0</span><span class="p">))</span>
+                      <span class="p">((</span><span class="nf">&lt;</span> <span class="nv">rem</span> <span class="nv">MINUTE</span><span class="p">)</span>
+                       <span class="c1">;; Note that (list rem) instead of just `rem&#39; is being</span>
+                       <span class="c1">;; passed to the recursive call to</span>
+                       <span class="c1">;; `modi/seconds-to-human-time&#39;.  This helps us</span>
+                       <span class="c1">;; distinguish between direct and re-entrant calls to</span>
+                       <span class="c1">;; this function.</span>
+                       <span class="p">(</span><span class="nf">append</span> <span class="p">(</span><span class="nf">list</span> <span class="nv">days</span> <span class="mi">0</span> <span class="mi">0</span><span class="p">)</span> <span class="p">(</span><span class="nv">modi/seconds-to-human-time</span> <span class="p">(</span><span class="nf">list</span> <span class="nv">rem</span><span class="p">))))</span>
+                      <span class="p">((</span><span class="nf">&lt;</span> <span class="nv">rem</span> <span class="nv">HOUR</span><span class="p">)</span>
+                       <span class="p">(</span><span class="nf">append</span> <span class="p">(</span><span class="nf">list</span> <span class="nv">days</span> <span class="mi">0</span><span class="p">)</span> <span class="p">(</span><span class="nv">modi/seconds-to-human-time</span> <span class="p">(</span><span class="nf">list</span> <span class="nv">rem</span><span class="p">))))</span>
+                      <span class="p">(</span><span class="no">t</span>
+                       <span class="p">(</span><span class="nf">append</span> <span class="p">(</span><span class="nf">list</span> <span class="nv">days</span><span class="p">)</span> <span class="p">(</span><span class="nv">modi/seconds-to-human-time</span> <span class="p">(</span><span class="nf">list</span> <span class="nv">rem</span><span class="p">)))))))</span>
+                  <span class="p">((</span><span class="nf">&gt;=</span> <span class="nv">sec</span> <span class="nv">HOUR</span><span class="p">)</span>         <span class="c1">;&gt; hour AND &lt; day</span>
+                   <span class="p">(</span><span class="nb">let*</span> <span class="p">((</span><span class="nv">hours</span> <span class="p">(</span><span class="nf">/</span> <span class="p">(</span><span class="nf">floor</span> <span class="nv">sec</span><span class="p">)</span> <span class="nv">HOUR</span><span class="p">))</span>
+                          <span class="p">(</span><span class="nv">rem</span> <span class="p">(</span><span class="nf">-</span> <span class="nv">sec</span> <span class="p">(</span><span class="nf">*</span> <span class="nv">hours</span> <span class="nv">HOUR</span><span class="p">))))</span>
+                     <span class="p">(</span><span class="nb">cond</span>
+                      <span class="p">((</span><span class="nf">=</span> <span class="nv">rem</span> <span class="mi">0</span><span class="p">)</span>
+                       <span class="p">(</span><span class="nf">list</span> <span class="nv">hours</span> <span class="mi">0</span> <span class="mi">0</span><span class="p">))</span>
+                      <span class="p">((</span><span class="nf">&lt;</span> <span class="nv">rem</span> <span class="nv">MINUTE</span><span class="p">)</span>
+                       <span class="p">(</span><span class="nf">append</span> <span class="p">(</span><span class="nf">list</span> <span class="nv">hours</span> <span class="mi">0</span><span class="p">)</span> <span class="p">(</span><span class="nv">modi/seconds-to-human-time</span> <span class="p">(</span><span class="nf">list</span> <span class="nv">rem</span><span class="p">))))</span>
+                      <span class="p">(</span><span class="no">t</span>
+                       <span class="p">(</span><span class="nf">append</span> <span class="p">(</span><span class="nf">list</span> <span class="nv">hours</span><span class="p">)</span> <span class="p">(</span><span class="nv">modi/seconds-to-human-time</span> <span class="p">(</span><span class="nf">list</span> <span class="nv">rem</span><span class="p">)))))))</span>
+                  <span class="p">((</span><span class="nf">&gt;=</span> <span class="nv">sec</span> <span class="nv">MINUTE</span><span class="p">)</span>       <span class="c1">;&gt; minute AND &lt; hour</span>
+                   <span class="p">(</span><span class="nb">let*</span> <span class="p">((</span><span class="nv">mins</span> <span class="p">(</span><span class="nf">/</span> <span class="p">(</span><span class="nf">floor</span> <span class="nv">sec</span><span class="p">)</span> <span class="nv">MINUTE</span><span class="p">))</span>
+                          <span class="p">(</span><span class="nv">rem</span> <span class="p">(</span><span class="nf">-</span> <span class="nv">sec</span> <span class="p">(</span><span class="nf">*</span> <span class="nv">mins</span> <span class="nv">MINUTE</span><span class="p">))))</span>
+                     <span class="p">(</span><span class="nb">cond</span>
+                      <span class="p">((</span><span class="nf">=</span> <span class="nv">rem</span> <span class="mi">0</span><span class="p">)</span>
+                       <span class="p">(</span><span class="nf">list</span> <span class="nv">mins</span> <span class="mi">0</span><span class="p">))</span>
+                      <span class="p">(</span><span class="no">t</span>
+                       <span class="p">(</span><span class="nf">append</span> <span class="p">(</span><span class="nf">list</span> <span class="nv">mins</span><span class="p">)</span> <span class="p">(</span><span class="nv">modi/seconds-to-human-time</span> <span class="p">(</span><span class="nf">list</span> <span class="nv">rem</span><span class="p">)))))))</span>
+                  <span class="p">(</span><span class="no">t</span>                    <span class="c1">;&lt; minute</span>
+                   <span class="p">(</span><span class="nf">list</span> <span class="nv">sec</span><span class="p">)))))</span>
+      <span class="c1">;; If `seconds&#39; is a number and not a list, this is *not* a recursive</span>
+      <span class="c1">;; call.  Return the time as a string only then.  For re-entrant</span>
+      <span class="c1">;; executions, return the `time&#39; list instead.</span>
+      <span class="p">(</span><span class="nb">if</span> <span class="p">(</span><span class="nf">numberp</span> <span class="nv">seconds</span><span class="p">)</span>
+          <span class="p">(</span><span class="nf">funcall</span> <span class="nv">gen-time-string</span> <span class="nv">time</span> <span class="nv">inter</span><span class="p">)</span>
+        <span class="nv">time</span><span class="p">))))</span>
+</code></pre></div><!-- raw HTML omitted -->
+<p>Most of this snippet is just the day/hour/minute/second math. Apart
+from that, here are some points that I found of interest:</p>
+<ul>
+<li>
+<p>I did not always want to prompt the user to enter the input
+argument. If a region was selected, the function assumes that the
+user selected a number, and skips the prompt step. So I used a plain
+<code>(interactive)</code> form instead of using <code>(interactive &quot;sPrompt: &quot;)</code> or
+<code>(interactive &quot;r&quot;)</code>. See <a href="https://www.gnu.org/software/emacs/manual/html%5Fnode/eintr/Interactive-Options.html"><em>(eintr) Interactive Options</em></a> and <a href="https://www.gnu.org/software/emacs/manual/html%5Fnode/elisp/Interactive-Codes.html"><em>(elisp)
+Interactive Codes</em></a> to learn about <code>interactive</code> and its codes.</p>
+</li>
+<li>
+<p>Instead of in-lining a modular chunk of logic, like the one where I
+convert a list like <code>(1 2 3 4)</code> into <code>&quot;1d 2h 3m 4s&quot;</code>, I assigned it
+to a <em>let</em>-bound symbol <code>gen-time-string</code>. That allowed the logic to
+be more discernible when used in:</p>
+<div class="highlight"><pre class="chroma"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="p">(</span><span class="nb">if</span> <span class="p">(</span><span class="nf">numberp</span> <span class="nv">seconds</span><span class="p">)</span>
+    <span class="p">(</span><span class="nf">funcall</span> <span class="nv">gen-time-string</span> <span class="nv">time</span> <span class="nv">inter</span><span class="p">)</span>
+  <span class="nv">time</span><span class="p">)</span>
+</code></pre></div><ul>
+<li>Also interesting is the fact that these <em>let</em>-bound lambdas can
+have their own doc-strings too.</li>
+</ul>
+</li>
+<li>
+<p>I make use of <strong>recursion</strong> in this function! But I needed this
+function to return a string (using that <code>gen-time-string</code> function)
+only when all the nested calls to itself were returned. So to
+distinguish between a direct call to the function, and re-entrant
+calls, when doing the latter, I make the input number a <em>list of
+that number</em>.</p>
+<ul>
+<li>So while the function might take an input number like <code>7</code> for a
+direct call, that same number, when needed to call to a recursive
+call, would get passed as <code>(list 7)</code> or <code>'(7)</code>.</li>
+<li>If you glance back as that little snippet above, I return the
+<code>time</code> as a string only if the input <code>seconds</code> is a <em>number</em> &mdash; and
+not a list i.e. only when I am in the &ldquo;direct call instance&rdquo;.</li>
+</ul>
+</li>
+<li>
+<p>The internal variable <code>time</code> is a list and can have up to 4 number
+elements: <code>(DAYS HOURS MINUTES SECONDS)</code>. The key was to always have
+each of those elements at their respective positions in the list.</p>
+<p>If the input <code>seconds</code> is 7200 seconds i.e. 2 hours, I cannot allow
+<code>time</code> to be just <code>(2)</code>, because then I wouldn&rsquo;t know the unit of
+that <code>2</code> (2 days? 2 hours? ..) &mdash; The nested <code>cond</code> logic for setting
+the <code>time</code> variable ensures it gets set to <code>(2 0 0)</code> instead. That
+way, it would read clearly as <em>2 hours, 0 minutes, and 0 seconds</em>.</p>
+</li>
+<li>
+<p>Back inside <code>gen-time-string</code>, I then skip printing the time units
+that are 0 (unless everything is 0, in which case I print
+<code>&quot;0s&quot;</code>). So instead of printing <code>&quot;1d 0h 0m 5s&quot;</code>, it would print just
+<code>&quot;1d 5s&quot;</code>.</p>
+</li>
+</ul>]]></content>
+            
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://scripter.co/categories/emacs" term="emacs" label="emacs" />
+                             
+                                <category scheme="https://scripter.co/categories/elisp" term="elisp" label="elisp" />
+                            
+                        
+                    
+                 
+                    
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://scripter.co/tags/time" term="time" label="time" />
+                             
+                                <category scheme="https://scripter.co/tags/seconds" term="seconds" label="seconds" />
+                             
+                                <category scheme="https://scripter.co/tags/recursion" term="recursion" label="recursion" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+</feed>

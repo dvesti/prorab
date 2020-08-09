@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/kaushalmodi
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://scripter.co
+  * I am kaushalmodi (https://keybase.io/kaushalmodi) on keybase.
+  * I have a public key with fingerprint B581 7A1B 93A7 68C5 4CD4  BFC5 3D54 2F6D CD3C 8277
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101d4f195e45e5eb2e46bc2715c37d5ae5ac208d5117931675e6ae1cef412376d880a",
+      "fingerprint": "b5817a1b93a768c54cd4bfc53d542f6dcd3c8277",
+      "host": "keybase.io",
+      "key_id": "3d542f6dcd3c8277",
+      "kid": "0101d4f195e45e5eb2e46bc2715c37d5ae5ac208d5117931675e6ae1cef412376d880a",
+      "uid": "51c7c95cf5708146a1e81bab6e213519",
+      "username": "kaushalmodi"
+    },
+    "service": {
+      "hostname": "scripter.co",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1524108406,
+  "expire_in": 157680000,
+  "prev": "49025850227ed99e8e58eb3aa5c9d340505c4913a083c728745b27b39d45ab76",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.76
+Comment: https://keybase.io/crypto
+
+yMIyAnicrVJbSBRRGF5brdySSkOLQmOKKNpyzsycOTNbPvSgUZkr0YVubmfOOetO
+ujvb7KxthpWWIUSGRJEmUUTRQxHZjS5gWVgg3QmXEI3KCoMuRIIQ1ozYW4+dl8M5
+//d9//f9/A8y3C5PSsGa/PDjJXU7UrruNcddG5MTq3ZxmkF3cr5dXAUbuVglZTEr
+UKFTzsfxgAdUCgIVMgkyyDSBSbJGBAQgERGFmEFMBF6hEACkikBGkMmYAcKCEhBE
+JFNF4THn5YJ6pJyZUVOPWLasBhWAMNBUESNZIVAiVNKCBIoUSkJQpoSKRBEQsokh
+I+YwbHMajrFFumH/2Y/AiL1/4P+z7/iIHAQEERWSIES8AiQZA6YADWsyE4AIgeoA
+Y8yM4DBzvOJ4LIQrwwbVuRovZxeqdMKc2TphRkExYupRi5mLiJMoahqWQYxKuxCy
+rGjM5xCtnVEHuYNpgVGNgKZHqD1Jm1HFzJhuRDgfsJHE0h1RAAUJ8IrEy16OJaK6
+yQK6g4D2kHn7OH1YlS0pqbwAFcgLAmJUVZnCoMI0EWNIVCpKPOQhkVQgYl4RCRIU
+JEFNQJqoUgliDcmck2p7xOB8yLaJy508enkEW3GTcTUddzenulI8rrFpY5wNc3nS
+J//du46n436zRzfUrvSrh3/29PV11vX8asvMOnXO7/+ydNbYzPrh+VeWt7+c1HaE
+H1w47/vHZNn+m4m2fu++IpRY/21v3t08ofeSUei+Pa91QkHW7QMlU0/68brhIbH5
+/sNqd3rrmeZXj050JOMLW65UJ8tKQwc/dYReLFBLG3Lvy+GMTVO20q3P/PkfOus9
+M1xdy4oat7WOOT6Uk/CnubtB7bWmgTezwy0/ekvys/dUP5zZXzt99/kNn3NyK6as
+en8mntU+eG1L8eKBC61lNZl3ps1Z0XRxcfGhd15+7dfUwteRs/4LKybPOrb6eedc
+4n+y8fmD64WNj8enZb9tHD49fmXXre6jRQuil18NNPwBtSs9Fw==
+=NLoL
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kaushalmodi
+
+==================================================================
