@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ru-ru">
+    <generator uri="https://gohugo.io/" version="0.74.1">Hugo</generator><title type="html"><![CDATA[cat on Alien's Notes]]></title>
+    
+        <subtitle type="html"><![CDATA[Заметочник вэб-прораба]]></subtitle>
+    
+    
+    
+            <link href="https://dvesti.github.io/prorab/tags/cat/" rel="alternate" type="text/html" title="HTML" />
+            <link href="https://dvesti.github.io/prorab/tags/cat/index.xml" rel="alternate" type="application/rss+xml" title="RSS" />
+            <link href="https://dvesti.github.io/prorab/tags/cat/atom.xml" rel="self" type="application/atom+xml" title="Atom" />
+            <link href="https://dvesti.github.io/prorab/tags/cat/jf2feed.json" rel="alternate" type="application/jf2feed+json" title="jf2feed" />
+    <updated>2020-08-10T21:19:28+03:00</updated>
+    
+    
+    <author>
+            <name>Dvesti</name>
+            
+                <email>dvesti@hot.ee</email>
+            </author>
+    
+        <id>https://dvesti.github.io/prorab/tags/cat/</id>
+    
+        
+        <entry>
+            <title type="html"><![CDATA[Разоблачение]]></title>
+            <link href="https://dvesti.github.io/prorab/razoblaxhenie/?utm_source=atom_feed" rel="alternate" type="text/html" />
+            
+            
+                <id>https://dvesti.github.io/prorab/razoblaxhenie/</id>
+            
+            
+            <published>2020-08-10T19:01:23+08:00</published>
+            <updated>2020-08-10T19:01:23+08:00</updated>
+            
+            
+            <content type="html"><![CDATA[<p><img src="../images/image_2020_08_10T16_24_24_854Z.png" alt="Котик"></p>
+<p><strong>Если я разоблачён, –<br>
+Надо зафиксировать!<br>
+Если тема <em>ни-о-чём</em>:<br>
+Нужно ли позировать?</strong></p>
+]]></content>
+            
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/categories/poetry" term="poetry" label="poetry" />
+                            
+                        
+                    
+                 
+                    
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/cat" term="cat" label="cat" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+</feed>

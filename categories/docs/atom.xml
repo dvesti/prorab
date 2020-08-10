@@ -10,7 +10,7 @@
             <link href="https://dvesti.github.io/prorab/categories/docs/index.xml" rel="alternate" type="application/rss+xml" title="RSS" />
             <link href="https://dvesti.github.io/prorab/categories/docs/atom.xml" rel="self" type="application/atom+xml" title="Atom" />
             <link href="https://dvesti.github.io/prorab/categories/docs/jf2feed.json" rel="alternate" type="application/jf2feed+json" title="jf2feed" />
-    <updated>2020-08-10T19:56:18+03:00</updated>
+    <updated>2020-08-10T21:19:28+03:00</updated>
     
     
     <author>
@@ -26,7 +26,6 @@
             <title type="html"><![CDATA[Shortcodes Preview]]></title>
             <link href="https://dvesti.github.io/prorab/shortcodes-preview/?utm_source=atom_feed" rel="alternate" type="text/html" />
             
-                <link href="https://dvesti.github.io/prorab/shortcode-notice/?utm_source=atom_feed" rel="related" type="text/html" title="Shortcodes Notice Preview" />
                 <link href="https://dvesti.github.io/prorab/syntax-highlighting/?utm_source=atom_feed" rel="related" type="text/html" title="Syntax Highlighting" />
             
                 <id>https://dvesti.github.io/prorab/shortcodes-preview/</id>
@@ -401,133 +400,6 @@ Yes !.
 <div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
     <iframe src="https://player.youku.com/embed/XMzQ0ODUxMjM2NA?autoplay=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0" title="YouKu Video">
     </iframe>
-</div>]]></content>
-            
-                 
-                    
-                         
-                        
-                            
-                             
-                                <category scheme="https://dvesti.github.io/prorab/categories/docs" term="docs" label="docs" />
-                             
-                                <category scheme="https://dvesti.github.io/prorab/categories/shortcodes" term="shortcodes" label="shortcodes" />
-                             
-                                <category scheme="https://dvesti.github.io/prorab/categories/index" term="index" label="index" />
-                            
-                        
-                    
-                 
-                    
-                 
-                    
-                         
-                        
-                            
-                             
-                                <category scheme="https://dvesti.github.io/prorab/tags/preview" term="preview" label="preview" />
-                             
-                                <category scheme="https://dvesti.github.io/prorab/tags/shortcodes" term="shortcodes" label="shortcodes" />
-                             
-                                <category scheme="https://dvesti.github.io/prorab/tags/tag-6" term="tag-6" label="tag-6" />
-                            
-                        
-                    
-                
-            
-        </entry>
-    
-        
-        <entry>
-            <title type="html"><![CDATA[Shortcodes Notice Preview]]></title>
-            <link href="https://dvesti.github.io/prorab/shortcode-notice/?utm_source=atom_feed" rel="alternate" type="text/html" />
-            
-                <link href="https://dvesti.github.io/prorab/syntax-highlighting/?utm_source=atom_feed" rel="related" type="text/html" title="Syntax Highlighting" />
-            
-                <id>https://dvesti.github.io/prorab/shortcode-notice/</id>
-            
-            
-            <published>2018-03-03T16:01:23+08:00</published>
-            <updated>2018-03-04T16:01:23+08:00</updated>
-            
-            
-            <content type="html"><![CDATA[<p>Не все <em>шорккоды</em> работают корректно. Скорее всего из-за их отсутствия: будем искать и исправлять пост.</p>
-<p><strong>Дополнено</strong>: Поменял <code>% %</code> на <code>&lt; &gt;</code> и дело пошло&hellip;</p>
-<h2 id="normal-use">normal use</h2>
-<p><code>Note</code> example:</p>
-<pre><code class="language-shortcode" data-lang="shortcode">{{&lt; notice note &gt;}}
-&lt;p&gt;A notice disclaimer&lt;/p&gt;
-{{&lt; /notice &gt;}}
-</code></pre><p><strong>Result:</strong></p>
-<div class="shortcode-notice note">
-  <div class="shortcode-notice-title note">
-    
-      note
-    
-  </div>
-  
-<p>A notice disclaimer</p>
-
-</div>
-
-<p>You could <strong>custom title</strong> :</p>
-<pre><code class="language-shortcode" data-lang="shortcode">{{&lt; notice note Примечание &gt;}}
-&lt;p&gt;A notice disclaimer&lt;/p&gt;
-{{&lt; /notice &gt;}}
-</code></pre><div class="shortcode-notice note">
-  <div class="shortcode-notice-title note">
-    
-      Примечание
-    
-  </div>
-  
-<p>A notice disclaimer</p>
-
-</div>
-
-<h2 id="tip">tip</h2>
-<pre><code class="language-shortcode" data-lang="shortcode">{{&lt; notice tip &gt;}}
-&lt;p&gt;A tip disclaimer&lt;/p&gt;
-{{&lt; /notice &gt;}}
-</code></pre><div class="shortcode-notice tip">
-  <div class="shortcode-notice-title tip">
-    
-      tip
-    
-  </div>
-  
-<p>A tip disclaimer</p>
-
-</div>
-
-<h2 id="info">info</h2>
-<pre><code class="language-shortcode" data-lang="shortcode">{{&lt; notice info &gt;}}
-&lt;p&gt;A info disclaimer&lt;/p&gt;
-{{&lt; /notice &gt;}}
-</code></pre><div class="shortcode-notice info">
-  <div class="shortcode-notice-title info">
-    
-      info
-    
-  </div>
-  
-<p>An information disclaimer</p>
-
-</div>
-
-<h2 id="warning">warning</h2>
-<pre><code class="language-shortcode" data-lang="shortcode">{{&lt; notice warning &gt;}}
-&lt;p&gt;A warning disclaimer&lt;/p&gt;
-{{&lt; /notice &gt;}}
-</code></pre><div class="shortcode-notice warning">
-  <div class="shortcode-notice-title warning">
-    
-      warning
-    
-  </div>
-  
-<p>An warning disclaimer</p>
-
 </div>]]></content>
             
                  
