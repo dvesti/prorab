@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ru-ru">
-    <generator uri="https://gohugo.io/" version="0.74.1">Hugo</generator><title type="html"><![CDATA[cat on Alien's Notes]]></title>
+    <generator uri="https://gohugo.io/" version="0.74.1">Hugo</generator><title type="html"><![CDATA[image on Alien's Notes]]></title>
     
         <subtitle type="html"><![CDATA[Заметочник вэб-прораба]]></subtitle>
     
     
     
-            <link href="https://dvesti.github.io/prorab/tags/cat/" rel="alternate" type="text/html" title="HTML" />
-            <link href="https://dvesti.github.io/prorab/tags/cat/index.xml" rel="alternate" type="application/rss+xml" title="RSS" />
-            <link href="https://dvesti.github.io/prorab/tags/cat/atom.xml" rel="self" type="application/atom+xml" title="Atom" />
-            <link href="https://dvesti.github.io/prorab/tags/cat/jf2feed.json" rel="alternate" type="application/jf2feed+json" title="jf2feed" />
+            <link href="https://dvesti.github.io/prorab/tags/image/" rel="alternate" type="text/html" title="HTML" />
+            <link href="https://dvesti.github.io/prorab/tags/image/index.xml" rel="alternate" type="application/rss+xml" title="RSS" />
+            <link href="https://dvesti.github.io/prorab/tags/image/atom.xml" rel="self" type="application/atom+xml" title="Atom" />
+            <link href="https://dvesti.github.io/prorab/tags/image/jf2feed.json" rel="alternate" type="application/jf2feed+json" title="jf2feed" />
     <updated>2020-08-10T22:32:39+03:00</updated>
     
     
@@ -19,7 +19,7 @@
                 <email>dvesti@hot.ee</email>
             </author>
     
-        <id>https://dvesti.github.io/prorab/tags/cat/</id>
+        <id>https://dvesti.github.io/prorab/tags/image/</id>
     
         
         <entry>
