@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ru-ru">
+    <generator uri="https://gohugo.io/" version="0.74.1">Hugo</generator><title type="html"><![CDATA[blog on Alien's Notes]]></title>
+    
+        <subtitle type="html"><![CDATA[Заметочник вэб-прораба]]></subtitle>
+    
+    
+    
+            <link href="https://dvesti.github.io/prorab/categories/blog/" rel="alternate" type="text/html" title="HTML" />
+            <link href="https://dvesti.github.io/prorab/categories/blog/index.xml" rel="alternate" type="application/rss+xml" title="RSS" />
+            <link href="https://dvesti.github.io/prorab/categories/blog/atom.xml" rel="self" type="application/atom+xml" title="Atom" />
+            <link href="https://dvesti.github.io/prorab/categories/blog/jf2feed.json" rel="alternate" type="application/jf2feed+json" title="jf2feed" />
+    <updated>2020-08-10T19:56:18+03:00</updated>
+    
+    
+    <author>
+            <name>Dvesti</name>
+            
+                <email>dvesti@hot.ee</email>
+            </author>
+    
+        <id>https://dvesti.github.io/prorab/categories/blog/</id>
+    
+        
+        <entry>
+            <title type="html"><![CDATA[Тема – Refined]]></title>
+            <link href="https://dvesti.github.io/prorab/theme-refined/?utm_source=atom_feed" rel="alternate" type="text/html" />
+            
+            
+                <id>https://dvesti.github.io/prorab/theme-refined/</id>
+            
+            
+            <published>2020-08-10T16:01:23+08:00</published>
+            <updated>2020-08-10T16:01:23+08:00</updated>
+            
+            
+            <content type="html"><![CDATA[<h5 id="почему-выбрана-именно-эта-тема-для-блога">Почему выбрана именно эта Тема для блога?</h5>
+<p><strong>Refined</strong> – одна из немногих тем, где правильно работает Поиск по русским словам.</p>
+<h5 id="для-чего-блог">Для чего Блог?</h5>
+<p>Как и написано в названии, здесь буду писать небольшие заметки. Возможно, каждодневные.</p>
+<h5 id="будет-ли-внешний-вид-сайта-меняться">Будет ли внешний вид сайта меняться?</h5>
+<p>Именно этим я и занимаюсь, в ущерб самим заметкам.<br>
+Меняется шрифт. К сожалению, англоязычные, по умолчанию на сайте установленные, отсутствуют в русском секторе. Приходится менять, стараясь не сильно ухудшать стиль всего сайта.</p>
+<p>Работы много, но, наверно, это будет делаться постепенно. Т.е. в процессе ведения самого блога</p>]]></content>
+            
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/categories/blog" term="blog" label="blog" />
+                            
+                        
+                    
+                 
+                    
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/theme" term="theme" label="theme" />
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/hugo" term="hugo" label="hugo" />
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/design" term="design" label="design" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+</feed>
