@@ -10,7 +10,7 @@
             <link href="https://dvesti.github.io/prorab/tags/cat/index.xml" rel="alternate" type="application/rss+xml" title="RSS" />
             <link href="https://dvesti.github.io/prorab/tags/cat/atom.xml" rel="self" type="application/atom+xml" title="Atom" />
             <link href="https://dvesti.github.io/prorab/tags/cat/jf2feed.json" rel="alternate" type="application/jf2feed+json" title="jf2feed" />
-    <updated>2020-08-11T19:55:36+03:00</updated>
+    <updated>2020-08-11T20:38:03+03:00</updated>
     
     
     <author>
@@ -20,6 +20,53 @@
             </author>
     
         <id>https://dvesti.github.io/prorab/tags/cat/</id>
+    
+        
+        <entry>
+            <title type="html"><![CDATA[Синхронное умывание]]></title>
+            <link href="https://dvesti.github.io/prorab/synchron-cats/?utm_source=atom_feed" rel="alternate" type="text/html" />
+            
+                <link href="https://dvesti.github.io/prorab/razoblachenie/?utm_source=atom_feed" rel="related" type="text/html" title="Разоблачение" />
+            
+                <id>https://dvesti.github.io/prorab/synchron-cats/</id>
+            
+            
+            <published>2020-08-11T19:01:23+08:00</published>
+            <updated>2020-08-11T19:01:23+08:00</updated>
+            
+            
+            <content type="html"><![CDATA[<blockquote>Синхронные Котики</blockquote><p><img src="featured.jpg" alt="Синхрон"></p>
+<p><strong>Синхронно, сидя на окошке,<br>
+Себя вылизывают кошки</strong></p>
+]]></content>
+            
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/categories/poetry" term="poetry" label="poetry" />
+                            
+                        
+                    
+                 
+                    
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/cat" term="cat" label="cat" />
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/image" term="image" label="image" />
+                            
+                        
+                    
+                
+            
+        </entry>
     
         
         <entry>
