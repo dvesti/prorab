@@ -10,7 +10,7 @@
             <link href="https://dvesti.github.io/prorab/index.xml" rel="alternate" type="application/rss+xml" title="RSS" />
             <link href="https://dvesti.github.io/prorab/atom.xml" rel="self" type="application/atom+xml" title="Atom" />
             <link href="https://dvesti.github.io/prorab/jf2feed.json" rel="alternate" type="application/jf2feed+json" title="jf2feed" />
-    <updated>2020-08-11T20:38:03+03:00</updated>
+    <updated>2020-08-11T20:43:32+03:00</updated>
     
     
     <author>
@@ -81,7 +81,7 @@
             <updated>2020-08-10T19:01:23+08:00</updated>
             
             
-            <content type="html"><![CDATA[<blockquote>Котик недоволен</blockquote><p><img src="https://dvesti.github.io/prorab/images/image_2020_08_10T16_24_24_854Z.png" alt="Котик"></p>
+            <content type="html"><![CDATA[<blockquote>Котик недоволен</blockquote><p><img src="featured.jpg" alt="Котик"></p>
 <p><strong>Если я разоблачён, –<br>
 Надо зафиксировать!<br>
 Если тема <em>ни-о-чём</em>:<br>
@@ -198,9 +198,48 @@
     
         
         <entry>
+            <title type="html"><![CDATA[Тема Chess A]]></title>
+            <link href="https://dvesti.github.io/prorab/2020-05-13-a/?utm_source=atom_feed" rel="alternate" type="text/html" />
+            
+            
+                <id>https://dvesti.github.io/prorab/2020-05-13-a/</id>
+            
+            
+            <published>2020-05-13T02:04:31+03:00</published>
+            <updated>2020-08-10T02:04:31+03:00</updated>
+            
+            
+            <content type="html"><![CDATA[<p><del>Это &ndash; <strong>тест</strong></del></p>
+<p>Изменил начертание и размер шрифта, потом изменю остальное: главное, чтобы самому нравилось.</p>
+<p>Добавил в Конфиг данные, чтобы было похоже на оригинал и Плюс подсмотрел у других сайтов, которые ориентированы не на отображение кода, а на обычный Блог.</p>
+<p>Именно такой нам и нужен.</p>
+<p>В планах &ndash; создать некую записную книжку для ежедневных записей&hellip;</p>
+<p><img src="https://www.dmitriev.ee/punbb/extensions/chess_diagram/gendiag.php?size=24&amp;coord&amp;fen=r6b/p1pq1p1k/1p2p1rp/4PpBQ/3P1P2/2PR2R1/P5PP/6K1" alt="Диаграмма">
+<img src="http://www.euruchess.org/24/blue/diagol.php?position=r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1+w+-+-+0+15" alt="Диаграмма2">
+<img src="https://www.dmitriev.ee/punbb/extensions/chess_diagram/gendiag-blue.php?coord&amp;size=24&amp;style=merida&amp;fen=2k1B3/ppB5/3P3p/7P/3K4/2Pn2r1/1P6/8%20w%20-%20-%200%201" alt="Диаграмма3"></p>
+<p>Стиль &ndash; <strong>Jane</strong></p>
+<p><img src="https://www.dmitriev.ee/punbb/extensions/chess_diagram/gendiag-jane.php?coord&amp;size=29&amp;style=merida&amp;fen=r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1+w+-+-+0+15" alt="Диаграмма4">
+<img src="http://www.euruchess.org/29/grey/diagol.php?position=r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1+w+-+-+0+15" alt="Диаграмма5"></p>
+<p><del>Установил тему <strong>Джейн &ndash; Jane</strong></del></p>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">iframe</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;https://www.dmitriev.ee/chessviewer/PGN/1986/dmitrijev-pust-kalev-kom-86.htm&#34;</span> <span class="na">frameborder</span><span class="o">=</span><span class="s">&#34;0&#34;</span> <span class="na">style</span><span class="o">=</span><span class="s">&#34;&#34;</span> <span class="na">scrolling</span><span class="o">=</span><span class="s">&#34;no&#34;</span> <span class="na">height</span><span class="o">=</span><span class="s">&#34;400px&#34;</span> <span class="na">width</span><span class="o">=</span><span class="s">&#34;492px&#34;</span><span class="p">&gt;</span>Get a better browser!<span class="p">&lt;/</span><span class="nt">iframe</span><span class="p">&gt;</span>  
+</code></pre></div>]]></content>
+            
+                 
+                    
+                 
+                    
+                 
+                    
+                
+            
+        </entry>
+    
+        
+        <entry>
             <title type="html"><![CDATA[Shortcodes Preview]]></title>
             <link href="https://dvesti.github.io/prorab/shortcodes-preview/?utm_source=atom_feed" rel="alternate" type="text/html" />
             
+                <link href="https://dvesti.github.io/prorab/shortcode-notice/?utm_source=atom_feed" rel="related" type="text/html" title="Shortcodes Notice Preview" />
                 <link href="https://dvesti.github.io/prorab/syntax-highlighting/?utm_source=atom_feed" rel="related" type="text/html" title="Syntax Highlighting" />
             
                 <id>https://dvesti.github.io/prorab/shortcodes-preview/</id>
@@ -575,6 +614,133 @@ Yes !.
 <div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
     <iframe src="https://player.youku.com/embed/XMzQ0ODUxMjM2NA?autoplay=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0" title="YouKu Video">
     </iframe>
+</div>]]></content>
+            
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/categories/docs" term="docs" label="docs" />
+                             
+                                <category scheme="https://dvesti.github.io/prorab/categories/shortcodes" term="shortcodes" label="shortcodes" />
+                             
+                                <category scheme="https://dvesti.github.io/prorab/categories/index" term="index" label="index" />
+                            
+                        
+                    
+                 
+                    
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/preview" term="preview" label="preview" />
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/shortcodes" term="shortcodes" label="shortcodes" />
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/tag-6" term="tag-6" label="tag-6" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        
+        <entry>
+            <title type="html"><![CDATA[Shortcodes Notice Preview]]></title>
+            <link href="https://dvesti.github.io/prorab/shortcode-notice/?utm_source=atom_feed" rel="alternate" type="text/html" />
+            
+                <link href="https://dvesti.github.io/prorab/syntax-highlighting/?utm_source=atom_feed" rel="related" type="text/html" title="Syntax Highlighting" />
+            
+                <id>https://dvesti.github.io/prorab/shortcode-notice/</id>
+            
+            
+            <published>2018-03-03T16:01:23+08:00</published>
+            <updated>2018-03-04T16:01:23+08:00</updated>
+            
+            
+            <content type="html"><![CDATA[<p>Не все <em>шорккоды</em> работают корректно. Скорее всего из-за их отсутствия: будем искать и исправлять пост.</p>
+<p><strong>Дополнено</strong>: Поменял <code>% %</code> на <code>&lt; &gt;</code> и дело пошло&hellip;</p>
+<h2 id="normal-use">normal use</h2>
+<p><code>Note</code> example:</p>
+<pre><code class="language-shortcode" data-lang="shortcode">{{&lt; notice note &gt;}}
+&lt;p&gt;A notice disclaimer&lt;/p&gt;
+{{&lt; /notice &gt;}}
+</code></pre><p><strong>Result:</strong></p>
+<div class="shortcode-notice note">
+  <div class="shortcode-notice-title note">
+    
+      note
+    
+  </div>
+  
+<p>A notice disclaimer</p>
+
+</div>
+
+<p>You could <strong>custom title</strong> :</p>
+<pre><code class="language-shortcode" data-lang="shortcode">{{&lt; notice note Примечание &gt;}}
+&lt;p&gt;A notice disclaimer&lt;/p&gt;
+{{&lt; /notice &gt;}}
+</code></pre><div class="shortcode-notice note">
+  <div class="shortcode-notice-title note">
+    
+      Примечание
+    
+  </div>
+  
+<p>A notice disclaimer</p>
+
+</div>
+
+<h2 id="tip">tip</h2>
+<pre><code class="language-shortcode" data-lang="shortcode">{{&lt; notice tip &gt;}}
+&lt;p&gt;A tip disclaimer&lt;/p&gt;
+{{&lt; /notice &gt;}}
+</code></pre><div class="shortcode-notice tip">
+  <div class="shortcode-notice-title tip">
+    
+      tip
+    
+  </div>
+  
+<p>A tip disclaimer</p>
+
+</div>
+
+<h2 id="info">info</h2>
+<pre><code class="language-shortcode" data-lang="shortcode">{{&lt; notice info &gt;}}
+&lt;p&gt;A info disclaimer&lt;/p&gt;
+{{&lt; /notice &gt;}}
+</code></pre><div class="shortcode-notice info">
+  <div class="shortcode-notice-title info">
+    
+      info
+    
+  </div>
+  
+<p>An information disclaimer</p>
+
+</div>
+
+<h2 id="warning">warning</h2>
+<pre><code class="language-shortcode" data-lang="shortcode">{{&lt; notice warning &gt;}}
+&lt;p&gt;A warning disclaimer&lt;/p&gt;
+{{&lt; /notice &gt;}}
+</code></pre><div class="shortcode-notice warning">
+  <div class="shortcode-notice-title warning">
+    
+      warning
+    
+  </div>
+  
+<p>An warning disclaimer</p>
+
 </div>]]></content>
             
                  
