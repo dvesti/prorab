@@ -12,7 +12,7 @@
         <language>ru-ru</language>
         
                 <managingEditor>dvesti@hot.ee (Dvesti)</managingEditor>
-                <webMaster>dvesti@hot.ee (Dvesti)</webMaster><lastBuildDate>Tue, 11 Aug 2020 21:23:19 +0300</lastBuildDate>
+                <webMaster>dvesti@hot.ee (Dvesti)</webMaster><lastBuildDate>Tue, 11 Aug 2020 21:33:35 +0300</lastBuildDate>
         <generator>Hugo -- gohugo.io</generator>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
             <atom:link href="https://dvesti.github.io/prorab/posts/index.xml" rel="self" type="application/rss&#43;xml" />
@@ -173,6 +173,40 @@
                 
                 <guid>https://dvesti.github.io/prorab/i-write-my-blog-posts-in-markdown/</guid>
                 <pubDate>Wed, 17 Jun 2020 12:04:31 +0300</pubDate>
+            </item>
+        
+            
+            <item>
+                <title>Тема Chess A</title>
+                <link>https://dvesti.github.io/prorab/2020-05-13-a/</link>
+                
+                
+                <description>&lt;p&gt;&lt;del&gt;Это &amp;ndash; &lt;strong&gt;тест&lt;/strong&gt;&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;Изменил начертание и размер шрифта, потом изменю остальное: главное, чтобы самому нравилось.&lt;/p&gt;
+&lt;p&gt;Добавил в Конфиг данные, чтобы было похоже на оригинал и Плюс подсмотрел у других сайтов, которые ориентированы не на отображение кода, а на обычный Блог.&lt;/p&gt;
+&lt;p&gt;Именно такой нам и нужен.&lt;/p&gt;
+&lt;p&gt;В планах &amp;ndash; создать некую записную книжку для ежедневных записей&amp;hellip;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.dmitriev.ee/punbb/extensions/chess_diagram/gendiag.php?size=24&amp;amp;coord&amp;amp;fen=r6b/p1pq1p1k/1p2p1rp/4PpBQ/3P1P2/2PR2R1/P5PP/6K1&#34; alt=&#34;Диаграмма&#34;&gt;
+&lt;img src=&#34;http://www.euruchess.org/24/blue/diagol.php?position=r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1+w+-+-+0+15&#34; alt=&#34;Диаграмма2&#34;&gt;
+&lt;img src=&#34;https://www.dmitriev.ee/punbb/extensions/chess_diagram/gendiag-blue.php?coord&amp;amp;size=24&amp;amp;style=merida&amp;amp;fen=2k1B3/ppB5/3P3p/7P/3K4/2Pn2r1/1P6/8%20w%20-%20-%200%201&#34; alt=&#34;Диаграмма3&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Стиль &amp;ndash; &lt;strong&gt;Jane&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.dmitriev.ee/punbb/extensions/chess_diagram/gendiag-jane.php?coord&amp;amp;size=29&amp;amp;style=merida&amp;amp;fen=r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1+w+-+-+0+15&#34; alt=&#34;Диаграмма4&#34;&gt;
+&lt;img src=&#34;http://www.euruchess.org/29/grey/diagol.php?position=r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1+w+-+-+0+15&#34; alt=&#34;Диаграмма5&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;Установил тему &lt;strong&gt;Джейн &amp;ndash; Jane&lt;/strong&gt;&lt;/del&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;iframe&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;https://www.dmitriev.ee/chessviewer/PGN/1986/dmitrijev-pust-kalev-kom-86.htm&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;frameborder&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;0&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;style&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;scrolling&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;no&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;height&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;400px&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;width&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;492px&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Get a better browser!&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;iframe&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;  
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+                
+                
+                     
+                        
+                     
+                        
+                     
+                        
+                    
+                
+                <guid>https://dvesti.github.io/prorab/2020-05-13-a/</guid>
+                <pubDate>Wed, 13 May 2020 02:04:31 +0300</pubDate>
             </item>
         
             
@@ -583,6 +617,128 @@ Yes !.
                 
                 <guid>https://dvesti.github.io/prorab/shortcodes-preview/</guid>
                 <pubDate>Sun, 04 Mar 2018 16:01:23 +0800</pubDate>
+            </item>
+        
+            
+            <item>
+                <title>Shortcodes Notice Preview</title>
+                <link>https://dvesti.github.io/prorab/shortcode-notice/</link>
+                
+                
+                <description>&lt;p&gt;Не все &lt;em&gt;шорккоды&lt;/em&gt; работают корректно. Скорее всего из-за их отсутствия: будем искать и исправлять пост.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Дополнено&lt;/strong&gt;: Поменял &lt;code&gt;% %&lt;/code&gt; на &lt;code&gt;&amp;lt; &amp;gt;&lt;/code&gt; и дело пошло&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;normal-use&#34;&gt;normal use&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;Note&lt;/code&gt; example:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;{{&amp;lt; notice note &amp;gt;}}
+&amp;lt;p&amp;gt;A notice disclaimer&amp;lt;/p&amp;gt;
+{{&amp;lt; /notice &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Result:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;shortcode-notice note&#34;&gt;
+  &lt;div class=&#34;shortcode-notice-title note&#34;&gt;
+    
+      note
+    
+  &lt;/div&gt;
+  
+&lt;p&gt;A notice disclaimer&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;You could &lt;strong&gt;custom title&lt;/strong&gt; :&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;{{&amp;lt; notice note Примечание &amp;gt;}}
+&amp;lt;p&amp;gt;A notice disclaimer&amp;lt;/p&amp;gt;
+{{&amp;lt; /notice &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;shortcode-notice note&#34;&gt;
+  &lt;div class=&#34;shortcode-notice-title note&#34;&gt;
+    
+      Примечание
+    
+  &lt;/div&gt;
+  
+&lt;p&gt;A notice disclaimer&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;tip&#34;&gt;tip&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;{{&amp;lt; notice tip &amp;gt;}}
+&amp;lt;p&amp;gt;A tip disclaimer&amp;lt;/p&amp;gt;
+{{&amp;lt; /notice &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;shortcode-notice tip&#34;&gt;
+  &lt;div class=&#34;shortcode-notice-title tip&#34;&gt;
+    
+      tip
+    
+  &lt;/div&gt;
+  
+&lt;p&gt;A tip disclaimer&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;info&#34;&gt;info&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;{{&amp;lt; notice info &amp;gt;}}
+&amp;lt;p&amp;gt;A info disclaimer&amp;lt;/p&amp;gt;
+{{&amp;lt; /notice &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;shortcode-notice info&#34;&gt;
+  &lt;div class=&#34;shortcode-notice-title info&#34;&gt;
+    
+      info
+    
+  &lt;/div&gt;
+  
+&lt;p&gt;An information disclaimer&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;warning&#34;&gt;warning&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;{{&amp;lt; notice warning &amp;gt;}}
+&amp;lt;p&amp;gt;A warning disclaimer&amp;lt;/p&amp;gt;
+{{&amp;lt; /notice &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;shortcode-notice warning&#34;&gt;
+  &lt;div class=&#34;shortcode-notice-title warning&#34;&gt;
+    
+      warning
+    
+  &lt;/div&gt;
+  
+&lt;p&gt;An warning disclaimer&lt;/p&gt;
+
+&lt;/div&gt;</description>
+                
+                
+                     
+                        
+                             
+                            
+                                
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/categories/docs">docs</category>
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/categories/shortcodes">shortcodes</category>
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/categories/index">index</category>
+                                
+                            
+                        
+                     
+                        
+                     
+                        
+                             
+                            
+                                
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/tags/preview">preview</category>
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/tags/shortcodes">shortcodes</category>
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/tags/tag-6">tag-6</category>
+                                
+                            
+                        
+                    
+                
+                <guid>https://dvesti.github.io/prorab/shortcode-notice/</guid>
+                <pubDate>Sat, 03 Mar 2018 16:01:23 +0800</pubDate>
             </item>
         
             
