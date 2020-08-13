@@ -10,7 +10,7 @@
             <link href="https://dvesti.github.io/prorab/tags/cat/index.xml" rel="alternate" type="application/rss+xml" title="RSS" />
             <link href="https://dvesti.github.io/prorab/tags/cat/atom.xml" rel="self" type="application/atom+xml" title="Atom" />
             <link href="https://dvesti.github.io/prorab/tags/cat/jf2feed.json" rel="alternate" type="application/jf2feed+json" title="jf2feed" />
-    <updated>2020-08-12T01:39:03+03:00</updated>
+    <updated>2020-08-13T03:20:55+03:00</updated>
     
     
     <author>
@@ -20,6 +20,62 @@
             </author>
     
         <id>https://dvesti.github.io/prorab/tags/cat/</id>
+    
+        
+        <entry>
+            <title type="html"><![CDATA[Кунг-Фу-Кэт]]></title>
+            <link href="https://dvesti.github.io/prorab/kung-fu-cat/?utm_source=atom_feed" rel="alternate" type="text/html" />
+            
+                <link href="https://dvesti.github.io/prorab/synchron-cats/?utm_source=atom_feed" rel="related" type="text/html" title="Синхронное умывание" />
+                <link href="https://dvesti.github.io/prorab/razoblachenie/?utm_source=atom_feed" rel="related" type="text/html" title="Разоблачение" />
+            
+                <id>https://dvesti.github.io/prorab/kung-fu-cat/</id>
+            
+            
+            <published>2020-08-12T19:01:23+08:00</published>
+            <updated>2020-08-12T19:01:23+08:00</updated>
+            
+            
+            <content type="html"><![CDATA[<blockquote>Котик показывает приёмы Кунг-Фу</blockquote><div>
+
+  <blockquote class="twitter-tweet" data-dnt="true"><p lang="in" dir="ltr">LOL 😂<br><br>TikTok Russia 🇷🇺 <a href="https://t.co/973FAka0vh">pic.twitter.com/973FAka0vh</a></p>&mdash; Enrique 🎧🐈 (@Garou_Hidalgo) <a href="https://twitter.com/Garou_Hidalgo/status/1293125555534135296?ref_src=twsrc%5Etfw">August 11, 2020</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+</div>
+<p><strong>Если быстро не отскочишь:<br>
+Я — не плюшевый клубочек,<br>
+Даже если не захочешь,<br>
+Покажу <em>кунг-фы</em> кусочек</strong></p>
+]]></content>
+            
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/categories/poetry" term="poetry" label="poetry" />
+                            
+                        
+                    
+                 
+                    
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/cat" term="cat" label="cat" />
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/image" term="image" label="image" />
+                            
+                        
+                    
+                
+            
+        </entry>
     
         
         <entry>
