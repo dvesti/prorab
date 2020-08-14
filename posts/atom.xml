@@ -10,7 +10,7 @@
             <link href="https://dvesti.github.io/prorab/posts/index.xml" rel="alternate" type="application/rss+xml" title="RSS" />
             <link href="https://dvesti.github.io/prorab/posts/atom.xml" rel="self" type="application/atom+xml" title="Atom" />
             <link href="https://dvesti.github.io/prorab/posts/jf2feed.json" rel="alternate" type="application/jf2feed+json" title="jf2feed" />
-    <updated>2020-08-14T02:50:18+03:00</updated>
+    <updated>2020-08-14T19:52:19+03:00</updated>
     
     
     <author>
@@ -778,11 +778,13 @@ Yes !.
 
 </div>
 
-<p>You could <strong>custom title</strong> :</p>
+<h2 id="you-could-custom-title">You could custom title</h2>
+<p><code>Примечание</code> example:</p>
 <pre><code class="language-shortcode" data-lang="shortcode">{{&lt; notice note Примечание &gt;}}
 &lt;p&gt;A notice disclaimer&lt;/p&gt;
 {{&lt; /notice &gt;}}
-</code></pre><div class="shortcode-notice note">
+</code></pre><p><strong>Result:</strong></p>
+<div class="shortcode-notice note">
   <div class="shortcode-notice-title note">
     
       Примечание
@@ -797,7 +799,8 @@ Yes !.
 <pre><code class="language-shortcode" data-lang="shortcode">{{&lt; notice tip &gt;}}
 &lt;p&gt;A tip disclaimer&lt;/p&gt;
 {{&lt; /notice &gt;}}
-</code></pre><div class="shortcode-notice tip">
+</code></pre><p><strong>Result:</strong></p>
+<div class="shortcode-notice tip">
   <div class="shortcode-notice-title tip">
     
       tip
@@ -812,7 +815,8 @@ Yes !.
 <pre><code class="language-shortcode" data-lang="shortcode">{{&lt; notice info &gt;}}
 &lt;p&gt;A info disclaimer&lt;/p&gt;
 {{&lt; /notice &gt;}}
-</code></pre><div class="shortcode-notice info">
+</code></pre><p><strong>Result:</strong></p>
+<div class="shortcode-notice info">
   <div class="shortcode-notice-title info">
     
       info
@@ -827,7 +831,8 @@ Yes !.
 <pre><code class="language-shortcode" data-lang="shortcode">{{&lt; notice warning &gt;}}
 &lt;p&gt;A warning disclaimer&lt;/p&gt;
 {{&lt; /notice &gt;}}
-</code></pre><div class="shortcode-notice warning">
+</code></pre><p><strong>Result:</strong></p>
+<div class="shortcode-notice warning">
   <div class="shortcode-notice-title warning">
     
       warning
@@ -1159,8 +1164,10 @@ bah and humbug
 $
 </code></pre><h2 id="highlight-shortcode">highlight shortcode</h2>
 <p>example:</p>
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go">    <span class="o">...</span> <span class="nx">code</span></code></pre></div>
-<p>result:</p>
+<pre><code class="language-shortcode" data-lang="shortcode">{{&lt; highlight go &quot;linenos=table,hl_lines=8 15-17,linenostart=199&quot; &gt;}}
+// ... code
+{{&lt; /highlight &gt;}}
+</code></pre><p>result:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">199

@@ -10,7 +10,7 @@
             <link href="https://dvesti.github.io/prorab/tags/syntax-highlighting/index.xml" rel="alternate" type="application/rss+xml" title="RSS" />
             <link href="https://dvesti.github.io/prorab/tags/syntax-highlighting/atom.xml" rel="self" type="application/atom+xml" title="Atom" />
             <link href="https://dvesti.github.io/prorab/tags/syntax-highlighting/jf2feed.json" rel="alternate" type="application/jf2feed+json" title="jf2feed" />
-    <updated>2020-08-14T02:50:18+03:00</updated>
+    <updated>2020-08-14T19:52:19+03:00</updated>
     
     
     <author>
@@ -114,8 +114,10 @@ bah and humbug
 $
 </code></pre><h2 id="highlight-shortcode">highlight shortcode</h2>
 <p>example:</p>
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go">    <span class="o">...</span> <span class="nx">code</span></code></pre></div>
-<p>result:</p>
+<pre><code class="language-shortcode" data-lang="shortcode">{{&lt; highlight go &quot;linenos=table,hl_lines=8 15-17,linenostart=199&quot; &gt;}}
+// ... code
+{{&lt; /highlight &gt;}}
+</code></pre><p>result:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">199

@@ -191,4 +191,8 @@
     <priority>0.1</priority>
   </url>
   
+  <url>
+    <loc>https://dvesti.github.io/prorab/test-1/</loc>
+  </url>
+  
 </urlset>

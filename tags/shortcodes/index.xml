@@ -12,7 +12,7 @@
         <language>ru-ru</language>
         
                 <managingEditor>dvesti@hot.ee (Dvesti)</managingEditor>
-                <webMaster>dvesti@hot.ee (Dvesti)</webMaster><lastBuildDate>Fri, 14 Aug 2020 02:50:18 +0300</lastBuildDate>
+                <webMaster>dvesti@hot.ee (Dvesti)</webMaster><lastBuildDate>Fri, 14 Aug 2020 19:52:20 +0300</lastBuildDate>
         <generator>Hugo -- gohugo.io</generator>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
             <atom:link href="https://dvesti.github.io/prorab/tags/shortcodes/index.xml" rel="self" type="application/rss&#43;xml" />
@@ -491,11 +491,13 @@ Yes !.
 
 &lt;/div&gt;
 
-&lt;p&gt;You could &lt;strong&gt;custom title&lt;/strong&gt; :&lt;/p&gt;
+&lt;h2 id=&#34;you-could-custom-title&#34;&gt;You could custom title&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;Примечание&lt;/code&gt; example:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;{{&amp;lt; notice note Примечание &amp;gt;}}
 &amp;lt;p&amp;gt;A notice disclaimer&amp;lt;/p&amp;gt;
 {{&amp;lt; /notice &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;shortcode-notice note&#34;&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Result:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;shortcode-notice note&#34;&gt;
   &lt;div class=&#34;shortcode-notice-title note&#34;&gt;
     
       Примечание
@@ -510,7 +512,8 @@ Yes !.
 &lt;pre&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;{{&amp;lt; notice tip &amp;gt;}}
 &amp;lt;p&amp;gt;A tip disclaimer&amp;lt;/p&amp;gt;
 {{&amp;lt; /notice &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;shortcode-notice tip&#34;&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Result:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;shortcode-notice tip&#34;&gt;
   &lt;div class=&#34;shortcode-notice-title tip&#34;&gt;
     
       tip
@@ -525,7 +528,8 @@ Yes !.
 &lt;pre&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;{{&amp;lt; notice info &amp;gt;}}
 &amp;lt;p&amp;gt;A info disclaimer&amp;lt;/p&amp;gt;
 {{&amp;lt; /notice &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;shortcode-notice info&#34;&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Result:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;shortcode-notice info&#34;&gt;
   &lt;div class=&#34;shortcode-notice-title info&#34;&gt;
     
       info
@@ -540,7 +544,8 @@ Yes !.
 &lt;pre&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;{{&amp;lt; notice warning &amp;gt;}}
 &amp;lt;p&amp;gt;A warning disclaimer&amp;lt;/p&amp;gt;
 {{&amp;lt; /notice &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;shortcode-notice warning&#34;&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Result:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;shortcode-notice warning&#34;&gt;
   &lt;div class=&#34;shortcode-notice-title warning&#34;&gt;
     
       warning
