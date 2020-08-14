@@ -10,10 +10,32 @@
         <language>ru-ru</language>
         
                 <managingEditor>dvesti@hot.ee (Dvesti)</managingEditor>
-                <webMaster>dvesti@hot.ee (Dvesti)</webMaster><lastBuildDate>Fri, 14 Aug 2020 19:52:19 +0300</lastBuildDate>
+                <webMaster>dvesti@hot.ee (Dvesti)</webMaster><lastBuildDate>Fri, 14 Aug 2020 20:01:21 +0300</lastBuildDate>
         <generator>Hugo -- gohugo.io</generator>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
             <atom:link href="https://dvesti.github.io/prorab/index.xml" rel="self" type="application/rss&#43;xml" />
+        
+            
+            <item>
+                <title>Тест -1</title>
+                <link>https://dvesti.github.io/prorab/test-1/</link>
+                
+                
+                <description>&lt;p&gt;Это тестовое сообщение с &lt;a href=&#34;featured.jpg&#34;&gt;этой картинкой&lt;/a&gt;&lt;/p&gt;
+</description>
+                
+                
+                     
+                        
+                     
+                        
+                     
+                        
+                    
+                
+                <guid>https://dvesti.github.io/prorab/test-1/</guid>
+                <pubDate>Fri, 14 Aug 2020 17:04:31 +0300</pubDate>
+            </item>
         
             
             <item>
