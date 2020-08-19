@@ -10,7 +10,7 @@
             <link href="https://dvesti.github.io/prorab/index.xml" rel="alternate" type="application/rss+xml" title="RSS" />
             <link href="https://dvesti.github.io/prorab/atom.xml" rel="self" type="application/atom+xml" title="Atom" />
             <link href="https://dvesti.github.io/prorab/jf2feed.json" rel="alternate" type="application/jf2feed+json" title="jf2feed" />
-    <updated>2020-08-14T20:03:43+03:00</updated>
+    <updated>2020-08-20T01:36:18+03:00</updated>
     
     
     <author>
@@ -34,7 +34,9 @@
             <updated>2020-08-14T17:04:31+03:00</updated>
             
             
-            <content type="html"><![CDATA[<p>Это тестовое сообщение с <a href="featured.jpg">этой картинкой</a></p>
+            <content type="html"><![CDATA[<blockquote>Тест для отображении картинки статьи в Скайпе</blockquote><p>Это тестовое сообщение с этой картинкой:</p>
+<p><img src="featured.jpg" alt=""></p>
+<p>которая отображается при пересылке ссылки, например, в Скайп</p>
 ]]></content>
             
                  
@@ -211,11 +213,11 @@
             <updated>2020-08-10T16:01:23+08:00</updated>
             
             
-            <content type="html"><![CDATA[<h5 id="почему-выбрана-именно-эта-тема-для-блога">Почему выбрана именно эта Тема для блога?</h5>
+            <content type="html"><![CDATA[<h3 id="почему-выбрана-именно-эта-тема-для-блога">Почему выбрана именно эта Тема для блога?</h3>
 <p><strong>Refined</strong> – одна из немногих тем, где правильно работает Поиск по русским словам.</p>
-<h5 id="для-чего-блог">Для чего Блог?</h5>
+<h3 id="для-чего-блог">Для чего Блог?</h3>
 <p>Как и написано в названии, здесь буду писать небольшие заметки. Возможно, каждодневные.</p>
-<h5 id="будет-ли-внешний-вид-сайта-меняться">Будет ли внешний вид сайта меняться?</h5>
+<h3 id="будет-ли-внешний-вид-сайта-меняться">Будет ли внешний вид сайта меняться?</h3>
 <p>Именно этим я и занимаюсь, в ущерб самим заметкам.<br>
 Меняется шрифт. К сожалению, англоязычные, по умолчанию на сайте установленные, отсутствуют в русском секторе. Приходится менять, стараясь не сильно ухудшать стиль всего сайта.</p>
 <p>Работы много, но, наверно, это будет делаться постепенно. Т.е. в процессе ведения самого блога</p>]]></content>
@@ -264,7 +266,7 @@
             
             
             <content type="html"><![CDATA[<p>I write my blog posts in <strong>Markdown</strong> and I use <strong>VSCode</strong> editor for that.</p>
-<p>Я пишу свои блог-посты в <strong>Markdown</strong> и использую для этого редактор <strong>VS Code</strong>.</p>
+<p>Я пишу свои блог-посты в <strong>Markdown</strong> и <em>использую</em> для этого редактор <strong>VS Code</strong>.</p>
 <p>И это &ndash; правильно!<br>
 И это &ndash; не только моё мнение.</p>]]></content>
             
@@ -303,8 +305,15 @@
 <p><img src="https://www.dmitriev.ee/punbb/extensions/chess_diagram/gendiag-jane.php?coord&amp;size=29&amp;style=merida&amp;fen=r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1+w+-+-+0+15" alt="Диаграмма4">
 <img src="http://www.euruchess.org/29/grey/diagol.php?position=r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1+w+-+-+0+15" alt="Диаграмма5"></p>
 <p><del>Установил тему <strong>Джейн &ndash; Jane</strong></del></p>
-<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">iframe</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;https://www.dmitriev.ee/chessviewer/PGN/1986/dmitrijev-pust-kalev-kom-86.htm&#34;</span> <span class="na">frameborder</span><span class="o">=</span><span class="s">&#34;0&#34;</span> <span class="na">style</span><span class="o">=</span><span class="s">&#34;&#34;</span> <span class="na">scrolling</span><span class="o">=</span><span class="s">&#34;no&#34;</span> <span class="na">height</span><span class="o">=</span><span class="s">&#34;400px&#34;</span> <span class="na">width</span><span class="o">=</span><span class="s">&#34;492px&#34;</span><span class="p">&gt;</span>Get a better browser!<span class="p">&lt;/</span><span class="nt">iframe</span><span class="p">&gt;</span>  
-</code></pre></div>]]></content>
+<div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#6ab825;font-weight:bold">iframe</span> <span style="color:#bbb">src</span>=<span style="color:#ed9d13">&#34;https://www.dmitriev.ee/chessviewer/PGN/1986/dmitrijev-pust-kalev-kom-86.htm&#34;</span> <span style="color:#bbb">frameborder</span>=<span style="color:#ed9d13">&#34;0&#34;</span> <span style="color:#bbb">style</span>=<span style="color:#ed9d13">&#34;&#34;</span> <span style="color:#bbb">scrolling</span>=<span style="color:#ed9d13">&#34;no&#34;</span> <span style="color:#bbb">height</span>=<span style="color:#ed9d13">&#34;400px&#34;</span> <span style="color:#bbb">width</span>=<span style="color:#ed9d13">&#34;492px&#34;</span>&gt;Get a better browser!&lt;/<span style="color:#6ab825;font-weight:bold">iframe</span>&gt;  
+</code></pre></td></tr></table>
+</div>
+</div>]]></content>
             
                  
                     
@@ -951,13 +960,25 @@ and that&rsquo;s where I learned about Dynamic Drive&rsquo;s favicon generator t
 <p>Today I was browsing this site on my Android phone and I noticed that the Google Chrome browser did not show this favicon on the list of recently visited websites.</p>
 <p>That bugged me and a little bit of googling led me to an even better online favicon generator website: <a href="https://realfavicongenerator.net/">realfavicongenerator.net</a>.</p>
 <p>I simply needed to upload my Inkscape created <code>.png</code> (with transparent background) to that site, and it provided a favicon package for different platforms and an HTML code to be put in the <code>&lt;head&gt;</code>:</p>
-<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;apple-touch-icon&#34;</span> <span class="na">sizes</span><span class="o">=</span><span class="s">&#34;180x180&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;/apple-touch-icon.png&#34;</span><span class="p">&gt;</span>
-<span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;icon&#34;</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;image/png&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;/favicon-32x32.png&#34;</span> <span class="na">sizes</span><span class="o">=</span><span class="s">&#34;32x32&#34;</span><span class="p">&gt;</span>
-<span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;icon&#34;</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;image/png&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;/favicon-16x16.png&#34;</span> <span class="na">sizes</span><span class="o">=</span><span class="s">&#34;16x16&#34;</span><span class="p">&gt;</span>
-<span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;manifest&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;/manifest.json&#34;</span><span class="p">&gt;</span>
-<span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;mask-icon&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;/safari-pinned-tab.svg&#34;</span> <span class="na">color</span><span class="o">=</span><span class="s">&#34;#5bbad5&#34;</span><span class="p">&gt;</span>
-<span class="p">&lt;</span><span class="nt">meta</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;theme-color&#34;</span> <span class="na">content</span><span class="o">=</span><span class="s">&#34;#000000&#34;</span><span class="p">&gt;</span>
-</code></pre></div><p>The website also shows previews of how the icon would look on different platforms: regular browser tabs, iOS, Android, etc.</p>
+<div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">6
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#6ab825;font-weight:bold">link</span> <span style="color:#bbb">rel</span>=<span style="color:#ed9d13">&#34;apple-touch-icon&#34;</span> <span style="color:#bbb">sizes</span>=<span style="color:#ed9d13">&#34;180x180&#34;</span> <span style="color:#bbb">href</span>=<span style="color:#ed9d13">&#34;/apple-touch-icon.png&#34;</span>&gt;
+&lt;<span style="color:#6ab825;font-weight:bold">link</span> <span style="color:#bbb">rel</span>=<span style="color:#ed9d13">&#34;icon&#34;</span> <span style="color:#bbb">type</span>=<span style="color:#ed9d13">&#34;image/png&#34;</span> <span style="color:#bbb">href</span>=<span style="color:#ed9d13">&#34;/favicon-32x32.png&#34;</span> <span style="color:#bbb">sizes</span>=<span style="color:#ed9d13">&#34;32x32&#34;</span>&gt;
+&lt;<span style="color:#6ab825;font-weight:bold">link</span> <span style="color:#bbb">rel</span>=<span style="color:#ed9d13">&#34;icon&#34;</span> <span style="color:#bbb">type</span>=<span style="color:#ed9d13">&#34;image/png&#34;</span> <span style="color:#bbb">href</span>=<span style="color:#ed9d13">&#34;/favicon-16x16.png&#34;</span> <span style="color:#bbb">sizes</span>=<span style="color:#ed9d13">&#34;16x16&#34;</span>&gt;
+&lt;<span style="color:#6ab825;font-weight:bold">link</span> <span style="color:#bbb">rel</span>=<span style="color:#ed9d13">&#34;manifest&#34;</span> <span style="color:#bbb">href</span>=<span style="color:#ed9d13">&#34;/manifest.json&#34;</span>&gt;
+&lt;<span style="color:#6ab825;font-weight:bold">link</span> <span style="color:#bbb">rel</span>=<span style="color:#ed9d13">&#34;mask-icon&#34;</span> <span style="color:#bbb">href</span>=<span style="color:#ed9d13">&#34;/safari-pinned-tab.svg&#34;</span> <span style="color:#bbb">color</span>=<span style="color:#ed9d13">&#34;#5bbad5&#34;</span>&gt;
+&lt;<span style="color:#6ab825;font-weight:bold">meta</span> <span style="color:#bbb">name</span>=<span style="color:#ed9d13">&#34;theme-color&#34;</span> <span style="color:#bbb">content</span>=<span style="color:#ed9d13">&#34;#000000&#34;</span>&gt;
+</code></pre></td></tr></table>
+</div>
+</div><p>The website also shows previews of how the icon would look on different platforms: regular browser tabs, iOS, Android, etc.</p>
 <p>Here is how this favicon looks on Android Chrome after updating the icons and this website&rsquo;s <code>&lt;head&gt;</code>.</p>
 <p><img src="/prorab/images/favicon_android_chrome.png" alt="Favicon in Android Chrome"></p>]]></content>
             
@@ -1052,15 +1073,29 @@ am using <a href="https://gohugo.io/"><code>hugo</code></a>.</p>
 <p>Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
 <h3 id="code">Code</h3>
 <p>Cum sociis natoque penatibus et magnis dis <code>code element</code> montes, nascetur ridiculus mus.</p>
-<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="c1">// Example can be run directly in your JavaScript console
-</span><span class="c1"></span>
-<span class="c1">// Create a function that takes two arguments and returns the sum of those arguments
-</span><span class="c1"></span><span class="kd">var</span> <span class="nx">adder</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Function</span><span class="p">(</span><span class="s2">&#34;a&#34;</span><span class="p">,</span> <span class="s2">&#34;b&#34;</span><span class="p">,</span> <span class="s2">&#34;return a + b&#34;</span><span class="p">);</span>
+<div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">8
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#999;font-style:italic">// Example can be run directly in your JavaScript console
+</span><span style="color:#999;font-style:italic"></span>
+<span style="color:#999;font-style:italic">// Create a function that takes two arguments and returns the sum of those arguments
+</span><span style="color:#999;font-style:italic"></span><span style="color:#6ab825;font-weight:bold">var</span> adder = <span style="color:#6ab825;font-weight:bold">new</span> <span style="color:#24909d">Function</span>(<span style="color:#ed9d13">&#34;a&#34;</span>, <span style="color:#ed9d13">&#34;b&#34;</span>, <span style="color:#ed9d13">&#34;return a + b&#34;</span>);
 
-<span class="c1">// Call the function
-</span><span class="c1"></span><span class="nx">adder</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">);</span>
-<span class="c1">// &gt; 8
-</span></code></pre></div>
+<span style="color:#999;font-style:italic">// Call the function
+</span><span style="color:#999;font-style:italic"></span>adder(<span style="color:#3677a9">2</span>, <span style="color:#3677a9">6</span>);
+<span style="color:#999;font-style:italic">// &gt; 8
+</span></code></pre></td></tr></table>
+</div>
+</div>
 <p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
 <h3 id="lists">Lists</h3>
 <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
@@ -1111,60 +1146,179 @@ am using <a href="https://gohugo.io/"><code>hugo</code></a>.</p>
             
             
             <content type="html"><![CDATA[<p>More detail: <a href="https://gohugo.io/content-management/syntax-highlighting/">Syntax Highlighting | Hugo</a></p>
-<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="kd">function</span> <span class="nx">helloWorld</span> <span class="p">()</span> <span class="p">{</span>
-  <span class="nx">alert</span><span class="p">(</span><span class="s2">&#34;Hello, World!&#34;</span><span class="p">)</span>
-<span class="p">}</span>
-</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-java" data-lang="java"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">HelloWorld</span> <span class="o">{</span>
-  <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
-    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;Hello, World!&#34;</span><span class="o">);</span>
-  <span class="o">}</span>
-<span class="o">}</span>
-</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-kotlin" data-lang="kotlin"><span class="k">package</span> <span class="nn">hello</span>
+<div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">3
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#6ab825;font-weight:bold">function</span> helloWorld () {
+  alert(<span style="color:#ed9d13">&#34;Hello, World!&#34;</span>)
+}
+</code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">5
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#6ab825;font-weight:bold">public</span> <span style="color:#6ab825;font-weight:bold">class</span> <span style="color:#447fcf;text-decoration:underline">HelloWorld</span> {
+  <span style="color:#6ab825;font-weight:bold">public</span> <span style="color:#6ab825;font-weight:bold">static</span> <span style="color:#6ab825;font-weight:bold">void</span> <span style="color:#447fcf">main</span>(String[] args) {
+    System.<span style="color:#bbb">out</span>.<span style="color:#bbb">println</span>(<span style="color:#ed9d13">&#34;Hello, World!&#34;</span>);
+  }
+}
+</code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">5
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-kotlin" data-lang="kotlin"><span style="color:#6ab825;font-weight:bold">package</span> <span style="color:#447fcf;text-decoration:underline">hello</span>
 
-<span class="k">fun</span> <span class="nf">main</span><span class="p">(</span><span class="n">args</span><span class="p">:</span> <span class="n">Array</span><span class="p">&lt;</span><span class="n">String</span><span class="p">&gt;)</span> <span class="p">{</span>
-  <span class="n">println</span><span class="p">(</span><span class="s">&#34;Hello World!&#34;</span><span class="p">)</span>
-<span class="p">}</span>
-</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-c" data-lang="c"><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp">
-</span><span class="cp"></span>
-<span class="cm">/* Hello */</span>
-<span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">void</span><span class="p">){</span>
-  <span class="n">printf</span><span class="p">(</span><span class="s">&#34;Hello, World!&#34;</span><span class="p">);</span>
-  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-cpp" data-lang="cpp"><span class="c1">// &#39;Hello World!&#39; program
-</span><span class="c1"></span>
-<span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp">
-</span><span class="cp"></span>
-<span class="kt">int</span> <span class="nf">main</span><span class="p">(){</span>
-  <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;Hello World!&#34;</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
-  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-cs" data-lang="cs"><span class="k">using</span> <span class="nn">System</span><span class="p">;</span>
-<span class="k">class</span> <span class="nc">HelloWorld</span><span class="p">{</span>
-  <span class="k">public</span> <span class="k">static</span> <span class="k">void</span> <span class="n">Main</span><span class="p">(){</span>
-    <span class="n">System</span><span class="p">.</span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&#34;Hello, World!&#34;</span><span class="p">);</span>
-  <span class="p">}</span>
-<span class="p">}</span>
-</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
-<span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+<span style="color:#6ab825;font-weight:bold">fun</span> <span style="color:#447fcf">main</span>(args: Array&lt;String&gt;) {
+  println(<span style="color:#ed9d13">&#34;Hello World!&#34;</span>)
+}
+</code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">7
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#cd2828;font-weight:bold">#include</span> <span style="color:#cd2828;font-weight:bold">&lt;stdio.h&gt;</span><span style="color:#cd2828;font-weight:bold">
+</span><span style="color:#cd2828;font-weight:bold"></span>
+<span style="color:#999;font-style:italic">/* Hello */</span>
+<span style="color:#6ab825;font-weight:bold">int</span> <span style="color:#447fcf">main</span>(<span style="color:#6ab825;font-weight:bold">void</span>){
+  printf(<span style="color:#ed9d13">&#34;Hello, World!&#34;</span>);
+  <span style="color:#6ab825;font-weight:bold">return</span> <span style="color:#3677a9">0</span>;
+}
+</code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">8
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cpp" data-lang="cpp"><span style="color:#999;font-style:italic">// &#39;Hello World!&#39; program
+</span><span style="color:#999;font-style:italic"></span>
+<span style="color:#cd2828;font-weight:bold">#include</span> <span style="color:#cd2828;font-weight:bold">&lt;iostream&gt;</span><span style="color:#cd2828;font-weight:bold">
+</span><span style="color:#cd2828;font-weight:bold"></span>
+<span style="color:#6ab825;font-weight:bold">int</span> <span style="color:#447fcf">main</span>(){
+  std::cout &lt;&lt; <span style="color:#ed9d13">&#34;Hello World!&#34;</span> &lt;&lt; std::endl;
+  <span style="color:#6ab825;font-weight:bold">return</span> <span style="color:#3677a9">0</span>;
+}
+</code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">6
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cs" data-lang="cs"><span style="color:#6ab825;font-weight:bold">using</span> <span style="color:#447fcf;text-decoration:underline">System</span>;
+<span style="color:#6ab825;font-weight:bold">class</span> <span style="color:#447fcf;text-decoration:underline">HelloWorld</span>{
+  <span style="color:#6ab825;font-weight:bold">public</span> <span style="color:#6ab825;font-weight:bold">static</span> <span style="color:#6ab825;font-weight:bold">void</span> Main(){
+    System.Console.WriteLine(<span style="color:#ed9d13">&#34;Hello, World!&#34;</span>);
+  }
+}
+</code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">5
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#6ab825;font-weight:bold">html</span>&gt;
+&lt;<span style="color:#6ab825;font-weight:bold">body</span>&gt;
   Hello, World!
-<span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
-<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
-</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="kn">package</span> <span class="nx">main</span>
-<span class="kn">import</span> <span class="nx">fmt</span> <span class="s">&#34;fmt&#34;</span>
+&lt;/<span style="color:#6ab825;font-weight:bold">body</span>&gt;
+&lt;/<span style="color:#6ab825;font-weight:bold">html</span>&gt;
+</code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">7
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#6ab825;font-weight:bold">package</span> main
+<span style="color:#6ab825;font-weight:bold">import</span> fmt <span style="color:#ed9d13">&#34;fmt&#34;</span>
 
-<span class="kd">func</span> <span class="nf">main</span><span class="p">()</span>
-<span class="p">{</span>
-   <span class="nx">fmt</span><span class="p">.</span><span class="nf">Printf</span><span class="p">(</span><span class="s">&#34;Hello, World!\n&#34;</span><span class="p">);</span>
-<span class="p">}</span>
-</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-scala" data-lang="scala"><span class="k">object</span> <span class="nc">HelloWorld</span> <span class="k">with</span> <span class="nc">Application</span> <span class="o">{</span>
-  <span class="nc">Console</span><span class="o">.</span><span class="n">println</span><span class="o">(</span><span class="s">&#34;Hello, World!&#34;</span><span class="o">);</span>
-<span class="o">}</span>
-</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php"><span class="cp">&lt;?php</span>
-  <span class="k">echo</span> <span class="s1">&#39;Hello, World!&#39;</span><span class="p">;</span>
-<span class="cp">?&gt;</span>
-</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">print</span><span class="p">(</span><span class="s2">&#34;Hello, World!&#34;</span><span class="p">)</span>
-</code></pre></div><h2 id="no-named-code-block">no named code block</h2>
+<span style="color:#6ab825;font-weight:bold">func</span> <span style="color:#447fcf">main</span>()
+{
+   fmt.<span style="color:#447fcf">Printf</span>(<span style="color:#ed9d13">&#34;Hello, World!\n&#34;</span>);
+}
+</code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">3
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scala" data-lang="scala"><span style="color:#6ab825;font-weight:bold">object</span> <span style="color:#447fcf;text-decoration:underline">HelloWorld</span> <span style="color:#6ab825;font-weight:bold">with</span> <span style="color:#447fcf;text-decoration:underline">Application</span> {
+  <span style="color:#447fcf;text-decoration:underline">Console</span>.println(<span style="color:#ed9d13">&#34;Hello, World!&#34;</span>);
+}
+</code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">3
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#cd2828;font-weight:bold">&lt;?php</span>
+  <span style="color:#6ab825;font-weight:bold">echo</span> <span style="color:#ed9d13">&#39;Hello, World!&#39;</span>;
+<span style="color:#cd2828;font-weight:bold">?&gt;</span>
+</code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#6ab825;font-weight:bold">print</span>(<span style="color:#ed9d13">&#34;Hello, World!&#34;</span>)
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="no-named-code-block">no named code block</h2>
 <pre><code>## this is a comment
 $ echo this is a command
 this is a command
@@ -1194,54 +1348,54 @@ $
 // ... code
 {{&lt; /highlight &gt;}}
 </code></pre><p>result:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">199
-</span><span class="lnt">200
-</span><span class="lnt">201
-</span><span class="lnt">202
-</span><span class="lnt">203
-</span><span class="lnt">204
-</span><span class="lnt">205
-</span><span class="hl"><span class="lnt">206
-</span></span><span class="lnt">207
-</span><span class="lnt">208
-</span><span class="lnt">209
-</span><span class="lnt">210
-</span><span class="lnt">211
-</span><span class="lnt">212
-</span><span class="hl"><span class="lnt">213
-</span></span><span class="hl"><span class="lnt">214
-</span></span><span class="hl"><span class="lnt">215
-</span></span><span class="lnt">216
-</span><span class="lnt">217
-</span><span class="lnt">218
-</span><span class="lnt">219
-</span><span class="lnt">220
+<div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">199
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">200
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">201
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">202
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">203
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">204
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">205
+</span><span style="display:block;width:100%;background-color:#363636"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">206
+</span></span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">207
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">208
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">209
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">210
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">211
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">212
+</span><span style="display:block;width:100%;background-color:#363636"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">213
+</span></span><span style="display:block;width:100%;background-color:#363636"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">214
+</span></span><span style="display:block;width:100%;background-color:#363636"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">215
+</span></span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">216
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">217
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">218
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">219
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">220
 </span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-go" data-lang="go"> <span class="nx">GetTitleFunc</span> <span class="nx">returns</span> <span class="nx">a</span> <span class="kd">func</span> <span class="nx">that</span> <span class="nx">can</span> <span class="nx">be</span> <span class="nx">used</span> <span class="nx">to</span> <span class="nx">transform</span> <span class="nx">a</span> <span class="kt">string</span> <span class="nx">to</span>
- <span class="nx">title</span> <span class="k">case</span><span class="p">.</span>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"> GetTitleFunc returns a <span style="color:#6ab825;font-weight:bold">func</span> that can be used to transform a <span style="color:#6ab825;font-weight:bold">string</span> to
+ title <span style="color:#6ab825;font-weight:bold">case</span>.
 
- <span class="nx">The</span> <span class="nx">supported</span> <span class="nx">styles</span> <span class="nx">are</span>
+ The supported styles are
 
- <span class="o">-</span> <span class="s">&#34;Go&#34;</span> <span class="p">(</span><span class="nx">strings</span><span class="p">.</span><span class="nx">Title</span><span class="p">)</span>
- <span class="o">-</span> <span class="s">&#34;AP&#34;</span> <span class="p">(</span><span class="nx">see</span> <span class="p">&lt;</span><span class="nx">https</span><span class="p">:</span><span class="c1">//www.apstylebook.com/)&gt;
-</span><span class="hl"><span class="c1"></span> <span class="o">-</span> <span class="s">&#34;Chicago&#34;</span> <span class="p">(</span><span class="nx">see</span> <span class="p">&lt;</span><span class="nx">http</span><span class="p">:</span><span class="c1">//www.chicagomanualofstyle.org/home.html)&gt;
-</span></span><span class="c1"></span>
- <span class="nx">If</span> <span class="nx">an</span> <span class="nx">unknown</span> <span class="nx">or</span> <span class="nx">empty</span> <span class="nx">style</span> <span class="nx">is</span> <span class="nx">provided</span><span class="p">,</span> <span class="nx">AP</span> <span class="nx">style</span> <span class="nx">is</span> <span class="nx">what</span> <span class="nx">you</span> <span class="nx">get</span><span class="p">.</span>
-<span class="kd">func</span> <span class="nf">GetTitleFunc</span><span class="p">(</span><span class="nx">style</span> <span class="kt">string</span><span class="p">)</span> <span class="kd">func</span><span class="p">(</span><span class="nx">s</span> <span class="kt">string</span><span class="p">)</span> <span class="kt">string</span> <span class="p">{</span>
-  <span class="k">switch</span> <span class="nx">strings</span><span class="p">.</span><span class="nf">ToLower</span><span class="p">(</span><span class="nx">style</span><span class="p">)</span> <span class="p">{</span>
-  <span class="k">case</span> <span class="s">&#34;go&#34;</span><span class="p">:</span>
-    <span class="k">return</span> <span class="nx">strings</span><span class="p">.</span><span class="nx">Title</span>
-<span class="hl">  <span class="k">case</span> <span class="s">&#34;chicago&#34;</span><span class="p">:</span>
-</span><span class="hl">    <span class="nx">tc</span> <span class="o">:=</span> <span class="nx">transform</span><span class="p">.</span><span class="nf">NewTitleConverter</span><span class="p">(</span><span class="nx">transform</span><span class="p">.</span><span class="nx">ChicagoStyle</span><span class="p">)</span>
-</span><span class="hl">    <span class="k">return</span> <span class="nx">tc</span><span class="p">.</span><span class="nx">Title</span>
-</span>  <span class="k">default</span><span class="p">:</span>
-    <span class="nx">tc</span> <span class="o">:=</span> <span class="nx">transform</span><span class="p">.</span><span class="nf">NewTitleConverter</span><span class="p">(</span><span class="nx">transform</span><span class="p">.</span><span class="nx">APStyle</span><span class="p">)</span>
-    <span class="k">return</span> <span class="nx">tc</span><span class="p">.</span><span class="nx">Title</span>
-  <span class="p">}</span>
-<span class="p">}</span></code></pre></td></tr></table>
+ - <span style="color:#ed9d13">&#34;Go&#34;</span> (strings.Title)
+ - <span style="color:#ed9d13">&#34;AP&#34;</span> (see &lt;https:<span style="color:#999;font-style:italic">//www.apstylebook.com/)&gt;
+</span><span style="display:block;width:100%;background-color:#363636"><span style="color:#999;font-style:italic"></span> - <span style="color:#ed9d13">&#34;Chicago&#34;</span> (see &lt;http:<span style="color:#999;font-style:italic">//www.chicagomanualofstyle.org/home.html)&gt;
+</span></span><span style="color:#999;font-style:italic"></span>
+ If an unknown or empty style is provided, AP style is what you get.
+<span style="color:#6ab825;font-weight:bold">func</span> <span style="color:#447fcf">GetTitleFunc</span>(style <span style="color:#6ab825;font-weight:bold">string</span>) <span style="color:#6ab825;font-weight:bold">func</span>(s <span style="color:#6ab825;font-weight:bold">string</span>) <span style="color:#6ab825;font-weight:bold">string</span> {
+  <span style="color:#6ab825;font-weight:bold">switch</span> strings.<span style="color:#447fcf">ToLower</span>(style) {
+  <span style="color:#6ab825;font-weight:bold">case</span> <span style="color:#ed9d13">&#34;go&#34;</span>:
+    <span style="color:#6ab825;font-weight:bold">return</span> strings.Title
+<span style="display:block;width:100%;background-color:#363636">  <span style="color:#6ab825;font-weight:bold">case</span> <span style="color:#ed9d13">&#34;chicago&#34;</span>:
+</span><span style="display:block;width:100%;background-color:#363636">    tc := transform.<span style="color:#447fcf">NewTitleConverter</span>(transform.ChicagoStyle)
+</span><span style="display:block;width:100%;background-color:#363636">    <span style="color:#6ab825;font-weight:bold">return</span> tc.Title
+</span>  <span style="color:#6ab825;font-weight:bold">default</span>:
+    tc := transform.<span style="color:#447fcf">NewTitleConverter</span>(transform.APStyle)
+    <span style="color:#6ab825;font-weight:bold">return</span> tc.Title
+  }
+}</code></pre></td></tr></table>
 </div>
 </div>]]></content>
             
