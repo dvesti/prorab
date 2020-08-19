@@ -10,7 +10,7 @@
         <language>ru-ru</language>
         
                 <managingEditor>dvesti@hot.ee (Dvesti)</managingEditor>
-                <webMaster>dvesti@hot.ee (Dvesti)</webMaster><lastBuildDate>Thu, 20 Aug 2020 01:36:19 +0300</lastBuildDate>
+                <webMaster>dvesti@hot.ee (Dvesti)</webMaster><lastBuildDate>Thu, 20 Aug 2020 02:34:17 +0300</lastBuildDate>
         <generator>Hugo -- gohugo.io</generator>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
             <atom:link href="https://dvesti.github.io/prorab/index.xml" rel="self" type="application/rss&#43;xml" />
@@ -21,7 +21,7 @@
                 <link>https://dvesti.github.io/prorab/test-1/</link>
                 
                 
-                <description>&lt;blockquote&gt;Тест для отображении картинки статьи в Скайпе&lt;/blockquote&gt;&lt;p&gt;Это тестовое сообщение с этой картинкой:&lt;/p&gt;
+                <description>&lt;blockquote&gt;Тест для отображении картинки статьи в Скайпе&lt;/blockquote&gt;&lt;p&gt;Это &lt;del&gt;тест&lt;/del&gt;овое сообщение &lt;em&gt;с этой&lt;/em&gt; &lt;strong&gt;картинкой&lt;/strong&gt;:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;featured.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;которая отображается при пересылке ссылки, например, в Скайп&lt;/p&gt;
 </description>
@@ -45,15 +45,15 @@
                 <link>https://dvesti.github.io/prorab/kung-fu-cat/</link>
                 
                 
-                <description>&lt;blockquote&gt;Котик показывает приёмы Кунг-Фу&lt;/blockquote&gt;&lt;div&gt;
+                <description>&lt;blockquote&gt;Котик отрабатывает приёмы Кунг-Фу&lt;/blockquote&gt;&lt;div&gt;
 
   &lt;blockquote class=&#34;twitter-tweet&#34; data-dnt=&#34;true&#34;&gt;&lt;p lang=&#34;in&#34; dir=&#34;ltr&#34;&gt;LOL 😂&lt;br&gt;&lt;br&gt;TikTok Russia 🇷🇺 &lt;a href=&#34;https://t.co/973FAka0vh&#34;&gt;pic.twitter.com/973FAka0vh&lt;/a&gt;&lt;/p&gt;&amp;mdash; Enrique 🎧🐈 (@Garou_Hidalgo) &lt;a href=&#34;https://twitter.com/Garou_Hidalgo/status/1293125555534135296?ref_src=twsrc%5Etfw&#34;&gt;August 11, 2020&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 
 
 &lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Если быстро не отскочишь:&lt;br&gt;
-Я — не плюшевый клубочек,&lt;br&gt;
+&lt;p&gt;&lt;strong&gt;Если быстро не отскочишь, –&lt;br&gt;
+Я ж не плюшевый клубочек, –&lt;br&gt;
 Даже если не захочешь,&lt;br&gt;
 Покажу &lt;em&gt;кунг-фы&lt;/em&gt; кусочек&lt;/strong&gt;&lt;/p&gt;
 </description>
