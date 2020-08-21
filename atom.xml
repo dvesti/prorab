@@ -10,7 +10,7 @@
             <link href="https://dvesti.github.io/prorab/index.xml" rel="alternate" type="application/rss+xml" title="RSS" />
             <link href="https://dvesti.github.io/prorab/atom.xml" rel="self" type="application/atom+xml" title="Atom" />
             <link href="https://dvesti.github.io/prorab/jf2feed.json" rel="alternate" type="application/jf2feed+json" title="jf2feed" />
-    <updated>2020-08-20T02:34:17+03:00</updated>
+    <updated>2020-08-22T02:54:04+03:00</updated>
     
     
     <author>
@@ -220,7 +220,19 @@
 <h3 id="будет-ли-внешний-вид-сайта-меняться">Будет ли внешний вид сайта меняться?</h3>
 <p>Именно этим я и занимаюсь, в ущерб самим заметкам.<br>
 Меняется шрифт. К сожалению, англоязычные, по умолчанию на сайте установленные, отсутствуют в русском секторе. Приходится менять, стараясь не сильно ухудшать стиль всего сайта.</p>
-<p>Работы много, но, наверно, это будет делаться постепенно. Т.е. в процессе ведения самого блога</p>]]></content>
+<p>Работы много, но, наверно, это будет делаться постепенно. Т.е. в процессе ведения самого блога</p>
+<h3 id="ps">P.S.</h3>
+<p>Выручило это дополнение в файле <code>themes/refined/layouts/partials/head.html</code></p>
+<div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#6ab825;font-weight:bold">link</span> <span style="color:#bbb">href</span>=<span style="color:#ed9d13">&#34;https://fonts.googleapis.com/css?family=Merriweather:400,700|Oswald&#34;</span> <span style="color:#bbb">rel</span>=<span style="color:#ed9d13">&#34;stylesheet&#34;</span> <span style="color:#bbb">type</span>=<span style="color:#ed9d13">&#34;text/css&#34;</span>&gt;
+</code></pre></td></tr></table>
+</div>
+</div><hr>
+<p>Все желаемые стили встали на свои места: иначе не подхватывало и указывало шрифт по умолчанию (т.е. первоначально-предусмотренный при создании самой темы)</p>]]></content>
             
                  
                     
