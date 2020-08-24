@@ -68,6 +68,11 @@
   </url>
   
   <url>
+    <loc>https://dvesti.github.io/prorab/tags/test/</loc>
+    <lastmod>2020-08-14T17:04:31+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://dvesti.github.io/prorab/test-1/</loc>
     <lastmod>2020-08-14T17:04:31+03:00</lastmod>
   </url>
@@ -123,11 +128,6 @@
   </url>
   
   <url>
-    <loc>https://dvesti.github.io/prorab/categories/index/</loc>
-    <lastmod>2018-03-05T16:01:23+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://dvesti.github.io/prorab/tags/preview/</loc>
     <lastmod>2018-03-05T16:01:23+08:00</lastmod>
   </url>
@@ -138,17 +138,7 @@
   </url>
   
   <url>
-    <loc>https://dvesti.github.io/prorab/categories/shortcodes/</loc>
-    <lastmod>2018-03-05T16:01:23+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://dvesti.github.io/prorab/shortcodes-preview/</loc>
-    <lastmod>2018-03-05T16:01:23+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dvesti.github.io/prorab/tags/tag-6/</loc>
     <lastmod>2018-03-05T16:01:23+08:00</lastmod>
   </url>
   
@@ -178,11 +168,6 @@
   </url>
   
   <url>
-    <loc>https://dvesti.github.io/prorab/categories/web-design/</loc>
-    <lastmod>2016-10-15T01:27:35-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://dvesti.github.io/prorab/first-post/</loc>
     <lastmod>2014-03-03T18:21:33-05:00</lastmod>
   </url>
@@ -193,22 +178,12 @@
   </url>
   
   <url>
-    <loc>https://dvesti.github.io/prorab/tags/syntax-highlighting/</loc>
-    <lastmod>2017-08-30T16:01:23+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dvesti.github.io/prorab/categories/syntax-highlighting/</loc>
+    <loc>https://dvesti.github.io/prorab/tags/highlighting/</loc>
     <lastmod>2017-08-30T16:01:23+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://dvesti.github.io/prorab/syntax-highlighting/</loc>
-    <lastmod>2017-08-30T16:01:23+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dvesti.github.io/prorab/tags/tag-5/</loc>
     <lastmod>2017-08-30T16:01:23+08:00</lastmod>
   </url>
   

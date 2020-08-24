@@ -12,7 +12,7 @@
         <language>ru-ru</language>
         
                 <managingEditor>dvesti@hot.ee (Dvesti)</managingEditor>
-                <webMaster>dvesti@hot.ee (Dvesti)</webMaster><lastBuildDate>Mon, 24 Aug 2020 00:59:30 +0300</lastBuildDate>
+                <webMaster>dvesti@hot.ee (Dvesti)</webMaster><lastBuildDate>Mon, 24 Aug 2020 22:21:54 +0300</lastBuildDate>
         <generator>Hugo -- gohugo.io</generator>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
             <atom:link href="https://dvesti.github.io/prorab/categories/blog/index.xml" rel="self" type="application/rss&#43;xml" />
@@ -67,6 +67,46 @@
                 
                 <guid>https://dvesti.github.io/prorab/slyle-230820/</guid>
                 <pubDate>Sun, 23 Aug 2020 17:04:31 +0300</pubDate>
+            </item>
+        
+            
+            <item>
+                <title>Тест-1</title>
+                <link>https://dvesti.github.io/prorab/test-1/</link>
+                
+                
+                <description>&lt;blockquote&gt;Тест для отображении картинки статьи в Скайпе&lt;/blockquote&gt;&lt;p&gt;Это &lt;del&gt;тест&lt;/del&gt;овое сообщение &lt;em&gt;с этой&lt;/em&gt; &lt;strong&gt;картинкой&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;featured.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;которая отображается при пересылке ссылки, например, в Скайп&lt;/p&gt;
+</description>
+                
+                
+                     
+                        
+                             
+                            
+                                
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/categories/blog">blog</category>
+                                
+                            
+                        
+                     
+                        
+                     
+                        
+                             
+                            
+                                
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/tags/test">test</category>
+                                
+                            
+                        
+                    
+                
+                <guid>https://dvesti.github.io/prorab/test-1/</guid>
+                <pubDate>Fri, 14 Aug 2020 17:04:31 +0300</pubDate>
             </item>
         
             
@@ -127,6 +167,1202 @@
                 
                 <guid>https://dvesti.github.io/prorab/theme-refined/</guid>
                 <pubDate>Mon, 10 Aug 2020 16:01:23 +0800</pubDate>
+            </item>
+        
+            
+            <item>
+                <title> I write my blog posts in Markdown</title>
+                <link>https://dvesti.github.io/prorab/i-write-my-blog-posts-in-markdown/</link>
+                
+                
+                <description>&lt;p&gt;I write my blog posts in &lt;strong&gt;Markdown&lt;/strong&gt; and I use &lt;strong&gt;VSCode&lt;/strong&gt; editor for that.&lt;/p&gt;
+&lt;p&gt;Я пишу свои блог-посты в &lt;strong&gt;Markdown&lt;/strong&gt; и &lt;em&gt;использую&lt;/em&gt; для этого редактор &lt;strong&gt;VS Code&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;И это &amp;ndash; правильно!&lt;br&gt;
+И это &amp;ndash; не только моё мнение.&lt;/p&gt;</description>
+                
+                
+                     
+                        
+                             
+                            
+                                
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/categories/blog">blog</category>
+                                
+                            
+                        
+                     
+                        
+                     
+                        
+                             
+                            
+                                
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/tags/test">test</category>
+                                
+                            
+                        
+                    
+                
+                <guid>https://dvesti.github.io/prorab/i-write-my-blog-posts-in-markdown/</guid>
+                <pubDate>Wed, 17 Jun 2020 12:04:31 +0300</pubDate>
+            </item>
+        
+            
+            <item>
+                <title>Тема Chess A</title>
+                <link>https://dvesti.github.io/prorab/2020-05-13-a/</link>
+                
+                
+                <description>&lt;p&gt;&lt;del&gt;Это &amp;ndash; &lt;strong&gt;тест&lt;/strong&gt;&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;Изменил начертание и размер шрифта, потом изменю остальное: главное, чтобы самому нравилось.&lt;/p&gt;
+&lt;p&gt;Добавил в Конфиг данные, чтобы было похоже на оригинал и Плюс подсмотрел у других сайтов, которые ориентированы не на отображение кода, а на обычный Блог.&lt;/p&gt;
+&lt;p&gt;Именно такой нам и нужен.&lt;/p&gt;
+&lt;p&gt;В планах &amp;ndash; создать некую записную книжку для ежедневных записей&amp;hellip;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.dmitriev.ee/punbb/extensions/chess_diagram/gendiag.php?size=24&amp;amp;coord&amp;amp;fen=r6b/p1pq1p1k/1p2p1rp/4PpBQ/3P1P2/2PR2R1/P5PP/6K1&#34; alt=&#34;Диаграмма&#34;&gt;
+&lt;img src=&#34;http://www.euruchess.org/24/blue/diagol.php?position=r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1+w+-+-+0+15&#34; alt=&#34;Диаграмма2&#34;&gt;
+&lt;img src=&#34;https://www.dmitriev.ee/punbb/extensions/chess_diagram/gendiag-blue.php?coord&amp;amp;size=24&amp;amp;style=merida&amp;amp;fen=2k1B3/ppB5/3P3p/7P/3K4/2Pn2r1/1P6/8%20w%20-%20-%200%201&#34; alt=&#34;Диаграмма3&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Стиль &amp;ndash; &lt;strong&gt;Jane&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.dmitriev.ee/punbb/extensions/chess_diagram/gendiag-jane.php?coord&amp;amp;size=29&amp;amp;style=merida&amp;amp;fen=r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1+w+-+-+0+15&#34; alt=&#34;Диаграмма4&#34;&gt;
+&lt;img src=&#34;http://www.euruchess.org/29/grey/diagol.php?position=r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1+w+-+-+0+15&#34; alt=&#34;Диаграмма5&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;Установил тему &lt;strong&gt;Джейн &amp;ndash; Jane&lt;/strong&gt;&lt;/del&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&amp;lt;&lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;iframe&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;src&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;https://www.dmitriev.ee/chessviewer/PGN/1986/dmitrijev-pust-kalev-kom-86.htm&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;frameborder&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;0&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;style&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;scrolling&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;no&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;height&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;400px&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;width&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;492px&amp;#34;&lt;/span&gt;&amp;gt;Get a better browser!&amp;lt;/&lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;iframe&lt;/span&gt;&amp;gt;  
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+                
+                
+                     
+                        
+                             
+                            
+                                
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/categories/blog">blog</category>
+                                
+                            
+                        
+                     
+                        
+                     
+                        
+                             
+                            
+                                
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/tags/test">test</category>
+                                
+                            
+                        
+                    
+                
+                <guid>https://dvesti.github.io/prorab/2020-05-13-a/</guid>
+                <pubDate>Wed, 13 May 2020 02:04:31 +0300</pubDate>
+            </item>
+        
+            
+            <item>
+                <title>Shortcodes Preview</title>
+                <link>https://dvesti.github.io/prorab/shortcodes-preview/</link>
+                
+                
+                <description>&lt;h2 id=&#34;what-a-shortcode-is&#34;&gt;What a Shortcode is&lt;/h2&gt;
+&lt;p&gt;Hugo loves Markdown because of its simple content format, but there are times when Markdown falls short. Often, content authors are forced to add raw HTML (e.g., video &lt;code&gt;&amp;lt;iframes&amp;gt;&lt;/code&gt;) to Markdown content. We think this contradicts the beautiful simplicity of Markdown&amp;rsquo;s syntax.&lt;/p&gt;
+&lt;p&gt;Hugo created &lt;strong&gt;shortcodes&lt;/strong&gt; to circumvent these limitations.&lt;/p&gt;
+&lt;p&gt;A shortcode is a simple snippet inside a content file that Hugo will render using a predefined template. Note that shortcodes will not work in template files. If you need the type of drop-in functionality that shortcodes provide but in a template, you most likely want a [partial template][partials] instead.&lt;/p&gt;
+&lt;p&gt;In addition to cleaner Markdown, shortcodes can be updated any time to reflect new classes, techniques, or standards. At the point of site generation, Hugo shortcodes will easily merge in your changes. You avoid a possibly complicated search and replace operation.&lt;/p&gt;
+&lt;p&gt;More details: &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/&#34;&gt;https://gohugo.io/content-management/shortcodes/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;blockquotes&#34;&gt;blockquotes&lt;/h2&gt;
+&lt;p&gt;Normal quote:
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a simple quote.&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;&lt;/strong&gt;
+    
+      
+        
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;p&gt;Quote with author:
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a quote with only an Author named Author2.&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;Author2&lt;/strong&gt;
+    
+      
+        
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;p&gt;Quote with author and source:
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a quote from Author3 and source &amp;ldquo;source.&amp;rdquo;&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;Author3&lt;/strong&gt;
+    
+      &lt;cite&gt;Source&lt;/cite&gt;
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;p&gt;Quote with author and link:
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+      
+      
+      
+    
+     
+      
+    
+    
+
+    
+    
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a quote from Author4 and links to &lt;a href=&#34;https://www.google.com&#34;&gt;https://www.google.com&lt;/a&gt;.&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;Author4&lt;/strong&gt;
+    
+      
+        &lt;cite&gt;
+          &lt;a href=&#34;https://www.google.com&#34; title=&#34;https://www.google.com&#34;&gt;google.com&lt;/a&gt; 
+        &lt;/cite&gt;
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;p&gt;Quote with author, link and title:
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a quote from Author5 and links to &lt;a href=&#34;https://www.google.com&#34;&gt;https://www.google.com&lt;/a&gt; with title &amp;ldquo;Google.&amp;rdquo;&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;Author5&lt;/strong&gt;
+    
+      
+        &lt;cite&gt;
+          &lt;a href=&#34;https://www.google.com&#34; title=&#34;https://www.google.com&#34;&gt;Google&lt;/a&gt; 
+        &lt;/cite&gt;
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;p&gt;Quote with author and a link longer than 32 characters, string is first cut at 32 characters then everything after the last forward slash is removed
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+      
+      
+      
+    
+     
+      
+    
+    
+
+    
+    
+         
+         
+         
+
+         
+        
+        
+        
+        
+      
+      
+    
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a quote from Author5 and links to &lt;a href=&#34;https://twitter.com/CryptoGangsta/status/716427930126196737&#34;&gt;https://twitter.com/CryptoGangsta/status/716427930126196737&lt;/a&gt; which is longer than 32 characters.
+&lt;!-- raw HTML omitted --&gt;And this is a new line in the quote with the HTML br tag.&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;Author6&lt;/strong&gt;
+    
+      
+        &lt;cite&gt;
+          &lt;a href=&#34;https://twitter.com/CryptoGangsta/status/716427930126196737&#34; title=&#34;https://twitter.com/CryptoGangsta/status/716427930126196737&#34;&gt;twitter.com/CryptoGangsta/...&lt;/a&gt; 
+        &lt;/cite&gt;
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;p&gt;Test from the Octopress blockquote page at: &lt;a href=&#34;http://octopress.org/docs/plugins/blockquote/&#34;&gt;http://octopress.org/docs/plugins/blockquote/&lt;/a&gt;
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+      
+      
+      
+    
+     
+      
+    
+    
+
+    
+    
+         
+         
+         
+
+         
+        
+        
+        
+        
+        
+        
+      
+      
+    
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;Over the past 24 hours I&amp;rsquo;ve been reflecting on my life &amp;amp; I&amp;rsquo;ve realized only one thing. I need a medieval battle axe.&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;@allanbranch&lt;/strong&gt;
+    
+      
+        &lt;cite&gt;
+          &lt;a href=&#34;https://twitter.com/allanbranch/status/90766146063712256&#34; title=&#34;https://twitter.com/allanbranch/status/90766146063712256&#34;&gt;twitter.com/allanbranch/status/...&lt;/a&gt; 
+        &lt;/cite&gt;
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;music&#34;&gt;music&lt;/h2&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;gist&#34;&gt;gist&lt;/h2&gt;
+&lt;p&gt;We can embed the gist in our content via username and gist ID pulled from the URL:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; gist spf13 7896402 &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Display:&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/spf13/7896402.js&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;expand&#34;&gt;expand&lt;/h2&gt;
+&lt;p&gt;The Expand shortcode displays an expandable/collapsible section of text on your page. Here is an example&lt;/p&gt;
+&lt;details&gt;
+  &lt;summary style=&#34;background-color:#f5f5f5;border:1px solid #ccc;padding:5px;&#34;&gt;
+    Is this learn theme rocks ?
+    
+  &lt;/summary&gt;
+  
+Yes !.
+
+&lt;/details&gt;
+
+&lt;h3 id=&#34;usage&#34;&gt;Usage&lt;/h3&gt;
+&lt;p&gt;this shortcode takes exactly one optional parameter to define the text that appears next to the expand/collapse icon. (default is “Click to expand”)&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; expand &amp;quot;Is this learn theme rocks ?&amp;quot; &amp;gt;}}
+Yes !.
+{{&amp;lt; /expand &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;youtube&#34;&gt;youtube&lt;/h2&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/w7Ft2ymGmfc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;vimeo&#34;&gt;vimeo&lt;/h2&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://player.vimeo.com/video/146022717&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;vimeo video&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+&lt;h2 id=&#34;youku&#34;&gt;youku&lt;/h2&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+    &lt;iframe src=&#34;https://player.youku.com/embed/XMzQ0ODUxMjM2NA?autoplay=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34; title=&#34;YouKu Video&#34;&gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;twitter&#34;&gt;twitter&lt;/h2&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Hugo 0.24 Released: Big archetype update + &lt;a href=&#34;https://twitter.com/Netlify?ref_src=twsrc%5Etfw&#34;&gt;@Netlify&lt;/a&gt; _redirects etc. file support&lt;a href=&#34;https://t.co/X94FmYDEZJ&#34;&gt;https://t.co/X94FmYDEZJ&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/gohugo?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#gohugo&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/golang?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#golang&lt;/a&gt; &lt;a href=&#34;https://twitter.com/spf13?ref_src=twsrc%5Etfw&#34;&gt;@spf13&lt;/a&gt; &lt;a href=&#34;https://twitter.com/bepsays?ref_src=twsrc%5Etfw&#34;&gt;@bepsays&lt;/a&gt;&lt;/p&gt;&amp;mdash; GoHugo.io (@GoHugoIO) &lt;a href=&#34;https://twitter.com/GoHugoIO/status/877500564405444608?ref_src=twsrc%5Etfw&#34;&gt;June 21, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;2&#34;&gt;2&lt;/h2&gt;
+&lt;div&gt;
+
+  &lt;blockquote class=&#34;twitter-tweet&#34; data-dnt=&#34;true&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;The power was out so we took a walk, and I have never seen so many people out standing around in our neighborhood.&lt;/p&gt;&amp;mdash; Ardith Betz (@ardithbetz) &lt;a href=&#34;https://twitter.com/ardithbetz/status/763188308662898691?ref_src=twsrc%5Etfw&#34;&gt;August 10, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+
+&lt;/div&gt;
+&lt;h2 id=&#34;3&#34;&gt;3&lt;/h2&gt;
+&lt;div&gt;
+
+  &lt;blockquote class=&#34;twitter-tweet&#34; data-dnt=&#34;true&#34;&gt;&lt;p lang=&#34;in&#34; dir=&#34;ltr&#34;&gt;LOL 😂&lt;br&gt;&lt;br&gt;TikTok Russia 🇷🇺 &lt;a href=&#34;https://t.co/973FAka0vh&#34;&gt;pic.twitter.com/973FAka0vh&lt;/a&gt;&lt;/p&gt;&amp;mdash; Enrique 🎧🐈 (@Garou_Hidalgo) &lt;a href=&#34;https://twitter.com/Garou_Hidalgo/status/1293125555534135296?ref_src=twsrc%5Etfw&#34;&gt;August 11, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+
+&lt;/div&gt;
+&lt;h2 id=&#34;4-comment&#34;&gt;4-comment&lt;/h2&gt;
+&lt;div&gt;
+
+  &lt;blockquote class=&#34;twitter-tweet&#34; data-conversation=&#34;none&#34; data-dnt=&#34;true&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Yeah I agree with this point for sure. I think multi stage builds in Docker are a very important piece of the puzzle. And that doesn’t quite map to what the Lambda team is doing with layers yet&lt;/p&gt;&amp;mdash; Nathan Peck (@nathankpeck) &lt;a href=&#34;https://twitter.com/nathankpeck/status/1069588395536654336?ref_src=twsrc%5Etfw&#34;&gt;December 3, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+
+&lt;/div&gt;
+&lt;h2 id=&#34;5-prorab&#34;&gt;5-Prorab&lt;/h2&gt;
+&lt;div&gt;
+
+  &lt;blockquote class=&#34;twitter-tweet&#34; data-dnt=&#34;true&#34;&gt;&lt;p lang=&#34;und&#34; dir=&#34;ltr&#34;&gt;23.04.2020 -- 49. Estonian Championship выиграл Dmitriev, Vladimir&lt;a href=&#34;https://t.co/FdRjYwgkf2&#34;&gt;https://t.co/FdRjYwgkf2&lt;/a&gt;&lt;/p&gt;&amp;mdash; Vladimir Dmitrijev (@Prorab) &lt;a href=&#34;https://twitter.com/Prorab/status/1256219426321465344?ref_src=twsrc%5Etfw&#34;&gt;May 1, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+
+&lt;/div&gt;</description>
+                
+                
+                     
+                        
+                             
+                            
+                                
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/categories/docs">docs</category>
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/categories/blog">blog</category>
+                                
+                            
+                        
+                     
+                        
+                     
+                        
+                             
+                            
+                                
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/tags/preview">preview</category>
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/tags/shortcodes">shortcodes</category>
+                                
+                            
+                        
+                    
+                
+                <guid>https://dvesti.github.io/prorab/shortcodes-preview/</guid>
+                <pubDate>Sun, 04 Mar 2018 16:01:23 +0800</pubDate>
+            </item>
+        
+            
+            <item>
+                <title>Shortcodes Notice Preview</title>
+                <link>https://dvesti.github.io/prorab/shortcode-notice/</link>
+                
+                
+                <description>&lt;p&gt;Не все &lt;em&gt;шорккоды&lt;/em&gt; работают корректно. Скорее всего из-за их отсутствия: будем искать и исправлять пост.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Дополнено&lt;/strong&gt;: Поменял &lt;code&gt;% %&lt;/code&gt; на &lt;code&gt;&amp;lt; &amp;gt;&lt;/code&gt; и дело пошло&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;normal-use&#34;&gt;normal use&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;Note&lt;/code&gt; example:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;{{&amp;lt; notice note &amp;gt;}}
+&amp;lt;p&amp;gt;A notice disclaimer&amp;lt;/p&amp;gt;
+{{&amp;lt; /notice &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Result:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;shortcode-notice note&#34;&gt;
+  &lt;div class=&#34;shortcode-notice-title note&#34;&gt;
+    
+      note
+    
+  &lt;/div&gt;
+  
+&lt;p&gt;A notice disclaimer&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;you-could-custom-title&#34;&gt;You could custom title&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;Примечание&lt;/code&gt; example:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;{{&amp;lt; notice note Примечание &amp;gt;}}
+&amp;lt;p&amp;gt;A notice disclaimer&amp;lt;/p&amp;gt;
+{{&amp;lt; /notice &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Result:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;shortcode-notice note&#34;&gt;
+  &lt;div class=&#34;shortcode-notice-title note&#34;&gt;
+    
+      Примечание
+    
+  &lt;/div&gt;
+  
+&lt;p&gt;A notice disclaimer&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;tip&#34;&gt;tip&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;{{&amp;lt; notice tip &amp;gt;}}
+&amp;lt;p&amp;gt;A tip disclaimer&amp;lt;/p&amp;gt;
+{{&amp;lt; /notice &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Result:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;shortcode-notice tip&#34;&gt;
+  &lt;div class=&#34;shortcode-notice-title tip&#34;&gt;
+    
+      tip
+    
+  &lt;/div&gt;
+  
+&lt;p&gt;A tip disclaimer&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;info&#34;&gt;info&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;{{&amp;lt; notice info &amp;gt;}}
+&amp;lt;p&amp;gt;A info disclaimer&amp;lt;/p&amp;gt;
+{{&amp;lt; /notice &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Result:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;shortcode-notice info&#34;&gt;
+  &lt;div class=&#34;shortcode-notice-title info&#34;&gt;
+    
+      info
+    
+  &lt;/div&gt;
+  
+&lt;p&gt;An information disclaimer&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;warning&#34;&gt;warning&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;{{&amp;lt; notice warning &amp;gt;}}
+&amp;lt;p&amp;gt;A warning disclaimer&amp;lt;/p&amp;gt;
+{{&amp;lt; /notice &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Result:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;shortcode-notice warning&#34;&gt;
+  &lt;div class=&#34;shortcode-notice-title warning&#34;&gt;
+    
+      warning
+    
+  &lt;/div&gt;
+  
+&lt;p&gt;An warning disclaimer&lt;/p&gt;
+
+&lt;/div&gt;</description>
+                
+                
+                     
+                        
+                             
+                            
+                                
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/categories/docs">docs</category>
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/categories/blog">blog</category>
+                                
+                            
+                        
+                     
+                        
+                     
+                        
+                             
+                            
+                                
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/tags/preview">preview</category>
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/tags/shortcodes">shortcodes</category>
+                                
+                            
+                        
+                    
+                
+                <guid>https://dvesti.github.io/prorab/shortcode-notice/</guid>
+                <pubDate>Sat, 03 Mar 2018 16:01:23 +0800</pubDate>
+            </item>
+        
+            
+            <item>
+                <title>Generating a transparent favicon</title>
+                <link>https://dvesti.github.io/prorab/generating-a-transparent-favicon/</link>
+                
+                
+                <description>&lt;p&gt;While generating a simple favicon for this blog, I went through a little exercise on how to generate a favicon with transparent background. I did not want the favicon with square block background which runs a risk of not blending well with the browser tab background as seen below:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dvesti.github.io/prorab/prorab/images/favicon_not_good.png&#34; alt=&#34;Bad Favicon&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;inkscape-and-transparent-png&#34;&gt;Inkscape and transparent png&lt;/h2&gt;
+&lt;p&gt;Here are the steps I took to make this icon transparent. I used &lt;a href=&#34;https://inkscape.org/en/&#34;&gt;Inkscape&lt;/a&gt; and &lt;a href=&#34;http://tools.dynamicdrive.com/favicon/&#34;&gt;Dynamic Drive&amp;rsquo;s online favicon generator&lt;/a&gt; to make this happen.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Inkscape sets the background of the image to be transparent by default. But here is how to verify that that&amp;rsquo;s the case. Do &lt;!-- raw HTML omitted --&gt;Ctrl&lt;!-- raw HTML omitted --&gt; + &lt;!-- raw HTML omitted --&gt;Shift&lt;!-- raw HTML omitted --&gt; + &lt;!-- raw HTML omitted --&gt;d&lt;!-- raw HTML omitted --&gt; or &lt;em&gt;Files &amp;gt; Document Properties&lt;/em&gt;, click on the &lt;em&gt;Background color&lt;/em&gt; and ensure that the &lt;em&gt;Alpha&lt;/em&gt; component of &lt;em&gt;RGBA Hex&lt;/em&gt; is &lt;code&gt;00&lt;/code&gt;.
+&lt;img src=&#34;https://dvesti.github.io/prorab/prorab/images/favicon_transparent_background.png&#34; alt=&#34;Inkscape - Transparent Background&#34;&gt;&lt;/li&gt;
+&lt;li&gt;This next step when saving the image is crucial. Do not simply &lt;em&gt;Save&lt;/em&gt; or &lt;em&gt;Save As&lt;/em&gt; the image. That will &lt;em&gt;not&lt;/em&gt; save the transparent properties in the image!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Thanks to &lt;a href=&#34;https://graphicdesign.stackexchange.com/a/44411/78149&#34;&gt;this &lt;em&gt;graphicdesign.stackexchange&lt;/em&gt; solution&lt;/a&gt;,&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Just using &lt;em&gt;save as -&amp;gt; png&lt;/em&gt; does not apply the transparent background. However, the transparent background is the default when you export: &lt;em&gt;File &amp;gt; Export Bitmap -&amp;gt; Export&lt;/em&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In newer Inkscape versions (at least in version 0.91), that option is &lt;em&gt;File &amp;gt; Export PNG Image&lt;/em&gt; (or &lt;!-- raw HTML omitted --&gt;Ctrl&lt;!-- raw HTML omitted --&gt; + &lt;!-- raw HTML omitted --&gt;Shift&lt;!-- raw HTML omitted --&gt; + &lt;!-- raw HTML omitted --&gt;e&lt;!-- raw HTML omitted --&gt;) instead. Note that when you do that, instead of a pop-up window, you will see an attached window (shown below) appear on the side.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dvesti.github.io/prorab/prorab/images/favicon_export_png_image.png&#34; alt=&#34;Inkscape - Export PNG Image&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;png-or-ico&#34;&gt;&lt;code&gt;.png&lt;/code&gt; or &lt;code&gt;.ico&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;Another question I faced when working on this was whether I should save the favicon as a &lt;code&gt;.png&lt;/code&gt; or .&lt;code&gt;ico&lt;/code&gt; because I have seen both of these types being used.&lt;/p&gt;
+&lt;p&gt;Thanks to &lt;a href=&#34;https://stackoverflow.com/a/1344379/1219634&#34;&gt;this &lt;em&gt;stackoverflow&lt;/em&gt; solution&lt;/a&gt;,&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;All modern browsers (tested with Chrome 4, Firefox 3.5, IE8, Opera 10 and Safari 4) will always request a favicon.ico unless you&amp;rsquo;ve specified a shortcut icon via &amp;lt;link&amp;gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The answer also says that &lt;code&gt;.ico&lt;/code&gt; files support transparency just fine
+and that&amp;rsquo;s where I learned about Dynamic Drive&amp;rsquo;s favicon generator tool.&lt;/p&gt;
+&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Created a transparent &lt;code&gt;.png&lt;/code&gt; in Inkscape.&lt;/li&gt;
+&lt;li&gt;Converted it to &lt;code&gt;.ico&lt;/code&gt; using Dynamic Drive&amp;rsquo;s favicon generator tool.&lt;/li&gt;
+&lt;li&gt;And the result!
+&lt;img src=&#34;https://dvesti.github.io/prorab/prorab/images/favicon_good.png&#34; alt=&#34;Good Favicon&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;update---oct-20-2016&#34;&gt;Update - Oct 20 2016&lt;/h2&gt;
+&lt;p&gt;Today I was browsing this site on my Android phone and I noticed that the Google Chrome browser did not show this favicon on the list of recently visited websites.&lt;/p&gt;
+&lt;p&gt;That bugged me and a little bit of googling led me to an even better online favicon generator website: &lt;a href=&#34;https://realfavicongenerator.net/&#34;&gt;realfavicongenerator.net&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I simply needed to upload my Inkscape created &lt;code&gt;.png&lt;/code&gt; (with transparent background) to that site, and it provided a favicon package for different platforms and an HTML code to be put in the &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;4
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;5
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&amp;lt;&lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;link&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;rel&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;apple-touch-icon&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;sizes&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;180x180&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;href&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;/apple-touch-icon.png&amp;#34;&lt;/span&gt;&amp;gt;
+&amp;lt;&lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;link&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;rel&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;icon&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;type&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;image/png&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;href&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;/favicon-32x32.png&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;sizes&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;32x32&amp;#34;&lt;/span&gt;&amp;gt;
+&amp;lt;&lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;link&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;rel&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;icon&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;type&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;image/png&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;href&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;/favicon-16x16.png&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;sizes&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;16x16&amp;#34;&lt;/span&gt;&amp;gt;
+&amp;lt;&lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;link&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;rel&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;manifest&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;href&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;/manifest.json&amp;#34;&lt;/span&gt;&amp;gt;
+&amp;lt;&lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;link&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;rel&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;mask-icon&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;href&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;/safari-pinned-tab.svg&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;color&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;#5bbad5&amp;#34;&lt;/span&gt;&amp;gt;
+&amp;lt;&lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;meta&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;name&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;theme-color&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;content&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;#000000&amp;#34;&lt;/span&gt;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;The website also shows previews of how the icon would look on different platforms: regular browser tabs, iOS, Android, etc.&lt;/p&gt;
+&lt;p&gt;Here is how this favicon looks on Android Chrome after updating the icons and this website&amp;rsquo;s &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dvesti.github.io/prorab/prorab/images/favicon_android_chrome.png&#34; alt=&#34;Favicon in Android Chrome&#34;&gt;&lt;/p&gt;</description>
+                
+                
+                     
+                        
+                             
+                            
+                                
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/categories/blog">blog</category>
+                                
+                            
+                        
+                     
+                        
+                     
+                        
+                             
+                            
+                                
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/tags/favicon">favicon</category>
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/tags/transparent">transparent</category>
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/tags/browser">browser</category>
+                                
+                            
+                        
+                    
+                
+                <guid>https://dvesti.github.io/prorab/generating-a-transparent-favicon/</guid>
+                <pubDate>Sat, 15 Oct 2016 01:27:35 -0400</pubDate>
+            </item>
+        
+            
+            <item>
+                <title>First Post</title>
+                <link>https://dvesti.github.io/prorab/first-post/</link>
+                
+                
+                <description>&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: This first post was created using &lt;code&gt;octopress&lt;/code&gt;, but now I
+am using &lt;a href=&#34;https://gohugo.io/&#34;&gt;&lt;code&gt;hugo&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Testing the first post using octopress.&lt;/p&gt;</description>
+                
+                
+                     
+                        
+                             
+                            
+                                
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/categories/blog">blog</category>
+                                
+                            
+                        
+                     
+                        
+                     
+                        
+                             
+                            
+                                
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/tags/test">test</category>
+                                
+                            
+                        
+                    
+                
+                <guid>https://dvesti.github.io/prorab/first-post/</guid>
+                <pubDate>Mon, 03 Mar 2014 18:21:33 -0500</pubDate>
+            </item>
+        
+            
+            <item>
+                <title>Example content</title>
+                <link>https://dvesti.github.io/prorab/2014-01-01-example-content/</link>
+                
+                
+                <description>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Cum sociis natoque penatibus et magnis &lt;!-- raw HTML omitted --&gt;dis parturient montes&lt;!-- raw HTML omitted --&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt;
+&lt;h2 id=&#34;inline-html-elements&#34;&gt;Inline HTML elements&lt;/h2&gt;
+&lt;p&gt;HTML defines a long list of available inline tags, a complete list of which can be found on the &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTML/Element&#34;&gt;Mozilla Developer Network&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;To bold text&lt;/strong&gt;, use &lt;code&gt;&amp;lt;strong&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;To italicize text&lt;/em&gt;, use &lt;code&gt;&amp;lt;em&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Abbreviations, like &lt;!-- raw HTML omitted --&gt;HTML&lt;!-- raw HTML omitted --&gt; should use &lt;code&gt;&amp;lt;abbr&amp;gt;&lt;/code&gt;, with an optional &lt;code&gt;title&lt;/code&gt; attribute for the full phrase.&lt;/li&gt;
+&lt;li&gt;Citations, like &lt;!-- raw HTML omitted --&gt;— Mark otto&lt;!-- raw HTML omitted --&gt;, should use &lt;code&gt;&amp;lt;cite&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;!-- raw HTML omitted --&gt;Deleted&lt;!-- raw HTML omitted --&gt; text should use &lt;code&gt;&amp;lt;del&amp;gt;&lt;/code&gt; and &lt;!-- raw HTML omitted --&gt;inserted&lt;!-- raw HTML omitted --&gt; text should use &lt;code&gt;&amp;lt;ins&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Superscript &lt;!-- raw HTML omitted --&gt;text&lt;!-- raw HTML omitted --&gt; uses &lt;code&gt;&amp;lt;sup&amp;gt;&lt;/code&gt; and subscript &lt;!-- raw HTML omitted --&gt;text&lt;!-- raw HTML omitted --&gt; uses &lt;code&gt;&amp;lt;sub&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Most of these elements are styled by browsers with few modifications on our part.&lt;/p&gt;
+&lt;h2 id=&#34;heading&#34;&gt;Heading&lt;/h2&gt;
+&lt;p&gt;Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.&lt;/p&gt;
+&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
+&lt;p&gt;Cum sociis natoque penatibus et magnis dis &lt;code&gt;code element&lt;/code&gt; montes, nascetur ridiculus mus.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;4
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;5
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;6
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;7
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span style=&#34;color:#999;font-style:italic&#34;&gt;// Example can be run directly in your JavaScript console
+&lt;/span&gt;&lt;span style=&#34;color:#999;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#999;font-style:italic&#34;&gt;// Create a function that takes two arguments and returns the sum of those arguments
+&lt;/span&gt;&lt;span style=&#34;color:#999;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;var&lt;/span&gt; adder = &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#24909d&#34;&gt;Function&lt;/span&gt;(&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;a&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;b&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;return a + b&amp;#34;&lt;/span&gt;);
+
+&lt;span style=&#34;color:#999;font-style:italic&#34;&gt;// Call the function
+&lt;/span&gt;&lt;span style=&#34;color:#999;font-style:italic&#34;&gt;&lt;/span&gt;adder(&lt;span style=&#34;color:#3677a9&#34;&gt;2&lt;/span&gt;, &lt;span style=&#34;color:#3677a9&#34;&gt;6&lt;/span&gt;);
+&lt;span style=&#34;color:#999;font-style:italic&#34;&gt;// &amp;gt; 8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.&lt;/p&gt;
+&lt;h3 id=&#34;lists&#34;&gt;Lists&lt;/h3&gt;
+&lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Praesent commodo cursus magna, vel scelerisque nisl consectetur et.&lt;/li&gt;
+&lt;li&gt;Donec id elit non mi porta gravida at eget metus.&lt;/li&gt;
+&lt;li&gt;Nulla vitae elit libero, a pharetra augue.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Vestibulum id ligula porta felis euismod semper.&lt;/li&gt;
+&lt;li&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/li&gt;
+&lt;li&gt;Maecenas sed diam eget risus varius blandit sit amet non magna.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.&lt;/p&gt;
+&lt;h3 id=&#34;tables&#34;&gt;Tables&lt;/h3&gt;
+&lt;p&gt;Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Want to see something else added? &lt;!-- raw HTML omitted --&gt;Open an issue.&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+                
+                
+                     
+                        
+                             
+                            
+                                
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/categories/blog">blog</category>
+                                
+                            
+                        
+                     
+                        
+                     
+                        
+                             
+                            
+                                
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/tags/test">test</category>
+                                
+                            
+                        
+                    
+                
+                <guid>https://dvesti.github.io/prorab/2014-01-01-example-content/</guid>
+                <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+            </item>
+        
+            
+            <item>
+                <title>Syntax Highlighting</title>
+                <link>https://dvesti.github.io/prorab/syntax-highlighting/</link>
+                
+                
+                <description>&lt;p&gt;More detail: &lt;a href=&#34;https://gohugo.io/content-management/syntax-highlighting/&#34;&gt;Syntax Highlighting | Hugo&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;function&lt;/span&gt; helloWorld () {
+  alert(&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;Hello, World!&amp;#34;&lt;/span&gt;)
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;4
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#447fcf;text-decoration:underline&#34;&gt;HelloWorld&lt;/span&gt; {
+  &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#447fcf&#34;&gt;main&lt;/span&gt;(String[] args) {
+    System.&lt;span style=&#34;color:#bbb&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#bbb&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;Hello, World!&amp;#34;&lt;/span&gt;);
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;4
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-kotlin&#34; data-lang=&#34;kotlin&#34;&gt;&lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;package&lt;/span&gt; &lt;span style=&#34;color:#447fcf;text-decoration:underline&#34;&gt;hello&lt;/span&gt;
+
+&lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;fun&lt;/span&gt; &lt;span style=&#34;color:#447fcf&#34;&gt;main&lt;/span&gt;(args: Array&amp;lt;String&amp;gt;) {
+  println(&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;Hello World!&amp;#34;&lt;/span&gt;)
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;4
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;5
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;6
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-c&#34; data-lang=&#34;c&#34;&gt;&lt;span style=&#34;color:#cd2828;font-weight:bold&#34;&gt;#include&lt;/span&gt; &lt;span style=&#34;color:#cd2828;font-weight:bold&#34;&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#cd2828;font-weight:bold&#34;&gt;
+&lt;/span&gt;&lt;span style=&#34;color:#cd2828;font-weight:bold&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#999;font-style:italic&#34;&gt;/* Hello */&lt;/span&gt;
+&lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#447fcf&#34;&gt;main&lt;/span&gt;(&lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;void&lt;/span&gt;){
+  printf(&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;Hello, World!&amp;#34;&lt;/span&gt;);
+  &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#3677a9&#34;&gt;0&lt;/span&gt;;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;4
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;5
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;6
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;7
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span style=&#34;color:#999;font-style:italic&#34;&gt;// &amp;#39;Hello World!&amp;#39; program
+&lt;/span&gt;&lt;span style=&#34;color:#999;font-style:italic&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#cd2828;font-weight:bold&#34;&gt;#include&lt;/span&gt; &lt;span style=&#34;color:#cd2828;font-weight:bold&#34;&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#cd2828;font-weight:bold&#34;&gt;
+&lt;/span&gt;&lt;span style=&#34;color:#cd2828;font-weight:bold&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#447fcf&#34;&gt;main&lt;/span&gt;(){
+  std::cout &amp;lt;&amp;lt; &lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;Hello World!&amp;#34;&lt;/span&gt; &amp;lt;&amp;lt; std::endl;
+  &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#3677a9&#34;&gt;0&lt;/span&gt;;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;4
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;5
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;&lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;using&lt;/span&gt; &lt;span style=&#34;color:#447fcf;text-decoration:underline&#34;&gt;System&lt;/span&gt;;
+&lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#447fcf;text-decoration:underline&#34;&gt;HelloWorld&lt;/span&gt;{
+  &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;void&lt;/span&gt; Main(){
+    System.Console.WriteLine(&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;Hello, World!&amp;#34;&lt;/span&gt;);
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;4
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&amp;lt;&lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;html&lt;/span&gt;&amp;gt;
+&amp;lt;&lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;body&lt;/span&gt;&amp;gt;
+  Hello, World!
+&amp;lt;/&lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;body&lt;/span&gt;&amp;gt;
+&amp;lt;/&lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;html&lt;/span&gt;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;4
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;5
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;6
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;package&lt;/span&gt; main
+&lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;import&lt;/span&gt; fmt &lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;fmt&amp;#34;&lt;/span&gt;
+
+&lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color:#447fcf&#34;&gt;main&lt;/span&gt;()
+{
+   fmt.&lt;span style=&#34;color:#447fcf&#34;&gt;Printf&lt;/span&gt;(&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;Hello, World!\n&amp;#34;&lt;/span&gt;);
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-scala&#34; data-lang=&#34;scala&#34;&gt;&lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;object&lt;/span&gt; &lt;span style=&#34;color:#447fcf;text-decoration:underline&#34;&gt;HelloWorld&lt;/span&gt; &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;with&lt;/span&gt; &lt;span style=&#34;color:#447fcf;text-decoration:underline&#34;&gt;Application&lt;/span&gt; {
+  &lt;span style=&#34;color:#447fcf;text-decoration:underline&#34;&gt;Console&lt;/span&gt;.println(&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;Hello, World!&amp;#34;&lt;/span&gt;);
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;color:#cd2828;font-weight:bold&#34;&gt;&amp;lt;?php&lt;/span&gt;
+  &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;echo&lt;/span&gt; &lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#39;Hello, World!&amp;#39;&lt;/span&gt;;
+&lt;span style=&#34;color:#cd2828;font-weight:bold&#34;&gt;?&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;print&lt;/span&gt;(&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;Hello, World!&amp;#34;&lt;/span&gt;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;no-named-code-block&#34;&gt;no named code block&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;## this is a comment
+$ echo this is a command
+this is a command
+
+## edit the file
+$vi foo.md
++++
+date = &amp;quot;2014-09-28&amp;quot;
+title = &amp;quot;creating a new theme&amp;quot;
++++
+
+bah and humbug
+:wq
+
+## show it
+$ cat foo.md
++++
+date = &amp;quot;2014-09-28&amp;quot;
+title = &amp;quot;creating a new theme&amp;quot;
++++
+
+bah and humbug
+$
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;highlight-shortcode&#34;&gt;highlight shortcode&lt;/h2&gt;
+&lt;p&gt;example:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;{{&amp;lt; highlight go &amp;quot;linenos=table,hl_lines=8 15-17,linenostart=199&amp;quot; &amp;gt;}}
+// ... code
+{{&amp;lt; /highlight &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;result:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;199
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;200
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;201
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;202
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;203
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;204
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;205
+&lt;/span&gt;&lt;span style=&#34;display:block;width:100%;background-color:#363636&#34;&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;206
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;207
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;208
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;209
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;210
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;211
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;212
+&lt;/span&gt;&lt;span style=&#34;display:block;width:100%;background-color:#363636&#34;&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;213
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:block;width:100%;background-color:#363636&#34;&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;214
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:block;width:100%;background-color:#363636&#34;&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;215
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;216
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;217
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;218
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;219
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;220
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt; GetTitleFunc returns a &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;func&lt;/span&gt; that can be used to transform a &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;string&lt;/span&gt; to
+ title &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;case&lt;/span&gt;.
+
+ The supported styles are
+
+ - &lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;Go&amp;#34;&lt;/span&gt; (strings.Title)
+ - &lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;AP&amp;#34;&lt;/span&gt; (see &amp;lt;https:&lt;span style=&#34;color:#999;font-style:italic&#34;&gt;//www.apstylebook.com/)&amp;gt;
+&lt;/span&gt;&lt;span style=&#34;display:block;width:100%;background-color:#363636&#34;&gt;&lt;span style=&#34;color:#999;font-style:italic&#34;&gt;&lt;/span&gt; - &lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;Chicago&amp;#34;&lt;/span&gt; (see &amp;lt;http:&lt;span style=&#34;color:#999;font-style:italic&#34;&gt;//www.chicagomanualofstyle.org/home.html)&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;color:#999;font-style:italic&#34;&gt;&lt;/span&gt;
+ If an unknown or empty style is provided, AP style is what you get.
+&lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color:#447fcf&#34;&gt;GetTitleFunc&lt;/span&gt;(style &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;string&lt;/span&gt;) &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;func&lt;/span&gt;(s &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;string&lt;/span&gt;) &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;string&lt;/span&gt; {
+  &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;switch&lt;/span&gt; strings.&lt;span style=&#34;color:#447fcf&#34;&gt;ToLower&lt;/span&gt;(style) {
+  &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;case&lt;/span&gt; &lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;go&amp;#34;&lt;/span&gt;:
+    &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;return&lt;/span&gt; strings.Title
+&lt;span style=&#34;display:block;width:100%;background-color:#363636&#34;&gt;  &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;case&lt;/span&gt; &lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;chicago&amp;#34;&lt;/span&gt;:
+&lt;/span&gt;&lt;span style=&#34;display:block;width:100%;background-color:#363636&#34;&gt;    tc := transform.&lt;span style=&#34;color:#447fcf&#34;&gt;NewTitleConverter&lt;/span&gt;(transform.ChicagoStyle)
+&lt;/span&gt;&lt;span style=&#34;display:block;width:100%;background-color:#363636&#34;&gt;    &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;return&lt;/span&gt; tc.Title
+&lt;/span&gt;  &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;default&lt;/span&gt;:
+    tc := transform.&lt;span style=&#34;color:#447fcf&#34;&gt;NewTitleConverter&lt;/span&gt;(transform.APStyle)
+    &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;return&lt;/span&gt; tc.Title
+  }
+}&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+                
+                
+                     
+                        
+                             
+                            
+                                
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/categories/blog">blog</category>
+                                
+                            
+                        
+                     
+                        
+                     
+                        
+                             
+                            
+                                
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/tags/preview">preview</category>
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/tags/highlighting">highlighting</category>
+                                
+                            
+                        
+                    
+                
+                <guid>https://dvesti.github.io/prorab/syntax-highlighting/</guid>
+                <pubDate>Tue, 30 Aug 2011 16:01:23 +0800</pubDate>
             </item>
         
     </channel>

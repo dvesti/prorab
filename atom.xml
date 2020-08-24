@@ -10,7 +10,7 @@
             <link href="https://dvesti.github.io/prorab/index.xml" rel="alternate" type="application/rss+xml" title="RSS" />
             <link href="https://dvesti.github.io/prorab/atom.xml" rel="self" type="application/atom+xml" title="Atom" />
             <link href="https://dvesti.github.io/prorab/jf2feed.json" rel="alternate" type="application/jf2feed+json" title="jf2feed" />
-    <updated>2020-08-24T00:59:30+03:00</updated>
+    <updated>2020-08-24T22:21:54+03:00</updated>
     
     
     <author>
@@ -133,6 +133,10 @@
             <title type="html"><![CDATA[Тест-1]]></title>
             <link href="https://dvesti.github.io/prorab/test-1/?utm_source=atom_feed" rel="alternate" type="text/html" />
             
+                <link href="https://dvesti.github.io/prorab/i-write-my-blog-posts-in-markdown/?utm_source=atom_feed" rel="related" type="text/html" title=" I write my blog posts in Markdown" />
+                <link href="https://dvesti.github.io/prorab/2020-05-13-a/?utm_source=atom_feed" rel="related" type="text/html" title="Тема Chess A" />
+                <link href="https://dvesti.github.io/prorab/first-post/?utm_source=atom_feed" rel="related" type="text/html" title="First Post" />
+                <link href="https://dvesti.github.io/prorab/2014-01-01-example-content/?utm_source=atom_feed" rel="related" type="text/html" title="Example content" />
             
                 <id>https://dvesti.github.io/prorab/test-1/</id>
             
@@ -148,9 +152,25 @@
             
                  
                     
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/categories/blog" term="blog" label="blog" />
+                            
+                        
+                    
                  
                     
                  
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/test" term="test" label="test" />
+                            
+                        
                     
                 
             
@@ -376,6 +396,9 @@
             <title type="html"><![CDATA[ I write my blog posts in Markdown]]></title>
             <link href="https://dvesti.github.io/prorab/i-write-my-blog-posts-in-markdown/?utm_source=atom_feed" rel="alternate" type="text/html" />
             
+                <link href="https://dvesti.github.io/prorab/2020-05-13-a/?utm_source=atom_feed" rel="related" type="text/html" title="Тема Chess A" />
+                <link href="https://dvesti.github.io/prorab/first-post/?utm_source=atom_feed" rel="related" type="text/html" title="First Post" />
+                <link href="https://dvesti.github.io/prorab/2014-01-01-example-content/?utm_source=atom_feed" rel="related" type="text/html" title="Example content" />
             
                 <id>https://dvesti.github.io/prorab/i-write-my-blog-posts-in-markdown/</id>
             
@@ -391,9 +414,25 @@
             
                  
                     
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/categories/blog" term="blog" label="blog" />
+                            
+                        
+                    
                  
                     
                  
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/test" term="test" label="test" />
+                            
+                        
                     
                 
             
@@ -404,6 +443,8 @@
             <title type="html"><![CDATA[Тема Chess A]]></title>
             <link href="https://dvesti.github.io/prorab/2020-05-13-a/?utm_source=atom_feed" rel="alternate" type="text/html" />
             
+                <link href="https://dvesti.github.io/prorab/first-post/?utm_source=atom_feed" rel="related" type="text/html" title="First Post" />
+                <link href="https://dvesti.github.io/prorab/2014-01-01-example-content/?utm_source=atom_feed" rel="related" type="text/html" title="Example content" />
             
                 <id>https://dvesti.github.io/prorab/2020-05-13-a/</id>
             
@@ -436,9 +477,25 @@
             
                  
                     
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/categories/blog" term="blog" label="blog" />
+                            
+                        
+                    
                  
                     
                  
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/test" term="test" label="test" />
+                            
+                        
                     
                 
             
@@ -873,9 +930,7 @@ Yes !.
                              
                                 <category scheme="https://dvesti.github.io/prorab/categories/docs" term="docs" label="docs" />
                              
-                                <category scheme="https://dvesti.github.io/prorab/categories/shortcodes" term="shortcodes" label="shortcodes" />
-                             
-                                <category scheme="https://dvesti.github.io/prorab/categories/index" term="index" label="index" />
+                                <category scheme="https://dvesti.github.io/prorab/categories/blog" term="blog" label="blog" />
                             
                         
                     
@@ -890,8 +945,6 @@ Yes !.
                                 <category scheme="https://dvesti.github.io/prorab/tags/preview" term="preview" label="preview" />
                              
                                 <category scheme="https://dvesti.github.io/prorab/tags/shortcodes" term="shortcodes" label="shortcodes" />
-                             
-                                <category scheme="https://dvesti.github.io/prorab/tags/tag-6" term="tag-6" label="tag-6" />
                             
                         
                     
@@ -1005,9 +1058,7 @@ Yes !.
                              
                                 <category scheme="https://dvesti.github.io/prorab/categories/docs" term="docs" label="docs" />
                              
-                                <category scheme="https://dvesti.github.io/prorab/categories/shortcodes" term="shortcodes" label="shortcodes" />
-                             
-                                <category scheme="https://dvesti.github.io/prorab/categories/index" term="index" label="index" />
+                                <category scheme="https://dvesti.github.io/prorab/categories/blog" term="blog" label="blog" />
                             
                         
                     
@@ -1022,8 +1073,6 @@ Yes !.
                                 <category scheme="https://dvesti.github.io/prorab/tags/preview" term="preview" label="preview" />
                              
                                 <category scheme="https://dvesti.github.io/prorab/tags/shortcodes" term="shortcodes" label="shortcodes" />
-                             
-                                <category scheme="https://dvesti.github.io/prorab/tags/tag-6" term="tag-6" label="tag-6" />
                             
                         
                     
@@ -1107,7 +1156,7 @@ and that&rsquo;s where I learned about Dynamic Drive&rsquo;s favicon generator t
                         
                             
                              
-                                <category scheme="https://dvesti.github.io/prorab/categories/web-design" term="web-design" label="Web Design" />
+                                <category scheme="https://dvesti.github.io/prorab/categories/blog" term="blog" label="blog" />
                             
                         
                     
@@ -1136,6 +1185,7 @@ and that&rsquo;s where I learned about Dynamic Drive&rsquo;s favicon generator t
             <title type="html"><![CDATA[First Post]]></title>
             <link href="https://dvesti.github.io/prorab/first-post/?utm_source=atom_feed" rel="alternate" type="text/html" />
             
+                <link href="https://dvesti.github.io/prorab/2014-01-01-example-content/?utm_source=atom_feed" rel="related" type="text/html" title="Example content" />
             
                 <id>https://dvesti.github.io/prorab/first-post/</id>
             
@@ -1150,9 +1200,25 @@ am using <a href="https://gohugo.io/"><code>hugo</code></a>.</p>
             
                  
                     
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/categories/blog" term="blog" label="blog" />
+                            
+                        
+                    
                  
                     
                  
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/test" term="test" label="test" />
+                            
+                        
                     
                 
             
@@ -1243,9 +1309,25 @@ am using <a href="https://gohugo.io/"><code>hugo</code></a>.</p>
             
                  
                     
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/categories/blog" term="blog" label="blog" />
+                            
+                        
+                    
                  
                     
                  
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/test" term="test" label="test" />
+                            
+                        
                     
                 
             
@@ -1524,9 +1606,7 @@ $
                         
                             
                              
-                                <category scheme="https://dvesti.github.io/prorab/categories/syntax-highlighting" term="syntax-highlighting" label="Syntax Highlighting" />
-                             
-                                <category scheme="https://dvesti.github.io/prorab/categories/index" term="index" label="index" />
+                                <category scheme="https://dvesti.github.io/prorab/categories/blog" term="blog" label="blog" />
                             
                         
                     
@@ -1540,9 +1620,7 @@ $
                              
                                 <category scheme="https://dvesti.github.io/prorab/tags/preview" term="preview" label="preview" />
                              
-                                <category scheme="https://dvesti.github.io/prorab/tags/syntax-highlighting" term="syntax-highlighting" label="Syntax Highlighting" />
-                             
-                                <category scheme="https://dvesti.github.io/prorab/tags/tag-5" term="tag-5" label="tag-5" />
+                                <category scheme="https://dvesti.github.io/prorab/tags/highlighting" term="highlighting" label="highlighting" />
                             
                         
                     

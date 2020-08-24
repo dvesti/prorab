@@ -10,7 +10,7 @@
             <link href="https://dvesti.github.io/prorab/categories/docs/index.xml" rel="alternate" type="application/rss+xml" title="RSS" />
             <link href="https://dvesti.github.io/prorab/categories/docs/atom.xml" rel="self" type="application/atom+xml" title="Atom" />
             <link href="https://dvesti.github.io/prorab/categories/docs/jf2feed.json" rel="alternate" type="application/jf2feed+json" title="jf2feed" />
-    <updated>2020-08-24T00:59:30+03:00</updated>
+    <updated>2020-08-24T22:21:54+03:00</updated>
     
     
     <author>
@@ -450,9 +450,7 @@ Yes !.
                              
                                 <category scheme="https://dvesti.github.io/prorab/categories/docs" term="docs" label="docs" />
                              
-                                <category scheme="https://dvesti.github.io/prorab/categories/shortcodes" term="shortcodes" label="shortcodes" />
-                             
-                                <category scheme="https://dvesti.github.io/prorab/categories/index" term="index" label="index" />
+                                <category scheme="https://dvesti.github.io/prorab/categories/blog" term="blog" label="blog" />
                             
                         
                     
@@ -467,8 +465,6 @@ Yes !.
                                 <category scheme="https://dvesti.github.io/prorab/tags/preview" term="preview" label="preview" />
                              
                                 <category scheme="https://dvesti.github.io/prorab/tags/shortcodes" term="shortcodes" label="shortcodes" />
-                             
-                                <category scheme="https://dvesti.github.io/prorab/tags/tag-6" term="tag-6" label="tag-6" />
                             
                         
                     
@@ -582,9 +578,7 @@ Yes !.
                              
                                 <category scheme="https://dvesti.github.io/prorab/categories/docs" term="docs" label="docs" />
                              
-                                <category scheme="https://dvesti.github.io/prorab/categories/shortcodes" term="shortcodes" label="shortcodes" />
-                             
-                                <category scheme="https://dvesti.github.io/prorab/categories/index" term="index" label="index" />
+                                <category scheme="https://dvesti.github.io/prorab/categories/blog" term="blog" label="blog" />
                             
                         
                     
@@ -599,8 +593,6 @@ Yes !.
                                 <category scheme="https://dvesti.github.io/prorab/tags/preview" term="preview" label="preview" />
                              
                                 <category scheme="https://dvesti.github.io/prorab/tags/shortcodes" term="shortcodes" label="shortcodes" />
-                             
-                                <category scheme="https://dvesti.github.io/prorab/tags/tag-6" term="tag-6" label="tag-6" />
                             
                         
                     
