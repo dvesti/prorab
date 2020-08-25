@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?> 
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ru-ru">
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
     <generator uri="https://gohugo.io/" version="0.74.1">Hugo</generator><title type="html"><![CDATA[poetry on Alien's Notes]]></title>
     
         <subtitle type="html"><![CDATA[Заметки вэб-прораба]]></subtitle>
@@ -10,7 +10,7 @@
             <link href="https://dvesti.github.io/prorab/categories/poetry/index.xml" rel="alternate" type="application/rss+xml" title="RSS" />
             <link href="https://dvesti.github.io/prorab/categories/poetry/atom.xml" rel="self" type="application/atom+xml" title="Atom" />
             <link href="https://dvesti.github.io/prorab/categories/poetry/jf2feed.json" rel="alternate" type="application/jf2feed+json" title="jf2feed" />
-    <updated>2020-08-24T22:21:54+03:00</updated>
+    <updated>2020-08-25T13:42:16+03:00</updated>
     
     
     <author>

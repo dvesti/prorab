@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?> 
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ru-ru">
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
     <generator uri="https://gohugo.io/" version="0.74.1">Hugo</generator><title type="html"><![CDATA[Posts on Alien's Notes]]></title>
     
         <subtitle type="html"><![CDATA[Заметки вэб-прораба]]></subtitle>
@@ -10,7 +10,7 @@
             <link href="https://dvesti.github.io/prorab/posts/index.xml" rel="alternate" type="application/rss+xml" title="RSS" />
             <link href="https://dvesti.github.io/prorab/posts/atom.xml" rel="self" type="application/atom+xml" title="Atom" />
             <link href="https://dvesti.github.io/prorab/posts/jf2feed.json" rel="alternate" type="application/jf2feed+json" title="jf2feed" />
-    <updated>2020-08-24T22:21:54+03:00</updated>
+    <updated>2020-08-25T13:42:16+03:00</updated>
     
     
     <author>
@@ -458,21 +458,57 @@
 <p>Добавил в Конфиг данные, чтобы было похоже на оригинал и Плюс подсмотрел у других сайтов, которые ориентированы не на отображение кода, а на обычный Блог.</p>
 <p>Именно такой нам и нужен.</p>
 <p>В планах &ndash; создать некую записную книжку для ежедневных записей&hellip;</p>
-<p><img src="https://www.dmitriev.ee/punbb/extensions/chess_diagram/gendiag.php?size=24&amp;coord&amp;fen=r6b/p1pq1p1k/1p2p1rp/4PpBQ/3P1P2/2PR2R1/P5PP/6K1" alt="Диаграмма">
-<img src="http://www.euruchess.org/24/blue/diagol.php?position=r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1+w+-+-+0+15" alt="Диаграмма2">
-<img src="https://www.dmitriev.ee/punbb/extensions/chess_diagram/gendiag-blue.php?coord&amp;size=24&amp;style=merida&amp;fen=2k1B3/ppB5/3P3p/7P/3K4/2Pn2r1/1P6/8%20w%20-%20-%200%201" alt="Диаграмма3"></p>
+<p><img src="https://www.dmitriev.ee/punbb/extensions/chess_diagram/gendiag.php?size=24&amp;coord&amp;fen=r6b/p1pq1p1k/1p2p1rp/4PpBQ/3P1P2/2PR2R1/P5PP/6K1" alt="Диаграмма"> <img src="http://www.euruchess.org/24/blue/diagol.php?position=r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1+w+-+-+0+15" alt="Диаграмма2"> <img src="https://www.dmitriev.ee/punbb/extensions/chess_diagram/gendiag-blue.php?coord&amp;size=24&amp;style=merida&amp;fen=2k1B3/ppB5/3P3p/7P/3K4/2Pn2r1/1P6/8%20w%20-%20-%200%201" alt="Диаграмма3"></p>
 <p>Стиль &ndash; <strong>Jane</strong></p>
 <p><img src="https://www.dmitriev.ee/punbb/extensions/chess_diagram/gendiag-jane.php?coord&amp;size=29&amp;style=merida&amp;fen=r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1+w+-+-+0+15" alt="Диаграмма4">
 <img src="http://www.euruchess.org/29/grey/diagol.php?position=r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1+w+-+-+0+15" alt="Диаграмма5"></p>
-<p><del>Установил тему <strong>Джейн &ndash; Jane</strong></del></p>
+<h3 id="код">Код</h3>
+<div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">4
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#6ab825;font-weight:bold">div</span> <span style="color:#bbb">class</span>=<span style="color:#ed9d13">&#39;embed-container&#39;</span>&gt;
+&lt;<span style="color:#6ab825;font-weight:bold">iframe</span> <span style="color:#bbb">src</span>=<span style="color:#ed9d13">&#39;https://www.dmitriev.ee/chessviewer/PGN/1986/{{ index .Params 0 }}&#39;</span> <span style="color:#bbb">frameborder</span>=<span style="color:#ed9d13">&#39;0&#39;</span> <span style="color:#bbb">style</span>=<span style="color:#ed9d13">&#39;&#39;</span> <span style="color:#bbb">scrolling</span>=<span style="color:#ed9d13">&#39;no&#39;</span> <span style="color:#bbb">height</span>=<span style="color:#ed9d13">&#39;400px&#39;</span> <span style="color:#bbb">width</span>=<span style="color:#ed9d13">&#39;492px&#39;</span>&gt;
+&lt;/<span style="color:#6ab825;font-weight:bold">iframe</span>&gt;
+&lt;/<span style="color:#6ab825;font-weight:bold">div</span>&gt;  
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="шорткод">Шорткод</h3>
 <div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
 <pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#6ab825;font-weight:bold">iframe</span> <span style="color:#bbb">src</span>=<span style="color:#ed9d13">&#34;https://www.dmitriev.ee/chessviewer/PGN/1986/dmitrijev-pust-kalev-kom-86.htm&#34;</span> <span style="color:#bbb">frameborder</span>=<span style="color:#ed9d13">&#34;0&#34;</span> <span style="color:#bbb">style</span>=<span style="color:#ed9d13">&#34;&#34;</span> <span style="color:#bbb">scrolling</span>=<span style="color:#ed9d13">&#34;no&#34;</span> <span style="color:#bbb">height</span>=<span style="color:#ed9d13">&#34;400px&#34;</span> <span style="color:#bbb">width</span>=<span style="color:#ed9d13">&#34;492px&#34;</span>&gt;Get a better browser!&lt;/<span style="color:#6ab825;font-weight:bold">iframe</span>&gt;  
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-md" data-lang="md">{{&lt; <span style="color:#6ab825;font-weight:bold">embedpgn</span> <span style="color:#bbb">dmitrijev-pust-kalev-kom-86</span><span style="color:#a61717;background-color:#e3d2d2">.</span><span style="color:#bbb">htm</span> &gt;}}  
 </code></pre></td></tr></table>
 </div>
+</div><h3 id="результат">Результат</h3>
+<style>
+.embed-container { 
+  position: relative;
+  padding-bottom: 56.25%; 
+  height: 0; 
+  overflow: 
+  hidden; 
+  max-width: 100%; 
+} 
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+}
+</style>
+
+<div class='embed-container'>
+<iframe src='https://www.dmitriev.ee/chessviewer/PGN/1986/dmitrijev-pust-kalev-kom-86.htm?color=ffffff&title=0&byline=0&portrait=0' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen>
+</iframe>
 </div>]]></content>
             
                  
@@ -507,6 +543,7 @@
             <link href="https://dvesti.github.io/prorab/shortcodes-preview/?utm_source=atom_feed" rel="alternate" type="text/html" />
             
                 <link href="https://dvesti.github.io/prorab/shortcode-notice/?utm_source=atom_feed" rel="related" type="text/html" title="Shortcodes Notice Preview" />
+                <link href="https://dvesti.github.io/prorab/jane-theme-preview/?utm_source=atom_feed" rel="related" type="text/html" title="Jane Theme Preview" />
                 <link href="https://dvesti.github.io/prorab/syntax-highlighting/?utm_source=atom_feed" rel="related" type="text/html" title="Syntax Highlighting" />
             
                 <id>https://dvesti.github.io/prorab/shortcodes-preview/</id>
@@ -957,6 +994,7 @@ Yes !.
             <title type="html"><![CDATA[Shortcodes Notice Preview]]></title>
             <link href="https://dvesti.github.io/prorab/shortcode-notice/?utm_source=atom_feed" rel="alternate" type="text/html" />
             
+                <link href="https://dvesti.github.io/prorab/jane-theme-preview/?utm_source=atom_feed" rel="related" type="text/html" title="Jane Theme Preview" />
                 <link href="https://dvesti.github.io/prorab/syntax-highlighting/?utm_source=atom_feed" rel="related" type="text/html" title="Syntax Highlighting" />
             
                 <id>https://dvesti.github.io/prorab/shortcode-notice/</id>
@@ -1057,6 +1095,337 @@ Yes !.
                             
                              
                                 <category scheme="https://dvesti.github.io/prorab/categories/docs" term="docs" label="docs" />
+                             
+                                <category scheme="https://dvesti.github.io/prorab/categories/blog" term="blog" label="blog" />
+                            
+                        
+                    
+                 
+                    
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/preview" term="preview" label="preview" />
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/shortcodes" term="shortcodes" label="shortcodes" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        
+        <entry>
+            <title type="html"><![CDATA[Jane Theme Preview]]></title>
+            <link href="https://dvesti.github.io/prorab/jane-theme-preview/?utm_source=atom_feed" rel="alternate" type="text/html" />
+            
+                <link href="https://dvesti.github.io/prorab/syntax-highlighting/?utm_source=atom_feed" rel="related" type="text/html" title="Syntax Highlighting" />
+            
+                <id>https://dvesti.github.io/prorab/jane-theme-preview/</id>
+            
+            
+            <published>2018-01-01T16:01:23+08:00</published>
+            <updated>2018-03-07T16:01:23+08:00</updated>
+            
+            
+            <content type="html"><![CDATA[<p><strong>Markdown</strong> is created by <a href="http://daringfireball.net/">Daring Fireball</a>, the original guideline is <a href="http://daringfireball.net/projects/markdown/syntax">here</a>. Its syntax, however, varies between different parsers or editors.</p>
+<p>Please note that HTML fragments in markdown source will be recognized but not parsed or rendered. Also, there may be small reformatting on the original markdown source code after saving.</p>
+<h2 id="paragraph-and-line-breaks">Paragraph and line breaks</h2>
+<p>A paragraph is simply one or more consecutive lines of text. In markdown source code, paragraphs are separated by more than one blank lines. In Typora, you only need to press <code>Return</code> to create a new paragraph.</p>
+<p>Press <code>Shift</code> + <code>Return</code> to create a single line break. However, most markdown parser will ignore single line break, to make other markdown parsers recognize your line break, you can leave two whitespace at the end of the line, or insert <code>&lt;br/&gt;</code>.</p>
+<h2 id="headers">Headers</h2>
+<p>Headers use 1-6 hash characters at the start of the line, corresponding to header levels 1-6. For example:</p>
+<pre><code># This is an H1
+
+## This is an H2
+
+###### This is an H6
+</code></pre><p>In typora, input ‘#’s followed by title content, and press <code>Return</code> key will create a header.</p>
+<h2 id="blockquotes">Blockquotes</h2>
+<p>Markdown uses email-style &gt; characters for block quoting. They are presented as:</p>
+<blockquote>
+<p>This is a blockquote with two paragraphs. This is first paragraph.</p>
+<p>This is second pragraph.Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.</p>
+<p>This is another blockquote with one paragraph. There is three empty line to seperate two blockquote.</p>
+<p>这是一段中文测试。</p>
+</blockquote>
+<p>In typora, just input ‘&gt;’ followed by quote contents a block quote is  generated. Typora will insert proper ‘&gt;’ or line break for you. Block quote inside anther block quote is allowed by adding additional levels of ‘&gt;’.</p>
+<h2 id="lists">Lists</h2>
+<p>Input <code>* list item 1</code> will create an un-ordered list, the <code>*</code> symbol can be replace with <code>+</code> or <code>-</code>.</p>
+<p>Input <code>1. list item 1</code> will create an ordered list, their markdown source code is like:</p>
+<ul>
+<li>Red</li>
+<li>Green</li>
+<li>Blue</li>
+</ul>
+<ol>
+<li>Red</li>
+<li>Green</li>
+<li>Blue</li>
+</ol>
+<h2 id="task-list">Task List</h2>
+<p>Task lists are lists with items marked as either <code>[ ]</code> or <code>[x]</code> (incomplete or complete). For example:</p>
+<ul>
+<li><input disabled="" type="checkbox"> a task list item</li>
+<li><input disabled="" type="checkbox"> list syntax required</li>
+<li><input disabled="" type="checkbox"> normal <strong>formatting</strong>, @mentions, #1234 refs</li>
+<li><input disabled="" type="checkbox"> incomplete</li>
+<li><input checked="" disabled="" type="checkbox"> completed</li>
+</ul>
+<p>You can change the complete/incomplete state by click the checkbox before the item.</p>
+<h2 id="syntax-highlighting">Syntax Highlighting</h2>
+<div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">3
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#6ab825;font-weight:bold">function</span> helloWorld () {
+  alert(<span style="color:#ed9d13">&#34;Hello, World!&#34;</span>)
+}
+</code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">5
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#6ab825;font-weight:bold">public</span> <span style="color:#6ab825;font-weight:bold">class</span> <span style="color:#447fcf;text-decoration:underline">HelloWorld</span> {
+  <span style="color:#6ab825;font-weight:bold">public</span> <span style="color:#6ab825;font-weight:bold">static</span> <span style="color:#6ab825;font-weight:bold">void</span> <span style="color:#447fcf">main</span>(String[] args) {
+    System.<span style="color:#bbb">out</span>.<span style="color:#bbb">println</span>(<span style="color:#ed9d13">&#34;Hello, World!&#34;</span>);
+  }
+}
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="math-blocks">Math Blocks</h2>
+<p>You can render <em>LaTeX</em> mathematical expressions using <strong>MathJax</strong>.</p>
+<p>Input <code>$$</code>, then press &lsquo;Return&rsquo; key will trigger an input field which accept <em>Tex/LaTex</em> source. Following is an example:
+$$
+\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}
+\mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \<br>
+\frac{\partial X}{\partial u} &amp;  \frac{\partial Y}{\partial u} &amp; 0 \<br>
+\frac{\partial X}{\partial v} &amp;  \frac{\partial Y}{\partial v} &amp; 0 \<br>
+\end{vmatrix}
+$$</p>
+<p>In markdown source file, math block is <em>LaTeX</em> expression wrapped by ‘$$’ mark:</p>
+<div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">7
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-md" data-lang="md">$$
+\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}
+\mathbf{i} <span style="color:#a61717;background-color:#e3d2d2">&amp;</span> \mathbf{j} <span style="color:#a61717;background-color:#e3d2d2">&amp;</span> \mathbf{k} \\
+\frac{\partial X}{\partial u} <span style="color:#a61717;background-color:#e3d2d2">&amp;</span>  \frac{\partial Y}{\partial u} <span style="color:#a61717;background-color:#e3d2d2">&amp;</span> 0 \\
+\frac{\partial X}{\partial v} <span style="color:#a61717;background-color:#e3d2d2">&amp;</span>  \frac{\partial Y}{\partial v} <span style="color:#a61717;background-color:#e3d2d2">&amp;</span> 0 \\
+\end{vmatrix}
+$$
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="tables">Tables</h2>
+<p>Input <code>| First Header  | Second Header |</code> and press <code>return</code> key will create a table with two column.</p>
+<p>After table is created, focus on that table will pop up a toolbar for table, where you can resize, align, or delete table. You can also use context menu to copy and add/delete column/row.</p>
+<p>Following descriptions can be skipped, as markdown source code for tables are generated by typora automatically.</p>
+<p>In markdown source code, they look like:</p>
+<div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">7
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-md" data-lang="md">| Name              | Markdown            | HTML tag             |
+| ----------------- | ------------------- | -------------------- |
+| <span style="font-style:italic">*Emphasis*</span>        | <span style="color:#ed9d13">`*Emphasis*`</span>        | <span style="color:#ed9d13">`&lt;em&gt;&lt;/em&gt;`</span>          |
+| <span style="font-weight:bold">**Strong**</span>        | <span style="color:#ed9d13">`**Strong**`</span>        | <span style="color:#ed9d13">`&lt;strong&gt;&lt;/strong&gt;`</span>  |
+| <span style="color:#ed9d13">`code`</span>            | ``code``            | <span style="color:#ed9d13">`&lt;code&gt;&lt;/code&gt;`</span>      |
+| <span style="color:#d22323">~~Strikethrough~~</span> | <span style="color:#ed9d13">`~~Strikethrough~~`</span> | <span style="color:#ed9d13">`&lt;del&gt;&lt;/del`</span>         |
+| &lt;<span style="color:#6ab825;font-weight:bold">u</span>&gt;Underline&lt;/<span style="color:#6ab825;font-weight:bold">u</span>&gt;  | <span style="color:#ed9d13">`&lt;u&gt;underline&lt;/u&gt;`</span>  | <span style="color:#ed9d13">`&lt;u&gt;&lt;/u&gt;`</span>            |
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="результат">Результат:</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Markdown</th>
+<th>HTML tag</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>Emphasis</em></td>
+<td><code>*Emphasis*</code></td>
+<td><code>&lt;em&gt;&lt;/em&gt;</code></td>
+</tr>
+<tr>
+<td><strong>Strong</strong></td>
+<td><code>**Strong**</code></td>
+<td><code>&lt;strong&gt;&lt;/strong&gt;</code></td>
+</tr>
+<tr>
+<td><code>code</code></td>
+<td><code>`code`</code></td>
+<td><code>&lt;code&gt;&lt;/code&gt;</code></td>
+</tr>
+<tr>
+<td><del>Strikethrough</del></td>
+<td><code>~~Strikethrough~~</code></td>
+<td><code>&lt;del&gt;&lt;/del</code></td>
+</tr>
+<tr>
+<td><!-- raw HTML omitted -->Underline<!-- raw HTML omitted --></td>
+<td><code>&lt;u&gt;underline&lt;/u&gt;</code></td>
+<td><code>&lt;u&gt;&lt;/u&gt;</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="footnotes">Footnotes</h2>
+<div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">3
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-md" data-lang="md">You can create footnotes like this[^footnote].
+
+[^footnote]: Here is the <span style="font-style:italic">*text*</span> of the <span style="font-weight:bold">**footnote**</span>.
+</code></pre></td></tr></table>
+</div>
+</div><p>will produce:</p>
+<p>You can create footnotes like this<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<p>Mouse on the ‘footnote’ superscript to see content of the footnote.</p>
+<h2 id="horizontal-rules">Horizontal Rules</h2>
+<p>Input <code>***</code> or <code>---</code> on a blank line and press <code>return</code> will draw a horizontal line.</p>
+<hr>
+<h2 id="links">Links</h2>
+<p>Markdown supports two style of links: inline and reference.</p>
+<p>In both styles, the link text is delimited by [square brackets].</p>
+<p>To create an inline link, use a set of regular parentheses immediately after the link text’s closing square bracket. Inside the parentheses, put the URL where you want the link to point, along with an optional title for the link, surrounded in quotes. For example:</p>
+<pre><code>This is [an example](http://example.com/ &quot;Title&quot;) inline link.
+
+[This link](http://example.net/) has no title attribute.
+</code></pre><p>will produce:</p>
+<p>This is <a href="http://example.com/%22Title%22">an example</a> inline link. (<code>&lt;p&gt;This is &lt;a href=&quot;http://example.com/&quot; title=&quot;Title&quot;&gt;</code>)</p>
+<p><a href="http://example.net/">This link</a> has no title attribute. (<code>&lt;p&gt;&lt;a href=&quot;http://example.net/&quot;&gt;This link&lt;/a&gt; has no</code>)</p>
+<h3 id="internal-links">Internal Links</h3>
+<p><strong>You can set the href to headers</strong>, which will create a bookmark that allow you to jump to that section after clicking. For example:</p>
+<p>Command(on Windows: Ctrl) + Click <a href="#block-elements">This link</a> will jump to header <code>Block Elements</code>. To see how to write that, please move cursor or click that link with <code>⌘</code> key pressed to expand the element into markdown source.</p>
+<h3 id="reference-links">Reference Links</h3>
+<p>Reference-style links use a second set of square brackets, inside which you place a label of your choosing to identify the link:</p>
+<pre><code>This is [an example][id] reference-style link.
+
+Then, anywhere in the document, you define your link label like this, on a line by itself:
+
+[id]: http://example.com/  &quot;Optional Title Here&quot;
+</code></pre><p>In typora, they will be rendered like:</p>
+<p>This is <a href="http://example.com/" title="Optional Title Here">an example</a> reference-style link.</p>
+<p>The implicit link name shortcut allows you to omit the name of the link, in which case the link text itself is used as the name. Just use an empty set of square brackets — e.g., to link the word “Google” to the google.com web site, you could simply write:</p>
+<pre><code>[Google][]
+And then define the link:
+
+[Google]: http://google.com/
+</code></pre><p>In typora click link will expand it for editing, command+click will open the hyperlink in web browser.</p>
+<h2 id="urls">URLs</h2>
+<p>Typora allows you to insert urls as links, wrapped by <code>&lt;</code>brackets<code>&gt;</code>.</p>
+<p><code>&lt;i@typora.io&gt;</code> becomes <a href="mailto:i@typora.io">i@typora.io</a>.</p>
+<p>Typora will aslo auto link standard URLs. e.g: <a href="http://www.google.com">www.google.com</a>.</p>
+<h2 id="images">Images</h2>
+<p>Image looks similar with links, but it requires an additional <code>!</code> char before the start of link. Image syntax looks like this:</p>
+<pre><code>![Alt text](/path/to/img.jpg)
+
+![Alt text](/path/to/img.jpg &quot;Optional title&quot;)
+</code></pre><p>You are able to use drag &amp; drop to insert image from image file or we browser. And modify the markdown source code by clicking on the image. Relative path will be used if image is in same directory or sub-directory with current editing document when drag &amp; drop.</p>
+<p>For more tips on images, please read <a href="http://support.typora.io//Images/">http://support.typora.io//Images/</a></p>
+<h2 id="emphasis">Emphasis</h2>
+<p>Markdown treats asterisks (<code>*</code>) and underscores (<code>_</code>) as indicators of emphasis. Text wrapped with one <code>*</code> or <code>_</code> will be wrapped with an HTML <code>&lt;em&gt;</code> tag. E.g:</p>
+<pre><code>*single asterisks*
+
+_single underscores_
+</code></pre><p>output:</p>
+<p><em>single asterisks</em></p>
+<p><em>single underscores</em></p>
+<p>GFM will ignores underscores in words, which is commonly used in code and names, like this:</p>
+<blockquote>
+<p>wow_great_stuff</p>
+<p>do_this_and_do_that_and_another_thing.</p>
+</blockquote>
+<p>To produce a literal asterisk or underscore at a position where it would otherwise be used as an emphasis delimiter, you can backslash escape it:</p>
+<pre><code>\*this text is surrounded by literal asterisks\*
+</code></pre><p>Typora recommends to use <code>*</code> symbol.</p>
+<h2 id="strong">Strong</h2>
+<p>double *’s or _’s will be wrapped with an HTML <code>&lt;strong&gt;</code> tag, e.g:</p>
+<pre><code>**double asterisks**
+
+__double underscores__
+</code></pre><p>output:</p>
+<p><strong>double asterisks</strong></p>
+<p><strong>double underscores</strong></p>
+<p>Typora recommends to use <code>**</code> symbol.</p>
+<h2 id="code">Code</h2>
+<p>To indicate a span of code, wrap it with backtick quotes (`). Unlike a pre-formatted code block, a code span indicates code within a normal paragraph. For example:</p>
+<div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-md" data-lang="md">Use the <span style="color:#ed9d13">`printf()`</span> function.
+</code></pre></td></tr></table>
+</div>
+</div><p>will produce:</p>
+<p>Use the <code>printf()</code> function.</p>
+<h2 id="strikethrough">Strikethrough</h2>
+<p>GFM adds syntax to create strikethrough text, which is missing from standard Markdown.</p>
+<p><code>~~Mistaken text.~~</code> becomes <del>Mistaken text.</del></p>
+<h2 id="underline">Underline</h2>
+<p>Underline is powered by raw HTML.</p>
+<p><code>&lt;u&gt;Underline&lt;/u&gt;</code> becomes <!-- raw HTML omitted -->Underline<!-- raw HTML omitted -->.</p>
+<h2 id="emoji-happy">Emoji :happy</h2>
+<p>Input emoji with syntax <code>😄</code>.</p>
+<p>User can trigger auto-complete suggestions for emoji by pressing <code>ESC</code> key, or trigger it automatically after enable it on preference panel. Also, input UTF8 emoji char directly from <code>Edit</code> -&gt; <code>Emoji &amp; Symbols</code> from menu bar is also supported.</p>
+<h2 id="inline-math">Inline Math</h2>
+<p>To use this feature, first, please enable it in <code>Preference</code> Panel -&gt; <code>Markdown</code> Tab. Then use <code>$</code> to wrap TeX command, for example: <code>$\lim_{x \to \infty} \exp(-x) = 0$</code> will be rendered as LaTeX command.</p>
+<p>To trigger inline preview for inline math: input “$”, then press <code>ESC</code> key, then input TeX command, a preview tooltip will be visible like below:</p>
+<p><em>HTML</em> в <em>MarkDown</em> &ndash; не работает (есть свои хитрости)</p>
+<p><!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted -->It **works!**<!-- raw HTML omitted --></p>
+<p>Ниже записано средствами самого <em>MarkDown</em></p>
+<pre><code>![Картинка](https://typora.io/img/inline-math.gif)
+</code></pre><p><img src="https://typora.io/img/inline-math.gif" alt="Картинка"></p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>Here is the <em>text</em> of the <strong>footnote</strong>. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>]]></content>
+            
+                 
+                    
+                         
+                        
+                            
                              
                                 <category scheme="https://dvesti.github.io/prorab/categories/blog" term="blog" label="blog" />
                             

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?> 
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ru-ru">
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
     <generator uri="https://gohugo.io/" version="0.74.1">Hugo</generator><title type="html"><![CDATA[docs on Alien's Notes]]></title>
     
         <subtitle type="html"><![CDATA[Заметки вэб-прораба]]></subtitle>
@@ -10,7 +10,7 @@
             <link href="https://dvesti.github.io/prorab/categories/docs/index.xml" rel="alternate" type="application/rss+xml" title="RSS" />
             <link href="https://dvesti.github.io/prorab/categories/docs/atom.xml" rel="self" type="application/atom+xml" title="Atom" />
             <link href="https://dvesti.github.io/prorab/categories/docs/jf2feed.json" rel="alternate" type="application/jf2feed+json" title="jf2feed" />
-    <updated>2020-08-24T22:21:54+03:00</updated>
+    <updated>2020-08-25T13:42:16+03:00</updated>
     
     
     <author>
@@ -27,6 +27,7 @@
             <link href="https://dvesti.github.io/prorab/shortcodes-preview/?utm_source=atom_feed" rel="alternate" type="text/html" />
             
                 <link href="https://dvesti.github.io/prorab/shortcode-notice/?utm_source=atom_feed" rel="related" type="text/html" title="Shortcodes Notice Preview" />
+                <link href="https://dvesti.github.io/prorab/jane-theme-preview/?utm_source=atom_feed" rel="related" type="text/html" title="Jane Theme Preview" />
                 <link href="https://dvesti.github.io/prorab/syntax-highlighting/?utm_source=atom_feed" rel="related" type="text/html" title="Syntax Highlighting" />
             
                 <id>https://dvesti.github.io/prorab/shortcodes-preview/</id>
@@ -477,6 +478,7 @@ Yes !.
             <title type="html"><![CDATA[Shortcodes Notice Preview]]></title>
             <link href="https://dvesti.github.io/prorab/shortcode-notice/?utm_source=atom_feed" rel="alternate" type="text/html" />
             
+                <link href="https://dvesti.github.io/prorab/jane-theme-preview/?utm_source=atom_feed" rel="related" type="text/html" title="Jane Theme Preview" />
                 <link href="https://dvesti.github.io/prorab/syntax-highlighting/?utm_source=atom_feed" rel="related" type="text/html" title="Syntax Highlighting" />
             
                 <id>https://dvesti.github.io/prorab/shortcode-notice/</id>
