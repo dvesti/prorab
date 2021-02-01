@@ -1,0 +1,1695 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
+    <generator uri="https://gohugo.io/" version="0.74.1">Hugo</generator><title type="html"><![CDATA[blog on Alien's Notes]]></title>
+    
+        <subtitle type="html"><![CDATA[Заметки вэб-прораба]]></subtitle>
+    
+    
+    
+            <link href="https://dvesti.github.io/prorab/categories/blog/" rel="alternate" type="text/html" title="HTML" />
+            <link href="https://dvesti.github.io/prorab/categories/blog/index.xml" rel="alternate" type="application/rss+xml" title="RSS" />
+            <link href="https://dvesti.github.io/prorab/categories/blog/atom.xml" rel="self" type="application/atom+xml" title="Atom" />
+            <link href="https://dvesti.github.io/prorab/categories/blog/jf2feed.json" rel="alternate" type="application/jf2feed+json" title="jf2feed" />
+    <updated>2021-02-01T17:14:05+02:00</updated>
+    
+    
+    <author>
+            <name>Dvesti</name>
+            
+                <email>dvesti@hot.ee</email>
+            </author>
+    
+        <id>https://dvesti.github.io/prorab/categories/blog/</id>
+    
+        
+        <entry>
+            <title type="html"><![CDATA[Стили от 23-08-2020]]></title>
+            <link href="https://dvesti.github.io/prorab/slyle-230820/?utm_source=atom_feed" rel="alternate" type="text/html" />
+            
+            
+                <id>https://dvesti.github.io/prorab/slyle-230820/</id>
+            
+            
+            <published>2020-08-23T17:04:31+03:00</published>
+            <updated>2020-08-23T17:04:31+03:00</updated>
+            
+            
+            <content type="html"><![CDATA[<p>Меняю стили каждый день, как я и писал ранее, в ущерб написанию заметок.<br>
+Сейчас всё-таки изменил размер шрифта даты, который был связан с другими стилями, поэтому пришлось выделить в отдельные строки.</p>
+<p>Использовал стили оригинала — <strong>Refined</strong>, а также <strong>Jane</strong></p>
+<p>Менять пришлось и <em>курсив</em>, так как он брался из другого шрифта получался другого размера (в частности, меньше), что было не очень красиво.</p>
+<p>Не считаю себя специалистом по дизайну или внешнему виду и стилям, но стараюсь привести сайт-блог к такому виду, чтобы нравилось самому. Например, чуть б<strong>о</strong>льший шрифт, чтоб не щуриться.</p>
+<p>Между тем, структура (скелет) сайта адаптирована для мобильных устройств: очень интересно читать сайт, имитируя СмартФон, сужая окно просмотра по горизонтали.</p>
+<blockquote>
+<p>Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.<br>
+Это какой-то <strong>текст для примера</strong>, чтобы показать как выглядит цитата.<br>
+Это или Источник или высказывания Великих людей. Да, и –- вообще&hellip;</p>
+</blockquote>
+<p>Изменил внешний вид цитаты, убрал отображение тэгов и категорий на странице Архива.  По секрету: на сайте есть страница и тэгов и категорий, просто не указана в меню.  При необходимых минимальных навыках, эти странички можно отыскать самому</p>]]></content>
+            
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/categories/blog" term="blog" label="blog" />
+                            
+                        
+                    
+                 
+                    
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/font" term="font" label="font" />
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/style" term="style" label="style" />
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/quote" term="quote" label="quote" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        
+        <entry>
+            <title type="html"><![CDATA[Тест-1]]></title>
+            <link href="https://dvesti.github.io/prorab/test-1/?utm_source=atom_feed" rel="alternate" type="text/html" />
+            
+                <link href="https://dvesti.github.io/prorab/i-write-my-blog-posts-in-markdown/?utm_source=atom_feed" rel="related" type="text/html" title=" I write my blog posts in Markdown" />
+                <link href="https://dvesti.github.io/prorab/first-post/?utm_source=atom_feed" rel="related" type="text/html" title="First Post" />
+                <link href="https://dvesti.github.io/prorab/2014-01-01-example-content/?utm_source=atom_feed" rel="related" type="text/html" title="Example content" />
+            
+                <id>https://dvesti.github.io/prorab/test-1/</id>
+            
+            
+            <published>2020-08-14T17:04:31+03:00</published>
+            <updated>2020-08-14T17:04:31+03:00</updated>
+            
+            
+            <content type="html"><![CDATA[<blockquote>Тест для отображении картинки статьи в Скайпе</blockquote><p>Это <del>тест</del>овое сообщение <em>с этой</em> <strong>картинкой</strong>:</p>
+<p><img src="featured.jpg" alt=""></p>
+<p>которая отображается при пересылке ссылки, например, в Скайп</p>
+]]></content>
+            
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/categories/blog" term="blog" label="blog" />
+                            
+                        
+                    
+                 
+                    
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/test" term="test" label="test" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        
+        <entry>
+            <title type="html"><![CDATA[Тема – Refined]]></title>
+            <link href="https://dvesti.github.io/prorab/theme-refined/?utm_source=atom_feed" rel="alternate" type="text/html" />
+            
+            
+                <id>https://dvesti.github.io/prorab/theme-refined/</id>
+            
+            
+            <published>2020-08-10T16:01:23+08:00</published>
+            <updated>2020-08-10T16:01:23+08:00</updated>
+            
+            
+            <content type="html"><![CDATA[<h3 id="почему-выбрана-именно-эта-тема-для-блога">Почему выбрана именно эта Тема для блога?</h3>
+<p><strong>Refined</strong> – одна из немногих тем, где правильно работает Поиск по русским словам.</p>
+<h3 id="для-чего-блог">Для чего Блог?</h3>
+<p>Как и написано в названии, здесь буду писать небольшие заметки. Возможно, каждодневные.</p>
+<h3 id="будет-ли-внешний-вид-сайта-меняться">Будет ли внешний вид сайта меняться?</h3>
+<p>Именно этим я и занимаюсь, в ущерб самим заметкам.<br>
+Меняется шрифт. К сожалению, англоязычные, по умолчанию на сайте установленные, отсутствуют в русском секторе. Приходится менять, стараясь не сильно ухудшать стиль всего сайта.</p>
+<p>Работы много, но, наверно, это будет делаться постепенно. Т.е. в процессе ведения самого блога</p>
+<h3 id="ps">P.S.</h3>
+<p>Выручило это дополнение в файле <code>themes/refined/layouts/partials/head.html</code></p>
+<div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#6ab825;font-weight:bold">link</span> <span style="color:#bbb">href</span>=<span style="color:#ed9d13">&#34;https://fonts.googleapis.com/css?family=Merriweather:400,700|Oswald&#34;</span> <span style="color:#bbb">rel</span>=<span style="color:#ed9d13">&#34;stylesheet&#34;</span> <span style="color:#bbb">type</span>=<span style="color:#ed9d13">&#34;text/css&#34;</span>&gt;
+</code></pre></td></tr></table>
+</div>
+</div><hr>
+<p>Все желаемые стили встали на свои места: иначе не подхватывало и указывало шрифт по умолчанию (т.е. первоначально-предусмотренный при создании самой темы)</p>]]></content>
+            
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/categories/blog" term="blog" label="blog" />
+                            
+                        
+                    
+                 
+                    
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/theme" term="theme" label="theme" />
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/hugo" term="hugo" label="hugo" />
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/design" term="design" label="design" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        
+        <entry>
+            <title type="html"><![CDATA[ I write my blog posts in Markdown]]></title>
+            <link href="https://dvesti.github.io/prorab/i-write-my-blog-posts-in-markdown/?utm_source=atom_feed" rel="alternate" type="text/html" />
+            
+                <link href="https://dvesti.github.io/prorab/first-post/?utm_source=atom_feed" rel="related" type="text/html" title="First Post" />
+                <link href="https://dvesti.github.io/prorab/2014-01-01-example-content/?utm_source=atom_feed" rel="related" type="text/html" title="Example content" />
+            
+                <id>https://dvesti.github.io/prorab/i-write-my-blog-posts-in-markdown/</id>
+            
+            
+            <published>2020-06-17T12:04:31+03:00</published>
+            <updated>2020-06-17T12:04:31+03:00</updated>
+            
+            
+            <content type="html"><![CDATA[<p>I write my blog posts in <strong>Markdown</strong> and I use <strong>VSCode</strong> editor for that.</p>
+<p>Я пишу свои блог-посты в <strong>Markdown</strong> и <em>использую</em> для этого редактор <strong>VS Code</strong>.</p>
+<p>И это &ndash; правильно!<br>
+И это &ndash; не только моё мнение.</p>]]></content>
+            
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/categories/blog" term="blog" label="blog" />
+                            
+                        
+                    
+                 
+                    
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/test" term="test" label="test" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        
+        <entry>
+            <title type="html"><![CDATA[Shortcodes Preview]]></title>
+            <link href="https://dvesti.github.io/prorab/shortcodes-preview/?utm_source=atom_feed" rel="alternate" type="text/html" />
+            
+                <link href="https://dvesti.github.io/prorab/shortcode-notice/?utm_source=atom_feed" rel="related" type="text/html" title="Shortcodes Notice Preview" />
+                <link href="https://dvesti.github.io/prorab/jane-theme-preview/?utm_source=atom_feed" rel="related" type="text/html" title="Jane Theme Preview" />
+                <link href="https://dvesti.github.io/prorab/syntax-highlighting/?utm_source=atom_feed" rel="related" type="text/html" title="Syntax Highlighting" />
+            
+                <id>https://dvesti.github.io/prorab/shortcodes-preview/</id>
+            
+            
+            <published>2018-03-04T16:01:23+08:00</published>
+            <updated>2018-03-05T16:01:23+08:00</updated>
+            
+            
+            <content type="html"><![CDATA[<h2 id="what-a-shortcode-is">What a Shortcode is</h2>
+<p>Hugo loves Markdown because of its simple content format, but there are times when Markdown falls short. Often, content authors are forced to add raw HTML (e.g., video <code>&lt;iframes&gt;</code>) to Markdown content. We think this contradicts the beautiful simplicity of Markdown&rsquo;s syntax.</p>
+<p>Hugo created <strong>shortcodes</strong> to circumvent these limitations.</p>
+<p>A shortcode is a simple snippet inside a content file that Hugo will render using a predefined template. Note that shortcodes will not work in template files. If you need the type of drop-in functionality that shortcodes provide but in a template, you most likely want a [partial template][partials] instead.</p>
+<p>In addition to cleaner Markdown, shortcodes can be updated any time to reflect new classes, techniques, or standards. At the point of site generation, Hugo shortcodes will easily merge in your changes. You avoid a possibly complicated search and replace operation.</p>
+<p>More details: <a href="https://gohugo.io/content-management/shortcodes/">https://gohugo.io/content-management/shortcodes/</a></p>
+<h2 id="blockquotes">blockquotes</h2>
+<p>Normal quote:
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<blockquote>
+  <p>This is a simple quote.</p>
+  <footer>
+    <strong></strong>
+    
+      
+        
+      
+    
+  </footer>
+</blockquote>
+</p>
+<p>Quote with author:
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+  
+
+
+<blockquote>
+  <p>This is a quote with only an Author named Author2.</p>
+  <footer>
+    <strong>Author2</strong>
+    
+      
+        
+      
+    
+  </footer>
+</blockquote>
+</p>
+<p>Quote with author and source:
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+  
+
+
+<blockquote>
+  <p>This is a quote from Author3 and source &ldquo;source.&rdquo;</p>
+  <footer>
+    <strong>Author3</strong>
+    
+      <cite>Source</cite>
+    
+  </footer>
+</blockquote>
+</p>
+<p>Quote with author and link:
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+      
+      
+      
+    
+     
+      
+    
+    
+
+    
+    
+  
+
+
+<blockquote>
+  <p>This is a quote from Author4 and links to <a href="https://www.google.com">https://www.google.com</a>.</p>
+  <footer>
+    <strong>Author4</strong>
+    
+      
+        <cite>
+          <a href="https://www.google.com" title="https://www.google.com">google.com</a> 
+        </cite>
+      
+    
+  </footer>
+</blockquote>
+</p>
+<p>Quote with author, link and title:
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+  
+
+
+<blockquote>
+  <p>This is a quote from Author5 and links to <a href="https://www.google.com">https://www.google.com</a> with title &ldquo;Google.&rdquo;</p>
+  <footer>
+    <strong>Author5</strong>
+    
+      
+        <cite>
+          <a href="https://www.google.com" title="https://www.google.com">Google</a> 
+        </cite>
+      
+    
+  </footer>
+</blockquote>
+</p>
+<p>Quote with author and a link longer than 32 characters, string is first cut at 32 characters then everything after the last forward slash is removed
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+      
+      
+      
+    
+     
+      
+    
+    
+
+    
+    
+         
+         
+         
+
+         
+        
+        
+        
+        
+      
+      
+    
+  
+
+
+<blockquote>
+  <p>This is a quote from Author5 and links to <a href="https://twitter.com/CryptoGangsta/status/716427930126196737">https://twitter.com/CryptoGangsta/status/716427930126196737</a> which is longer than 32 characters.
+<!-- raw HTML omitted -->And this is a new line in the quote with the HTML br tag.</p>
+  <footer>
+    <strong>Author6</strong>
+    
+      
+        <cite>
+          <a href="https://twitter.com/CryptoGangsta/status/716427930126196737" title="https://twitter.com/CryptoGangsta/status/716427930126196737">twitter.com/CryptoGangsta/...</a> 
+        </cite>
+      
+    
+  </footer>
+</blockquote>
+</p>
+<p>Test from the Octopress blockquote page at: <a href="http://octopress.org/docs/plugins/blockquote/">http://octopress.org/docs/plugins/blockquote/</a>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+      
+      
+      
+    
+     
+      
+    
+    
+
+    
+    
+         
+         
+         
+
+         
+        
+        
+        
+        
+        
+        
+      
+      
+    
+  
+
+
+<blockquote>
+  <p>Over the past 24 hours I&rsquo;ve been reflecting on my life &amp; I&rsquo;ve realized only one thing. I need a medieval battle axe.</p>
+  <footer>
+    <strong>@allanbranch</strong>
+    
+      
+        <cite>
+          <a href="https://twitter.com/allanbranch/status/90766146063712256" title="https://twitter.com/allanbranch/status/90766146063712256">twitter.com/allanbranch/status/...</a> 
+        </cite>
+      
+    
+  </footer>
+</blockquote>
+</p>
+<h2 id="music">music</h2>
+<!-- raw HTML omitted -->
+<h2 id="gist">gist</h2>
+<p>We can embed the gist in our content via username and gist ID pulled from the URL:</p>
+<pre><code>{{&lt; gist spf13 7896402 &gt;}}
+</code></pre><p>Display:</p>
+<script type="application/javascript" src="https://gist.github.com/spf13/7896402.js"></script>
+
+<h2 id="expand">expand</h2>
+<p>The Expand shortcode displays an expandable/collapsible section of text on your page. Here is an example</p>
+<details>
+  <summary style="background-color:#f5f5f5;border:1px solid #ccc;padding:5px;">
+    Is this learn theme rocks ?
+    
+  </summary>
+  
+Yes !.
+
+</details>
+
+<h3 id="usage">Usage</h3>
+<p>this shortcode takes exactly one optional parameter to define the text that appears next to the expand/collapse icon. (default is “Click to expand”)</p>
+<pre><code>{{&lt; expand &quot;Is this learn theme rocks ?&quot; &gt;}}
+Yes !.
+{{&lt; /expand &gt;}}
+</code></pre><h2 id="youtube">youtube</h2>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/w7Ft2ymGmfc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h2 id="vimeo">vimeo</h2>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://player.vimeo.com/video/146022717" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="vimeo video" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+ </div>
+
+<h2 id="youku">youku</h2>
+
+
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+    <iframe src="https://player.youku.com/embed/XMzQ0ODUxMjM2NA?autoplay=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0" title="YouKu Video">
+    </iframe>
+</div>
+
+
+<h2 id="twitter">twitter</h2>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Hugo 0.24 Released: Big archetype update + <a href="https://twitter.com/Netlify?ref_src=twsrc%5Etfw">@Netlify</a> _redirects etc. file support<a href="https://t.co/X94FmYDEZJ">https://t.co/X94FmYDEZJ</a> <a href="https://twitter.com/hashtag/gohugo?src=hash&amp;ref_src=twsrc%5Etfw">#gohugo</a> <a href="https://twitter.com/hashtag/golang?src=hash&amp;ref_src=twsrc%5Etfw">#golang</a> <a href="https://twitter.com/spf13?ref_src=twsrc%5Etfw">@spf13</a> <a href="https://twitter.com/bepsays?ref_src=twsrc%5Etfw">@bepsays</a></p>&mdash; GoHugo.io (@GoHugoIO) <a href="https://twitter.com/GoHugoIO/status/877500564405444608?ref_src=twsrc%5Etfw">June 21, 2017</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<h2 id="2">2</h2>
+<div>
+
+  <blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">The power was out so we took a walk, and I have never seen so many people out standing around in our neighborhood.</p>&mdash; Ardith Betz (@ardithbetz) <a href="https://twitter.com/ardithbetz/status/763188308662898691?ref_src=twsrc%5Etfw">August 10, 2016</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+</div>
+<h2 id="3">3</h2>
+<div>
+
+  
+
+</div>
+<h2 id="4-comment">4-comment</h2>
+<div>
+
+  <blockquote class="twitter-tweet" data-conversation="none" data-dnt="true"><p lang="en" dir="ltr">Yeah I agree with this point for sure. I think multi stage builds in Docker are a very important piece of the puzzle. And that doesn’t quite map to what the Lambda team is doing with layers yet</p>&mdash; Nathan Peck (@nathankpeck) <a href="https://twitter.com/nathankpeck/status/1069588395536654336?ref_src=twsrc%5Etfw">December 3, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+</div>
+<h2 id="5-prorab">5-Prorab</h2>
+<div>
+
+  <blockquote class="twitter-tweet" data-dnt="true"><p lang="und" dir="ltr">23.04.2020 -- 49. Estonian Championship выиграл Dmitriev, Vladimir<a href="https://t.co/FdRjYwgkf2">https://t.co/FdRjYwgkf2</a></p>&mdash; Vladimir Dmitrijev (@Prorab) <a href="https://twitter.com/Prorab/status/1256219426321465344?ref_src=twsrc%5Etfw">May 1, 2020</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+</div>]]></content>
+            
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/categories/docs" term="docs" label="docs" />
+                             
+                                <category scheme="https://dvesti.github.io/prorab/categories/blog" term="blog" label="blog" />
+                            
+                        
+                    
+                 
+                    
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/preview" term="preview" label="preview" />
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/shortcodes" term="shortcodes" label="shortcodes" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        
+        <entry>
+            <title type="html"><![CDATA[Shortcodes Notice Preview]]></title>
+            <link href="https://dvesti.github.io/prorab/shortcode-notice/?utm_source=atom_feed" rel="alternate" type="text/html" />
+            
+                <link href="https://dvesti.github.io/prorab/jane-theme-preview/?utm_source=atom_feed" rel="related" type="text/html" title="Jane Theme Preview" />
+                <link href="https://dvesti.github.io/prorab/syntax-highlighting/?utm_source=atom_feed" rel="related" type="text/html" title="Syntax Highlighting" />
+            
+                <id>https://dvesti.github.io/prorab/shortcode-notice/</id>
+            
+            
+            <published>2018-03-03T16:01:23+08:00</published>
+            <updated>2018-03-04T16:01:23+08:00</updated>
+            
+            
+            <content type="html"><![CDATA[<p>Не все <em>шорккоды</em> работают корректно. Скорее всего из-за их отсутствия: будем искать и исправлять пост.</p>
+<p><strong>Дополнено</strong>: Поменял <code>% %</code> на <code>&lt; &gt;</code> и дело пошло&hellip;</p>
+<h2 id="normal-use">normal use</h2>
+<p><code>Note</code> example:</p>
+<pre><code class="language-shortcode" data-lang="shortcode">{{&lt; notice note &gt;}}
+&lt;p&gt;A notice disclaimer&lt;/p&gt;
+{{&lt; /notice &gt;}}
+</code></pre><p><strong>Result:</strong></p>
+<div class="shortcode-notice note">
+  <div class="shortcode-notice-title note">
+    
+      note
+    
+  </div>
+  
+<p>A notice disclaimer</p>
+
+</div>
+
+<h2 id="you-could-custom-title">You could custom title</h2>
+<p><code>Примечание</code> example:</p>
+<pre><code class="language-shortcode" data-lang="shortcode">{{&lt; notice note Примечание &gt;}}
+&lt;p&gt;A notice disclaimer&lt;/p&gt;
+{{&lt; /notice &gt;}}
+</code></pre><p><strong>Result:</strong></p>
+<div class="shortcode-notice note">
+  <div class="shortcode-notice-title note">
+    
+      Примечание
+    
+  </div>
+  
+<p>A notice disclaimer</p>
+
+</div>
+
+<h2 id="tip">tip</h2>
+<pre><code class="language-shortcode" data-lang="shortcode">{{&lt; notice tip &gt;}}
+&lt;p&gt;A tip disclaimer&lt;/p&gt;
+{{&lt; /notice &gt;}}
+</code></pre><p><strong>Result:</strong></p>
+<div class="shortcode-notice tip">
+  <div class="shortcode-notice-title tip">
+    
+      tip
+    
+  </div>
+  
+<p>A tip disclaimer</p>
+
+</div>
+
+<h2 id="info">info</h2>
+<pre><code class="language-shortcode" data-lang="shortcode">{{&lt; notice info &gt;}}
+&lt;p&gt;A info disclaimer&lt;/p&gt;
+{{&lt; /notice &gt;}}
+</code></pre><p><strong>Result:</strong></p>
+<div class="shortcode-notice info">
+  <div class="shortcode-notice-title info">
+    
+      info
+    
+  </div>
+  
+<p>An information disclaimer</p>
+
+</div>
+
+<h2 id="warning">warning</h2>
+<pre><code class="language-shortcode" data-lang="shortcode">{{&lt; notice warning &gt;}}
+&lt;p&gt;A warning disclaimer&lt;/p&gt;
+{{&lt; /notice &gt;}}
+</code></pre><p><strong>Result:</strong></p>
+<div class="shortcode-notice warning">
+  <div class="shortcode-notice-title warning">
+    
+      warning
+    
+  </div>
+  
+<p>An warning disclaimer</p>
+
+</div>]]></content>
+            
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/categories/docs" term="docs" label="docs" />
+                             
+                                <category scheme="https://dvesti.github.io/prorab/categories/blog" term="blog" label="blog" />
+                            
+                        
+                    
+                 
+                    
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/preview" term="preview" label="preview" />
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/shortcodes" term="shortcodes" label="shortcodes" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        
+        <entry>
+            <title type="html"><![CDATA[Jane Theme Preview]]></title>
+            <link href="https://dvesti.github.io/prorab/jane-theme-preview/?utm_source=atom_feed" rel="alternate" type="text/html" />
+            
+                <link href="https://dvesti.github.io/prorab/syntax-highlighting/?utm_source=atom_feed" rel="related" type="text/html" title="Syntax Highlighting" />
+            
+                <id>https://dvesti.github.io/prorab/jane-theme-preview/</id>
+            
+            
+            <published>2018-01-01T16:01:23+08:00</published>
+            <updated>2018-03-07T16:01:23+08:00</updated>
+            
+            
+            <content type="html"><![CDATA[<p><strong>Markdown</strong> is created by <a href="http://daringfireball.net/">Daring Fireball</a>, the original guideline is <a href="http://daringfireball.net/projects/markdown/syntax">here</a>. Its syntax, however, varies between different parsers or editors.</p>
+<p>Please note that HTML fragments in markdown source will be recognized but not parsed or rendered. Also, there may be small reformatting on the original markdown source code after saving.</p>
+<h2 id="paragraph-and-line-breaks">Paragraph and line breaks</h2>
+<p>A paragraph is simply one or more consecutive lines of text. In markdown source code, paragraphs are separated by more than one blank lines. In Typora, you only need to press <code>Return</code> to create a new paragraph.</p>
+<p>Press <code>Shift</code> + <code>Return</code> to create a single line break. However, most markdown parser will ignore single line break, to make other markdown parsers recognize your line break, you can leave two whitespace at the end of the line, or insert <code>&lt;br/&gt;</code>.</p>
+<h2 id="headers">Headers</h2>
+<p>Headers use 1-6 hash characters at the start of the line, corresponding to header levels 1-6. For example:</p>
+<pre><code># This is an H1
+
+## This is an H2
+
+###### This is an H6
+</code></pre><p>In typora, input ‘#’s followed by title content, and press <code>Return</code> key will create a header.</p>
+<h2 id="blockquotes">Blockquotes</h2>
+<p>Markdown uses email-style &gt; characters for block quoting. They are presented as:</p>
+<blockquote>
+<p>This is a blockquote with two paragraphs. This is first paragraph.</p>
+<p>This is second pragraph.Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.</p>
+<p>This is another blockquote with one paragraph. There is three empty line to seperate two blockquote.</p>
+<p>这是一段中文测试。</p>
+</blockquote>
+<p>In typora, just input ‘&gt;’ followed by quote contents a block quote is  generated. Typora will insert proper ‘&gt;’ or line break for you. Block quote inside anther block quote is allowed by adding additional levels of ‘&gt;’.</p>
+<h2 id="lists">Lists</h2>
+<p>Input <code>* list item 1</code> will create an un-ordered list, the <code>*</code> symbol can be replace with <code>+</code> or <code>-</code>.</p>
+<p>Input <code>1. list item 1</code> will create an ordered list, their markdown source code is like:</p>
+<ul>
+<li>Red</li>
+<li>Green</li>
+<li>Blue</li>
+</ul>
+<ol>
+<li>Red</li>
+<li>Green</li>
+<li>Blue</li>
+</ol>
+<h2 id="task-list">Task List</h2>
+<p>Task lists are lists with items marked as either <code>[ ]</code> or <code>[x]</code> (incomplete or complete). For example:</p>
+<ul>
+<li><input disabled="" type="checkbox"> a task list item</li>
+<li><input disabled="" type="checkbox"> list syntax required</li>
+<li><input disabled="" type="checkbox"> normal <strong>formatting</strong>, @mentions, #1234 refs</li>
+<li><input disabled="" type="checkbox"> incomplete</li>
+<li><input checked="" disabled="" type="checkbox"> completed</li>
+</ul>
+<p>You can change the complete/incomplete state by click the checkbox before the item.</p>
+<h2 id="syntax-highlighting">Syntax Highlighting</h2>
+<div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">3
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#6ab825;font-weight:bold">function</span> helloWorld () {
+  alert(<span style="color:#ed9d13">&#34;Hello, World!&#34;</span>)
+}
+</code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">5
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#6ab825;font-weight:bold">public</span> <span style="color:#6ab825;font-weight:bold">class</span> <span style="color:#447fcf;text-decoration:underline">HelloWorld</span> {
+  <span style="color:#6ab825;font-weight:bold">public</span> <span style="color:#6ab825;font-weight:bold">static</span> <span style="color:#6ab825;font-weight:bold">void</span> <span style="color:#447fcf">main</span>(String[] args) {
+    System.<span style="color:#bbb">out</span>.<span style="color:#bbb">println</span>(<span style="color:#ed9d13">&#34;Hello, World!&#34;</span>);
+  }
+}
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="math-blocks">Math Blocks</h2>
+<p>You can render <em>LaTeX</em> mathematical expressions using <strong>MathJax</strong>.</p>
+<p>Input <code>$$</code>, then press &lsquo;Return&rsquo; key will trigger an input field which accept <em>Tex/LaTex</em> source. Following is an example:
+$$
+\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}
+\mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \<br>
+\frac{\partial X}{\partial u} &amp;  \frac{\partial Y}{\partial u} &amp; 0 \<br>
+\frac{\partial X}{\partial v} &amp;  \frac{\partial Y}{\partial v} &amp; 0 \<br>
+\end{vmatrix}
+$$</p>
+<p>In markdown source file, math block is <em>LaTeX</em> expression wrapped by ‘$$’ mark:</p>
+<div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">7
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-md" data-lang="md">$$
+\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}
+\mathbf{i} <span style="color:#a61717;background-color:#e3d2d2">&amp;</span> \mathbf{j} <span style="color:#a61717;background-color:#e3d2d2">&amp;</span> \mathbf{k} \\
+\frac{\partial X}{\partial u} <span style="color:#a61717;background-color:#e3d2d2">&amp;</span>  \frac{\partial Y}{\partial u} <span style="color:#a61717;background-color:#e3d2d2">&amp;</span> 0 \\
+\frac{\partial X}{\partial v} <span style="color:#a61717;background-color:#e3d2d2">&amp;</span>  \frac{\partial Y}{\partial v} <span style="color:#a61717;background-color:#e3d2d2">&amp;</span> 0 \\
+\end{vmatrix}
+$$
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="tables">Tables</h2>
+<p>Input <code>| First Header  | Second Header |</code> and press <code>return</code> key will create a table with two column.</p>
+<p>After table is created, focus on that table will pop up a toolbar for table, where you can resize, align, or delete table. You can also use context menu to copy and add/delete column/row.</p>
+<p>Following descriptions can be skipped, as markdown source code for tables are generated by typora automatically.</p>
+<p>In markdown source code, they look like:</p>
+<div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">7
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-md" data-lang="md">| Name              | Markdown            | HTML tag             |
+| ----------------- | ------------------- | -------------------- |
+| <span style="font-style:italic">*Emphasis*</span>        | <span style="color:#ed9d13">`*Emphasis*`</span>        | <span style="color:#ed9d13">`&lt;em&gt;&lt;/em&gt;`</span>          |
+| <span style="font-weight:bold">**Strong**</span>        | <span style="color:#ed9d13">`**Strong**`</span>        | <span style="color:#ed9d13">`&lt;strong&gt;&lt;/strong&gt;`</span>  |
+| <span style="color:#ed9d13">`code`</span>            | ``code``            | <span style="color:#ed9d13">`&lt;code&gt;&lt;/code&gt;`</span>      |
+| <span style="color:#d22323">~~Strikethrough~~</span> | <span style="color:#ed9d13">`~~Strikethrough~~`</span> | <span style="color:#ed9d13">`&lt;del&gt;&lt;/del`</span>         |
+| &lt;<span style="color:#6ab825;font-weight:bold">u</span>&gt;Underline&lt;/<span style="color:#6ab825;font-weight:bold">u</span>&gt;  | <span style="color:#ed9d13">`&lt;u&gt;underline&lt;/u&gt;`</span>  | <span style="color:#ed9d13">`&lt;u&gt;&lt;/u&gt;`</span>            |
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="результат">Результат:</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Markdown</th>
+<th>HTML tag</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>Emphasis</em></td>
+<td><code>*Emphasis*</code></td>
+<td><code>&lt;em&gt;&lt;/em&gt;</code></td>
+</tr>
+<tr>
+<td><strong>Strong</strong></td>
+<td><code>**Strong**</code></td>
+<td><code>&lt;strong&gt;&lt;/strong&gt;</code></td>
+</tr>
+<tr>
+<td><code>code</code></td>
+<td><code>`code`</code></td>
+<td><code>&lt;code&gt;&lt;/code&gt;</code></td>
+</tr>
+<tr>
+<td><del>Strikethrough</del></td>
+<td><code>~~Strikethrough~~</code></td>
+<td><code>&lt;del&gt;&lt;/del</code></td>
+</tr>
+<tr>
+<td><!-- raw HTML omitted -->Underline<!-- raw HTML omitted --></td>
+<td><code>&lt;u&gt;underline&lt;/u&gt;</code></td>
+<td><code>&lt;u&gt;&lt;/u&gt;</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="footnotes">Footnotes</h2>
+<div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">3
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-md" data-lang="md">You can create footnotes like this[^footnote].
+
+[^footnote]: Here is the <span style="font-style:italic">*text*</span> of the <span style="font-weight:bold">**footnote**</span>.
+</code></pre></td></tr></table>
+</div>
+</div><p>will produce:</p>
+<p>You can create footnotes like this<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<p>Mouse on the ‘footnote’ superscript to see content of the footnote.</p>
+<h2 id="horizontal-rules">Horizontal Rules</h2>
+<p>Input <code>***</code> or <code>---</code> on a blank line and press <code>return</code> will draw a horizontal line.</p>
+<hr>
+<h2 id="links">Links</h2>
+<p>Markdown supports two style of links: inline and reference.</p>
+<p>In both styles, the link text is delimited by [square brackets].</p>
+<p>To create an inline link, use a set of regular parentheses immediately after the link text’s closing square bracket. Inside the parentheses, put the URL where you want the link to point, along with an optional title for the link, surrounded in quotes. For example:</p>
+<pre><code>This is [an example](http://example.com/ &quot;Title&quot;) inline link.
+
+[This link](http://example.net/) has no title attribute.
+</code></pre><p>will produce:</p>
+<p>This is <a href="http://example.com/%22Title%22">an example</a> inline link. (<code>&lt;p&gt;This is &lt;a href=&quot;http://example.com/&quot; title=&quot;Title&quot;&gt;</code>)</p>
+<p><a href="http://example.net/">This link</a> has no title attribute. (<code>&lt;p&gt;&lt;a href=&quot;http://example.net/&quot;&gt;This link&lt;/a&gt; has no</code>)</p>
+<h3 id="internal-links">Internal Links</h3>
+<p><strong>You can set the href to headers</strong>, which will create a bookmark that allow you to jump to that section after clicking. For example:</p>
+<p>Command(on Windows: Ctrl) + Click <a href="#block-elements">This link</a> will jump to header <code>Block Elements</code>. To see how to write that, please move cursor or click that link with <code>⌘</code> key pressed to expand the element into markdown source.</p>
+<h3 id="reference-links">Reference Links</h3>
+<p>Reference-style links use a second set of square brackets, inside which you place a label of your choosing to identify the link:</p>
+<pre><code>This is [an example][id] reference-style link.
+
+Then, anywhere in the document, you define your link label like this, on a line by itself:
+
+[id]: http://example.com/  &quot;Optional Title Here&quot;
+</code></pre><p>In typora, they will be rendered like:</p>
+<p>This is <a href="http://example.com/" title="Optional Title Here">an example</a> reference-style link.</p>
+<p>The implicit link name shortcut allows you to omit the name of the link, in which case the link text itself is used as the name. Just use an empty set of square brackets — e.g., to link the word “Google” to the google.com web site, you could simply write:</p>
+<pre><code>[Google][]
+And then define the link:
+
+[Google]: http://google.com/
+</code></pre><p>In typora click link will expand it for editing, command+click will open the hyperlink in web browser.</p>
+<h2 id="urls">URLs</h2>
+<p>Typora allows you to insert urls as links, wrapped by <code>&lt;</code>brackets<code>&gt;</code>.</p>
+<p><code>&lt;i@typora.io&gt;</code> becomes <a href="mailto:i@typora.io">i@typora.io</a>.</p>
+<p>Typora will aslo auto link standard URLs. e.g: <a href="http://www.google.com">www.google.com</a>.</p>
+<h2 id="images">Images</h2>
+<p>Image looks similar with links, but it requires an additional <code>!</code> char before the start of link. Image syntax looks like this:</p>
+<pre><code>![Alt text](/path/to/img.jpg)
+
+![Alt text](/path/to/img.jpg &quot;Optional title&quot;)
+</code></pre><p>You are able to use drag &amp; drop to insert image from image file or we browser. And modify the markdown source code by clicking on the image. Relative path will be used if image is in same directory or sub-directory with current editing document when drag &amp; drop.</p>
+<p>For more tips on images, please read <a href="http://support.typora.io//Images/">http://support.typora.io//Images/</a></p>
+<h2 id="emphasis">Emphasis</h2>
+<p>Markdown treats asterisks (<code>*</code>) and underscores (<code>_</code>) as indicators of emphasis. Text wrapped with one <code>*</code> or <code>_</code> will be wrapped with an HTML <code>&lt;em&gt;</code> tag. E.g:</p>
+<pre><code>*single asterisks*
+
+_single underscores_
+</code></pre><p>output:</p>
+<p><em>single asterisks</em></p>
+<p><em>single underscores</em></p>
+<p>GFM will ignores underscores in words, which is commonly used in code and names, like this:</p>
+<blockquote>
+<p>wow_great_stuff</p>
+<p>do_this_and_do_that_and_another_thing.</p>
+</blockquote>
+<p>To produce a literal asterisk or underscore at a position where it would otherwise be used as an emphasis delimiter, you can backslash escape it:</p>
+<pre><code>\*this text is surrounded by literal asterisks\*
+</code></pre><p>Typora recommends to use <code>*</code> symbol.</p>
+<h2 id="strong">Strong</h2>
+<p>double *’s or _’s will be wrapped with an HTML <code>&lt;strong&gt;</code> tag, e.g:</p>
+<pre><code>**double asterisks**
+
+__double underscores__
+</code></pre><p>output:</p>
+<p><strong>double asterisks</strong></p>
+<p><strong>double underscores</strong></p>
+<p>Typora recommends to use <code>**</code> symbol.</p>
+<h2 id="code">Code</h2>
+<p>To indicate a span of code, wrap it with backtick quotes (`). Unlike a pre-formatted code block, a code span indicates code within a normal paragraph. For example:</p>
+<div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-md" data-lang="md">Use the <span style="color:#ed9d13">`printf()`</span> function.
+</code></pre></td></tr></table>
+</div>
+</div><p>will produce:</p>
+<p>Use the <code>printf()</code> function.</p>
+<h2 id="strikethrough">Strikethrough</h2>
+<p>GFM adds syntax to create strikethrough text, which is missing from standard Markdown.</p>
+<p><code>~~Mistaken text.~~</code> becomes <del>Mistaken text.</del></p>
+<h2 id="underline">Underline</h2>
+<p>Underline is powered by raw HTML.</p>
+<p><code>&lt;u&gt;Underline&lt;/u&gt;</code> becomes <!-- raw HTML omitted -->Underline<!-- raw HTML omitted -->.</p>
+<h2 id="emoji-happy">Emoji :happy</h2>
+<p>Input emoji with syntax <code>😄</code>.</p>
+<p>User can trigger auto-complete suggestions for emoji by pressing <code>ESC</code> key, or trigger it automatically after enable it on preference panel. Also, input UTF8 emoji char directly from <code>Edit</code> -&gt; <code>Emoji &amp; Symbols</code> from menu bar is also supported.</p>
+<h2 id="inline-math">Inline Math</h2>
+<p>To use this feature, first, please enable it in <code>Preference</code> Panel -&gt; <code>Markdown</code> Tab. Then use <code>$</code> to wrap TeX command, for example: <code>$\lim_{x \to \infty} \exp(-x) = 0$</code> will be rendered as LaTeX command.</p>
+<p>To trigger inline preview for inline math: input “$”, then press <code>ESC</code> key, then input TeX command, a preview tooltip will be visible like below:</p>
+<p><em>HTML</em> в <em>MarkDown</em> &ndash; не работает (есть свои хитрости)</p>
+<p><!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted -->It **works!**<!-- raw HTML omitted --></p>
+<p>Ниже записано средствами самого <em>MarkDown</em></p>
+<pre><code>![Картинка](https://typora.io/img/inline-math.gif)
+</code></pre><p><img src="https://typora.io/img/inline-math.gif" alt="Картинка"></p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>Here is the <em>text</em> of the <strong>footnote</strong>. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>]]></content>
+            
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/categories/blog" term="blog" label="blog" />
+                            
+                        
+                    
+                 
+                    
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/preview" term="preview" label="preview" />
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/shortcodes" term="shortcodes" label="shortcodes" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        
+        <entry>
+            <title type="html"><![CDATA[Generating a transparent favicon]]></title>
+            <link href="https://dvesti.github.io/prorab/generating-a-transparent-favicon/?utm_source=atom_feed" rel="alternate" type="text/html" />
+            
+            
+                <id>https://dvesti.github.io/prorab/generating-a-transparent-favicon/</id>
+            
+            
+            <published>2016-10-15T01:27:35-04:00</published>
+            <updated>2016-10-15T01:27:35-04:00</updated>
+            
+            
+            <content type="html"><![CDATA[<p>While generating a simple favicon for this blog, I went through a little exercise on how to generate a favicon with transparent background. I did not want the favicon with square block background which runs a risk of not blending well with the browser tab background as seen below:</p>
+<p><img src="/prorab/images/favicon_not_good.png" alt="Bad Favicon"></p>
+<h2 id="inkscape-and-transparent-png">Inkscape and transparent png</h2>
+<p>Here are the steps I took to make this icon transparent. I used <a href="https://inkscape.org/en/">Inkscape</a> and <a href="http://tools.dynamicdrive.com/favicon/">Dynamic Drive&rsquo;s online favicon generator</a> to make this happen.</p>
+<ol>
+<li>Inkscape sets the background of the image to be transparent by default. But here is how to verify that that&rsquo;s the case. Do <!-- raw HTML omitted -->Ctrl<!-- raw HTML omitted --> + <!-- raw HTML omitted -->Shift<!-- raw HTML omitted --> + <!-- raw HTML omitted -->d<!-- raw HTML omitted --> or <em>Files &gt; Document Properties</em>, click on the <em>Background color</em> and ensure that the <em>Alpha</em> component of <em>RGBA Hex</em> is <code>00</code>.
+<img src="/prorab/images/favicon_transparent_background.png" alt="Inkscape - Transparent Background"></li>
+<li>This next step when saving the image is crucial. Do not simply <em>Save</em> or <em>Save As</em> the image. That will <em>not</em> save the transparent properties in the image!</li>
+</ol>
+<p>Thanks to <a href="https://graphicdesign.stackexchange.com/a/44411/78149">this <em>graphicdesign.stackexchange</em> solution</a>,</p>
+<blockquote>
+<p>Just using <em>save as -&gt; png</em> does not apply the transparent background. However, the transparent background is the default when you export: <em>File &gt; Export Bitmap -&gt; Export</em>.</p>
+</blockquote>
+<p>In newer Inkscape versions (at least in version 0.91), that option is <em>File &gt; Export PNG Image</em> (or <!-- raw HTML omitted -->Ctrl<!-- raw HTML omitted --> + <!-- raw HTML omitted -->Shift<!-- raw HTML omitted --> + <!-- raw HTML omitted -->e<!-- raw HTML omitted -->) instead. Note that when you do that, instead of a pop-up window, you will see an attached window (shown below) appear on the side.</p>
+<p><img src="/prorab/images/favicon_export_png_image.png" alt="Inkscape - Export PNG Image"></p>
+<h2 id="png-or-ico"><code>.png</code> or <code>.ico</code></h2>
+<p>Another question I faced when working on this was whether I should save the favicon as a <code>.png</code> or .<code>ico</code> because I have seen both of these types being used.</p>
+<p>Thanks to <a href="https://stackoverflow.com/a/1344379/1219634">this <em>stackoverflow</em> solution</a>,</p>
+<blockquote>
+<p>All modern browsers (tested with Chrome 4, Firefox 3.5, IE8, Opera 10 and Safari 4) will always request a favicon.ico unless you&rsquo;ve specified a shortcut icon via &lt;link&gt;.</p>
+</blockquote>
+<p>The answer also says that <code>.ico</code> files support transparency just fine
+and that&rsquo;s where I learned about Dynamic Drive&rsquo;s favicon generator tool.</p>
+<h2 id="summary">Summary</h2>
+<ul>
+<li>Created a transparent <code>.png</code> in Inkscape.</li>
+<li>Converted it to <code>.ico</code> using Dynamic Drive&rsquo;s favicon generator tool.</li>
+<li>And the result!
+<img src="/prorab/images/favicon_good.png" alt="Good Favicon"></li>
+</ul>
+<hr>
+<h2 id="update---oct-20-2016">Update - Oct 20 2016</h2>
+<p>Today I was browsing this site on my Android phone and I noticed that the Google Chrome browser did not show this favicon on the list of recently visited websites.</p>
+<p>That bugged me and a little bit of googling led me to an even better online favicon generator website: <a href="https://realfavicongenerator.net/">realfavicongenerator.net</a>.</p>
+<p>I simply needed to upload my Inkscape created <code>.png</code> (with transparent background) to that site, and it provided a favicon package for different platforms and an HTML code to be put in the <code>&lt;head&gt;</code>:</p>
+<div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">6
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#6ab825;font-weight:bold">link</span> <span style="color:#bbb">rel</span>=<span style="color:#ed9d13">&#34;apple-touch-icon&#34;</span> <span style="color:#bbb">sizes</span>=<span style="color:#ed9d13">&#34;180x180&#34;</span> <span style="color:#bbb">href</span>=<span style="color:#ed9d13">&#34;/apple-touch-icon.png&#34;</span>&gt;
+&lt;<span style="color:#6ab825;font-weight:bold">link</span> <span style="color:#bbb">rel</span>=<span style="color:#ed9d13">&#34;icon&#34;</span> <span style="color:#bbb">type</span>=<span style="color:#ed9d13">&#34;image/png&#34;</span> <span style="color:#bbb">href</span>=<span style="color:#ed9d13">&#34;/favicon-32x32.png&#34;</span> <span style="color:#bbb">sizes</span>=<span style="color:#ed9d13">&#34;32x32&#34;</span>&gt;
+&lt;<span style="color:#6ab825;font-weight:bold">link</span> <span style="color:#bbb">rel</span>=<span style="color:#ed9d13">&#34;icon&#34;</span> <span style="color:#bbb">type</span>=<span style="color:#ed9d13">&#34;image/png&#34;</span> <span style="color:#bbb">href</span>=<span style="color:#ed9d13">&#34;/favicon-16x16.png&#34;</span> <span style="color:#bbb">sizes</span>=<span style="color:#ed9d13">&#34;16x16&#34;</span>&gt;
+&lt;<span style="color:#6ab825;font-weight:bold">link</span> <span style="color:#bbb">rel</span>=<span style="color:#ed9d13">&#34;manifest&#34;</span> <span style="color:#bbb">href</span>=<span style="color:#ed9d13">&#34;/manifest.json&#34;</span>&gt;
+&lt;<span style="color:#6ab825;font-weight:bold">link</span> <span style="color:#bbb">rel</span>=<span style="color:#ed9d13">&#34;mask-icon&#34;</span> <span style="color:#bbb">href</span>=<span style="color:#ed9d13">&#34;/safari-pinned-tab.svg&#34;</span> <span style="color:#bbb">color</span>=<span style="color:#ed9d13">&#34;#5bbad5&#34;</span>&gt;
+&lt;<span style="color:#6ab825;font-weight:bold">meta</span> <span style="color:#bbb">name</span>=<span style="color:#ed9d13">&#34;theme-color&#34;</span> <span style="color:#bbb">content</span>=<span style="color:#ed9d13">&#34;#000000&#34;</span>&gt;
+</code></pre></td></tr></table>
+</div>
+</div><p>The website also shows previews of how the icon would look on different platforms: regular browser tabs, iOS, Android, etc.</p>
+<p>Here is how this favicon looks on Android Chrome after updating the icons and this website&rsquo;s <code>&lt;head&gt;</code>.</p>
+<p><img src="/prorab/images/favicon_android_chrome.png" alt="Favicon in Android Chrome"></p>]]></content>
+            
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/categories/blog" term="blog" label="blog" />
+                            
+                        
+                    
+                 
+                    
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/favicon" term="favicon" label="favicon" />
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/transparent" term="transparent" label="transparent" />
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/browser" term="browser" label="browser" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        
+        <entry>
+            <title type="html"><![CDATA[First Post]]></title>
+            <link href="https://dvesti.github.io/prorab/first-post/?utm_source=atom_feed" rel="alternate" type="text/html" />
+            
+                <link href="https://dvesti.github.io/prorab/2014-01-01-example-content/?utm_source=atom_feed" rel="related" type="text/html" title="Example content" />
+            
+                <id>https://dvesti.github.io/prorab/first-post/</id>
+            
+            
+            <published>2014-03-03T18:21:33-05:00</published>
+            <updated>2014-03-03T18:21:33-05:00</updated>
+            
+            
+            <content type="html"><![CDATA[<p><strong>Update</strong>: This first post was created using <code>octopress</code>, but now I
+am using <a href="https://gohugo.io/"><code>hugo</code></a>.</p>
+<p>Testing the first post using octopress.</p>]]></content>
+            
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/categories/blog" term="blog" label="blog" />
+                            
+                        
+                    
+                 
+                    
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/test" term="test" label="test" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        
+        <entry>
+            <title type="html"><![CDATA[Example content]]></title>
+            <link href="https://dvesti.github.io/prorab/2014-01-01-example-content/?utm_source=atom_feed" rel="alternate" type="text/html" />
+            
+            
+                <id>https://dvesti.github.io/prorab/2014-01-01-example-content/</id>
+            
+            
+            <published>2014-01-01T00:00:00+00:00</published>
+            <updated>2014-01-01T00:00:00+00:00</updated>
+            
+            
+            <content type="html"><![CDATA[<!-- raw HTML omitted -->
+<p>Cum sociis natoque penatibus et magnis <!-- raw HTML omitted -->dis parturient montes<!-- raw HTML omitted -->, nascetur ridiculus mus. <em>Aenean eu leo quam.</em> Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+<blockquote>
+<p>Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+</blockquote>
+<p>Etiam porta <strong>sem malesuada magna</strong> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+<h2 id="inline-html-elements">Inline HTML elements</h2>
+<p>HTML defines a long list of available inline tags, a complete list of which can be found on the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Mozilla Developer Network</a>.</p>
+<ul>
+<li><strong>To bold text</strong>, use <code>&lt;strong&gt;</code>.</li>
+<li><em>To italicize text</em>, use <code>&lt;em&gt;</code>.</li>
+<li>Abbreviations, like <!-- raw HTML omitted -->HTML<!-- raw HTML omitted --> should use <code>&lt;abbr&gt;</code>, with an optional <code>title</code> attribute for the full phrase.</li>
+<li>Citations, like <!-- raw HTML omitted -->— Mark otto<!-- raw HTML omitted -->, should use <code>&lt;cite&gt;</code>.</li>
+<li><!-- raw HTML omitted -->Deleted<!-- raw HTML omitted --> text should use <code>&lt;del&gt;</code> and <!-- raw HTML omitted -->inserted<!-- raw HTML omitted --> text should use <code>&lt;ins&gt;</code>.</li>
+<li>Superscript <!-- raw HTML omitted -->text<!-- raw HTML omitted --> uses <code>&lt;sup&gt;</code> and subscript <!-- raw HTML omitted -->text<!-- raw HTML omitted --> uses <code>&lt;sub&gt;</code>.</li>
+</ul>
+<p>Most of these elements are styled by browsers with few modifications on our part.</p>
+<h2 id="heading">Heading</h2>
+<p>Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+<h3 id="code">Code</h3>
+<p>Cum sociis natoque penatibus et magnis dis <code>code element</code> montes, nascetur ridiculus mus.</p>
+<div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">8
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#999;font-style:italic">// Example can be run directly in your JavaScript console
+</span><span style="color:#999;font-style:italic"></span>
+<span style="color:#999;font-style:italic">// Create a function that takes two arguments and returns the sum of those arguments
+</span><span style="color:#999;font-style:italic"></span><span style="color:#6ab825;font-weight:bold">var</span> adder = <span style="color:#6ab825;font-weight:bold">new</span> <span style="color:#24909d">Function</span>(<span style="color:#ed9d13">&#34;a&#34;</span>, <span style="color:#ed9d13">&#34;b&#34;</span>, <span style="color:#ed9d13">&#34;return a + b&#34;</span>);
+
+<span style="color:#999;font-style:italic">// Call the function
+</span><span style="color:#999;font-style:italic"></span>adder(<span style="color:#3677a9">2</span>, <span style="color:#3677a9">6</span>);
+<span style="color:#999;font-style:italic">// &gt; 8
+</span></code></pre></td></tr></table>
+</div>
+</div>
+<p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
+<h3 id="lists">Lists</h3>
+<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+<ul>
+<li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
+<li>Donec id elit non mi porta gravida at eget metus.</li>
+<li>Nulla vitae elit libero, a pharetra augue.</li>
+</ul>
+<p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
+<ol>
+<li>Vestibulum id ligula porta felis euismod semper.</li>
+<li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
+<li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
+</ol>
+<p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+<h3 id="tables">Tables</h3>
+<p>Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<!-- raw HTML omitted -->
+<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+<hr>
+<p>Want to see something else added? <!-- raw HTML omitted -->Open an issue.<!-- raw HTML omitted --></p>]]></content>
+            
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/categories/blog" term="blog" label="blog" />
+                            
+                        
+                    
+                 
+                    
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/test" term="test" label="test" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        
+        <entry>
+            <title type="html"><![CDATA[Syntax Highlighting]]></title>
+            <link href="https://dvesti.github.io/prorab/syntax-highlighting/?utm_source=atom_feed" rel="alternate" type="text/html" />
+            
+            
+                <id>https://dvesti.github.io/prorab/syntax-highlighting/</id>
+            
+            
+            <published>2011-08-30T16:01:23+08:00</published>
+            <updated>2017-08-30T16:01:23+08:00</updated>
+            
+            
+            <content type="html"><![CDATA[<p>More detail: <a href="https://gohugo.io/content-management/syntax-highlighting/">Syntax Highlighting | Hugo</a></p>
+<div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">3
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#6ab825;font-weight:bold">function</span> helloWorld () {
+  alert(<span style="color:#ed9d13">&#34;Hello, World!&#34;</span>)
+}
+</code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">5
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#6ab825;font-weight:bold">public</span> <span style="color:#6ab825;font-weight:bold">class</span> <span style="color:#447fcf;text-decoration:underline">HelloWorld</span> {
+  <span style="color:#6ab825;font-weight:bold">public</span> <span style="color:#6ab825;font-weight:bold">static</span> <span style="color:#6ab825;font-weight:bold">void</span> <span style="color:#447fcf">main</span>(String[] args) {
+    System.<span style="color:#bbb">out</span>.<span style="color:#bbb">println</span>(<span style="color:#ed9d13">&#34;Hello, World!&#34;</span>);
+  }
+}
+</code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">5
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-kotlin" data-lang="kotlin"><span style="color:#6ab825;font-weight:bold">package</span> <span style="color:#447fcf;text-decoration:underline">hello</span>
+
+<span style="color:#6ab825;font-weight:bold">fun</span> <span style="color:#447fcf">main</span>(args: Array&lt;String&gt;) {
+  println(<span style="color:#ed9d13">&#34;Hello World!&#34;</span>)
+}
+</code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">7
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#cd2828;font-weight:bold">#include</span> <span style="color:#cd2828;font-weight:bold">&lt;stdio.h&gt;</span><span style="color:#cd2828;font-weight:bold">
+</span><span style="color:#cd2828;font-weight:bold"></span>
+<span style="color:#999;font-style:italic">/* Hello */</span>
+<span style="color:#6ab825;font-weight:bold">int</span> <span style="color:#447fcf">main</span>(<span style="color:#6ab825;font-weight:bold">void</span>){
+  printf(<span style="color:#ed9d13">&#34;Hello, World!&#34;</span>);
+  <span style="color:#6ab825;font-weight:bold">return</span> <span style="color:#3677a9">0</span>;
+}
+</code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">8
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cpp" data-lang="cpp"><span style="color:#999;font-style:italic">// &#39;Hello World!&#39; program
+</span><span style="color:#999;font-style:italic"></span>
+<span style="color:#cd2828;font-weight:bold">#include</span> <span style="color:#cd2828;font-weight:bold">&lt;iostream&gt;</span><span style="color:#cd2828;font-weight:bold">
+</span><span style="color:#cd2828;font-weight:bold"></span>
+<span style="color:#6ab825;font-weight:bold">int</span> <span style="color:#447fcf">main</span>(){
+  std::cout &lt;&lt; <span style="color:#ed9d13">&#34;Hello World!&#34;</span> &lt;&lt; std::endl;
+  <span style="color:#6ab825;font-weight:bold">return</span> <span style="color:#3677a9">0</span>;
+}
+</code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">6
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cs" data-lang="cs"><span style="color:#6ab825;font-weight:bold">using</span> <span style="color:#447fcf;text-decoration:underline">System</span>;
+<span style="color:#6ab825;font-weight:bold">class</span> <span style="color:#447fcf;text-decoration:underline">HelloWorld</span>{
+  <span style="color:#6ab825;font-weight:bold">public</span> <span style="color:#6ab825;font-weight:bold">static</span> <span style="color:#6ab825;font-weight:bold">void</span> Main(){
+    System.Console.WriteLine(<span style="color:#ed9d13">&#34;Hello, World!&#34;</span>);
+  }
+}
+</code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">5
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#6ab825;font-weight:bold">html</span>&gt;
+&lt;<span style="color:#6ab825;font-weight:bold">body</span>&gt;
+  Hello, World!
+&lt;/<span style="color:#6ab825;font-weight:bold">body</span>&gt;
+&lt;/<span style="color:#6ab825;font-weight:bold">html</span>&gt;
+</code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">7
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#6ab825;font-weight:bold">package</span> main
+<span style="color:#6ab825;font-weight:bold">import</span> fmt <span style="color:#ed9d13">&#34;fmt&#34;</span>
+
+<span style="color:#6ab825;font-weight:bold">func</span> <span style="color:#447fcf">main</span>()
+{
+   fmt.<span style="color:#447fcf">Printf</span>(<span style="color:#ed9d13">&#34;Hello, World!\n&#34;</span>);
+}
+</code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">3
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scala" data-lang="scala"><span style="color:#6ab825;font-weight:bold">object</span> <span style="color:#447fcf;text-decoration:underline">HelloWorld</span> <span style="color:#6ab825;font-weight:bold">with</span> <span style="color:#447fcf;text-decoration:underline">Application</span> {
+  <span style="color:#447fcf;text-decoration:underline">Console</span>.println(<span style="color:#ed9d13">&#34;Hello, World!&#34;</span>);
+}
+</code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">3
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#cd2828;font-weight:bold">&lt;?php</span>
+  <span style="color:#6ab825;font-weight:bold">echo</span> <span style="color:#ed9d13">&#39;Hello, World!&#39;</span>;
+<span style="color:#cd2828;font-weight:bold">?&gt;</span>
+</code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#6ab825;font-weight:bold">print</span>(<span style="color:#ed9d13">&#34;Hello, World!&#34;</span>)
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="no-named-code-block">no named code block</h2>
+<pre><code>## this is a comment
+$ echo this is a command
+this is a command
+
+## edit the file
+$vi foo.md
++++
+date = &quot;2014-09-28&quot;
+title = &quot;creating a new theme&quot;
++++
+
+bah and humbug
+:wq
+
+## show it
+$ cat foo.md
++++
+date = &quot;2014-09-28&quot;
+title = &quot;creating a new theme&quot;
++++
+
+bah and humbug
+$
+</code></pre><h2 id="highlight-shortcode">highlight shortcode</h2>
+<p>example:</p>
+<pre><code class="language-shortcode" data-lang="shortcode">{{&lt; highlight go &quot;linenos=table,hl_lines=8 15-17,linenostart=199&quot; &gt;}}
+// ... code
+{{&lt; /highlight &gt;}}
+</code></pre><p>result:</p>
+<div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">199
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">200
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">201
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">202
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">203
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">204
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">205
+</span><span style="display:block;width:100%;background-color:#363636"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">206
+</span></span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">207
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">208
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">209
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">210
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">211
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">212
+</span><span style="display:block;width:100%;background-color:#363636"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">213
+</span></span><span style="display:block;width:100%;background-color:#363636"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">214
+</span></span><span style="display:block;width:100%;background-color:#363636"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">215
+</span></span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">216
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">217
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">218
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">219
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">220
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"> GetTitleFunc returns a <span style="color:#6ab825;font-weight:bold">func</span> that can be used to transform a <span style="color:#6ab825;font-weight:bold">string</span> to
+ title <span style="color:#6ab825;font-weight:bold">case</span>.
+
+ The supported styles are
+
+ - <span style="color:#ed9d13">&#34;Go&#34;</span> (strings.Title)
+ - <span style="color:#ed9d13">&#34;AP&#34;</span> (see &lt;https:<span style="color:#999;font-style:italic">//www.apstylebook.com/)&gt;
+</span><span style="display:block;width:100%;background-color:#363636"><span style="color:#999;font-style:italic"></span> - <span style="color:#ed9d13">&#34;Chicago&#34;</span> (see &lt;http:<span style="color:#999;font-style:italic">//www.chicagomanualofstyle.org/home.html)&gt;
+</span></span><span style="color:#999;font-style:italic"></span>
+ If an unknown or empty style is provided, AP style is what you get.
+<span style="color:#6ab825;font-weight:bold">func</span> <span style="color:#447fcf">GetTitleFunc</span>(style <span style="color:#6ab825;font-weight:bold">string</span>) <span style="color:#6ab825;font-weight:bold">func</span>(s <span style="color:#6ab825;font-weight:bold">string</span>) <span style="color:#6ab825;font-weight:bold">string</span> {
+  <span style="color:#6ab825;font-weight:bold">switch</span> strings.<span style="color:#447fcf">ToLower</span>(style) {
+  <span style="color:#6ab825;font-weight:bold">case</span> <span style="color:#ed9d13">&#34;go&#34;</span>:
+    <span style="color:#6ab825;font-weight:bold">return</span> strings.Title
+<span style="display:block;width:100%;background-color:#363636">  <span style="color:#6ab825;font-weight:bold">case</span> <span style="color:#ed9d13">&#34;chicago&#34;</span>:
+</span><span style="display:block;width:100%;background-color:#363636">    tc := transform.<span style="color:#447fcf">NewTitleConverter</span>(transform.ChicagoStyle)
+</span><span style="display:block;width:100%;background-color:#363636">    <span style="color:#6ab825;font-weight:bold">return</span> tc.Title
+</span>  <span style="color:#6ab825;font-weight:bold">default</span>:
+    tc := transform.<span style="color:#447fcf">NewTitleConverter</span>(transform.APStyle)
+    <span style="color:#6ab825;font-weight:bold">return</span> tc.Title
+  }
+}</code></pre></td></tr></table>
+</div>
+</div>]]></content>
+            
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/categories/blog" term="blog" label="blog" />
+                            
+                        
+                    
+                 
+                    
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/preview" term="preview" label="preview" />
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/highlighting" term="highlighting" label="highlighting" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+</feed>

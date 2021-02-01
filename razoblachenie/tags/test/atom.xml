@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
+    <generator uri="https://gohugo.io/" version="0.74.1">Hugo</generator><title type="html"><![CDATA[test on Alien's Notes]]></title>
+    
+        <subtitle type="html"><![CDATA[Заметки вэб-прораба]]></subtitle>
+    
+    
+    
+            <link href="https://dvesti.github.io/prorab/tags/test/" rel="alternate" type="text/html" title="HTML" />
+            <link href="https://dvesti.github.io/prorab/tags/test/index.xml" rel="alternate" type="application/rss+xml" title="RSS" />
+            <link href="https://dvesti.github.io/prorab/tags/test/atom.xml" rel="self" type="application/atom+xml" title="Atom" />
+            <link href="https://dvesti.github.io/prorab/tags/test/jf2feed.json" rel="alternate" type="application/jf2feed+json" title="jf2feed" />
+    <updated>2021-02-01T17:14:06+02:00</updated>
+    
+    
+    <author>
+            <name>Dvesti</name>
+            
+                <email>dvesti@hot.ee</email>
+            </author>
+    
+        <id>https://dvesti.github.io/prorab/tags/test/</id>
+    
+        
+        <entry>
+            <title type="html"><![CDATA[Тест-1]]></title>
+            <link href="https://dvesti.github.io/prorab/test-1/?utm_source=atom_feed" rel="alternate" type="text/html" />
+            
+                <link href="https://dvesti.github.io/prorab/i-write-my-blog-posts-in-markdown/?utm_source=atom_feed" rel="related" type="text/html" title=" I write my blog posts in Markdown" />
+                <link href="https://dvesti.github.io/prorab/first-post/?utm_source=atom_feed" rel="related" type="text/html" title="First Post" />
+                <link href="https://dvesti.github.io/prorab/2014-01-01-example-content/?utm_source=atom_feed" rel="related" type="text/html" title="Example content" />
+            
+                <id>https://dvesti.github.io/prorab/test-1/</id>
+            
+            
+            <published>2020-08-14T17:04:31+03:00</published>
+            <updated>2020-08-14T17:04:31+03:00</updated>
+            
+            
+            <content type="html"><![CDATA[<blockquote>Тест для отображении картинки статьи в Скайпе</blockquote><p>Это <del>тест</del>овое сообщение <em>с этой</em> <strong>картинкой</strong>:</p>
+<p><img src="featured.jpg" alt=""></p>
+<p>которая отображается при пересылке ссылки, например, в Скайп</p>
+]]></content>
+            
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/categories/blog" term="blog" label="blog" />
+                            
+                        
+                    
+                 
+                    
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/test" term="test" label="test" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        
+        <entry>
+            <title type="html"><![CDATA[ I write my blog posts in Markdown]]></title>
+            <link href="https://dvesti.github.io/prorab/i-write-my-blog-posts-in-markdown/?utm_source=atom_feed" rel="alternate" type="text/html" />
+            
+                <link href="https://dvesti.github.io/prorab/first-post/?utm_source=atom_feed" rel="related" type="text/html" title="First Post" />
+                <link href="https://dvesti.github.io/prorab/2014-01-01-example-content/?utm_source=atom_feed" rel="related" type="text/html" title="Example content" />
+            
+                <id>https://dvesti.github.io/prorab/i-write-my-blog-posts-in-markdown/</id>
+            
+            
+            <published>2020-06-17T12:04:31+03:00</published>
+            <updated>2020-06-17T12:04:31+03:00</updated>
+            
+            
+            <content type="html"><![CDATA[<p>I write my blog posts in <strong>Markdown</strong> and I use <strong>VSCode</strong> editor for that.</p>
+<p>Я пишу свои блог-посты в <strong>Markdown</strong> и <em>использую</em> для этого редактор <strong>VS Code</strong>.</p>
+<p>И это &ndash; правильно!<br>
+И это &ndash; не только моё мнение.</p>]]></content>
+            
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/categories/blog" term="blog" label="blog" />
+                            
+                        
+                    
+                 
+                    
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/test" term="test" label="test" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        
+        <entry>
+            <title type="html"><![CDATA[First Post]]></title>
+            <link href="https://dvesti.github.io/prorab/first-post/?utm_source=atom_feed" rel="alternate" type="text/html" />
+            
+                <link href="https://dvesti.github.io/prorab/2014-01-01-example-content/?utm_source=atom_feed" rel="related" type="text/html" title="Example content" />
+            
+                <id>https://dvesti.github.io/prorab/first-post/</id>
+            
+            
+            <published>2014-03-03T18:21:33-05:00</published>
+            <updated>2014-03-03T18:21:33-05:00</updated>
+            
+            
+            <content type="html"><![CDATA[<p><strong>Update</strong>: This first post was created using <code>octopress</code>, but now I
+am using <a href="https://gohugo.io/"><code>hugo</code></a>.</p>
+<p>Testing the first post using octopress.</p>]]></content>
+            
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/categories/blog" term="blog" label="blog" />
+                            
+                        
+                    
+                 
+                    
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/test" term="test" label="test" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        
+        <entry>
+            <title type="html"><![CDATA[Example content]]></title>
+            <link href="https://dvesti.github.io/prorab/2014-01-01-example-content/?utm_source=atom_feed" rel="alternate" type="text/html" />
+            
+            
+                <id>https://dvesti.github.io/prorab/2014-01-01-example-content/</id>
+            
+            
+            <published>2014-01-01T00:00:00+00:00</published>
+            <updated>2014-01-01T00:00:00+00:00</updated>
+            
+            
+            <content type="html"><![CDATA[<!-- raw HTML omitted -->
+<p>Cum sociis natoque penatibus et magnis <!-- raw HTML omitted -->dis parturient montes<!-- raw HTML omitted -->, nascetur ridiculus mus. <em>Aenean eu leo quam.</em> Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+<blockquote>
+<p>Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+</blockquote>
+<p>Etiam porta <strong>sem malesuada magna</strong> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+<h2 id="inline-html-elements">Inline HTML elements</h2>
+<p>HTML defines a long list of available inline tags, a complete list of which can be found on the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Mozilla Developer Network</a>.</p>
+<ul>
+<li><strong>To bold text</strong>, use <code>&lt;strong&gt;</code>.</li>
+<li><em>To italicize text</em>, use <code>&lt;em&gt;</code>.</li>
+<li>Abbreviations, like <!-- raw HTML omitted -->HTML<!-- raw HTML omitted --> should use <code>&lt;abbr&gt;</code>, with an optional <code>title</code> attribute for the full phrase.</li>
+<li>Citations, like <!-- raw HTML omitted -->— Mark otto<!-- raw HTML omitted -->, should use <code>&lt;cite&gt;</code>.</li>
+<li><!-- raw HTML omitted -->Deleted<!-- raw HTML omitted --> text should use <code>&lt;del&gt;</code> and <!-- raw HTML omitted -->inserted<!-- raw HTML omitted --> text should use <code>&lt;ins&gt;</code>.</li>
+<li>Superscript <!-- raw HTML omitted -->text<!-- raw HTML omitted --> uses <code>&lt;sup&gt;</code> and subscript <!-- raw HTML omitted -->text<!-- raw HTML omitted --> uses <code>&lt;sub&gt;</code>.</li>
+</ul>
+<p>Most of these elements are styled by browsers with few modifications on our part.</p>
+<h2 id="heading">Heading</h2>
+<p>Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+<h3 id="code">Code</h3>
+<p>Cum sociis natoque penatibus et magnis dis <code>code element</code> montes, nascetur ridiculus mus.</p>
+<div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">8
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#999;font-style:italic">// Example can be run directly in your JavaScript console
+</span><span style="color:#999;font-style:italic"></span>
+<span style="color:#999;font-style:italic">// Create a function that takes two arguments and returns the sum of those arguments
+</span><span style="color:#999;font-style:italic"></span><span style="color:#6ab825;font-weight:bold">var</span> adder = <span style="color:#6ab825;font-weight:bold">new</span> <span style="color:#24909d">Function</span>(<span style="color:#ed9d13">&#34;a&#34;</span>, <span style="color:#ed9d13">&#34;b&#34;</span>, <span style="color:#ed9d13">&#34;return a + b&#34;</span>);
+
+<span style="color:#999;font-style:italic">// Call the function
+</span><span style="color:#999;font-style:italic"></span>adder(<span style="color:#3677a9">2</span>, <span style="color:#3677a9">6</span>);
+<span style="color:#999;font-style:italic">// &gt; 8
+</span></code></pre></td></tr></table>
+</div>
+</div>
+<p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
+<h3 id="lists">Lists</h3>
+<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+<ul>
+<li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
+<li>Donec id elit non mi porta gravida at eget metus.</li>
+<li>Nulla vitae elit libero, a pharetra augue.</li>
+</ul>
+<p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
+<ol>
+<li>Vestibulum id ligula porta felis euismod semper.</li>
+<li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
+<li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
+</ol>
+<p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+<h3 id="tables">Tables</h3>
+<p>Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<!-- raw HTML omitted -->
+<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+<hr>
+<p>Want to see something else added? <!-- raw HTML omitted -->Open an issue.<!-- raw HTML omitted --></p>]]></content>
+            
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/categories/blog" term="blog" label="blog" />
+                            
+                        
+                    
+                 
+                    
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/test" term="test" label="test" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+</feed>

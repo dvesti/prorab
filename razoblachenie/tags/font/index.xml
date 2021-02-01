@@ -1,0 +1,75 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>
+            
+                    font on
+                
+            
+            Alien&#39;s Notes</title>
+        <link>https://dvesti.github.io/prorab/tags/font/</link>
+        <description>Recent content  in font
+            on Alien&#39;s Notes</description>
+        <language>en-us</language>
+        
+                <managingEditor>dvesti@hot.ee (Dvesti)</managingEditor>
+                <webMaster>dvesti@hot.ee (Dvesti)</webMaster><lastBuildDate>Mon, 01 Feb 2021 17:14:06 +0200</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+            <atom:link href="https://dvesti.github.io/prorab/tags/font/index.xml" rel="self" type="application/rss&#43;xml" />
+        
+            
+            <item>
+                <title>Стили от 23-08-2020</title>
+                <link>https://dvesti.github.io/prorab/slyle-230820/</link>
+                
+                
+                <description>&lt;p&gt;Меняю стили каждый день, как я и писал ранее, в ущерб написанию заметок.&lt;br&gt;
+Сейчас всё-таки изменил размер шрифта даты, который был связан с другими стилями, поэтому пришлось выделить в отдельные строки.&lt;/p&gt;
+&lt;p&gt;Использовал стили оригинала — &lt;strong&gt;Refined&lt;/strong&gt;, а также &lt;strong&gt;Jane&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Менять пришлось и &lt;em&gt;курсив&lt;/em&gt;, так как он брался из другого шрифта получался другого размера (в частности, меньше), что было не очень красиво.&lt;/p&gt;
+&lt;p&gt;Не считаю себя специалистом по дизайну или внешнему виду и стилям, но стараюсь привести сайт-блог к такому виду, чтобы нравилось самому. Например, чуть б&lt;strong&gt;о&lt;/strong&gt;льший шрифт, чтоб не щуриться.&lt;/p&gt;
+&lt;p&gt;Между тем, структура (скелет) сайта адаптирована для мобильных устройств: очень интересно читать сайт, имитируя СмартФон, сужая окно просмотра по горизонтали.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;br&gt;
+Это какой-то &lt;strong&gt;текст для примера&lt;/strong&gt;, чтобы показать как выглядит цитата.&lt;br&gt;
+Это или Источник или высказывания Великих людей. Да, и –- вообще&amp;hellip;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Изменил внешний вид цитаты, убрал отображение тэгов и категорий на странице Архива.  По секрету: на сайте есть страница и тэгов и категорий, просто не указана в меню.  При необходимых минимальных навыках, эти странички можно отыскать самому&lt;/p&gt;</description>
+                
+                
+                     
+                        
+                             
+                            
+                                
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/categories/blog">blog</category>
+                                
+                            
+                        
+                     
+                        
+                     
+                        
+                             
+                            
+                                
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/tags/font">font</category>
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/tags/style">style</category>
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/tags/quote">quote</category>
+                                
+                            
+                        
+                    
+                
+                <guid>https://dvesti.github.io/prorab/slyle-230820/</guid>
+                <pubDate>Sun, 23 Aug 2020 17:04:31 +0300</pubDate>
+            </item>
+        
+    </channel>
+</rss>
+
+

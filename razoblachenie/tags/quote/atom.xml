@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
+    <generator uri="https://gohugo.io/" version="0.74.1">Hugo</generator><title type="html"><![CDATA[quote on Alien's Notes]]></title>
+    
+        <subtitle type="html"><![CDATA[Заметки вэб-прораба]]></subtitle>
+    
+    
+    
+            <link href="https://dvesti.github.io/prorab/tags/quote/" rel="alternate" type="text/html" title="HTML" />
+            <link href="https://dvesti.github.io/prorab/tags/quote/index.xml" rel="alternate" type="application/rss+xml" title="RSS" />
+            <link href="https://dvesti.github.io/prorab/tags/quote/atom.xml" rel="self" type="application/atom+xml" title="Atom" />
+            <link href="https://dvesti.github.io/prorab/tags/quote/jf2feed.json" rel="alternate" type="application/jf2feed+json" title="jf2feed" />
+    <updated>2021-02-01T17:14:06+02:00</updated>
+    
+    
+    <author>
+            <name>Dvesti</name>
+            
+                <email>dvesti@hot.ee</email>
+            </author>
+    
+        <id>https://dvesti.github.io/prorab/tags/quote/</id>
+    
+        
+        <entry>
+            <title type="html"><![CDATA[Стили от 23-08-2020]]></title>
+            <link href="https://dvesti.github.io/prorab/slyle-230820/?utm_source=atom_feed" rel="alternate" type="text/html" />
+            
+            
+                <id>https://dvesti.github.io/prorab/slyle-230820/</id>
+            
+            
+            <published>2020-08-23T17:04:31+03:00</published>
+            <updated>2020-08-23T17:04:31+03:00</updated>
+            
+            
+            <content type="html"><![CDATA[<p>Меняю стили каждый день, как я и писал ранее, в ущерб написанию заметок.<br>
+Сейчас всё-таки изменил размер шрифта даты, который был связан с другими стилями, поэтому пришлось выделить в отдельные строки.</p>
+<p>Использовал стили оригинала — <strong>Refined</strong>, а также <strong>Jane</strong></p>
+<p>Менять пришлось и <em>курсив</em>, так как он брался из другого шрифта получался другого размера (в частности, меньше), что было не очень красиво.</p>
+<p>Не считаю себя специалистом по дизайну или внешнему виду и стилям, но стараюсь привести сайт-блог к такому виду, чтобы нравилось самому. Например, чуть б<strong>о</strong>льший шрифт, чтоб не щуриться.</p>
+<p>Между тем, структура (скелет) сайта адаптирована для мобильных устройств: очень интересно читать сайт, имитируя СмартФон, сужая окно просмотра по горизонтали.</p>
+<blockquote>
+<p>Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.<br>
+Это какой-то <strong>текст для примера</strong>, чтобы показать как выглядит цитата.<br>
+Это или Источник или высказывания Великих людей. Да, и –- вообще&hellip;</p>
+</blockquote>
+<p>Изменил внешний вид цитаты, убрал отображение тэгов и категорий на странице Архива.  По секрету: на сайте есть страница и тэгов и категорий, просто не указана в меню.  При необходимых минимальных навыках, эти странички можно отыскать самому</p>]]></content>
+            
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/categories/blog" term="blog" label="blog" />
+                            
+                        
+                    
+                 
+                    
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/font" term="font" label="font" />
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/style" term="style" label="style" />
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/quote" term="quote" label="quote" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+</feed>
