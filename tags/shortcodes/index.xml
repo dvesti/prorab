@@ -12,7 +12,7 @@
         <language>en-us</language>
         
                 <managingEditor>dvesti@hot.ee (Dvesti)</managingEditor>
-                <webMaster>dvesti@hot.ee (Dvesti)</webMaster><lastBuildDate>Tue, 25 Aug 2020 13:42:16 +0300</lastBuildDate>
+                <webMaster>dvesti@hot.ee (Dvesti)</webMaster><lastBuildDate>Mon, 08 Mar 2021 20:55:01 +0200</lastBuildDate>
         <generator>Hugo -- gohugo.io</generator>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
             <atom:link href="https://dvesti.github.io/prorab/tags/shortcodes/index.xml" rel="self" type="application/rss&#43;xml" />
@@ -380,7 +380,7 @@ Yes !.
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://player.vimeo.com/video/146022717&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;vimeo video&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
- &lt;/div&gt;
+&lt;/div&gt;
 
 &lt;h2 id=&#34;youku&#34;&gt;youku&lt;/h2&gt;
 
@@ -407,9 +407,7 @@ Yes !.
 &lt;h2 id=&#34;3&#34;&gt;3&lt;/h2&gt;
 &lt;div&gt;
 
-  &lt;blockquote class=&#34;twitter-tweet&#34; data-dnt=&#34;true&#34;&gt;&lt;p lang=&#34;in&#34; dir=&#34;ltr&#34;&gt;LOL 😂&lt;br&gt;&lt;br&gt;TikTok Russia 🇷🇺 &lt;a href=&#34;https://t.co/973FAka0vh&#34;&gt;pic.twitter.com/973FAka0vh&lt;/a&gt;&lt;/p&gt;&amp;mdash; Enrique 🎧🐈 (@Garou_Hidalgo) &lt;a href=&#34;https://twitter.com/Garou_Hidalgo/status/1293125555534135296?ref_src=twsrc%5Etfw&#34;&gt;August 11, 2020&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-
+  
 
 &lt;/div&gt;
 &lt;h2 id=&#34;4-comment&#34;&gt;4-comment&lt;/h2&gt;
@@ -867,7 +865,7 @@ __double underscores__
 &lt;p&gt;To trigger inline preview for inline math: input “$”, then press &lt;code&gt;ESC&lt;/code&gt; key, then input TeX command, a preview tooltip will be visible like below:&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;HTML&lt;/em&gt; в &lt;em&gt;MarkDown&lt;/em&gt; &amp;ndash; не работает (есть свои хитрости)&lt;/p&gt;
 &lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;It **works!**&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;It &lt;strong&gt;works!&lt;/strong&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
 &lt;p&gt;Ниже записано средствами самого &lt;em&gt;MarkDown&lt;/em&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;![Картинка](https://typora.io/img/inline-math.gif)
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://typora.io/img/inline-math.gif&#34; alt=&#34;Картинка&#34;&gt;&lt;/p&gt;

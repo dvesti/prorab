@@ -12,7 +12,7 @@
         <language>en-us</language>
         
                 <managingEditor>dvesti@hot.ee (Dvesti)</managingEditor>
-                <webMaster>dvesti@hot.ee (Dvesti)</webMaster><lastBuildDate>Tue, 25 Aug 2020 13:42:16 +0300</lastBuildDate>
+                <webMaster>dvesti@hot.ee (Dvesti)</webMaster><lastBuildDate>Mon, 08 Mar 2021 20:55:01 +0200</lastBuildDate>
         <generator>Hugo -- gohugo.io</generator>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
             <atom:link href="https://dvesti.github.io/prorab/tags/highlighting/index.xml" rel="self" type="application/rss&#43;xml" />
@@ -183,10 +183,10 @@
 &lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;3
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;color:#cd2828;font-weight:bold&#34;&gt;&amp;lt;?php&lt;/span&gt;
+&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&amp;lt;?php
   &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;echo&lt;/span&gt; &lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#39;Hello, World!&amp;#39;&lt;/span&gt;;
-&lt;span style=&#34;color:#cd2828;font-weight:bold&#34;&gt;?&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;span style=&#34;color:#cd2828;font-weight:bold&#34;&gt;?&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#a61717;background-color:#e3d2d2&#34;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
 &lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
@@ -273,7 +273,8 @@ $
     tc := transform.&lt;span style=&#34;color:#447fcf&#34;&gt;NewTitleConverter&lt;/span&gt;(transform.APStyle)
     &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;return&lt;/span&gt; tc.Title
   }
-}&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;</description>
                 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
-    <generator uri="https://gohugo.io/" version="0.74.1">Hugo</generator><title type="html"><![CDATA[Alien's Notes]]></title>
+    <generator uri="https://gohugo.io/" version="0.81.0">Hugo</generator><title type="html"><![CDATA[Alien's Notes]]></title>
     
         <subtitle type="html"><![CDATA[Заметки вэб-прораба]]></subtitle>
     
@@ -10,7 +10,7 @@
             <link href="https://dvesti.github.io/prorab/index.xml" rel="alternate" type="application/rss+xml" title="RSS" />
             <link href="https://dvesti.github.io/prorab/atom.xml" rel="self" type="application/atom+xml" title="Atom" />
             <link href="https://dvesti.github.io/prorab/jf2feed.json" rel="alternate" type="application/jf2feed+json" title="jf2feed" />
-    <updated>2020-08-25T13:42:16+03:00</updated>
+    <updated>2021-03-08T20:55:00+02:00</updated>
     
     
     <author>
@@ -43,7 +43,7 @@
 <blockquote>
 <p>Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.<br>
 Это какой-то <strong>текст для примера</strong>, чтобы показать как выглядит цитата.<br>
-Это или Источник или высказывания Великих людей. Да, и – вообще&hellip;</p>
+Это или Источник или высказывания Великих людей. Да, и –- вообще&hellip;</p>
 </blockquote>
 <p>Изменил внешний вид цитаты, убрал отображение тэгов и категорий на странице Архива.  По секрету: на сайте есть страница и тэгов и категорий, просто не указана в меню.  При необходимых минимальных навыках, эти странички можно отыскать самому</p>]]></content>
             
@@ -193,9 +193,7 @@
             
             <content type="html"><![CDATA[<blockquote>Котик отрабатывает приёмы Кунг-Фу</blockquote><div>
 
-  <blockquote class="twitter-tweet" data-dnt="true"><p lang="in" dir="ltr">LOL 😂<br><br>TikTok Russia 🇷🇺 <a href="https://t.co/973FAka0vh">pic.twitter.com/973FAka0vh</a></p>&mdash; Enrique 🎧🐈 (@Garou_Hidalgo) <a href="https://twitter.com/Garou_Hidalgo/status/1293125555534135296?ref_src=twsrc%5Etfw">August 11, 2020</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+  
 
 </div>
 <p><strong>Если быстро не отскочишь, –<br>
@@ -910,7 +908,7 @@ Yes !.
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://player.vimeo.com/video/146022717" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="vimeo video" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
- </div>
+</div>
 
 <h2 id="youku">youku</h2>
 
@@ -937,9 +935,7 @@ Yes !.
 <h2 id="3">3</h2>
 <div>
 
-  <blockquote class="twitter-tweet" data-dnt="true"><p lang="in" dir="ltr">LOL 😂<br><br>TikTok Russia 🇷🇺 <a href="https://t.co/973FAka0vh">pic.twitter.com/973FAka0vh</a></p>&mdash; Enrique 🎧🐈 (@Garou_Hidalgo) <a href="https://twitter.com/Garou_Hidalgo/status/1293125555534135296?ref_src=twsrc%5Etfw">August 11, 2020</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+  
 
 </div>
 <h2 id="4-comment">4-comment</h2>
@@ -1408,7 +1404,7 @@ __double underscores__
 <p>To trigger inline preview for inline math: input “$”, then press <code>ESC</code> key, then input TeX command, a preview tooltip will be visible like below:</p>
 <p><em>HTML</em> в <em>MarkDown</em> &ndash; не работает (есть свои хитрости)</p>
 <p><!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted -->It **works!**<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted -->It <strong>works!</strong><!-- raw HTML omitted --></p>
 <p>Ниже записано средствами самого <em>MarkDown</em></p>
 <pre><code>![Картинка](https://typora.io/img/inline-math.gif)
 </code></pre><p><img src="https://typora.io/img/inline-math.gif" alt="Картинка"></p>
@@ -1875,10 +1871,10 @@ am using <a href="https://gohugo.io/"><code>hugo</code></a>.</p>
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">3
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#cd2828;font-weight:bold">&lt;?php</span>
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php">&lt;?php
   <span style="color:#6ab825;font-weight:bold">echo</span> <span style="color:#ed9d13">&#39;Hello, World!&#39;</span>;
-<span style="color:#cd2828;font-weight:bold">?&gt;</span>
-</code></pre></td></tr></table>
+<span style="color:#cd2828;font-weight:bold">?&gt;</span><span style="color:#a61717;background-color:#e3d2d2">
+</span></code></pre></td></tr></table>
 </div>
 </div><div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
@@ -1965,7 +1961,8 @@ $
     tc := transform.<span style="color:#447fcf">NewTitleConverter</span>(transform.APStyle)
     <span style="color:#6ab825;font-weight:bold">return</span> tc.Title
   }
-}</code></pre></td></tr></table>
+}
+</code></pre></td></tr></table>
 </div>
 </div>]]></content>
             

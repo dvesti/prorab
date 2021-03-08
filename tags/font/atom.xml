@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
-    <generator uri="https://gohugo.io/" version="0.74.1">Hugo</generator><title type="html"><![CDATA[font on Alien's Notes]]></title>
+    <generator uri="https://gohugo.io/" version="0.81.0">Hugo</generator><title type="html"><![CDATA[font on Alien's Notes]]></title>
     
         <subtitle type="html"><![CDATA[Заметки вэб-прораба]]></subtitle>
     
@@ -10,7 +10,7 @@
             <link href="https://dvesti.github.io/prorab/tags/font/index.xml" rel="alternate" type="application/rss+xml" title="RSS" />
             <link href="https://dvesti.github.io/prorab/tags/font/atom.xml" rel="self" type="application/atom+xml" title="Atom" />
             <link href="https://dvesti.github.io/prorab/tags/font/jf2feed.json" rel="alternate" type="application/jf2feed+json" title="jf2feed" />
-    <updated>2020-08-25T13:42:16+03:00</updated>
+    <updated>2021-03-08T20:55:00+02:00</updated>
     
     
     <author>
@@ -43,7 +43,7 @@
 <blockquote>
 <p>Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.<br>
 Это какой-то <strong>текст для примера</strong>, чтобы показать как выглядит цитата.<br>
-Это или Источник или высказывания Великих людей. Да, и – вообще&hellip;</p>
+Это или Источник или высказывания Великих людей. Да, и –- вообще&hellip;</p>
 </blockquote>
 <p>Изменил внешний вид цитаты, убрал отображение тэгов и категорий на странице Архива.  По секрету: на сайте есть страница и тэгов и категорий, просто не указана в меню.  При необходимых минимальных навыках, эти странички можно отыскать самому</p>]]></content>
             

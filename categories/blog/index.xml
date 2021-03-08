@@ -12,7 +12,7 @@
         <language>en-us</language>
         
                 <managingEditor>dvesti@hot.ee (Dvesti)</managingEditor>
-                <webMaster>dvesti@hot.ee (Dvesti)</webMaster><lastBuildDate>Tue, 25 Aug 2020 13:42:16 +0300</lastBuildDate>
+                <webMaster>dvesti@hot.ee (Dvesti)</webMaster><lastBuildDate>Mon, 08 Mar 2021 20:55:01 +0200</lastBuildDate>
         <generator>Hugo -- gohugo.io</generator>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
             <atom:link href="https://dvesti.github.io/prorab/categories/blog/index.xml" rel="self" type="application/rss&#43;xml" />
@@ -32,7 +32,7 @@
 &lt;blockquote&gt;
 &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;br&gt;
 Это какой-то &lt;strong&gt;текст для примера&lt;/strong&gt;, чтобы показать как выглядит цитата.&lt;br&gt;
-Это или Источник или высказывания Великих людей. Да, и – вообще&amp;hellip;&lt;/p&gt;
+Это или Источник или высказывания Великих людей. Да, и –- вообще&amp;hellip;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Изменил внешний вид цитаты, убрал отображение тэгов и категорий на странице Архива.  По секрету: на сайте есть страница и тэгов и категорий, просто не указана в меню.  При необходимых минимальных навыках, эти странички можно отыскать самому&lt;/p&gt;</description>
                 
@@ -665,7 +665,7 @@ Yes !.
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://player.vimeo.com/video/146022717&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;vimeo video&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
- &lt;/div&gt;
+&lt;/div&gt;
 
 &lt;h2 id=&#34;youku&#34;&gt;youku&lt;/h2&gt;
 
@@ -692,9 +692,7 @@ Yes !.
 &lt;h2 id=&#34;3&#34;&gt;3&lt;/h2&gt;
 &lt;div&gt;
 
-  &lt;blockquote class=&#34;twitter-tweet&#34; data-dnt=&#34;true&#34;&gt;&lt;p lang=&#34;in&#34; dir=&#34;ltr&#34;&gt;LOL 😂&lt;br&gt;&lt;br&gt;TikTok Russia 🇷🇺 &lt;a href=&#34;https://t.co/973FAka0vh&#34;&gt;pic.twitter.com/973FAka0vh&lt;/a&gt;&lt;/p&gt;&amp;mdash; Enrique 🎧🐈 (@Garou_Hidalgo) &lt;a href=&#34;https://twitter.com/Garou_Hidalgo/status/1293125555534135296?ref_src=twsrc%5Etfw&#34;&gt;August 11, 2020&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-
+  
 
 &lt;/div&gt;
 &lt;h2 id=&#34;4-comment&#34;&gt;4-comment&lt;/h2&gt;
@@ -1152,7 +1150,7 @@ __double underscores__
 &lt;p&gt;To trigger inline preview for inline math: input “$”, then press &lt;code&gt;ESC&lt;/code&gt; key, then input TeX command, a preview tooltip will be visible like below:&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;HTML&lt;/em&gt; в &lt;em&gt;MarkDown&lt;/em&gt; &amp;ndash; не работает (есть свои хитрости)&lt;/p&gt;
 &lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;It **works!**&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;It &lt;strong&gt;works!&lt;/strong&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
 &lt;p&gt;Ниже записано средствами самого &lt;em&gt;MarkDown&lt;/em&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;![Картинка](https://typora.io/img/inline-math.gif)
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://typora.io/img/inline-math.gif&#34; alt=&#34;Картинка&#34;&gt;&lt;/p&gt;
@@ -1602,10 +1600,10 @@ am using &lt;a href=&#34;https://gohugo.io/&#34;&gt;&lt;code&gt;hugo&lt;/code&gt
 &lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;3
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span style=&#34;color:#cd2828;font-weight:bold&#34;&gt;&amp;lt;?php&lt;/span&gt;
+&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&amp;lt;?php
   &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;echo&lt;/span&gt; &lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#39;Hello, World!&amp;#39;&lt;/span&gt;;
-&lt;span style=&#34;color:#cd2828;font-weight:bold&#34;&gt;?&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;span style=&#34;color:#cd2828;font-weight:bold&#34;&gt;?&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#a61717;background-color:#e3d2d2&#34;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
 &lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
@@ -1692,7 +1690,8 @@ $
     tc := transform.&lt;span style=&#34;color:#447fcf&#34;&gt;NewTitleConverter&lt;/span&gt;(transform.APStyle)
     &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;return&lt;/span&gt; tc.Title
   }
-}&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;</description>
                 

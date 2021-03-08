@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
-    <generator uri="https://gohugo.io/" version="0.74.1">Hugo</generator><title type="html"><![CDATA[shortcodes on Alien's Notes]]></title>
+    <generator uri="https://gohugo.io/" version="0.81.0">Hugo</generator><title type="html"><![CDATA[shortcodes on Alien's Notes]]></title>
     
         <subtitle type="html"><![CDATA[Заметки вэб-прораба]]></subtitle>
     
@@ -10,7 +10,7 @@
             <link href="https://dvesti.github.io/prorab/tags/shortcodes/index.xml" rel="alternate" type="application/rss+xml" title="RSS" />
             <link href="https://dvesti.github.io/prorab/tags/shortcodes/atom.xml" rel="self" type="application/atom+xml" title="Atom" />
             <link href="https://dvesti.github.io/prorab/tags/shortcodes/jf2feed.json" rel="alternate" type="application/jf2feed+json" title="jf2feed" />
-    <updated>2020-08-25T13:42:16+03:00</updated>
+    <updated>2021-03-08T20:55:01+02:00</updated>
     
     
     <author>
@@ -394,7 +394,7 @@ Yes !.
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://player.vimeo.com/video/146022717" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="vimeo video" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
- </div>
+</div>
 
 <h2 id="youku">youku</h2>
 
@@ -421,9 +421,7 @@ Yes !.
 <h2 id="3">3</h2>
 <div>
 
-  <blockquote class="twitter-tweet" data-dnt="true"><p lang="in" dir="ltr">LOL 😂<br><br>TikTok Russia 🇷🇺 <a href="https://t.co/973FAka0vh">pic.twitter.com/973FAka0vh</a></p>&mdash; Enrique 🎧🐈 (@Garou_Hidalgo) <a href="https://twitter.com/Garou_Hidalgo/status/1293125555534135296?ref_src=twsrc%5Etfw">August 11, 2020</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+  
 
 </div>
 <h2 id="4-comment">4-comment</h2>
@@ -892,7 +890,7 @@ __double underscores__
 <p>To trigger inline preview for inline math: input “$”, then press <code>ESC</code> key, then input TeX command, a preview tooltip will be visible like below:</p>
 <p><em>HTML</em> в <em>MarkDown</em> &ndash; не работает (есть свои хитрости)</p>
 <p><!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted -->It **works!**<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted -->It <strong>works!</strong><!-- raw HTML omitted --></p>
 <p>Ниже записано средствами самого <em>MarkDown</em></p>
 <pre><code>![Картинка](https://typora.io/img/inline-math.gif)
 </code></pre><p><img src="https://typora.io/img/inline-math.gif" alt="Картинка"></p>

@@ -12,7 +12,7 @@
         <language>en-us</language>
         
                 <managingEditor>dvesti@hot.ee (Dvesti)</managingEditor>
-                <webMaster>dvesti@hot.ee (Dvesti)</webMaster><lastBuildDate>Tue, 25 Aug 2020 13:42:16 +0300</lastBuildDate>
+                <webMaster>dvesti@hot.ee (Dvesti)</webMaster><lastBuildDate>Mon, 08 Mar 2021 20:55:01 +0200</lastBuildDate>
         <generator>Hugo -- gohugo.io</generator>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
             <atom:link href="https://dvesti.github.io/prorab/tags/font/index.xml" rel="self" type="application/rss&#43;xml" />
@@ -32,7 +32,7 @@
 &lt;blockquote&gt;
 &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;br&gt;
 Это какой-то &lt;strong&gt;текст для примера&lt;/strong&gt;, чтобы показать как выглядит цитата.&lt;br&gt;
-Это или Источник или высказывания Великих людей. Да, и – вообще&amp;hellip;&lt;/p&gt;
+Это или Источник или высказывания Великих людей. Да, и –- вообще&amp;hellip;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Изменил внешний вид цитаты, убрал отображение тэгов и категорий на странице Архива.  По секрету: на сайте есть страница и тэгов и категорий, просто не указана в меню.  При необходимых минимальных навыках, эти странички можно отыскать самому&lt;/p&gt;</description>
                 
