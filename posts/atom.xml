@@ -10,7 +10,7 @@
             <link href="https://dvesti.github.io/prorab/posts/index.xml" rel="alternate" type="application/rss+xml" title="RSS" />
             <link href="https://dvesti.github.io/prorab/posts/atom.xml" rel="self" type="application/atom+xml" title="Atom" />
             <link href="https://dvesti.github.io/prorab/posts/jf2feed.json" rel="alternate" type="application/jf2feed+json" title="jf2feed" />
-    <updated>2021-03-08T22:23:03+02:00</updated>
+    <updated>2021-03-09T00:15:43+02:00</updated>
     
     
     <author>
@@ -20,6 +20,49 @@
             </author>
     
         <id>https://dvesti.github.io/prorab/posts/</id>
+    
+        
+        <entry>
+            <title type="html"><![CDATA[Корыто и копыта]]></title>
+            <link href="https://dvesti.github.io/prorab/kopyta/?utm_source=atom_feed" rel="alternate" type="text/html" />
+            
+            
+                <id>https://dvesti.github.io/prorab/kopyta/</id>
+            
+            
+            <published>2021-03-09T00:02:45+02:00</published>
+            <updated>2021-03-09T00:02:45+02:00</updated>
+            
+            
+            <content type="html"><![CDATA[<p>Не лишили бы <em>корыта</em>,
+Не отбросил бы копыта&hellip;</p>
+]]></content>
+            
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/categories/poetry" term="poetry" label="Poetry" />
+                            
+                        
+                    
+                 
+                    
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/life" term="life" label="life" />
+                            
+                        
+                    
+                
+            
+        </entry>
     
         
         <entry>
