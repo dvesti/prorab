@@ -10,7 +10,7 @@
             <link href="https://dvesti.github.io/prorab/categories/poetry/index.xml" rel="alternate" type="application/rss+xml" title="RSS" />
             <link href="https://dvesti.github.io/prorab/categories/poetry/atom.xml" rel="self" type="application/atom+xml" title="Atom" />
             <link href="https://dvesti.github.io/prorab/categories/poetry/jf2feed.json" rel="alternate" type="application/jf2feed+json" title="jf2feed" />
-    <updated>2021-03-25T10:03:03+02:00</updated>
+    <updated>2021-03-25T14:16:14+02:00</updated>
     
     
     <author>
@@ -20,6 +20,63 @@
             </author>
     
         <id>https://dvesti.github.io/prorab/categories/poetry/</id>
+    
+        
+        <entry>
+            <title type="html"><![CDATA[Сиди дома — не гуляй]]></title>
+            <link href="https://dvesti.github.io/prorab/zaichik/?utm_source=atom_feed" rel="alternate" type="text/html" />
+            
+                <link href="https://dvesti.github.io/prorab/veselo/?utm_source=atom_feed" rel="related" type="text/html" title="Веселье и похмелье" />
+            
+                <id>https://dvesti.github.io/prorab/zaichik/</id>
+            
+            
+            <published>2021-03-25T14:01:40+02:00</published>
+            <updated>2021-03-25T14:01:40+02:00</updated>
+            
+            
+            <content type="html"><![CDATA[<blockquote>Считалочка про Зайчика</blockquote><p><strong>Ноль - один - два - три - четыре:<br>
+Зайца нету и в помине.<br>
+Раз - два - три - четыре … шесть<br>
+Стал терять зайчонок шерсть.<br>
+Раз - два - три - четыре … семь:<br>
+Зайчик облысел совсем.<br>
+Раз - два - три - четыре … восемь:<br>
+Зайчик даже шкурку сбросил.<br>
+Раз - два - три - четыре … девять:<br>
+Oн не знает, что и делать.<br>
+…<br>
+Если спросишь:<br>
+&ndash; Где же - пять?<br>
+&ndash; Нету!<br>
+&ndash; Ну, и — наплевать!</strong></p>
+]]></content>
+            
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/categories/poetry" term="poetry" label="poetry" />
+                            
+                        
+                    
+                 
+                    
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/covid-19" term="covid-19" label="covid-19" />
+                            
+                        
+                    
+                
+            
+        </entry>
     
         
         <entry>
