@@ -12,7 +12,7 @@
         <language>en-us</language>
         
                 <managingEditor>dvesti@hot.ee (Dvesti)</managingEditor>
-                <webMaster>dvesti@hot.ee (Dvesti)</webMaster><lastBuildDate>Tue, 09 Mar 2021 18:15:21 +0200</lastBuildDate>
+                <webMaster>dvesti@hot.ee (Dvesti)</webMaster><lastBuildDate>Thu, 25 Mar 2021 10:03:03 +0200</lastBuildDate>
         <generator>Hugo -- gohugo.io</generator>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
             <atom:link href="https://dvesti.github.io/prorab/tags/test/index.xml" rel="self" type="application/rss&#43;xml" />
@@ -25,8 +25,19 @@
                 
                 <description>&lt;blockquote&gt;Тест для отображении картинки статьи в Скайпе&lt;/blockquote&gt;&lt;p&gt;Это &lt;del&gt;тест&lt;/del&gt;овое сообщение &lt;em&gt;с этой&lt;/em&gt; &lt;strong&gt;картинкой&lt;/strong&gt;:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;featured.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;которая отображается при пересылке ссылки, например, в Скайп&lt;/p&gt;
-</description>
+&lt;p&gt;которая отображается при пересылке ссылки, например, в Скайп  \&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://backscattering.de/web-boardimage/board.svg?fen=5r1k/1b4pp/3pB1N1/p2Pq2Q/PpP5/6PK/8/8&amp;amp;lastMove=f4g6&amp;amp;check=h8&amp;amp;arrows=Ge6g8,Bh7&amp;amp;squares=a3&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-plantuml&#34; data-lang=&#34;plantuml&#34;&gt;class Foo {
+**Bar(Model)**
+|_ prop
+|_ **Bom(Model)**
+  |_ prop2
+  |_ prop3
+    |_ prop3.1
+|_ prop4
+--
+}
+&lt;/code&gt;&lt;/pre&gt;</description>
                 
                 
                      

@@ -3,21 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://dvesti.github.io/prorab/</loc>
-    <lastmod>2021-03-09T00:02:45+02:00</lastmod>
+    <lastmod>2021-03-10T15:08:07+02:00</lastmod>
   </url><url>
     <loc>https://dvesti.github.io/prorab/categories/</loc>
-    <lastmod>2021-03-09T00:02:45+02:00</lastmod>
+    <lastmod>2021-03-10T15:08:07+02:00</lastmod>
   </url><url>
-    <loc>https://dvesti.github.io/prorab/tags/life/</loc>
-    <lastmod>2021-03-09T00:02:45+02:00</lastmod>
+    <loc>https://dvesti.github.io/prorab/tags/covid-19/</loc>
+    <lastmod>2021-03-10T15:08:07+02:00</lastmod>
   </url><url>
     <loc>https://dvesti.github.io/prorab/categories/poetry/</loc>
-    <lastmod>2021-03-09T00:02:45+02:00</lastmod>
+    <lastmod>2021-03-10T15:08:07+02:00</lastmod>
   </url><url>
     <loc>https://dvesti.github.io/prorab/posts/</loc>
-    <lastmod>2021-03-09T00:02:45+02:00</lastmod>
+    <lastmod>2021-03-10T15:08:07+02:00</lastmod>
   </url><url>
     <loc>https://dvesti.github.io/prorab/tags/</loc>
+    <lastmod>2021-03-10T15:08:07+02:00</lastmod>
+  </url><url>
+    <loc>https://dvesti.github.io/prorab/veselo/</loc>
+    <lastmod>2021-03-10T15:08:07+02:00</lastmod>
+  </url><url>
+    <loc>https://dvesti.github.io/prorab/tags/humor/</loc>
     <lastmod>2021-03-09T00:02:45+02:00</lastmod>
   </url><url>
     <loc>https://dvesti.github.io/prorab/kopyta/</loc>
@@ -121,7 +127,13 @@
   </url><url>
     <loc>https://dvesti.github.io/prorab/series/</loc>
   </url><url>
+    <loc>https://dvesti.github.io/prorab/categories/</loc>
+    <priority>0.1</priority>
+  </url><url>
     <loc>https://dvesti.github.io/prorab/search/</loc>
+    <priority>0.1</priority>
+  </url><url>
+    <loc>https://dvesti.github.io/prorab/tags/</loc>
     <priority>0.1</priority>
   </url>
 </urlset>

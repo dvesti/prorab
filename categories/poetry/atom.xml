@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
-    <generator uri="https://gohugo.io/" version="0.81.0">Hugo</generator><title type="html"><![CDATA[poetry on Alien's Notes]]></title>
+    <generator uri="https://gohugo.io/" version="0.82.0">Hugo</generator><title type="html"><![CDATA[poetry on Alien's Notes]]></title>
     
         <subtitle type="html"><![CDATA[Заметки вэб-прораба]]></subtitle>
     
@@ -10,7 +10,7 @@
             <link href="https://dvesti.github.io/prorab/categories/poetry/index.xml" rel="alternate" type="application/rss+xml" title="RSS" />
             <link href="https://dvesti.github.io/prorab/categories/poetry/atom.xml" rel="self" type="application/atom+xml" title="Atom" />
             <link href="https://dvesti.github.io/prorab/categories/poetry/jf2feed.json" rel="alternate" type="application/jf2feed+json" title="jf2feed" />
-    <updated>2021-03-09T18:15:21+02:00</updated>
+    <updated>2021-03-25T10:03:03+02:00</updated>
     
     
     <author>
@@ -23,21 +23,21 @@
     
         
         <entry>
-            <title type="html"><![CDATA[Корыто и копыта]]></title>
-            <link href="https://dvesti.github.io/prorab/kopyta/?utm_source=atom_feed" rel="alternate" type="text/html" />
+            <title type="html"><![CDATA[Веселье и похмелье]]></title>
+            <link href="https://dvesti.github.io/prorab/veselo/?utm_source=atom_feed" rel="alternate" type="text/html" />
             
             
-                <id>https://dvesti.github.io/prorab/kopyta/</id>
+                <id>https://dvesti.github.io/prorab/veselo/</id>
             
             
-            <published>2021-03-09T00:02:45+02:00</published>
-            <updated>2021-03-09T00:02:45+02:00</updated>
+            <published>2021-03-10T15:08:07+02:00</published>
+            <updated>2021-03-10T15:08:07+02:00</updated>
             
             
-            <content type="html"><![CDATA[<blockquote>Про корыто и копыта</blockquote><p><img src="featured.jpg" alt="А поесть?"></p>
-<p><strong>Не лишили бы <em>корыта</em>,<br>
-Не отбросил бы копыта&hellip;</strong></p>
-]]></content>
+            <content type="html"><![CDATA[<p><strong>Для друзей открыта дверь:<br>
+Каждый день - веселье!</strong></p>
+<p><strong>… За стеною воет зверь,<br>
+А у нас - похмелье…</strong></p>]]></content>
             
                  
                     
@@ -57,7 +57,50 @@
                         
                             
                              
-                                <category scheme="https://dvesti.github.io/prorab/tags/life" term="life" label="life" />
+                                <category scheme="https://dvesti.github.io/prorab/tags/covid-19" term="covid-19" label="covid-19" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        
+        <entry>
+            <title type="html"><![CDATA[Корыто и копыта]]></title>
+            <link href="https://dvesti.github.io/prorab/kopyta/?utm_source=atom_feed" rel="alternate" type="text/html" />
+            
+            
+                <id>https://dvesti.github.io/prorab/kopyta/</id>
+            
+            
+            <published>2021-03-09T00:02:45+02:00</published>
+            <updated>2021-03-09T00:02:45+02:00</updated>
+            
+            
+            <content type="html"><![CDATA[<blockquote>Не лишили бы корыта</blockquote><p><img src="featured.jpg" alt=""></p>
+<p><strong>Не лишили бы <em>корыта</em>,<br>
+Не отбросил бы копыта&hellip;</strong></p>]]></content>
+            
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/categories/poetry" term="poetry" label="poetry" />
+                            
+                        
+                    
+                 
+                    
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/humor" term="humor" label="humor" />
                             
                         
                     

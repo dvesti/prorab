@@ -12,21 +12,21 @@
         <language>en-us</language>
         
                 <managingEditor>dvesti@hot.ee (Dvesti)</managingEditor>
-                <webMaster>dvesti@hot.ee (Dvesti)</webMaster><lastBuildDate>Tue, 09 Mar 2021 18:15:21 +0200</lastBuildDate>
+                <webMaster>dvesti@hot.ee (Dvesti)</webMaster><lastBuildDate>Thu, 25 Mar 2021 10:03:03 +0200</lastBuildDate>
         <generator>Hugo -- gohugo.io</generator>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
             <atom:link href="https://dvesti.github.io/prorab/categories/poetry/index.xml" rel="self" type="application/rss&#43;xml" />
         
             
             <item>
-                <title>Корыто и копыта</title>
-                <link>https://dvesti.github.io/prorab/kopyta/</link>
+                <title>Веселье и похмелье</title>
+                <link>https://dvesti.github.io/prorab/veselo/</link>
                 
                 
-                <description>&lt;blockquote&gt;Про корыто и копыта&lt;/blockquote&gt;&lt;p&gt;&lt;img src=&#34;featured.jpg&#34; alt=&#34;А поесть?&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Не лишили бы &lt;em&gt;корыта&lt;/em&gt;,&lt;br&gt;
-Не отбросил бы копыта&amp;hellip;&lt;/strong&gt;&lt;/p&gt;
-</description>
+                <description>&lt;p&gt;&lt;strong&gt;Для друзей открыта дверь:&lt;br&gt;
+Каждый день - веселье!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;… За стеною воет зверь,&lt;br&gt;
+А у нас - похмелье…&lt;/strong&gt;&lt;/p&gt;</description>
                 
                 
                      
@@ -47,7 +47,46 @@
                             
                                 
                                  
-                                    <category domain="https://dvesti.github.io/prorab/tags/life">life</category>
+                                    <category domain="https://dvesti.github.io/prorab/tags/covid-19">covid-19</category>
+                                
+                            
+                        
+                    
+                
+                <guid>https://dvesti.github.io/prorab/veselo/</guid>
+                <pubDate>Wed, 10 Mar 2021 15:08:07 +0200</pubDate>
+            </item>
+        
+            
+            <item>
+                <title>Корыто и копыта</title>
+                <link>https://dvesti.github.io/prorab/kopyta/</link>
+                
+                
+                <description>&lt;blockquote&gt;Не лишили бы корыта&lt;/blockquote&gt;&lt;p&gt;&lt;img src=&#34;featured.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Не лишили бы &lt;em&gt;корыта&lt;/em&gt;,&lt;br&gt;
+Не отбросил бы копыта&amp;hellip;&lt;/strong&gt;&lt;/p&gt;</description>
+                
+                
+                     
+                        
+                             
+                            
+                                
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/categories/poetry">poetry</category>
+                                
+                            
+                        
+                     
+                        
+                     
+                        
+                             
+                            
+                                
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/tags/humor">humor</category>
                                 
                             
                         
