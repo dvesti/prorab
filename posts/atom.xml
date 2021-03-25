@@ -10,7 +10,7 @@
             <link href="https://dvesti.github.io/prorab/posts/index.xml" rel="alternate" type="application/rss+xml" title="RSS" />
             <link href="https://dvesti.github.io/prorab/posts/atom.xml" rel="self" type="application/atom+xml" title="Atom" />
             <link href="https://dvesti.github.io/prorab/posts/jf2feed.json" rel="alternate" type="application/jf2feed+json" title="jf2feed" />
-    <updated>2021-03-25T15:19:39+02:00</updated>
+    <updated>2021-03-25T15:57:08+02:00</updated>
     
     
     <author>
@@ -288,20 +288,10 @@ Oн не знает, что и делать.<br>
             
             
             <content type="html"><![CDATA[<blockquote>Тест для отображении картинки статьи в Скайпе</blockquote><p>Это <del>тест</del>овое сообщение <em>с этой</em> <strong>картинкой</strong>:</p>
-<p><img src="featured.jpg" alt=""></p>
+<p><img src="featured.jpg" alt="Картинка"></p>
 <p>которая отображается при пересылке ссылки, например, в Скайп  \</p>
 <p><img src="https://backscattering.de/web-boardimage/board.svg?fen=5r1k/1b4pp/3pB1N1/p2Pq2Q/PpP5/6PK/8/8&amp;lastMove=f4g6&amp;check=h8&amp;arrows=Ge6g8,Bh7&amp;squares=a3" alt=""></p>
-<pre><code class="language-plantuml" data-lang="plantuml">class Foo {
-**Bar(Model)**
-|_ prop
-|_ **Bom(Model)**
-  |_ prop2
-  |_ prop3
-    |_ prop3.1
-|_ prop4
---
-}
-</code></pre>]]></content>
+]]></content>
             
                  
                     
