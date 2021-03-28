@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
+    <generator uri="https://gohugo.io/" version="0.82.0">Hugo</generator><title type="html"><![CDATA[blog on Alien's Notes]]></title>
+    
+        <subtitle type="html"><![CDATA[Заметки вэб-прораба]]></subtitle>
+    
+    
+    
+            <link href="https://dvesti.github.io/prorab/tags/blog/" rel="alternate" type="text/html" title="HTML" />
+            <link href="https://dvesti.github.io/prorab/tags/blog/index.xml" rel="alternate" type="application/rss+xml" title="RSS" />
+            <link href="https://dvesti.github.io/prorab/tags/blog/atom.xml" rel="self" type="application/atom+xml" title="Atom" />
+            <link href="https://dvesti.github.io/prorab/tags/blog/jf2feed.json" rel="alternate" type="application/jf2feed+json" title="jf2feed" />
+    <updated>2021-03-29T00:48:55+03:00</updated>
+    
+    
+    <author>
+            <name>Dvesti</name>
+            
+                <email>dvesti@hot.ee</email>
+            </author>
+    
+        <id>https://dvesti.github.io/prorab/tags/blog/</id>
+    
+        
+        <entry>
+            <title type="html"><![CDATA[My Article Name – Тест]]></title>
+            <link href="https://dvesti.github.io/prorab/my-article-name/?utm_source=atom_feed" rel="alternate" type="text/html" />
+            
+            
+                <id>https://dvesti.github.io/prorab/my-article-name/</id>
+            
+            
+            <published>2020-05-19T16:31:46+03:00</published>
+            <updated>2020-05-19T16:31:46+03:00</updated>
+            
+            
+            <content type="html"><![CDATA[<blockquote>Шахматная диаграмма</blockquote><p>[TOC]</p>
+<p>Проверка Шахматных Диаграмм</p>
+<p><img src="https://www.dmitriev.ee/punbb/extensions/chess_diagram/gendiag-jane.php?coord&amp;size=29&amp;style=merida&amp;fen=r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1+w+-+-+0+15" alt="Диаграмма">
+<strong>FEN</strong>: <code>r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1</code></p>
+<p>Картинка
+<img src="https://www.dmitriev.ee/punbb/extensions/chess_diagram/gendiag-fritz.php?size=29&amp;coord&amp;style=alfa&amp;fen=r6b/p1pq1p1k/1p2p1rp/4PpBQ/3P1P2/2PR2R1/P5PP/6K1" alt="Диаграмма2">
+<strong>FEN:</strong> <code>r6b/p1pq1p1k/1p2p1rp/4PpBQ/3P1P2/2PR2R1/P5PP/6K1</code></p>
+<p><img src="http://www.euruchess.org/diagol/29/diagol.php?position=r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1%20w%20-%20-%200%2015" alt="Диаграмма3">
+<strong>FEN</strong>: <code>r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1</code>
+<img src="https://www.dmitriev.ee/punbb/extensions/cd52/gendiag.php?size=29&amp;coord&amp;style=alfa&amp;fen=r6b/p1pq1p1k/1p2p1rp/4PpBQ/3P1P2/2PR2R1/P5PP/6K1" alt="Диаграмма3"></p>
+<!-- raw HTML omitted -->
+<h2 id="an-example-flowchart-линия-lr">An example <strong>flowchart</strong> линия LR:</h2>
+<pre><code>{{&lt; mermaid &gt;}}
+    graph LR
+    A[Толик] --&gt;|Плюс| B(Вовик)
+    B --&gt; C{Родные Братья}
+    C --&gt;|Один| D[Стрёмберг]
+    C --&gt;|Другой| E[Дмитриев]
+{{&lt; /mermaid &gt;}}
+</code></pre><p>renders as</p>
+<div class="mermaid" id="id-1"></div>
+<h3 id="диаграмма">Диаграмма</h3>
+<a href="#some-interesting-title-">
+  <h2 id="some-interesting-title-">Some Interesting Title - диаграмма</h2>
+</a>  
+
+<p>Academic supports a Markdown extension for diagrams. You can enable this feature by toggling the <code>diagram</code> option in your <code>config/_default/params.toml</code> file or by adding <code>diagram: true</code> to your page front matter.</p>
+<h2 id="an-example-flowchart----в-столбец-td">An example <strong>flowchart</strong> &ndash; в столбец TD:</h2>
+<pre><code>{{&lt; mermaid &gt;}}
+    graph TD
+    A[Hard] --&gt;|Text| B(Round)
+    B --&gt; C{Decision}
+    C --&gt;|One| D[Result 1]
+    C --&gt;|Two| E[Result 2]
+{{&lt; /mermaid &gt;}}
+</code></pre><p>renders as</p>
+<div class="mermaid" id="id-2"></div>
+<h2 id="an-example-sequence-diagram">An example <strong>sequence diagram</strong>:</h2>
+<pre><code>sequenceDiagram
+    Alice-&gt;&gt;John: Hello John, how are you?
+    loop Healthcheck
+    John-&gt;&gt;John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts!
+    John--&gt;&gt;Alice: Great!
+    John-&gt;&gt;Bob: How about you?
+    Bob--&gt;&gt;John: Jolly good!
+</code></pre><p>renders as</p>
+<div class="mermaid" id="id-3"></div>
+<pre><code class="language-mermaid" data-lang="mermaid">{{&lt; mermaid &gt;}}
+    pie title NETFLIX
+    &quot;Time spent looking for movie&quot; : 90
+    &quot;Time spent watching it&quot; : 10
+{{&lt; /mermaid &gt;}}
+</code></pre><div class="mermaid" id="id-4"></div>
+<h2 id="base">base</h2>
+<pre><code>{{&lt; mermaid &gt;}}
+graph LR;
+    A[Hard edge] --&gt;|Link text| B(Round edge)
+    B --&gt; C{Decision}
+    C --&gt;|One| D[Result one]
+    C --&gt;|Two| E[Result two]
+{{&lt; /mermaid &gt;}}
+</code></pre><div class="mermaid" id="id-5"></div>]]></content>
+            
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/categories/demo" term="demo" label="Demo" />
+                            
+                        
+                    
+                 
+                    
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/blog" term="blog" label="blog" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+</feed>

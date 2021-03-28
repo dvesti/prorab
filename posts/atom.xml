@@ -10,7 +10,7 @@
             <link href="https://dvesti.github.io/prorab/posts/index.xml" rel="alternate" type="application/rss+xml" title="RSS" />
             <link href="https://dvesti.github.io/prorab/posts/atom.xml" rel="self" type="application/atom+xml" title="Atom" />
             <link href="https://dvesti.github.io/prorab/posts/jf2feed.json" rel="alternate" type="application/jf2feed+json" title="jf2feed" />
-    <updated>2021-03-25T21:19:17+02:00</updated>
+    <updated>2021-03-29T00:48:55+03:00</updated>
     
     
     <author>
@@ -276,6 +276,7 @@ Oн не знает, что и делать.<br>
             <title type="html"><![CDATA[Тест-1]]></title>
             <link href="https://dvesti.github.io/prorab/test-1/?utm_source=atom_feed" rel="alternate" type="text/html" />
             
+                <link href="https://dvesti.github.io/prorab/2020-05-13-a/?utm_source=atom_feed" rel="related" type="text/html" title="Тема Chess A" />
                 <link href="https://dvesti.github.io/prorab/i-write-my-blog-posts-in-markdown/?utm_source=atom_feed" rel="related" type="text/html" title=" I write my blog posts in Markdown" />
                 <link href="https://dvesti.github.io/prorab/first-post/?utm_source=atom_feed" rel="related" type="text/html" title="First Post" />
                 <link href="https://dvesti.github.io/prorab/2014-01-01-example-content/?utm_source=atom_feed" rel="related" type="text/html" title="Example content" />
@@ -312,6 +313,8 @@ Oн не знает, что и делать.<br>
                             
                              
                                 <category scheme="https://dvesti.github.io/prorab/tags/test" term="test" label="test" />
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/chess" term="chess" label="chess" />
                             
                         
                     
@@ -537,6 +540,7 @@ Oн не знает, что и делать.<br>
             <title type="html"><![CDATA[ I write my blog posts in Markdown]]></title>
             <link href="https://dvesti.github.io/prorab/i-write-my-blog-posts-in-markdown/?utm_source=atom_feed" rel="alternate" type="text/html" />
             
+                <link href="https://dvesti.github.io/prorab/2020-05-13-a/?utm_source=atom_feed" rel="related" type="text/html" title="Тема Chess A" />
                 <link href="https://dvesti.github.io/prorab/first-post/?utm_source=atom_feed" rel="related" type="text/html" title="First Post" />
                 <link href="https://dvesti.github.io/prorab/2014-01-01-example-content/?utm_source=atom_feed" rel="related" type="text/html" title="Example content" />
             
@@ -571,6 +575,217 @@ Oн не знает, что и делать.<br>
                             
                              
                                 <category scheme="https://dvesti.github.io/prorab/tags/test" term="test" label="test" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        
+        <entry>
+            <title type="html"><![CDATA[My Article Name – Тест]]></title>
+            <link href="https://dvesti.github.io/prorab/my-article-name/?utm_source=atom_feed" rel="alternate" type="text/html" />
+            
+            
+                <id>https://dvesti.github.io/prorab/my-article-name/</id>
+            
+            
+            <published>2020-05-19T16:31:46+03:00</published>
+            <updated>2020-05-19T16:31:46+03:00</updated>
+            
+            
+            <content type="html"><![CDATA[<blockquote>Шахматная диаграмма</blockquote><p>[TOC]</p>
+<p>Проверка Шахматных Диаграмм</p>
+<p><img src="https://www.dmitriev.ee/punbb/extensions/chess_diagram/gendiag-jane.php?coord&amp;size=29&amp;style=merida&amp;fen=r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1+w+-+-+0+15" alt="Диаграмма">
+<strong>FEN</strong>: <code>r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1</code></p>
+<p>Картинка
+<img src="https://www.dmitriev.ee/punbb/extensions/chess_diagram/gendiag-fritz.php?size=29&amp;coord&amp;style=alfa&amp;fen=r6b/p1pq1p1k/1p2p1rp/4PpBQ/3P1P2/2PR2R1/P5PP/6K1" alt="Диаграмма2">
+<strong>FEN:</strong> <code>r6b/p1pq1p1k/1p2p1rp/4PpBQ/3P1P2/2PR2R1/P5PP/6K1</code></p>
+<p><img src="http://www.euruchess.org/diagol/29/diagol.php?position=r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1%20w%20-%20-%200%2015" alt="Диаграмма3">
+<strong>FEN</strong>: <code>r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1</code>
+<img src="https://www.dmitriev.ee/punbb/extensions/cd52/gendiag.php?size=29&amp;coord&amp;style=alfa&amp;fen=r6b/p1pq1p1k/1p2p1rp/4PpBQ/3P1P2/2PR2R1/P5PP/6K1" alt="Диаграмма3"></p>
+<!-- raw HTML omitted -->
+<h2 id="an-example-flowchart-линия-lr">An example <strong>flowchart</strong> линия LR:</h2>
+<pre><code>{{&lt; mermaid &gt;}}
+    graph LR
+    A[Толик] --&gt;|Плюс| B(Вовик)
+    B --&gt; C{Родные Братья}
+    C --&gt;|Один| D[Стрёмберг]
+    C --&gt;|Другой| E[Дмитриев]
+{{&lt; /mermaid &gt;}}
+</code></pre><p>renders as</p>
+<div class="mermaid" id="id-1"></div>
+<h3 id="диаграмма">Диаграмма</h3>
+<a href="#some-interesting-title-">
+  <h2 id="some-interesting-title-">Some Interesting Title - диаграмма</h2>
+</a>  
+
+<p>Academic supports a Markdown extension for diagrams. You can enable this feature by toggling the <code>diagram</code> option in your <code>config/_default/params.toml</code> file or by adding <code>diagram: true</code> to your page front matter.</p>
+<h2 id="an-example-flowchart----в-столбец-td">An example <strong>flowchart</strong> &ndash; в столбец TD:</h2>
+<pre><code>{{&lt; mermaid &gt;}}
+    graph TD
+    A[Hard] --&gt;|Text| B(Round)
+    B --&gt; C{Decision}
+    C --&gt;|One| D[Result 1]
+    C --&gt;|Two| E[Result 2]
+{{&lt; /mermaid &gt;}}
+</code></pre><p>renders as</p>
+<div class="mermaid" id="id-2"></div>
+<h2 id="an-example-sequence-diagram">An example <strong>sequence diagram</strong>:</h2>
+<pre><code>sequenceDiagram
+    Alice-&gt;&gt;John: Hello John, how are you?
+    loop Healthcheck
+    John-&gt;&gt;John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts!
+    John--&gt;&gt;Alice: Great!
+    John-&gt;&gt;Bob: How about you?
+    Bob--&gt;&gt;John: Jolly good!
+</code></pre><p>renders as</p>
+<div class="mermaid" id="id-3"></div>
+<pre><code class="language-mermaid" data-lang="mermaid">{{&lt; mermaid &gt;}}
+    pie title NETFLIX
+    &quot;Time spent looking for movie&quot; : 90
+    &quot;Time spent watching it&quot; : 10
+{{&lt; /mermaid &gt;}}
+</code></pre><div class="mermaid" id="id-4"></div>
+<h2 id="base">base</h2>
+<pre><code>{{&lt; mermaid &gt;}}
+graph LR;
+    A[Hard edge] --&gt;|Link text| B(Round edge)
+    B --&gt; C{Decision}
+    C --&gt;|One| D[Result one]
+    C --&gt;|Two| E[Result two]
+{{&lt; /mermaid &gt;}}
+</code></pre><div class="mermaid" id="id-5"></div>]]></content>
+            
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/categories/demo" term="demo" label="Demo" />
+                            
+                        
+                    
+                 
+                    
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/blog" term="blog" label="blog" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        
+        <entry>
+            <title type="html"><![CDATA[Тема Chess A]]></title>
+            <link href="https://dvesti.github.io/prorab/2020-05-13-a/?utm_source=atom_feed" rel="alternate" type="text/html" />
+            
+                <link href="https://dvesti.github.io/prorab/first-post/?utm_source=atom_feed" rel="related" type="text/html" title="First Post" />
+                <link href="https://dvesti.github.io/prorab/2014-01-01-example-content/?utm_source=atom_feed" rel="related" type="text/html" title="Example content" />
+            
+                <id>https://dvesti.github.io/prorab/2020-05-13-a/</id>
+            
+            
+            <published>2020-05-13T02:04:31+03:00</published>
+            <updated>2020-08-10T02:04:31+03:00</updated>
+            
+            
+            <content type="html"><![CDATA[<p><del>Это &ndash; <strong>тест</strong></del></p>
+<p>Изменил начертание и размер шрифта, потом изменю остальное: главное, чтобы самому нравилось.</p>
+<p>Добавил в Конфиг данные, чтобы было похоже на оригинал и Плюс подсмотрел у других сайтов, которые ориентированы не на отображение кода, а на обычный Блог.</p>
+<p>Именно такой нам и нужен.</p>
+<p>В планах &ndash; создать некую записную книжку для ежедневных записей&hellip;</p>
+<p><img src="https://www.dmitriev.ee/punbb/extensions/chess_diagram/gendiag.php?size=24&amp;coord&amp;fen=r6b/p1pq1p1k/1p2p1rp/4PpBQ/3P1P2/2PR2R1/P5PP/6K1" alt="Диаграмма"> <img src="http://www.euruchess.org/24/blue/diagol.php?position=r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1+w+-+-+0+15" alt="Диаграмма2"> <img src="https://www.dmitriev.ee/punbb/extensions/chess_diagram/gendiag-blue.php?coord&amp;size=24&amp;style=merida&amp;fen=2k1B3/ppB5/3P3p/7P/3K4/2Pn2r1/1P6/8%20w%20-%20-%200%201" alt="Диаграмма3"></p>
+<p>Стиль &ndash; <strong>Jane</strong></p>
+<p><img src="https://www.dmitriev.ee/punbb/extensions/chess_diagram/gendiag-jane.php?coord&amp;size=29&amp;style=merida&amp;fen=r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1+w+-+-+0+15" alt="Диаграмма4">
+<strong>KC</strong>
+<img src="https://kasparovchess.crestbook.com/scripts/chess_diagram/gendiag.php?coord&amp;size=29&amp;style=merida&amp;fen=r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1+w+-+-+0+15" alt="Диаграмма41">
+<img src="https://kasparovchess.crestbook.com/scripts/chess_diagram/gendiag-jane.php?coord&amp;size=29&amp;style=merida&amp;fen=r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1+w+-+-+0+15" alt="Диаграмма42">
+<img src="https://kasparovchess.crestbook.com/scripts/chess_diagram/gendiag.php?coord&amp;size=24&amp;style=alfa&amp;fen=r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1+w+-+-+0+15" alt="Диаграмма43">
+<img src="https://kasparovchess.crestbook.com/scripts/chess_diagram/gendiag-fritz.php?coord&amp;size=29&amp;style=alfa&amp;fen=r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1+w+-+-+0+15" alt="Диаграмма44"></p>
+<p><img src="http://www.euruchess.org/29/grey/diagol.php?position=r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1+w+-+-+0+15" alt="Диаграмма5"></p>
+<p><img src="https://kasparovchess.crestbook.com/proxy.php?image=https%3A%2F%2Fwww.dmitriev.ee%2Fpunbb%2Fextensions%2Fchess_diagram%2Fgendiag-jane.php%3Fcoord%26size%3D29%26style%3Dmerida%26fen%3Dr1bq1rk1%2Fp1p2pb1%2F1p1p3p%2F2nPp1p1%2F2P1P3%2F2NB1NP1%2FPP2QPP1%2FR3R1K1%2Bw%2B-%2B-%2B0%2B15&amp;hash=afae7f3d8aca1ff2fe741284287413b7" alt="Диаграмма6"></p>
+<h3 id="код">Код</h3>
+<div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">4
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#6ab825;font-weight:bold">div</span> <span style="color:#bbb">class</span>=<span style="color:#ed9d13">&#39;embed-container&#39;</span>&gt;
+&lt;<span style="color:#6ab825;font-weight:bold">iframe</span> <span style="color:#bbb">src</span>=<span style="color:#ed9d13">&#39;https://www.dmitriev.ee/chessviewer/PGN/1986/{{ index .Params 0 }}&#39;</span> <span style="color:#bbb">frameborder</span>=<span style="color:#ed9d13">&#39;0&#39;</span> <span style="color:#bbb">style</span>=<span style="color:#ed9d13">&#39;&#39;</span> <span style="color:#bbb">scrolling</span>=<span style="color:#ed9d13">&#39;no&#39;</span> <span style="color:#bbb">height</span>=<span style="color:#ed9d13">&#39;400px&#39;</span> <span style="color:#bbb">width</span>=<span style="color:#ed9d13">&#39;492px&#39;</span>&gt;
+&lt;/<span style="color:#6ab825;font-weight:bold">iframe</span>&gt;
+&lt;/<span style="color:#6ab825;font-weight:bold">div</span>&gt;  
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="шорткод">Шорткод</h3>
+<div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-md" data-lang="md">{{&lt; <span style="color:#6ab825;font-weight:bold">embedpgn</span> <span style="color:#bbb">dmitrijev-pust-kalev-kom-86</span><span style="color:#a61717;background-color:#e3d2d2">.</span><span style="color:#bbb">htm</span> &gt;}}  
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="результат">Результат</h3>
+<style>
+.embed-container { 
+  position: relative;
+  padding-bottom: 56.25%; 
+  height: 0; 
+  overflow: 
+  hidden; 
+  max-width: 100%; 
+} 
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+}
+</style>
+
+<div class='embed-container'>
+<iframe src='https://www.dmitriev.ee/chessviewer/PGN/1986/dmitrijev-pust-kalev-kom-86.htm?color=ffffff&title=0&byline=0&portrait=0' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen>
+</iframe>
+</div>]]></content>
+            
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/categories/blog" term="blog" label="blog" />
+                            
+                        
+                    
+                 
+                    
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/test" term="test" label="test" />
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/chess" term="chess" label="chess" />
                             
                         
                     

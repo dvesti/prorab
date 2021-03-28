@@ -1,0 +1,123 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>
+            
+                    Demo on
+                
+            
+            Alien&#39;s Notes</title>
+        <link>https://dvesti.github.io/prorab/categories/demo/</link>
+        <description>Recent content  in Demo
+            on Alien&#39;s Notes</description>
+        <language>en-us</language>
+        
+                <managingEditor>dvesti@hot.ee (Dvesti)</managingEditor>
+                <webMaster>dvesti@hot.ee (Dvesti)</webMaster><lastBuildDate>Mon, 29 Mar 2021 00:48:55 +0300</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+            <atom:link href="https://dvesti.github.io/prorab/categories/demo/index.xml" rel="self" type="application/rss&#43;xml" />
+        
+            
+            <item>
+                <title>My Article Name – Тест</title>
+                <link>https://dvesti.github.io/prorab/my-article-name/</link>
+                
+                
+                <description>&lt;blockquote&gt;Шахматная диаграмма&lt;/blockquote&gt;&lt;p&gt;[TOC]&lt;/p&gt;
+&lt;p&gt;Проверка Шахматных Диаграмм&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.dmitriev.ee/punbb/extensions/chess_diagram/gendiag-jane.php?coord&amp;amp;size=29&amp;amp;style=merida&amp;amp;fen=r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1+w+-+-+0+15&#34; alt=&#34;Диаграмма&#34;&gt;
+&lt;strong&gt;FEN&lt;/strong&gt;: &lt;code&gt;r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Картинка
+&lt;img src=&#34;https://www.dmitriev.ee/punbb/extensions/chess_diagram/gendiag-fritz.php?size=29&amp;amp;coord&amp;amp;style=alfa&amp;amp;fen=r6b/p1pq1p1k/1p2p1rp/4PpBQ/3P1P2/2PR2R1/P5PP/6K1&#34; alt=&#34;Диаграмма2&#34;&gt;
+&lt;strong&gt;FEN:&lt;/strong&gt; &lt;code&gt;r6b/p1pq1p1k/1p2p1rp/4PpBQ/3P1P2/2PR2R1/P5PP/6K1&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://www.euruchess.org/diagol/29/diagol.php?position=r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1%20w%20-%20-%200%2015&#34; alt=&#34;Диаграмма3&#34;&gt;
+&lt;strong&gt;FEN&lt;/strong&gt;: &lt;code&gt;r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1&lt;/code&gt;
+&lt;img src=&#34;https://www.dmitriev.ee/punbb/extensions/cd52/gendiag.php?size=29&amp;amp;coord&amp;amp;style=alfa&amp;amp;fen=r6b/p1pq1p1k/1p2p1rp/4PpBQ/3P1P2/2PR2R1/P5PP/6K1&#34; alt=&#34;Диаграмма3&#34;&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;an-example-flowchart-линия-lr&#34;&gt;An example &lt;strong&gt;flowchart&lt;/strong&gt; линия LR:&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; mermaid &amp;gt;}}
+    graph LR
+    A[Толик] --&amp;gt;|Плюс| B(Вовик)
+    B --&amp;gt; C{Родные Братья}
+    C --&amp;gt;|Один| D[Стрёмберг]
+    C --&amp;gt;|Другой| E[Дмитриев]
+{{&amp;lt; /mermaid &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;mermaid&#34; id=&#34;id-1&#34;&gt;&lt;/div&gt;
+&lt;h3 id=&#34;диаграмма&#34;&gt;Диаграмма&lt;/h3&gt;
+&lt;a href=&#34;#some-interesting-title-&#34;&gt;
+  &lt;h2 id=&#34;some-interesting-title-&#34;&gt;Some Interesting Title - диаграмма&lt;/h2&gt;
+&lt;/a&gt;  
+
+&lt;p&gt;Academic supports a Markdown extension for diagrams. You can enable this feature by toggling the &lt;code&gt;diagram&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file or by adding &lt;code&gt;diagram: true&lt;/code&gt; to your page front matter.&lt;/p&gt;
+&lt;h2 id=&#34;an-example-flowchart----в-столбец-td&#34;&gt;An example &lt;strong&gt;flowchart&lt;/strong&gt; &amp;ndash; в столбец TD:&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; mermaid &amp;gt;}}
+    graph TD
+    A[Hard] --&amp;gt;|Text| B(Round)
+    B --&amp;gt; C{Decision}
+    C --&amp;gt;|One| D[Result 1]
+    C --&amp;gt;|Two| E[Result 2]
+{{&amp;lt; /mermaid &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;mermaid&#34; id=&#34;id-2&#34;&gt;&lt;/div&gt;
+&lt;h2 id=&#34;an-example-sequence-diagram&#34;&gt;An example &lt;strong&gt;sequence diagram&lt;/strong&gt;:&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;sequenceDiagram
+    Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
+    loop Healthcheck
+    John-&amp;gt;&amp;gt;John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts!
+    John--&amp;gt;&amp;gt;Alice: Great!
+    John-&amp;gt;&amp;gt;Bob: How about you?
+    Bob--&amp;gt;&amp;gt;John: Jolly good!
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;mermaid&#34; id=&#34;id-3&#34;&gt;&lt;/div&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34; data-lang=&#34;mermaid&#34;&gt;{{&amp;lt; mermaid &amp;gt;}}
+    pie title NETFLIX
+    &amp;quot;Time spent looking for movie&amp;quot; : 90
+    &amp;quot;Time spent watching it&amp;quot; : 10
+{{&amp;lt; /mermaid &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;mermaid&#34; id=&#34;id-4&#34;&gt;&lt;/div&gt;
+&lt;h2 id=&#34;base&#34;&gt;base&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; mermaid &amp;gt;}}
+graph LR;
+    A[Hard edge] --&amp;gt;|Link text| B(Round edge)
+    B --&amp;gt; C{Decision}
+    C --&amp;gt;|One| D[Result one]
+    C --&amp;gt;|Two| E[Result two]
+{{&amp;lt; /mermaid &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;mermaid&#34; id=&#34;id-5&#34;&gt;&lt;/div&gt;</description>
+                
+                
+                     
+                        
+                             
+                            
+                                
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/categories/demo">Demo</category>
+                                
+                            
+                        
+                     
+                        
+                     
+                        
+                             
+                            
+                                
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/tags/blog">blog</category>
+                                
+                            
+                        
+                    
+                
+                <guid>https://dvesti.github.io/prorab/my-article-name/</guid>
+                <pubDate>Tue, 19 May 2020 16:31:46 +0300</pubDate>
+            </item>
+        
+    </channel>
+</rss>
+
+

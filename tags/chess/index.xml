@@ -1,0 +1,167 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>
+            
+                    chess on
+                
+            
+            Alien&#39;s Notes</title>
+        <link>https://dvesti.github.io/prorab/tags/chess/</link>
+        <description>Recent content  in chess
+            on Alien&#39;s Notes</description>
+        <language>en-us</language>
+        
+                <managingEditor>dvesti@hot.ee (Dvesti)</managingEditor>
+                <webMaster>dvesti@hot.ee (Dvesti)</webMaster><lastBuildDate>Mon, 29 Mar 2021 00:48:55 +0300</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+            <atom:link href="https://dvesti.github.io/prorab/tags/chess/index.xml" rel="self" type="application/rss&#43;xml" />
+        
+            
+            <item>
+                <title>Тест-1</title>
+                <link>https://dvesti.github.io/prorab/test-1/</link>
+                
+                
+                <description>&lt;blockquote&gt;Тест для отображении картинки статьи в Скайпе&lt;/blockquote&gt;&lt;p&gt;Это &lt;del&gt;тест&lt;/del&gt;овое сообщение &lt;em&gt;с этой&lt;/em&gt; &lt;strong&gt;картинкой&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;featured.jpg&#34; alt=&#34;Картинка&#34;&gt;&lt;/p&gt;
+&lt;p&gt;которая отображается при пересылке ссылки, например, в Скайп  \&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://backscattering.de/web-boardimage/board.svg?fen=5r1k/1b4pp/3pB1N1/p2Pq2Q/PpP5/6PK/8/8&amp;amp;lastMove=f4g6&amp;amp;check=h8&amp;amp;arrows=Ge6g8,Bh7&amp;amp;squares=a3&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+</description>
+                
+                
+                     
+                        
+                             
+                            
+                                
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/categories/blog">blog</category>
+                                
+                            
+                        
+                     
+                        
+                     
+                        
+                             
+                            
+                                
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/tags/test">test</category>
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/tags/chess">chess</category>
+                                
+                            
+                        
+                    
+                
+                <guid>https://dvesti.github.io/prorab/test-1/</guid>
+                <pubDate>Fri, 14 Aug 2020 17:04:31 +0300</pubDate>
+            </item>
+        
+            
+            <item>
+                <title>Тема Chess A</title>
+                <link>https://dvesti.github.io/prorab/2020-05-13-a/</link>
+                
+                
+                <description>&lt;p&gt;&lt;del&gt;Это &amp;ndash; &lt;strong&gt;тест&lt;/strong&gt;&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;Изменил начертание и размер шрифта, потом изменю остальное: главное, чтобы самому нравилось.&lt;/p&gt;
+&lt;p&gt;Добавил в Конфиг данные, чтобы было похоже на оригинал и Плюс подсмотрел у других сайтов, которые ориентированы не на отображение кода, а на обычный Блог.&lt;/p&gt;
+&lt;p&gt;Именно такой нам и нужен.&lt;/p&gt;
+&lt;p&gt;В планах &amp;ndash; создать некую записную книжку для ежедневных записей&amp;hellip;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.dmitriev.ee/punbb/extensions/chess_diagram/gendiag.php?size=24&amp;amp;coord&amp;amp;fen=r6b/p1pq1p1k/1p2p1rp/4PpBQ/3P1P2/2PR2R1/P5PP/6K1&#34; alt=&#34;Диаграмма&#34;&gt; &lt;img src=&#34;http://www.euruchess.org/24/blue/diagol.php?position=r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1+w+-+-+0+15&#34; alt=&#34;Диаграмма2&#34;&gt; &lt;img src=&#34;https://www.dmitriev.ee/punbb/extensions/chess_diagram/gendiag-blue.php?coord&amp;amp;size=24&amp;amp;style=merida&amp;amp;fen=2k1B3/ppB5/3P3p/7P/3K4/2Pn2r1/1P6/8%20w%20-%20-%200%201&#34; alt=&#34;Диаграмма3&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Стиль &amp;ndash; &lt;strong&gt;Jane&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.dmitriev.ee/punbb/extensions/chess_diagram/gendiag-jane.php?coord&amp;amp;size=29&amp;amp;style=merida&amp;amp;fen=r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1+w+-+-+0+15&#34; alt=&#34;Диаграмма4&#34;&gt;
+&lt;strong&gt;KC&lt;/strong&gt;
+&lt;img src=&#34;https://kasparovchess.crestbook.com/scripts/chess_diagram/gendiag.php?coord&amp;amp;size=29&amp;amp;style=merida&amp;amp;fen=r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1+w+-+-+0+15&#34; alt=&#34;Диаграмма41&#34;&gt;
+&lt;img src=&#34;https://kasparovchess.crestbook.com/scripts/chess_diagram/gendiag-jane.php?coord&amp;amp;size=29&amp;amp;style=merida&amp;amp;fen=r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1+w+-+-+0+15&#34; alt=&#34;Диаграмма42&#34;&gt;
+&lt;img src=&#34;https://kasparovchess.crestbook.com/scripts/chess_diagram/gendiag.php?coord&amp;amp;size=24&amp;amp;style=alfa&amp;amp;fen=r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1+w+-+-+0+15&#34; alt=&#34;Диаграмма43&#34;&gt;
+&lt;img src=&#34;https://kasparovchess.crestbook.com/scripts/chess_diagram/gendiag-fritz.php?coord&amp;amp;size=29&amp;amp;style=alfa&amp;amp;fen=r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1+w+-+-+0+15&#34; alt=&#34;Диаграмма44&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://www.euruchess.org/29/grey/diagol.php?position=r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1+w+-+-+0+15&#34; alt=&#34;Диаграмма5&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kasparovchess.crestbook.com/proxy.php?image=https%3A%2F%2Fwww.dmitriev.ee%2Fpunbb%2Fextensions%2Fchess_diagram%2Fgendiag-jane.php%3Fcoord%26size%3D29%26style%3Dmerida%26fen%3Dr1bq1rk1%2Fp1p2pb1%2F1p1p3p%2F2nPp1p1%2F2P1P3%2F2NB1NP1%2FPP2QPP1%2FR3R1K1%2Bw%2B-%2B-%2B0%2B15&amp;amp;hash=afae7f3d8aca1ff2fe741284287413b7&#34; alt=&#34;Диаграмма6&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;код&#34;&gt;Код&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&amp;lt;&lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;div&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;class&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#39;embed-container&amp;#39;&lt;/span&gt;&amp;gt;
+&amp;lt;&lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;iframe&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;src&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#39;https://www.dmitriev.ee/chessviewer/PGN/1986/{{ index .Params 0 }}&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;frameborder&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#39;0&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;style&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;scrolling&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#39;no&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;height&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#39;400px&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;width&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#39;492px&amp;#39;&lt;/span&gt;&amp;gt;
+&amp;lt;/&lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;iframe&lt;/span&gt;&amp;gt;
+&amp;lt;/&lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;div&lt;/span&gt;&amp;gt;  
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;шорткод&#34;&gt;Шорткод&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-md&#34; data-lang=&#34;md&#34;&gt;{{&amp;lt; &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;embedpgn&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;dmitrijev-pust-kalev-kom-86&lt;/span&gt;&lt;span style=&#34;color:#a61717;background-color:#e3d2d2&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#bbb&#34;&gt;htm&lt;/span&gt; &amp;gt;}}  
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;результат&#34;&gt;Результат&lt;/h3&gt;
+&lt;style&gt;
+.embed-container { 
+  position: relative;
+  padding-bottom: 56.25%; 
+  height: 0; 
+  overflow: 
+  hidden; 
+  max-width: 100%; 
+} 
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+}
+&lt;/style&gt;
+
+&lt;div class=&#39;embed-container&#39;&gt;
+&lt;iframe src=&#39;https://www.dmitriev.ee/chessviewer/PGN/1986/dmitrijev-pust-kalev-kom-86.htm?color=ffffff&amp;title=0&amp;byline=0&amp;portrait=0&#39; frameborder=&#39;0&#39; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;</description>
+                
+                
+                     
+                        
+                             
+                            
+                                
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/categories/blog">blog</category>
+                                
+                            
+                        
+                     
+                        
+                     
+                        
+                             
+                            
+                                
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/tags/test">test</category>
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/tags/chess">chess</category>
+                                
+                            
+                        
+                    
+                
+                <guid>https://dvesti.github.io/prorab/2020-05-13-a/</guid>
+                <pubDate>Wed, 13 May 2020 02:04:31 +0300</pubDate>
+            </item>
+        
+    </channel>
+</rss>
+
+
