@@ -12,10 +12,56 @@
         <language>en-us</language>
         
                 <managingEditor>dvesti@hot.ee (Dvesti)</managingEditor>
-                <webMaster>dvesti@hot.ee (Dvesti)</webMaster><lastBuildDate>Mon, 29 Mar 2021 14:41:32 +0300</lastBuildDate>
+                <webMaster>dvesti@hot.ee (Dvesti)</webMaster><lastBuildDate>Sun, 11 Apr 2021 11:44:57 +0300</lastBuildDate>
         <generator>Hugo -- gohugo.io</generator>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
             <atom:link href="https://dvesti.github.io/prorab/posts/index.xml" rel="self" type="application/rss&#43;xml" />
+        
+            
+            <item>
+                <title>Пенёк</title>
+                <link>https://dvesti.github.io/prorab/penek/</link>
+                
+                
+                <description>&lt;blockquote&gt;Пень&lt;/blockquote&gt;&lt;p&gt;&lt;img src=&#34;featured.jpg&#34; alt=&#34;Пень&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ты — пенёк и я — пенёк,&lt;br&gt;
+Оба мы — пеньки.&lt;br&gt;
+Ты — хороший паренёк,&lt;br&gt;
+Вырос у реки…&lt;br&gt;
+Я ж уже — трухлявый пень,&lt;br&gt;
+Поздно веселиться.&lt;br&gt;
+Ожидаю каждый день,&lt;br&gt;
+Чтоб не развалиться…&lt;/strong&gt;&lt;/p&gt;
+</description>
+                
+                
+                     
+                        
+                             
+                            
+                                
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/categories/poetry">poetry</category>
+                                
+                            
+                        
+                     
+                        
+                     
+                        
+                             
+                            
+                                
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/tags/tree">tree</category>
+                                
+                            
+                        
+                    
+                
+                <guid>https://dvesti.github.io/prorab/penek/</guid>
+                <pubDate>Sun, 11 Apr 2021 11:26:44 +0300</pubDate>
+            </item>
         
             
             <item>
@@ -1162,129 +1208,6 @@ Yes !.
                 
                 <guid>https://dvesti.github.io/prorab/shortcodes-preview/</guid>
                 <pubDate>Sun, 04 Mar 2018 16:01:23 +0800</pubDate>
-            </item>
-        
-            
-            <item>
-                <title>Shortcodes Notice Preview</title>
-                <link>https://dvesti.github.io/prorab/shortcode-notice/</link>
-                
-                
-                <description>&lt;p&gt;Не все &lt;em&gt;шорккоды&lt;/em&gt; работают корректно. Скорее всего из-за их отсутствия: будем искать и исправлять пост.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Дополнено&lt;/strong&gt;: Поменял &lt;code&gt;% %&lt;/code&gt; на &lt;code&gt;&amp;lt; &amp;gt;&lt;/code&gt; и дело пошло&amp;hellip;&lt;/p&gt;
-&lt;h2 id=&#34;normal-use&#34;&gt;normal use&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;Note&lt;/code&gt; example:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;{{&amp;lt; notice note &amp;gt;}}
-&amp;lt;p&amp;gt;A notice disclaimer&amp;lt;/p&amp;gt;
-{{&amp;lt; /notice &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Result:&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&#34;shortcode-notice note&#34;&gt;
-  &lt;div class=&#34;shortcode-notice-title note&#34;&gt;
-    
-      note
-    
-  &lt;/div&gt;
-  
-&lt;p&gt;A notice disclaimer&lt;/p&gt;
-
-&lt;/div&gt;
-
-&lt;h2 id=&#34;you-could-custom-title&#34;&gt;You could custom title&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;Примечание&lt;/code&gt; example:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;{{&amp;lt; notice note Примечание &amp;gt;}}
-&amp;lt;p&amp;gt;A notice disclaimer&amp;lt;/p&amp;gt;
-{{&amp;lt; /notice &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Result:&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&#34;shortcode-notice note&#34;&gt;
-  &lt;div class=&#34;shortcode-notice-title note&#34;&gt;
-    
-      Примечание
-    
-  &lt;/div&gt;
-  
-&lt;p&gt;A notice disclaimer&lt;/p&gt;
-
-&lt;/div&gt;
-
-&lt;h2 id=&#34;tip&#34;&gt;tip&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;{{&amp;lt; notice tip &amp;gt;}}
-&amp;lt;p&amp;gt;A tip disclaimer&amp;lt;/p&amp;gt;
-{{&amp;lt; /notice &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Result:&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&#34;shortcode-notice tip&#34;&gt;
-  &lt;div class=&#34;shortcode-notice-title tip&#34;&gt;
-    
-      tip
-    
-  &lt;/div&gt;
-  
-&lt;p&gt;A tip disclaimer&lt;/p&gt;
-
-&lt;/div&gt;
-
-&lt;h2 id=&#34;info&#34;&gt;info&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;{{&amp;lt; notice info &amp;gt;}}
-&amp;lt;p&amp;gt;A info disclaimer&amp;lt;/p&amp;gt;
-{{&amp;lt; /notice &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Result:&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&#34;shortcode-notice info&#34;&gt;
-  &lt;div class=&#34;shortcode-notice-title info&#34;&gt;
-    
-      info
-    
-  &lt;/div&gt;
-  
-&lt;p&gt;An information disclaimer&lt;/p&gt;
-
-&lt;/div&gt;
-
-&lt;h2 id=&#34;warning&#34;&gt;warning&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;{{&amp;lt; notice warning &amp;gt;}}
-&amp;lt;p&amp;gt;A warning disclaimer&amp;lt;/p&amp;gt;
-{{&amp;lt; /notice &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Result:&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&#34;shortcode-notice warning&#34;&gt;
-  &lt;div class=&#34;shortcode-notice-title warning&#34;&gt;
-    
-      warning
-    
-  &lt;/div&gt;
-  
-&lt;p&gt;An warning disclaimer&lt;/p&gt;
-
-&lt;/div&gt;</description>
-                
-                
-                     
-                        
-                             
-                            
-                                
-                                 
-                                    <category domain="https://dvesti.github.io/prorab/categories/docs">docs</category>
-                                 
-                                    <category domain="https://dvesti.github.io/prorab/categories/blog">blog</category>
-                                
-                            
-                        
-                     
-                        
-                     
-                        
-                             
-                            
-                                
-                                 
-                                    <category domain="https://dvesti.github.io/prorab/tags/preview">preview</category>
-                                 
-                                    <category domain="https://dvesti.github.io/prorab/tags/shortcodes">shortcodes</category>
-                                
-                            
-                        
-                    
-                
-                <guid>https://dvesti.github.io/prorab/shortcode-notice/</guid>
-                <pubDate>Sat, 03 Mar 2018 16:01:23 +0800</pubDate>
             </item>
         
     </channel>
