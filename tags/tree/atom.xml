@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
+    <generator uri="https://gohugo.io/" version="0.104.3">Hugo</generator><title type="html"><![CDATA[tree on Alien's Notes]]></title>
+    
+        <subtitle type="html"><![CDATA[Заметки вэб-прораба]]></subtitle>
+    
+    
+    
+            <link href="https://dvesti.github.io/prorab/tags/tree/" rel="alternate" type="text/html" title="HTML" />
+            <link href="https://dvesti.github.io/prorab/tags/tree/index.xml" rel="alternate" type="application/rss+xml" title="RSS" />
+            <link href="https://dvesti.github.io/prorab/tags/tree/atom.xml" rel="self" type="application/atom+xml" title="Atom" />
+            <link href="https://dvesti.github.io/prorab/tags/tree/jf2feed.json" rel="alternate" type="application/jf2feed+json" title="jf2feed" />
+    <updated>2022-10-23T17:15:02+03:00</updated>
+    
+    
+    <author>
+            <name>Dvesti</name>
+            
+                <email>dvesti@hot.ee</email>
+            </author>
+    
+        <id>https://dvesti.github.io/prorab/tags/tree/</id>
+    
+        
+        <entry>
+            <title type="html"><![CDATA[Пенёк]]></title>
+            <link href="https://dvesti.github.io/prorab/penek/?utm_source=atom_feed" rel="alternate" type="text/html" />
+            
+            
+                <id>https://dvesti.github.io/prorab/penek/</id>
+            
+            
+            <published>2021-04-11T11:26:44+03:00</published>
+            <updated>2021-04-11T11:26:44+03:00</updated>
+            
+            
+            <content type="html"><![CDATA[<blockquote>Пень</blockquote><p><img src="featured.jpg" alt="Пень"></p>
+<p><strong>Ты — пенёк и я — пенёк,<br>
+Оба мы — пеньки.<br>
+Ты — хороший паренёк,<br>
+Вырос у реки…<br>
+Я ж уже — трухлявый пень,<br>
+Поздно веселиться.<br>
+Ожидаю каждый день,<br>
+Чтоб не развалиться…</strong></p>
+]]></content>
+            
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/categories/poetry" term="poetry" label="poetry" />
+                            
+                        
+                    
+                 
+                    
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/tree" term="tree" label="tree" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+</feed>

@@ -1,0 +1,589 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>
+            
+                    docs on
+                
+            
+            Alien&#39;s Notes</title>
+        <link>https://dvesti.github.io/prorab/categories/docs/</link>
+        <description>Recent content  in docs
+            on Alien&#39;s Notes</description>
+        <language>en-us</language>
+        
+                <managingEditor>dvesti@hot.ee (Dvesti)</managingEditor>
+                <webMaster>dvesti@hot.ee (Dvesti)</webMaster><lastBuildDate>Sun, 23 Oct 2022 17:15:02 +0300</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+            <atom:link href="https://dvesti.github.io/prorab/categories/docs/index.xml" rel="self" type="application/rss&#43;xml" />
+        
+            
+            <item>
+                <title>Shortcodes Preview</title>
+                <link>https://dvesti.github.io/prorab/shortcodes-preview/</link>
+                
+                
+                <description>&lt;h2 id=&#34;what-a-shortcode-is&#34;&gt;What a Shortcode is&lt;/h2&gt;
+&lt;p&gt;Hugo loves Markdown because of its simple content format, but there are times when Markdown falls short. Often, content authors are forced to add raw HTML (e.g., video &lt;code&gt;&amp;lt;iframes&amp;gt;&lt;/code&gt;) to Markdown content. We think this contradicts the beautiful simplicity of Markdown&amp;rsquo;s syntax.&lt;/p&gt;
+&lt;p&gt;Hugo created &lt;strong&gt;shortcodes&lt;/strong&gt; to circumvent these limitations.&lt;/p&gt;
+&lt;p&gt;A shortcode is a simple snippet inside a content file that Hugo will render using a predefined template. Note that shortcodes will not work in template files. If you need the type of drop-in functionality that shortcodes provide but in a template, you most likely want a [partial template][partials] instead.&lt;/p&gt;
+&lt;p&gt;In addition to cleaner Markdown, shortcodes can be updated any time to reflect new classes, techniques, or standards. At the point of site generation, Hugo shortcodes will easily merge in your changes. You avoid a possibly complicated search and replace operation.&lt;/p&gt;
+&lt;p&gt;More details: &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/&#34;&gt;https://gohugo.io/content-management/shortcodes/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;blockquotes&#34;&gt;blockquotes&lt;/h2&gt;
+&lt;p&gt;Normal quote:
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a simple quote.&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;&lt;/strong&gt;
+    
+      
+        
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;p&gt;Quote with author:
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a quote with only an Author named Author2.&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;Author2&lt;/strong&gt;
+    
+      
+        
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;p&gt;Quote with author and source:
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a quote from Author3 and source &amp;ldquo;source.&amp;rdquo;&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;Author3&lt;/strong&gt;
+    
+      &lt;cite&gt;Source&lt;/cite&gt;
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;p&gt;Quote with author and link:
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+      
+      
+      
+    
+     
+      
+    
+    
+
+    
+    
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a quote from Author4 and links to &lt;a href=&#34;https://www.google.com&#34;&gt;https://www.google.com&lt;/a&gt;.&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;Author4&lt;/strong&gt;
+    
+      
+        &lt;cite&gt;
+          &lt;a href=&#34;https://www.google.com&#34; title=&#34;https://www.google.com&#34;&gt;google.com&lt;/a&gt; 
+        &lt;/cite&gt;
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;p&gt;Quote with author, link and title:
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a quote from Author5 and links to &lt;a href=&#34;https://www.google.com&#34;&gt;https://www.google.com&lt;/a&gt; with title &amp;ldquo;Google.&amp;rdquo;&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;Author5&lt;/strong&gt;
+    
+      
+        &lt;cite&gt;
+          &lt;a href=&#34;https://www.google.com&#34; title=&#34;https://www.google.com&#34;&gt;Google&lt;/a&gt; 
+        &lt;/cite&gt;
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;p&gt;Quote with author and a link longer than 32 characters, string is first cut at 32 characters then everything after the last forward slash is removed
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+      
+      
+      
+    
+     
+      
+    
+    
+
+    
+    
+         
+         
+         
+
+         
+        
+        
+        
+        
+      
+      
+    
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a quote from Author5 and links to &lt;a href=&#34;https://twitter.com/CryptoGangsta/status/716427930126196737&#34;&gt;https://twitter.com/CryptoGangsta/status/716427930126196737&lt;/a&gt; which is longer than 32 characters.
+&lt;!-- raw HTML omitted --&gt;And this is a new line in the quote with the HTML br tag.&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;Author6&lt;/strong&gt;
+    
+      
+        &lt;cite&gt;
+          &lt;a href=&#34;https://twitter.com/CryptoGangsta/status/716427930126196737&#34; title=&#34;https://twitter.com/CryptoGangsta/status/716427930126196737&#34;&gt;twitter.com/CryptoGangsta/...&lt;/a&gt; 
+        &lt;/cite&gt;
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;p&gt;Test from the Octopress blockquote page at: &lt;a href=&#34;http://octopress.org/docs/plugins/blockquote/&#34;&gt;http://octopress.org/docs/plugins/blockquote/&lt;/a&gt;
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+      
+      
+      
+    
+     
+      
+    
+    
+
+    
+    
+         
+         
+         
+
+         
+        
+        
+        
+        
+        
+        
+      
+      
+    
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;Over the past 24 hours I&amp;rsquo;ve been reflecting on my life &amp;amp; I&amp;rsquo;ve realized only one thing. I need a medieval battle axe.&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;@allanbranch&lt;/strong&gt;
+    
+      
+        &lt;cite&gt;
+          &lt;a href=&#34;https://twitter.com/allanbranch/status/90766146063712256&#34; title=&#34;https://twitter.com/allanbranch/status/90766146063712256&#34;&gt;twitter.com/allanbranch/status/...&lt;/a&gt; 
+        &lt;/cite&gt;
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;music&#34;&gt;music&lt;/h2&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;gist&#34;&gt;gist&lt;/h2&gt;
+&lt;p&gt;We can embed the gist in our content via username and gist ID pulled from the URL:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{&amp;lt; gist spf13 7896402 &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Display:&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/spf13/7896402.js&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;expand&#34;&gt;expand&lt;/h2&gt;
+&lt;p&gt;The Expand shortcode displays an expandable/collapsible section of text on your page. Here is an example&lt;/p&gt;
+&lt;details&gt;
+  &lt;summary style=&#34;background-color:#f5f5f5;border:1px solid #ccc;padding:5px;&#34;&gt;
+    Is this learn theme rocks ?
+    
+  &lt;/summary&gt;
+  
+Yes !.
+
+&lt;/details&gt;
+
+&lt;h3 id=&#34;usage&#34;&gt;Usage&lt;/h3&gt;
+&lt;p&gt;this shortcode takes exactly one optional parameter to define the text that appears next to the expand/collapse icon. (default is “Click to expand”)&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{&amp;lt; expand &amp;#34;Is this learn theme rocks ?&amp;#34; &amp;gt;}}
+Yes !.
+{{&amp;lt; /expand &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;youtube&#34;&gt;youtube&lt;/h2&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/w7Ft2ymGmfc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;vimeo&#34;&gt;vimeo&lt;/h2&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://player.vimeo.com/video/146022717&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;vimeo video&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;youku&#34;&gt;youku&lt;/h2&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+    &lt;iframe src=&#34;https://player.youku.com/embed/XMzQ0ODUxMjM2NA?autoplay=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34; title=&#34;YouKu Video&#34;&gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;twitter&#34;&gt;twitter&lt;/h2&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Hugo 0.24 Released: Big archetype update + &lt;a href=&#34;https://twitter.com/Netlify?ref_src=twsrc%5Etfw&#34;&gt;@Netlify&lt;/a&gt; _redirects etc. file support&lt;a href=&#34;https://t.co/X94FmYDEZJ&#34;&gt;https://t.co/X94FmYDEZJ&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/gohugo?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#gohugo&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/golang?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#golang&lt;/a&gt; &lt;a href=&#34;https://twitter.com/spf13?ref_src=twsrc%5Etfw&#34;&gt;@spf13&lt;/a&gt; &lt;a href=&#34;https://twitter.com/bepsays?ref_src=twsrc%5Etfw&#34;&gt;@bepsays&lt;/a&gt;&lt;/p&gt;&amp;mdash; GoHugo.io (@GoHugoIO) &lt;a href=&#34;https://twitter.com/GoHugoIO/status/877500564405444608?ref_src=twsrc%5Etfw&#34;&gt;June 21, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;2&#34;&gt;2&lt;/h2&gt;
+&lt;div&gt;
+
+  &lt;blockquote class=&#34;twitter-tweet&#34; data-dnt=&#34;true&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;The power was out so we took a walk, and I have never seen so many people out standing around in our neighborhood.&lt;/p&gt;&amp;mdash; Ardith Betz (@ardithbetz) &lt;a href=&#34;https://twitter.com/ardithbetz/status/763188308662898691?ref_src=twsrc%5Etfw&#34;&gt;August 10, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+
+&lt;/div&gt;
+&lt;h2 id=&#34;3&#34;&gt;3&lt;/h2&gt;
+&lt;div&gt;
+
+  
+
+&lt;/div&gt;
+&lt;h2 id=&#34;4-comment&#34;&gt;4-comment&lt;/h2&gt;
+&lt;div&gt;
+
+  &lt;blockquote class=&#34;twitter-tweet&#34; data-conversation=&#34;none&#34; data-dnt=&#34;true&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Yeah I agree with this point for sure. I think multi stage builds in Docker are a very important piece of the puzzle. And that doesn’t quite map to what the Lambda team is doing with layers yet&lt;/p&gt;&amp;mdash; Nathan Peck (@nathankpeck) &lt;a href=&#34;https://twitter.com/nathankpeck/status/1069588395536654336?ref_src=twsrc%5Etfw&#34;&gt;December 3, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+
+&lt;/div&gt;
+&lt;h2 id=&#34;5-prorab&#34;&gt;5-Prorab&lt;/h2&gt;
+&lt;div&gt;
+
+  &lt;blockquote class=&#34;twitter-tweet&#34; data-dnt=&#34;true&#34;&gt;&lt;p lang=&#34;und&#34; dir=&#34;ltr&#34;&gt;23.04.2020 -- 49. Estonian Championship выиграл Dmitriev, Vladimir&lt;a href=&#34;https://t.co/FdRjYwgkf2&#34;&gt;https://t.co/FdRjYwgkf2&lt;/a&gt;&lt;/p&gt;&amp;mdash; Vladimir Dmitrijev (@Prorab) &lt;a href=&#34;https://twitter.com/Prorab/status/1256219426321465344?ref_src=twsrc%5Etfw&#34;&gt;May 1, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+
+&lt;/div&gt;</description>
+                
+                
+                     
+                        
+                             
+                            
+                                
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/categories/docs">docs</category>
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/categories/blog">blog</category>
+                                
+                            
+                        
+                     
+                        
+                     
+                        
+                             
+                            
+                                
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/tags/preview">preview</category>
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/tags/shortcodes">shortcodes</category>
+                                
+                            
+                        
+                    
+                
+                <guid>https://dvesti.github.io/prorab/shortcodes-preview/</guid>
+                <pubDate>Sun, 04 Mar 2018 16:01:23 +0800</pubDate>
+            </item>
+        
+            
+            <item>
+                <title>Shortcodes Notice Preview</title>
+                <link>https://dvesti.github.io/prorab/shortcode-notice/</link>
+                
+                
+                <description>&lt;p&gt;Не все &lt;em&gt;шорккоды&lt;/em&gt; работают корректно. Скорее всего из-за их отсутствия: будем искать и исправлять пост.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Дополнено&lt;/strong&gt;: Поменял &lt;code&gt;% %&lt;/code&gt; на &lt;code&gt;&amp;lt; &amp;gt;&lt;/code&gt; и дело пошло&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;normal-use&#34;&gt;normal use&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;Note&lt;/code&gt; example:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;{{&amp;lt; notice note &amp;gt;}}
+&amp;lt;p&amp;gt;A notice disclaimer&amp;lt;/p&amp;gt;
+{{&amp;lt; /notice &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Result:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;shortcode-notice note&#34;&gt;
+  &lt;div class=&#34;shortcode-notice-title note&#34;&gt;
+    
+      note
+    
+  &lt;/div&gt;
+  
+&lt;p&gt;A notice disclaimer&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;you-could-custom-title&#34;&gt;You could custom title&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;Примечание&lt;/code&gt; example:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;{{&amp;lt; notice note Примечание &amp;gt;}}
+&amp;lt;p&amp;gt;A notice disclaimer&amp;lt;/p&amp;gt;
+{{&amp;lt; /notice &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Result:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;shortcode-notice note&#34;&gt;
+  &lt;div class=&#34;shortcode-notice-title note&#34;&gt;
+    
+      Примечание
+    
+  &lt;/div&gt;
+  
+&lt;p&gt;A notice disclaimer&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;tip&#34;&gt;tip&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;{{&amp;lt; notice tip &amp;gt;}}
+&amp;lt;p&amp;gt;A tip disclaimer&amp;lt;/p&amp;gt;
+{{&amp;lt; /notice &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Result:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;shortcode-notice tip&#34;&gt;
+  &lt;div class=&#34;shortcode-notice-title tip&#34;&gt;
+    
+      tip
+    
+  &lt;/div&gt;
+  
+&lt;p&gt;A tip disclaimer&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;info&#34;&gt;info&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;{{&amp;lt; notice info &amp;gt;}}
+&amp;lt;p&amp;gt;A info disclaimer&amp;lt;/p&amp;gt;
+{{&amp;lt; /notice &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Result:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;shortcode-notice info&#34;&gt;
+  &lt;div class=&#34;shortcode-notice-title info&#34;&gt;
+    
+      info
+    
+  &lt;/div&gt;
+  
+&lt;p&gt;An information disclaimer&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;warning&#34;&gt;warning&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;{{&amp;lt; notice warning &amp;gt;}}
+&amp;lt;p&amp;gt;A warning disclaimer&amp;lt;/p&amp;gt;
+{{&amp;lt; /notice &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Result:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;shortcode-notice warning&#34;&gt;
+  &lt;div class=&#34;shortcode-notice-title warning&#34;&gt;
+    
+      warning
+    
+  &lt;/div&gt;
+  
+&lt;p&gt;An warning disclaimer&lt;/p&gt;
+
+&lt;/div&gt;</description>
+                
+                
+                     
+                        
+                             
+                            
+                                
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/categories/docs">docs</category>
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/categories/blog">blog</category>
+                                
+                            
+                        
+                     
+                        
+                     
+                        
+                             
+                            
+                                
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/tags/preview">preview</category>
+                                 
+                                    <category domain="https://dvesti.github.io/prorab/tags/shortcodes">shortcodes</category>
+                                
+                            
+                        
+                    
+                
+                <guid>https://dvesti.github.io/prorab/shortcode-notice/</guid>
+                <pubDate>Sat, 03 Mar 2018 16:01:23 +0800</pubDate>
+            </item>
+        
+    </channel>
+</rss>
+
+

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
+    <generator uri="https://gohugo.io/" version="0.104.3">Hugo</generator><title type="html"><![CDATA[theme on Alien's Notes]]></title>
+    
+        <subtitle type="html"><![CDATA[Заметки вэб-прораба]]></subtitle>
+    
+    
+    
+            <link href="https://dvesti.github.io/prorab/tags/theme/" rel="alternate" type="text/html" title="HTML" />
+            <link href="https://dvesti.github.io/prorab/tags/theme/index.xml" rel="alternate" type="application/rss+xml" title="RSS" />
+            <link href="https://dvesti.github.io/prorab/tags/theme/atom.xml" rel="self" type="application/atom+xml" title="Atom" />
+            <link href="https://dvesti.github.io/prorab/tags/theme/jf2feed.json" rel="alternate" type="application/jf2feed+json" title="jf2feed" />
+    <updated>2022-10-23T17:15:02+03:00</updated>
+    
+    
+    <author>
+            <name>Dvesti</name>
+            
+                <email>dvesti@hot.ee</email>
+            </author>
+    
+        <id>https://dvesti.github.io/prorab/tags/theme/</id>
+    
+        
+        <entry>
+            <title type="html"><![CDATA[Тема – Refined]]></title>
+            <link href="https://dvesti.github.io/prorab/theme-refined/?utm_source=atom_feed" rel="alternate" type="text/html" />
+            
+            
+                <id>https://dvesti.github.io/prorab/theme-refined/</id>
+            
+            
+            <published>2020-08-10T16:01:23+08:00</published>
+            <updated>2020-08-10T16:01:23+08:00</updated>
+            
+            
+            <content type="html"><![CDATA[<h3 id="почему-выбрана-именно-эта-тема-для-блога">Почему выбрана именно эта Тема для блога?</h3>
+<p><strong>Refined</strong> – одна из немногих тем, где правильно работает Поиск по русским словам.</p>
+<h3 id="для-чего-блог">Для чего Блог?</h3>
+<p>Как и написано в названии, здесь буду писать небольшие заметки. Возможно, каждодневные.</p>
+<h3 id="будет-ли-внешний-вид-сайта-меняться">Будет ли внешний вид сайта меняться?</h3>
+<p>Именно этим я и занимаюсь, в ущерб самим заметкам.<br>
+Меняется шрифт. К сожалению, англоязычные, по умолчанию на сайте установленные, отсутствуют в русском секторе. Приходится менять, стараясь не сильно ухудшать стиль всего сайта.</p>
+<p>Работы много, но, наверно, это будет делаться постепенно. Т.е. в процессе ведения самого блога</p>
+<h3 id="ps">P.S.</h3>
+<p>Выручило это дополнение в файле <code>themes/refined/layouts/partials/head.html</code></p>
+<div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#6ab825;font-weight:bold">link</span> <span style="color:#bbb">href</span>=<span style="color:#ed9d13">&#34;https://fonts.googleapis.com/css?family=Merriweather:400,700|Oswald&#34;</span> <span style="color:#bbb">rel</span>=<span style="color:#ed9d13">&#34;stylesheet&#34;</span> <span style="color:#bbb">type</span>=<span style="color:#ed9d13">&#34;text/css&#34;</span>&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><hr>
+<p>Все желаемые стили встали на свои места: иначе не подхватывало и указывало шрифт по умолчанию (т.е. первоначально-предусмотренный при создании самой темы)</p>]]></content>
+            
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/categories/blog" term="blog" label="blog" />
+                            
+                        
+                    
+                 
+                    
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/theme" term="theme" label="theme" />
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/hugo" term="hugo" label="hugo" />
+                             
+                                <category scheme="https://dvesti.github.io/prorab/tags/design" term="design" label="design" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+</feed>
