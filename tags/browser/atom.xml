@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
-    <generator uri="https://gohugo.io/" version="0.104.3">Hugo</generator><title type="html"><![CDATA[browser on Alien's Notes]]></title>
+    <generator uri="https://gohugo.io/" version="0.82.0">Hugo</generator><title type="html"><![CDATA[browser on Alien's Notes]]></title>
     
         <subtitle type="html"><![CDATA[Заметки вэб-прораба]]></subtitle>
     
@@ -10,7 +10,7 @@
             <link href="https://dvesti.github.io/prorab/tags/browser/index.xml" rel="alternate" type="application/rss+xml" title="RSS" />
             <link href="https://dvesti.github.io/prorab/tags/browser/atom.xml" rel="self" type="application/atom+xml" title="Atom" />
             <link href="https://dvesti.github.io/prorab/tags/browser/jf2feed.json" rel="alternate" type="application/jf2feed+json" title="jf2feed" />
-    <updated>2022-10-23T17:15:02+03:00</updated>
+    <updated>2022-10-23T17:33:16+03:00</updated>
     
     
     <author>
@@ -69,23 +69,23 @@ and that&rsquo;s where I learned about Dynamic Drive&rsquo;s favicon generator t
 <p>Today I was browsing this site on my Android phone and I noticed that the Google Chrome browser did not show this favicon on the list of recently visited websites.</p>
 <p>That bugged me and a little bit of googling led me to an even better online favicon generator website: <a href="https://realfavicongenerator.net/">realfavicongenerator.net</a>.</p>
 <p>I simply needed to upload my Inkscape created <code>.png</code> (with transparent background) to that site, and it provided a favicon package for different platforms and an HTML code to be put in the <code>&lt;head&gt;</code>:</p>
-<div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">2
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">3
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">4
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">5
-</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">6
+<div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">6
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#6ab825;font-weight:bold">link</span> <span style="color:#bbb">rel</span>=<span style="color:#ed9d13">&#34;apple-touch-icon&#34;</span> <span style="color:#bbb">sizes</span>=<span style="color:#ed9d13">&#34;180x180&#34;</span> <span style="color:#bbb">href</span>=<span style="color:#ed9d13">&#34;/apple-touch-icon.png&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#6ab825;font-weight:bold">link</span> <span style="color:#bbb">rel</span>=<span style="color:#ed9d13">&#34;icon&#34;</span> <span style="color:#bbb">type</span>=<span style="color:#ed9d13">&#34;image/png&#34;</span> <span style="color:#bbb">href</span>=<span style="color:#ed9d13">&#34;/favicon-32x32.png&#34;</span> <span style="color:#bbb">sizes</span>=<span style="color:#ed9d13">&#34;32x32&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#6ab825;font-weight:bold">link</span> <span style="color:#bbb">rel</span>=<span style="color:#ed9d13">&#34;icon&#34;</span> <span style="color:#bbb">type</span>=<span style="color:#ed9d13">&#34;image/png&#34;</span> <span style="color:#bbb">href</span>=<span style="color:#ed9d13">&#34;/favicon-16x16.png&#34;</span> <span style="color:#bbb">sizes</span>=<span style="color:#ed9d13">&#34;16x16&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#6ab825;font-weight:bold">link</span> <span style="color:#bbb">rel</span>=<span style="color:#ed9d13">&#34;manifest&#34;</span> <span style="color:#bbb">href</span>=<span style="color:#ed9d13">&#34;/manifest.json&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#6ab825;font-weight:bold">link</span> <span style="color:#bbb">rel</span>=<span style="color:#ed9d13">&#34;mask-icon&#34;</span> <span style="color:#bbb">href</span>=<span style="color:#ed9d13">&#34;/safari-pinned-tab.svg&#34;</span> <span style="color:#bbb">color</span>=<span style="color:#ed9d13">&#34;#5bbad5&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#6ab825;font-weight:bold">meta</span> <span style="color:#bbb">name</span>=<span style="color:#ed9d13">&#34;theme-color&#34;</span> <span style="color:#bbb">content</span>=<span style="color:#ed9d13">&#34;#000000&#34;</span>&gt;
-</span></span></code></pre></td></tr></table>
+<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#6ab825;font-weight:bold">link</span> <span style="color:#bbb">rel</span>=<span style="color:#ed9d13">&#34;apple-touch-icon&#34;</span> <span style="color:#bbb">sizes</span>=<span style="color:#ed9d13">&#34;180x180&#34;</span> <span style="color:#bbb">href</span>=<span style="color:#ed9d13">&#34;/apple-touch-icon.png&#34;</span>&gt;
+&lt;<span style="color:#6ab825;font-weight:bold">link</span> <span style="color:#bbb">rel</span>=<span style="color:#ed9d13">&#34;icon&#34;</span> <span style="color:#bbb">type</span>=<span style="color:#ed9d13">&#34;image/png&#34;</span> <span style="color:#bbb">href</span>=<span style="color:#ed9d13">&#34;/favicon-32x32.png&#34;</span> <span style="color:#bbb">sizes</span>=<span style="color:#ed9d13">&#34;32x32&#34;</span>&gt;
+&lt;<span style="color:#6ab825;font-weight:bold">link</span> <span style="color:#bbb">rel</span>=<span style="color:#ed9d13">&#34;icon&#34;</span> <span style="color:#bbb">type</span>=<span style="color:#ed9d13">&#34;image/png&#34;</span> <span style="color:#bbb">href</span>=<span style="color:#ed9d13">&#34;/favicon-16x16.png&#34;</span> <span style="color:#bbb">sizes</span>=<span style="color:#ed9d13">&#34;16x16&#34;</span>&gt;
+&lt;<span style="color:#6ab825;font-weight:bold">link</span> <span style="color:#bbb">rel</span>=<span style="color:#ed9d13">&#34;manifest&#34;</span> <span style="color:#bbb">href</span>=<span style="color:#ed9d13">&#34;/manifest.json&#34;</span>&gt;
+&lt;<span style="color:#6ab825;font-weight:bold">link</span> <span style="color:#bbb">rel</span>=<span style="color:#ed9d13">&#34;mask-icon&#34;</span> <span style="color:#bbb">href</span>=<span style="color:#ed9d13">&#34;/safari-pinned-tab.svg&#34;</span> <span style="color:#bbb">color</span>=<span style="color:#ed9d13">&#34;#5bbad5&#34;</span>&gt;
+&lt;<span style="color:#6ab825;font-weight:bold">meta</span> <span style="color:#bbb">name</span>=<span style="color:#ed9d13">&#34;theme-color&#34;</span> <span style="color:#bbb">content</span>=<span style="color:#ed9d13">&#34;#000000&#34;</span>&gt;
+</code></pre></td></tr></table>
 </div>
 </div><p>The website also shows previews of how the icon would look on different platforms: regular browser tabs, iOS, Android, etc.</p>
 <p>Here is how this favicon looks on Android Chrome after updating the icons and this website&rsquo;s <code>&lt;head&gt;</code>.</p>
