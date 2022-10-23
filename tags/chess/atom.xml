@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
-    <generator uri="https://gohugo.io/" version="0.82.0">Hugo</generator><title type="html"><![CDATA[chess on Alien's Notes]]></title>
+    <generator uri="https://gohugo.io/" version="0.104.3">Hugo</generator><title type="html"><![CDATA[chess on Alien's Notes]]></title>
     
         <subtitle type="html"><![CDATA[Заметки вэб-прораба]]></subtitle>
     
@@ -10,7 +10,7 @@
             <link href="https://dvesti.github.io/prorab/tags/chess/index.xml" rel="alternate" type="application/rss+xml" title="RSS" />
             <link href="https://dvesti.github.io/prorab/tags/chess/atom.xml" rel="self" type="application/atom+xml" title="Atom" />
             <link href="https://dvesti.github.io/prorab/tags/chess/jf2feed.json" rel="alternate" type="application/jf2feed+json" title="jf2feed" />
-    <updated>2022-10-23T17:55:24+03:00</updated>
+    <updated>2022-10-23T18:56:46+03:00</updated>
     
     
     <author>
@@ -42,7 +42,8 @@
 <p><img src="featured.jpg" alt="Картинка"></p>
 <p>которая отображается при пересылке ссылки, например, в Скайп  \</p>
 <p><img src="https://backscattering.de/web-boardimage/board.svg?fen=5r1k/1b4pp/3pB1N1/p2Pq2Q/PpP5/6PK/8/8&amp;lastMove=f4g6&amp;check=h8&amp;arrows=Ge6g8,Bh7&amp;squares=a3" alt=""></p>
-<p>тест 23-43 &ndash; 22-10-2022</p>
+<p>тест 23-43 &ndash; 22-10-2022<br>
+test 18-55 &ndash; 23-10-2022</p>
 ]]></content>
             
                  
@@ -104,28 +105,28 @@
 <p><img src="http://www.euruchess.org/29/grey/diagol.php?position=r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1+w+-+-+0+15" alt="Диаграмма5"></p>
 <p><img src="https://kasparovchess.crestbook.com/proxy.php?image=https%3A%2F%2Fwww.dmitriev.ee%2Fpunbb%2Fextensions%2Fchess_diagram%2Fgendiag-jane.php%3Fcoord%26size%3D29%26style%3Dmerida%26fen%3Dr1bq1rk1%2Fp1p2pb1%2F1p1p3p%2F2nPp1p1%2F2P1P3%2F2NB1NP1%2FPP2QPP1%2FR3R1K1%2Bw%2B-%2B-%2B0%2B15&amp;hash=afae7f3d8aca1ff2fe741284287413b7" alt="Диаграмма6"></p>
 <h3 id="код">Код</h3>
-<div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">2
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">3
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">4
+<div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">2
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">3
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">4
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#6ab825;font-weight:bold">div</span> <span style="color:#bbb">class</span>=<span style="color:#ed9d13">&#39;embed-container&#39;</span>&gt;
-&lt;<span style="color:#6ab825;font-weight:bold">iframe</span> <span style="color:#bbb">src</span>=<span style="color:#ed9d13">&#39;https://www.dmitriev.ee/chessviewer/PGN/1986/{{ index .Params 0 }}&#39;</span> <span style="color:#bbb">frameborder</span>=<span style="color:#ed9d13">&#39;0&#39;</span> <span style="color:#bbb">style</span>=<span style="color:#ed9d13">&#39;&#39;</span> <span style="color:#bbb">scrolling</span>=<span style="color:#ed9d13">&#39;no&#39;</span> <span style="color:#bbb">height</span>=<span style="color:#ed9d13">&#39;400px&#39;</span> <span style="color:#bbb">width</span>=<span style="color:#ed9d13">&#39;492px&#39;</span>&gt;
-&lt;/<span style="color:#6ab825;font-weight:bold">iframe</span>&gt;
-&lt;/<span style="color:#6ab825;font-weight:bold">div</span>&gt;  
-</code></pre></td></tr></table>
+<pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#6ab825;font-weight:bold">div</span> <span style="color:#bbb">class</span>=<span style="color:#ed9d13">&#39;embed-container&#39;</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#6ab825;font-weight:bold">iframe</span> <span style="color:#bbb">src</span>=<span style="color:#ed9d13">&#39;https://www.dmitriev.ee/chessviewer/PGN/1986/{{ index .Params 0 }}&#39;</span> <span style="color:#bbb">frameborder</span>=<span style="color:#ed9d13">&#39;0&#39;</span> <span style="color:#bbb">style</span>=<span style="color:#ed9d13">&#39;&#39;</span> <span style="color:#bbb">scrolling</span>=<span style="color:#ed9d13">&#39;no&#39;</span> <span style="color:#bbb">height</span>=<span style="color:#ed9d13">&#39;400px&#39;</span> <span style="color:#bbb">width</span>=<span style="color:#ed9d13">&#39;492px&#39;</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#6ab825;font-weight:bold">iframe</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#6ab825;font-weight:bold">div</span>&gt;  
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="шорткод">Шорткод</h3>
-<div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
+<div class="highlight"><div style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-md" data-lang="md">{{&lt; <span style="color:#6ab825;font-weight:bold">embedpgn</span> <span style="color:#bbb">dmitrijev-pust-kalev-kom-86</span><span style="color:#a61717;background-color:#e3d2d2">.</span><span style="color:#bbb">htm</span> &gt;}}  
-</code></pre></td></tr></table>
+<pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>{{&lt; <span style="color:#6ab825;font-weight:bold">embedpgn</span> <span style="color:#bbb">dmitrijev-pust-kalev-kom-86</span><span style="color:#a61717;background-color:#e3d2d2">.</span><span style="color:#bbb">htm</span> &gt;}}  
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="результат">Результат</h3>
 <style>

@@ -12,7 +12,7 @@
         <language>en-us</language>
         
                 <managingEditor>dvesti@hot.ee (Dvesti)</managingEditor>
-                <webMaster>dvesti@hot.ee (Dvesti)</webMaster><lastBuildDate>Sun, 23 Oct 2022 17:55:24 +0300</lastBuildDate>
+                <webMaster>dvesti@hot.ee (Dvesti)</webMaster><lastBuildDate>Sun, 23 Oct 2022 18:56:46 +0300</lastBuildDate>
         <generator>Hugo -- gohugo.io</generator>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
             <atom:link href="https://dvesti.github.io/prorab/tags/blog/index.xml" rel="self" type="application/rss&#43;xml" />
@@ -35,7 +35,7 @@
 &lt;img src=&#34;https://www.dmitriev.ee/punbb/extensions/cd52/gendiag.php?size=29&amp;amp;coord&amp;amp;style=alfa&amp;amp;fen=r6b/p1pq1p1k/1p2p1rp/4PpBQ/3P1P2/2PR2R1/P5PP/6K1&#34; alt=&#34;Диаграмма3&#34;&gt;&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;h2 id=&#34;an-example-flowchart-линия-lr&#34;&gt;An example &lt;strong&gt;flowchart&lt;/strong&gt; линия LR:&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;{{&amp;lt; mermaid &amp;gt;}}
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{&amp;lt; mermaid &amp;gt;}}
     graph LR
     A[Толик] --&amp;gt;|Плюс| B(Вовик)
     B --&amp;gt; C{Родные Братья}
@@ -51,7 +51,7 @@
 
 &lt;p&gt;Academic supports a Markdown extension for diagrams. You can enable this feature by toggling the &lt;code&gt;diagram&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file or by adding &lt;code&gt;diagram: true&lt;/code&gt; to your page front matter.&lt;/p&gt;
 &lt;h2 id=&#34;an-example-flowchart----в-столбец-td&#34;&gt;An example &lt;strong&gt;flowchart&lt;/strong&gt; &amp;ndash; в столбец TD:&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;{{&amp;lt; mermaid &amp;gt;}}
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{&amp;lt; mermaid &amp;gt;}}
     graph TD
     A[Hard] --&amp;gt;|Text| B(Round)
     B --&amp;gt; C{Decision}
@@ -61,7 +61,7 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;renders as&lt;/p&gt;
 &lt;div class=&#34;mermaid&#34; id=&#34;id-2&#34;&gt;&lt;/div&gt;
 &lt;h2 id=&#34;an-example-sequence-diagram&#34;&gt;An example &lt;strong&gt;sequence diagram&lt;/strong&gt;:&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;sequenceDiagram
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sequenceDiagram
     Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
     loop Healthcheck
     John-&amp;gt;&amp;gt;John: Fight against hypochondria
@@ -72,14 +72,14 @@
     Bob--&amp;gt;&amp;gt;John: Jolly good!
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;renders as&lt;/p&gt;
 &lt;div class=&#34;mermaid&#34; id=&#34;id-3&#34;&gt;&lt;/div&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34; data-lang=&#34;mermaid&#34;&gt;{{&amp;lt; mermaid &amp;gt;}}
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-mermaid&#34; data-lang=&#34;mermaid&#34;&gt;{{&amp;lt; mermaid &amp;gt;}}
     pie title NETFLIX
-    &amp;quot;Time spent looking for movie&amp;quot; : 90
-    &amp;quot;Time spent watching it&amp;quot; : 10
+    &amp;#34;Time spent looking for movie&amp;#34; : 90
+    &amp;#34;Time spent watching it&amp;#34; : 10
 {{&amp;lt; /mermaid &amp;gt;}}
 &lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;mermaid&#34; id=&#34;id-4&#34;&gt;&lt;/div&gt;
 &lt;h2 id=&#34;base&#34;&gt;base&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;{{&amp;lt; mermaid &amp;gt;}}
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{&amp;lt; mermaid &amp;gt;}}
 graph LR;
     A[Hard edge] --&amp;gt;|Link text| B(Round edge)
     B --&amp;gt; C{Decision}
