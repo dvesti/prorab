@@ -12,7 +12,7 @@
         <language>en-us</language>
         
                 <managingEditor>dvesti@hot.ee (Dvesti)</managingEditor>
-                <webMaster>dvesti@hot.ee (Dvesti)</webMaster><lastBuildDate>Sun, 23 Oct 2022 17:15:02 +0300</lastBuildDate>
+                <webMaster>dvesti@hot.ee (Dvesti)</webMaster><lastBuildDate>Sun, 23 Oct 2022 17:55:24 +0300</lastBuildDate>
         <generator>Hugo -- gohugo.io</generator>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
             <atom:link href="https://dvesti.github.io/prorab/posts/index.xml" rel="self" type="application/rss&#43;xml" />
@@ -483,13 +483,13 @@ Oн не знает, что и делать.&lt;br&gt;
 &lt;p&gt;Работы много, но, наверно, это будет делаться постепенно. Т.е. в процессе ведения самого блога&lt;/p&gt;
 &lt;h3 id=&#34;ps&#34;&gt;P.S.&lt;/h3&gt;
 &lt;p&gt;Выручило это дополнение в файле &lt;code&gt;themes/refined/layouts/partials/head.html&lt;/code&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
-&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;1
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;link&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;href&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;https://fonts.googleapis.com/css?family=Merriweather:400,700|Oswald&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;rel&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;stylesheet&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;type&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;text/css&amp;#34;&lt;/span&gt;&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&amp;lt;&lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;link&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;href&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;https://fonts.googleapis.com/css?family=Merriweather:400,700|Oswald&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;rel&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;stylesheet&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;type&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#34;text/css&amp;#34;&lt;/span&gt;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;hr&gt;
 &lt;p&gt;Все желаемые стили встали на свои места: иначе не подхватывало и указывало шрифт по умолчанию (т.е. первоначально-предусмотренный при создании самой темы)&lt;/p&gt;</description>
@@ -585,7 +585,7 @@ Oн не знает, что и делать.&lt;br&gt;
 &lt;img src=&#34;https://www.dmitriev.ee/punbb/extensions/cd52/gendiag.php?size=29&amp;amp;coord&amp;amp;style=alfa&amp;amp;fen=r6b/p1pq1p1k/1p2p1rp/4PpBQ/3P1P2/2PR2R1/P5PP/6K1&#34; alt=&#34;Диаграмма3&#34;&gt;&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;h2 id=&#34;an-example-flowchart-линия-lr&#34;&gt;An example &lt;strong&gt;flowchart&lt;/strong&gt; линия LR:&lt;/h2&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{&amp;lt; mermaid &amp;gt;}}
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; mermaid &amp;gt;}}
     graph LR
     A[Толик] --&amp;gt;|Плюс| B(Вовик)
     B --&amp;gt; C{Родные Братья}
@@ -601,7 +601,7 @@ Oн не знает, что и делать.&lt;br&gt;
 
 &lt;p&gt;Academic supports a Markdown extension for diagrams. You can enable this feature by toggling the &lt;code&gt;diagram&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file or by adding &lt;code&gt;diagram: true&lt;/code&gt; to your page front matter.&lt;/p&gt;
 &lt;h2 id=&#34;an-example-flowchart----в-столбец-td&#34;&gt;An example &lt;strong&gt;flowchart&lt;/strong&gt; &amp;ndash; в столбец TD:&lt;/h2&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{&amp;lt; mermaid &amp;gt;}}
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; mermaid &amp;gt;}}
     graph TD
     A[Hard] --&amp;gt;|Text| B(Round)
     B --&amp;gt; C{Decision}
@@ -611,7 +611,7 @@ Oн не знает, что и делать.&lt;br&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;renders as&lt;/p&gt;
 &lt;div class=&#34;mermaid&#34; id=&#34;id-2&#34;&gt;&lt;/div&gt;
 &lt;h2 id=&#34;an-example-sequence-diagram&#34;&gt;An example &lt;strong&gt;sequence diagram&lt;/strong&gt;:&lt;/h2&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sequenceDiagram
+&lt;pre&gt;&lt;code&gt;sequenceDiagram
     Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
     loop Healthcheck
     John-&amp;gt;&amp;gt;John: Fight against hypochondria
@@ -622,14 +622,14 @@ Oн не знает, что и делать.&lt;br&gt;
     Bob--&amp;gt;&amp;gt;John: Jolly good!
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;renders as&lt;/p&gt;
 &lt;div class=&#34;mermaid&#34; id=&#34;id-3&#34;&gt;&lt;/div&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-mermaid&#34; data-lang=&#34;mermaid&#34;&gt;{{&amp;lt; mermaid &amp;gt;}}
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34; data-lang=&#34;mermaid&#34;&gt;{{&amp;lt; mermaid &amp;gt;}}
     pie title NETFLIX
-    &amp;#34;Time spent looking for movie&amp;#34; : 90
-    &amp;#34;Time spent watching it&amp;#34; : 10
+    &amp;quot;Time spent looking for movie&amp;quot; : 90
+    &amp;quot;Time spent watching it&amp;quot; : 10
 {{&amp;lt; /mermaid &amp;gt;}}
 &lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;mermaid&#34; id=&#34;id-4&#34;&gt;&lt;/div&gt;
 &lt;h2 id=&#34;base&#34;&gt;base&lt;/h2&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{&amp;lt; mermaid &amp;gt;}}
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; mermaid &amp;gt;}}
 graph LR;
     A[Hard edge] --&amp;gt;|Link text| B(Round edge)
     B --&amp;gt; C{Decision}
@@ -689,28 +689,28 @@ graph LR;
 &lt;p&gt;&lt;img src=&#34;http://www.euruchess.org/29/grey/diagol.php?position=r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1+w+-+-+0+15&#34; alt=&#34;Диаграмма5&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://kasparovchess.crestbook.com/proxy.php?image=https%3A%2F%2Fwww.dmitriev.ee%2Fpunbb%2Fextensions%2Fchess_diagram%2Fgendiag-jane.php%3Fcoord%26size%3D29%26style%3Dmerida%26fen%3Dr1bq1rk1%2Fp1p2pb1%2F1p1p3p%2F2nPp1p1%2F2P1P3%2F2NB1NP1%2FPP2QPP1%2FR3R1K1%2Bw%2B-%2B-%2B0%2B15&amp;amp;hash=afae7f3d8aca1ff2fe741284287413b7&#34; alt=&#34;Диаграмма6&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;код&#34;&gt;Код&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
-&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;1
-&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;2
-&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;3
-&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;4
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;3
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;4
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;div&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;class&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#39;embed-container&amp;#39;&lt;/span&gt;&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;iframe&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;src&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#39;https://www.dmitriev.ee/chessviewer/PGN/1986/{{ index .Params 0 }}&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;frameborder&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#39;0&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;style&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;scrolling&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#39;no&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;height&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#39;400px&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;width&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#39;492px&amp;#39;&lt;/span&gt;&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;iframe&lt;/span&gt;&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;div&lt;/span&gt;&amp;gt;  
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&amp;lt;&lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;div&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;class&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#39;embed-container&amp;#39;&lt;/span&gt;&amp;gt;
+&amp;lt;&lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;iframe&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;src&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#39;https://www.dmitriev.ee/chessviewer/PGN/1986/{{ index .Params 0 }}&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;frameborder&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#39;0&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;style&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;scrolling&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#39;no&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;height&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#39;400px&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;width&lt;/span&gt;=&lt;span style=&#34;color:#ed9d13&#34;&gt;&amp;#39;492px&amp;#39;&lt;/span&gt;&amp;gt;
+&amp;lt;/&lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;iframe&lt;/span&gt;&amp;gt;
+&amp;lt;/&lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;div&lt;/span&gt;&amp;gt;  
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h3 id=&#34;шорткод&#34;&gt;Шорткод&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
-&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;1
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#686868&#34;&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-md&#34; data-lang=&#34;md&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{&amp;lt; &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;embedpgn&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;dmitrijev-pust-kalev-kom-86&lt;/span&gt;&lt;span style=&#34;color:#a61717;background-color:#e3d2d2&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#bbb&#34;&gt;htm&lt;/span&gt; &amp;gt;}}  
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;pre style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-md&#34; data-lang=&#34;md&#34;&gt;{{&amp;lt; &lt;span style=&#34;color:#6ab825;font-weight:bold&#34;&gt;embedpgn&lt;/span&gt; &lt;span style=&#34;color:#bbb&#34;&gt;dmitrijev-pust-kalev-kom-86&lt;/span&gt;&lt;span style=&#34;color:#a61717;background-color:#e3d2d2&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#bbb&#34;&gt;htm&lt;/span&gt; &amp;gt;}}  
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h3 id=&#34;результат&#34;&gt;Результат&lt;/h3&gt;
 &lt;style&gt;
@@ -1100,7 +1100,7 @@ graph LR;
 &lt;!-- raw HTML omitted --&gt;
 &lt;h2 id=&#34;gist&#34;&gt;gist&lt;/h2&gt;
 &lt;p&gt;We can embed the gist in our content via username and gist ID pulled from the URL:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{&amp;lt; gist spf13 7896402 &amp;gt;}}
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; gist spf13 7896402 &amp;gt;}}
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Display:&lt;/p&gt;
 &lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/spf13/7896402.js&#34;&gt;&lt;/script&gt;
 
@@ -1118,7 +1118,7 @@ Yes !.
 
 &lt;h3 id=&#34;usage&#34;&gt;Usage&lt;/h3&gt;
 &lt;p&gt;this shortcode takes exactly one optional parameter to define the text that appears next to the expand/collapse icon. (default is “Click to expand”)&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{&amp;lt; expand &amp;#34;Is this learn theme rocks ?&amp;#34; &amp;gt;}}
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; expand &amp;quot;Is this learn theme rocks ?&amp;quot; &amp;gt;}}
 Yes !.
 {{&amp;lt; /expand &amp;gt;}}
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;youtube&#34;&gt;youtube&lt;/h2&gt;

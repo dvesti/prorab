@@ -12,7 +12,7 @@
         <language>en-us</language>
         
                 <managingEditor>dvesti@hot.ee (Dvesti)</managingEditor>
-                <webMaster>dvesti@hot.ee (Dvesti)</webMaster><lastBuildDate>Sun, 23 Oct 2022 17:15:02 +0300</lastBuildDate>
+                <webMaster>dvesti@hot.ee (Dvesti)</webMaster><lastBuildDate>Sun, 23 Oct 2022 17:55:24 +0300</lastBuildDate>
         <generator>Hugo -- gohugo.io</generator>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
             <atom:link href="https://dvesti.github.io/prorab/categories/docs/index.xml" rel="self" type="application/rss&#43;xml" />
@@ -349,7 +349,7 @@
 &lt;!-- raw HTML omitted --&gt;
 &lt;h2 id=&#34;gist&#34;&gt;gist&lt;/h2&gt;
 &lt;p&gt;We can embed the gist in our content via username and gist ID pulled from the URL:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{&amp;lt; gist spf13 7896402 &amp;gt;}}
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; gist spf13 7896402 &amp;gt;}}
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Display:&lt;/p&gt;
 &lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/spf13/7896402.js&#34;&gt;&lt;/script&gt;
 
@@ -367,7 +367,7 @@ Yes !.
 
 &lt;h3 id=&#34;usage&#34;&gt;Usage&lt;/h3&gt;
 &lt;p&gt;this shortcode takes exactly one optional parameter to define the text that appears next to the expand/collapse icon. (default is “Click to expand”)&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{&amp;lt; expand &amp;#34;Is this learn theme rocks ?&amp;#34; &amp;gt;}}
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; expand &amp;quot;Is this learn theme rocks ?&amp;quot; &amp;gt;}}
 Yes !.
 {{&amp;lt; /expand &amp;gt;}}
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;youtube&#34;&gt;youtube&lt;/h2&gt;
@@ -470,7 +470,7 @@ Yes !.
 &lt;p&gt;&lt;strong&gt;Дополнено&lt;/strong&gt;: Поменял &lt;code&gt;% %&lt;/code&gt; на &lt;code&gt;&amp;lt; &amp;gt;&lt;/code&gt; и дело пошло&amp;hellip;&lt;/p&gt;
 &lt;h2 id=&#34;normal-use&#34;&gt;normal use&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;Note&lt;/code&gt; example:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;{{&amp;lt; notice note &amp;gt;}}
+&lt;pre&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;{{&amp;lt; notice note &amp;gt;}}
 &amp;lt;p&amp;gt;A notice disclaimer&amp;lt;/p&amp;gt;
 {{&amp;lt; /notice &amp;gt;}}
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Result:&lt;/strong&gt;&lt;/p&gt;
@@ -487,7 +487,7 @@ Yes !.
 
 &lt;h2 id=&#34;you-could-custom-title&#34;&gt;You could custom title&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;Примечание&lt;/code&gt; example:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;{{&amp;lt; notice note Примечание &amp;gt;}}
+&lt;pre&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;{{&amp;lt; notice note Примечание &amp;gt;}}
 &amp;lt;p&amp;gt;A notice disclaimer&amp;lt;/p&amp;gt;
 {{&amp;lt; /notice &amp;gt;}}
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Result:&lt;/strong&gt;&lt;/p&gt;
@@ -503,7 +503,7 @@ Yes !.
 &lt;/div&gt;
 
 &lt;h2 id=&#34;tip&#34;&gt;tip&lt;/h2&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;{{&amp;lt; notice tip &amp;gt;}}
+&lt;pre&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;{{&amp;lt; notice tip &amp;gt;}}
 &amp;lt;p&amp;gt;A tip disclaimer&amp;lt;/p&amp;gt;
 {{&amp;lt; /notice &amp;gt;}}
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Result:&lt;/strong&gt;&lt;/p&gt;
@@ -519,7 +519,7 @@ Yes !.
 &lt;/div&gt;
 
 &lt;h2 id=&#34;info&#34;&gt;info&lt;/h2&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;{{&amp;lt; notice info &amp;gt;}}
+&lt;pre&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;{{&amp;lt; notice info &amp;gt;}}
 &amp;lt;p&amp;gt;A info disclaimer&amp;lt;/p&amp;gt;
 {{&amp;lt; /notice &amp;gt;}}
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Result:&lt;/strong&gt;&lt;/p&gt;
@@ -535,7 +535,7 @@ Yes !.
 &lt;/div&gt;
 
 &lt;h2 id=&#34;warning&#34;&gt;warning&lt;/h2&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;{{&amp;lt; notice warning &amp;gt;}}
+&lt;pre&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;{{&amp;lt; notice warning &amp;gt;}}
 &amp;lt;p&amp;gt;A warning disclaimer&amp;lt;/p&amp;gt;
 {{&amp;lt; /notice &amp;gt;}}
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Result:&lt;/strong&gt;&lt;/p&gt;
