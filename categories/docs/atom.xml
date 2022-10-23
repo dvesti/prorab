@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
-    <generator uri="https://gohugo.io/" version="0.104.3">Hugo</generator><title type="html"><![CDATA[docs on Alien's Notes]]></title>
+    <generator uri="https://gohugo.io/" version="0.82.0">Hugo</generator><title type="html"><![CDATA[docs on Alien's Notes]]></title>
     
         <subtitle type="html"><![CDATA[Заметки вэб-прораба]]></subtitle>
     
@@ -10,7 +10,11 @@
             <link href="https://dvesti.github.io/prorab/categories/docs/index.xml" rel="alternate" type="application/rss+xml" title="RSS" />
             <link href="https://dvesti.github.io/prorab/categories/docs/atom.xml" rel="self" type="application/atom+xml" title="Atom" />
             <link href="https://dvesti.github.io/prorab/categories/docs/jf2feed.json" rel="alternate" type="application/jf2feed+json" title="jf2feed" />
+<<<<<<< HEAD
     <updated>2022-10-23T18:56:46+03:00</updated>
+=======
+    <updated>2022-10-23T17:33:16+03:00</updated>
+>>>>>>> 5cda35516292910981f4b16199705b03c20ecefc
     
     
     <author>
@@ -363,7 +367,7 @@
 <!-- raw HTML omitted -->
 <h2 id="gist">gist</h2>
 <p>We can embed the gist in our content via username and gist ID pulled from the URL:</p>
-<pre tabindex="0"><code>{{&lt; gist spf13 7896402 &gt;}}
+<pre><code>{{&lt; gist spf13 7896402 &gt;}}
 </code></pre><p>Display:</p>
 <script type="application/javascript" src="https://gist.github.com/spf13/7896402.js"></script>
 
@@ -381,7 +385,7 @@ Yes !.
 
 <h3 id="usage">Usage</h3>
 <p>this shortcode takes exactly one optional parameter to define the text that appears next to the expand/collapse icon. (default is “Click to expand”)</p>
-<pre tabindex="0"><code>{{&lt; expand &#34;Is this learn theme rocks ?&#34; &gt;}}
+<pre><code>{{&lt; expand &quot;Is this learn theme rocks ?&quot; &gt;}}
 Yes !.
 {{&lt; /expand &gt;}}
 </code></pre><h2 id="youtube">youtube</h2>
@@ -490,7 +494,7 @@ Yes !.
 <p><strong>Дополнено</strong>: Поменял <code>% %</code> на <code>&lt; &gt;</code> и дело пошло&hellip;</p>
 <h2 id="normal-use">normal use</h2>
 <p><code>Note</code> example:</p>
-<pre tabindex="0"><code class="language-shortcode" data-lang="shortcode">{{&lt; notice note &gt;}}
+<pre><code class="language-shortcode" data-lang="shortcode">{{&lt; notice note &gt;}}
 &lt;p&gt;A notice disclaimer&lt;/p&gt;
 {{&lt; /notice &gt;}}
 </code></pre><p><strong>Result:</strong></p>
@@ -507,7 +511,7 @@ Yes !.
 
 <h2 id="you-could-custom-title">You could custom title</h2>
 <p><code>Примечание</code> example:</p>
-<pre tabindex="0"><code class="language-shortcode" data-lang="shortcode">{{&lt; notice note Примечание &gt;}}
+<pre><code class="language-shortcode" data-lang="shortcode">{{&lt; notice note Примечание &gt;}}
 &lt;p&gt;A notice disclaimer&lt;/p&gt;
 {{&lt; /notice &gt;}}
 </code></pre><p><strong>Result:</strong></p>
@@ -523,7 +527,7 @@ Yes !.
 </div>
 
 <h2 id="tip">tip</h2>
-<pre tabindex="0"><code class="language-shortcode" data-lang="shortcode">{{&lt; notice tip &gt;}}
+<pre><code class="language-shortcode" data-lang="shortcode">{{&lt; notice tip &gt;}}
 &lt;p&gt;A tip disclaimer&lt;/p&gt;
 {{&lt; /notice &gt;}}
 </code></pre><p><strong>Result:</strong></p>
@@ -539,7 +543,7 @@ Yes !.
 </div>
 
 <h2 id="info">info</h2>
-<pre tabindex="0"><code class="language-shortcode" data-lang="shortcode">{{&lt; notice info &gt;}}
+<pre><code class="language-shortcode" data-lang="shortcode">{{&lt; notice info &gt;}}
 &lt;p&gt;A info disclaimer&lt;/p&gt;
 {{&lt; /notice &gt;}}
 </code></pre><p><strong>Result:</strong></p>
@@ -555,7 +559,7 @@ Yes !.
 </div>
 
 <h2 id="warning">warning</h2>
-<pre tabindex="0"><code class="language-shortcode" data-lang="shortcode">{{&lt; notice warning &gt;}}
+<pre><code class="language-shortcode" data-lang="shortcode">{{&lt; notice warning &gt;}}
 &lt;p&gt;A warning disclaimer&lt;/p&gt;
 {{&lt; /notice &gt;}}
 </code></pre><p><strong>Result:</strong></p>

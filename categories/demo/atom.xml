@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
-    <generator uri="https://gohugo.io/" version="0.104.3">Hugo</generator><title type="html"><![CDATA[Demo on Alien's Notes]]></title>
+    <generator uri="https://gohugo.io/" version="0.82.0">Hugo</generator><title type="html"><![CDATA[Demo on Alien's Notes]]></title>
     
         <subtitle type="html"><![CDATA[Заметки вэб-прораба]]></subtitle>
     
@@ -10,7 +10,11 @@
             <link href="https://dvesti.github.io/prorab/categories/demo/index.xml" rel="alternate" type="application/rss+xml" title="RSS" />
             <link href="https://dvesti.github.io/prorab/categories/demo/atom.xml" rel="self" type="application/atom+xml" title="Atom" />
             <link href="https://dvesti.github.io/prorab/categories/demo/jf2feed.json" rel="alternate" type="application/jf2feed+json" title="jf2feed" />
+<<<<<<< HEAD
     <updated>2022-10-23T18:56:46+03:00</updated>
+=======
+    <updated>2022-10-23T17:33:16+03:00</updated>
+>>>>>>> 5cda35516292910981f4b16199705b03c20ecefc
     
     
     <author>
@@ -46,7 +50,7 @@
 <img src="https://www.dmitriev.ee/punbb/extensions/cd52/gendiag.php?size=29&amp;coord&amp;style=alfa&amp;fen=r6b/p1pq1p1k/1p2p1rp/4PpBQ/3P1P2/2PR2R1/P5PP/6K1" alt="Диаграмма3"></p>
 <!-- raw HTML omitted -->
 <h2 id="an-example-flowchart-линия-lr">An example <strong>flowchart</strong> линия LR:</h2>
-<pre tabindex="0"><code>{{&lt; mermaid &gt;}}
+<pre><code>{{&lt; mermaid &gt;}}
     graph LR
     A[Толик] --&gt;|Плюс| B(Вовик)
     B --&gt; C{Родные Братья}
@@ -62,7 +66,7 @@
 
 <p>Academic supports a Markdown extension for diagrams. You can enable this feature by toggling the <code>diagram</code> option in your <code>config/_default/params.toml</code> file or by adding <code>diagram: true</code> to your page front matter.</p>
 <h2 id="an-example-flowchart----в-столбец-td">An example <strong>flowchart</strong> &ndash; в столбец TD:</h2>
-<pre tabindex="0"><code>{{&lt; mermaid &gt;}}
+<pre><code>{{&lt; mermaid &gt;}}
     graph TD
     A[Hard] --&gt;|Text| B(Round)
     B --&gt; C{Decision}
@@ -72,7 +76,7 @@
 </code></pre><p>renders as</p>
 <div class="mermaid" id="id-2"></div>
 <h2 id="an-example-sequence-diagram">An example <strong>sequence diagram</strong>:</h2>
-<pre tabindex="0"><code>sequenceDiagram
+<pre><code>sequenceDiagram
     Alice-&gt;&gt;John: Hello John, how are you?
     loop Healthcheck
     John-&gt;&gt;John: Fight against hypochondria
@@ -83,14 +87,14 @@
     Bob--&gt;&gt;John: Jolly good!
 </code></pre><p>renders as</p>
 <div class="mermaid" id="id-3"></div>
-<pre tabindex="0"><code class="language-mermaid" data-lang="mermaid">{{&lt; mermaid &gt;}}
+<pre><code class="language-mermaid" data-lang="mermaid">{{&lt; mermaid &gt;}}
     pie title NETFLIX
-    &#34;Time spent looking for movie&#34; : 90
-    &#34;Time spent watching it&#34; : 10
+    &quot;Time spent looking for movie&quot; : 90
+    &quot;Time spent watching it&quot; : 10
 {{&lt; /mermaid &gt;}}
 </code></pre><div class="mermaid" id="id-4"></div>
 <h2 id="base">base</h2>
-<pre tabindex="0"><code>{{&lt; mermaid &gt;}}
+<pre><code>{{&lt; mermaid &gt;}}
 graph LR;
     A[Hard edge] --&gt;|Link text| B(Round edge)
     B --&gt; C{Decision}
